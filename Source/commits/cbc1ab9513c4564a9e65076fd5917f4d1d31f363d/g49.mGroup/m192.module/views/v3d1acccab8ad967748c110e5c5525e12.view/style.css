@@ -1,0 +1,131 @@
+.platformStatus {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.platformStatus > .header {
+	width: 100%;
+	height: 140px;
+	position: relative;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	background: url('%{media}/frontend/apps_banner_flare.jpg') no-repeat center;
+	background-size: cover;
+}
+.platformStatus .header > .middleContainer {
+	padding-top: 70px;
+}
+.platformStatus .header .middleContainer h1.wtitle {
+	font-size: 24px;
+	color: #C00403;
+	font-weight: normal;
+	text-align: right;
+}
+.platformStatus .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.platformStatus .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.platformStatus .statusInfo {
+	overflow: auto;
+	padding: 30px 0px;
+}
+.platformStatus .infoBox {
+	margin-top: 10px;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 2px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.platformStatus .infoBox .sectionHeader {
+	padding: 14px 10px;
+	color: #555;
+	background: rgba(166, 166, 166, 0.1);
+	border-bottom: 1px solid #CCC;
+}
+.platformStatus .infoBox .sectionHeader h4 {
+	margin: 0px;
+	font-weight: normal;
+	font-size: 12px;
+}
+.platformStatus .infoBox .content h4 {
+	margin: 0px;
+}
+
+.platformStatus .framework .pRow {
+	padding: 10px 20px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.2);
+	overflow: auto;
+}
+.platformStatus .framework .pRow:last-child {
+	border-bottom: none;
+}
+.platformStatus .framework .pRow .pName {
+	float: left;
+	font-size: 13px;
+	line-height: 32px;
+}
+.platformStatus .framework .pRow .pIco {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/global/ui/notification.svg') no-repeat center;
+	background-size: cover;
+	margin: 4px 0px;
+	margin-left: 10px;
+}
+.platformStatus .framework .pRow .pIco.healthy {
+	background-position: 0px 0px;
+}
+.platformStatus .framework .pRow .pVer {
+	float: right;
+	text-align: right;
+}
+.platformStatus .framework .pRow .pVer .version {
+	float: right;
+	font-weight: bold;
+	color: #c00403;
+}
+.platformStatus .framework .pRow .pVer .time {
+	clear: right;
+	float: right;
+	padding-top: 5px;
+	color: #777;
+}
+
+.platformStatus .issues .content {
+	padding: 10px;
+}
+.platformStatus .issues .content h3 {
+	margin: 0px;
+	font-weight: normal;
+}
+
+.platformStatus .issues .logEntry {
+	overflow: auto;
+	border: 1px solid rgba(166, 166, 166, 1);
+	padding: 5px;
+	margin: 5px 0px;
+	max-height: 200px;
+}
+.platformStatus .issues .logContent {
+	overflow: auto;
+	margin: 5px;
+}

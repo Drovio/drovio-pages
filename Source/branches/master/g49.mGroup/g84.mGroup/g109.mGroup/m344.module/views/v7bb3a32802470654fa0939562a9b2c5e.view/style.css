@@ -1,0 +1,64 @@
+.mfExplorerContainer .mfNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%{media}/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.mfExplorerContainer .mfNavTool.add_new {
+	background-position: 0px -64px;
+}
+.mfExplorerContainer .mfNavTool.refresh {
+	background-position: 0px -48px;
+}
+.mfExplorerContainer .mfNavTool:hover {
+	opacity: 1.0;
+}
+.mfExplorer {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background: #FAFAFA;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.mfExplorer .mfItem {
+	padding: 10px;
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	line-height: 16px;
+}
+.mfExplorer .mfItem:hover {
+	background: #EEE;
+	border-right: 3px solid #CCC;
+}
+.mfExplorer .mfItem.selected {
+	background: #DDD;
+	border-right: 3px solid #C00403;
+}
+.mfExplorer .mfItem .ico {
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/global/ui/notification.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+	float: left;
+	margin-right: 5px;
+}
+.mfExplorer .mfItem.disabled .ico {
+	background-position: 0px -16px;
+}
+.mfExplorer .mfItem .title {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	color: #555;
+}

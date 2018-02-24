@@ -1,0 +1,249 @@
+.topbar {
+}
+.sidebar {
+	height: 100%;
+	background-color: #CCCCCC;
+}
+.rightContent {
+	height: 100%;
+}
+
+.sidebar .sibarContentWrapper {
+	height: 100%;
+	margin: 0 5px;
+	position: relative;
+	 min-height: 500px;
+}
+
+ .sibarContentWrapper .topDownContent {
+	left: 0;
+	position: absolute; 
+	top: 0;
+}
+
+ .sibarContentWrapper .bottomUpContent {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+}
+
+.editorContainer {
+	 height: 100%;
+}
+
+.editorContainer.full {
+	width: 100%;
+	height: 100%;
+}
+
+.editorContainer.semi {
+	width: 80%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	border-left : thin solid black;
+}
+
+.themeStructureSelector {
+	width: 20%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.refreshControl {
+	background-color: #CCCCCC;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.8);
+	display: block;
+	margin: 0;
+	padding-left: 10px;
+	position: relative;
+	
+	height: 26px;
+}
+
+.refreshControl span {
+	display: block;
+	line-height: 25px;
+}
+
+.templateInfo.expanded { 
+	background-color: #FFFFFF;
+	margin-top: 20px;
+	padding: 8px;
+	position: relative;
+}
+
+.templateInfo.miniature {
+	background-color: #CCCCCC;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.8);
+	display: block;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.templateInfo.miniature span {
+	display: block;
+	line-height: 25px;
+}
+
+
+.themeStructureSelector .visibilitySwitch {
+	padding: 0px 5px;
+	cursor:pointer;
+	display:inline-block;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.themeStructureSelector .visibilitySwitch:hover {
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sideTosideSpace {
+	
+	width: 100%;
+
+}
+
+.tabHeadText {
+}
+
+.selectedInd {
+}
+
+.selected .selectedInd {
+}
+
+.overviewSection {
+	background-color: #FFFFFF;
+    border: 2px solid #808080;
+    margin-top: 8px;
+    padding: 8px;
+    position: relative;
+}
+
+.overviewSection .scroll {
+	max-height: 300px;
+    overflow-y: scroll;
+}
+
+.overviewSection .headerBar, .templateInfo.expanded .headerBar{
+	clear: both;	
+	display: block;
+	width: 100%;
+	height:40px;
+	border-bottom: 1px solid #000000;
+}
+
+.overviewSection .headerBar button, .templateInfo.expanded .headerBar button{
+	position: absolute;
+	right: 0;
+}
+
+.overviewSection .headerBar > .headerContent, .templateInfo.expanded .headerBar > .headerContent  {
+	width: 70%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+h2.headerContent {
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: bold;
+	height: 25px;
+	margin: 0;
+	padding-top: 8px;
+}
+
+.overviewSection .headerBar > .headerControls, .templateInfo.expanded .headerBar > .headerControls  {
+	width: 30%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.overviewSection .headerControls button, .templateInfo.expanded .headerControls button{
+	position: absolute;
+	right: 0;
+}
+
+
+.itemRow {
+	clear: both;    
+	display: block;
+	width: 100%;
+	height:25px;
+}
+
+.itemRow > .rowContent {
+	clear: both;    
+	display: block;
+	width: 100%;
+	height:25px;
+}
+
+.itemRow > .itemInfo > .content {
+	width: 80%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	
+	
+}
+
+.itemRow > .itemInfo > .controls{
+	width: 20%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: right;
+}

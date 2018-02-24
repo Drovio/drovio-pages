@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="272"><sql><query id="qf777c5a08c100d4b24cf65b7baaf7198" name="get_version_info"/></sql><views><view id="v17f8dcf82539b9a1f807e79e69b8bc45" name="bossApplicationPlayer"/><view id="vdd09b793b3754d8eda498b265f49a09b" name="updateApplication"/><view id="v257e1202b1f65db4b4f683cde5e58396" name="applicationUpdater"/><view id="vb1f3f16669a2d0c124be77b775e6b62f" name="applicationTrial"></view></views></module>

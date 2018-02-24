@@ -1,0 +1,90 @@
+.resetPasswordPage {
+	background: #FFF;
+}
+.resetPwPage {
+	height: 100%;
+	width: 100%;
+	background: rgba(192, 4, 3, 0.8) url('%{media}/frontend/fpattern.svg');
+	overflow: auto;
+}
+.resetPwPage .whiteBox {
+	background: #FFF;
+	border: 2px solid #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 15px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.resetPwPage .whiteBox .logo {
+	width: 75px;
+	height: 75px;
+	margin: 10px auto;
+	background: url('%{cdn}/media/logos/x100/logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.resetPwPage .whiteBox .text {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.resetPwPage .whiteBox .small {
+	font-weight: normal;
+	font-size: 12px;
+	color: #C00403;
+	margin-bottom: 10px;
+}
+.resetPwPage .whiteBox form {
+	text-align: left;
+}
+.resetPwPage .whiteBox .lpinp {
+	font-size: 12px;
+	padding: 5px;
+	margin: 5px 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-color: #777;
+	color: #777;
+	outline: none;
+	float: left;
+	width: 80%;
+}
+.resetPwPage .whiteBox .inplbl {
+	padding: 3px 0px;
+	font-weight: bold;
+	float: left;
+}
+.resetPwPage .whiteBox .footer {
+	border-top: 1px solid #CCC;
+	margin-top: 10px;
+	color: #777;
+}
+.resetPwPage .pgFooter {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	border-top: 2px solid #CCC;
+	background: #FFF;
+	line-height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.resetPwPage .pgFooter .left {
+	float: left;
+	font-weight: bold;
+	color: #C00403;
+}
+.resetPwPage .pgFooter .right {
+	float: right;
+	color: #C00403;
+}

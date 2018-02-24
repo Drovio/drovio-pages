@@ -1,0 +1,61 @@
+.vcsReleasesContainer,
+.vcsReleasesContainer .vcsReleases {
+	height: 100%;
+	overflow: auto;
+}
+.vcsReleases .panel {
+	height: 100%;
+	width: 50%;
+	float: left;
+	overflow: auto;
+}
+.vcsReleases .releasePackagesContainer {
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.vcsReleases .packageRow {
+	line-height: 18px;
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	color: #555;
+}
+.vcsReleases .packageRow .releaseTitle {
+	margin: 0px;
+	color: #656565;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 12px;
+}
+.vcsReleases .packageRow .releaseVersion {
+	font-size: 11px;
+	color: #777;
+}
+.vcsReleases .packageRow .releaseDate {
+	color: #999;
+}
+.vcsReleases .packageRow .showHistory {
+	float: right;
+	cursor: pointer;
+	padding: 3px 5px;
+	color: #5E6570;
+	border: 1px solid #5E6570;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 4px 0px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.vcsReleases .packageRow .showHistory:hover,
+.vcsReleases .packageRow .showHistory.selected {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}

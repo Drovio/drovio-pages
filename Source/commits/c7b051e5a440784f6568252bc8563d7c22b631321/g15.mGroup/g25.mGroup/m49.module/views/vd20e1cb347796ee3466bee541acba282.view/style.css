@@ -1,0 +1,29 @@
+.databaseManager button.save {
+	border: none;
+	background-color: transparent;
+}
+.queryData {
+	height: 100%;
+}
+.testControls {
+	float: right;
+}
+.testingPool {
+	height: 100%;
+}
+.testingPool .testResult {
+	height: 100%;
+}
+.databaseResult {
+	height: 100%;
+}
+.databaseResult .resultTitle {
+	float: left;
+	padding: 0px 10px;
+}
+.databaseResult .resultContainer {
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	padding-top: 50px;
+}

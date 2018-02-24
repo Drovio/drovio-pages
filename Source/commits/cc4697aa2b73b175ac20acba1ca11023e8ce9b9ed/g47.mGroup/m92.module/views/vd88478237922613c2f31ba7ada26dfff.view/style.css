@@ -1,0 +1,89 @@
+.appCenterPage .appCenter .sidebar {
+	float: left;
+	width: 200px;
+	border-left: 1px solid #CCC;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 100%;
+}
+.appCenterPage .appCenter .sidebar .logo {
+	width: 100px;
+	height: 100px;
+	margin: 25px auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-bottom: 5px;
+	background: url('%resources%/appcenter/app_logo_100.png') no-repeat center;
+}
+.appCenterPage .appCenter .sidebar .logoContainer {
+	text-align: center;
+}
+.appCenterPage .appCenter .sidebar .logoContainer .sub {
+	margin: 0px;
+	font-weight: normal;
+}
+.appCenterPage .appCenter .sidebar .logoContainer .title {
+	margin: 5px auto;
+	color: green;
+	font-size: 22px;
+}
+
+.appCenterPage .appCenter .sidebar .sideList .header {
+	color: #999;
+	margin: 0px;
+	padding: 8px 5px;
+}
+.appCenterPage .appCenter .sidebar .sideList .list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.appCenterPage .appCenter .sidebar .sideList .list .listItem {
+	list-style: none;
+	margin: 0px;
+	border-top: 1px solid #ccc;
+	padding: 8px 5px;
+	cursor: pointer;
+}
+.appCenterPage .appCenter .sidebar .sideList .list .listItem:hover {
+	color: #C00403;
+}
+.appCenterPage .appCenter .sidebar .sideList .list .listItem:hover a {
+	color: #C00403;
+}
+.appCenterPage .appCenter .sidebar .sideList .list .listItem:last-child {
+	border-bottom: 1px solid #ccc;
+}
+.appCenterPage .appCenter .sidebar .categoryContainer {
+	margin-top: 50px;
+}
+.appCenterPage .appCenter .sidebar .helpLinks {
+	margin-top: 100px;
+}
+
+.appCenterPage .appCenter .main {
+	padding: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.appCenterPage .appCenter .appContainer {
+	min-height: 300px;
+}
+.appCenterPage .appCenter .main .header {
+	color: #656565;
+	border-bottom: 1px solid #CCC;
+}
+.appCenterPage .appCenter .appContainer .apps {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	max-height: 300px;
+	overflow: auto;
+}
+.appCenterPage .videoContainer {
+	margin: 15px auto;
+	width: 420px;
+}

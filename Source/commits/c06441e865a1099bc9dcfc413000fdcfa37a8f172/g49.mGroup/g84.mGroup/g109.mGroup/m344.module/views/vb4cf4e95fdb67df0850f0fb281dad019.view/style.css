@@ -1,0 +1,18 @@
+.mfEditor .info {
+	overflow: auto;
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+}
+.mfEditor .hd {
+	color: #555;
+	font-weight: normal;
+}
+.mfEditor h1.hd {
+	font-size: 16px;
+}
+.mfEditor h2.hd {
+	font-size: 14px;
+}
+.mfEditor #sdkPackages {
+	max-height: 300px;
+}

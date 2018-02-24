@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v60dbbc4da7874915320bea865c9b061b"><dependencies><dependency library="BSS" object="Market"></dependency><dependency library="DEV" object="Projects"></dependency><dependency library="UI" object="Modules"></dependency><dependency library="UI" object="Presentation"></dependency></dependencies><inner/></view>

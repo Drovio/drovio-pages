@@ -1,0 +1,47 @@
+.userPrivileges {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.userPrivileges > .sidebar {
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	top: 0;
+	background-color: inherit;
+	width: 250px;
+	border-right: 1px solid rgba(166, 166, 166, 0.5);
+}
+
+.userPrivileges .ng {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	padding: 5px 10px;
+	text-align: center;
+}
+
+.userPrivileges > .mainContent {
+	left: 250px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding:10px;
+}
+
+.userPrivileges .lhd {
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid rgba(166, 166, 166, 0.5);
+	margin-bottom:10px;
+	margin-top:15px;
+	text-indent:5px;
+	font-weight:bold;
+}
+.userPrivileges .hd2 {
+	font-size:13px;
+	color:rgb(100, 100, 100);
+}

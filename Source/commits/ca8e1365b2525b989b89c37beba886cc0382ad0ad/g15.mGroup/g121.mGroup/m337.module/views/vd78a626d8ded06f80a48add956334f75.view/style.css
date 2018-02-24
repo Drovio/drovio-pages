@@ -1,0 +1,33 @@
+.pageEditor {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+.pageEditor .hd {
+	font-weight: normal;
+	color: #555;
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+}
+.pageEditor h2.hd {
+	font-size: 18px;
+}
+.pageEditor h3.hd {
+	font-size: 14px;
+}
+.pageEditor #pageEditorForm {
+	height: auto;
+}
+.pageEditor #btn_savePage {
+	float: right;
+	margin: 10px;
+}
+.pageEditor .pageContentWrapper {
+	display: none;
+}
+.pageEditor .pageContentWrapper.selected {
+	display: block;
+}
+.pageEditor .pageContentWrapper .pageCode {
+	border: 1px solid #CCC;
+}

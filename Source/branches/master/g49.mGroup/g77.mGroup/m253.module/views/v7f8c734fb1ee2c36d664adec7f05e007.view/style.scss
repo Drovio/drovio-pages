@@ -1,0 +1,54 @@
+.scopeExplorerContainer {
+	& {
+		height: 100%;
+	}
+	ul.scopes {
+		& {
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			overflow: auto;
+		}
+		.sc {
+			padding: 8px 10px;
+			line-height: 14px;
+			cursor: pointer;
+			color: #5E6570;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.sc:hover,
+		.sc.selected {
+			background-color: #5E6570;
+			color: #FFF;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+	}
+	
+	.scTool {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		opacity: 0.7;
+		cursor: pointer;
+		background-image: url('%resources%/global/devIcons.svg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.scTool:hover {
+		opacity: 1.0;
+	}
+	.scTool.refresh {
+		background-position: 0px -48px;
+	}
+	 .scTool.create_new {
+		background-position: 0px -64px;
+	}
+}

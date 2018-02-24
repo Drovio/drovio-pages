@@ -1,0 +1,144 @@
+.bossTeamProfile {
+	position: relative;
+	height: 100%;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.bossTeamProfile .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.bossTeamProfile .teamInfoContainer {
+	overflow: auto;
+	background: rgb(239, 242, 242);
+	border-bottom: 1px solid #999;
+	padding-top: 25px;
+}
+.bossTeamProfile .teamInfoContainer > .middleContainer {
+	padding-top: 80px;
+}
+.bossTeamProfile .teamInfoContainer .logoBox {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 0 50px;
+	margin-bottom: 30px;
+}
+.bossTeamProfile .teamInfoContainer .logoBox .logo {
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+	margin-bottom: 25px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.bossTeamProfile .teamInfoContainer .logoBox .logo:empty {
+	background: url('%{media}/my/defaultTeamIco.svg') no-repeat center;
+	background-size: 100px;
+}
+.bossTeamProfile .teamInfoContainer .logoBox .logo img {
+	height: inherit;
+	width: inherit;
+}
+.bossTeamProfile .teamInfoContainer .logoBox .leaveTeam {
+	background: linear-gradient(#BBE2B1, #B1DAA1);
+	background: -webkit-linear-gradient(#BBE2B1, #B1DAA1);
+	background: -moz-linear-gradient(#BBE2B1, #B1DAA1);
+	border: 1px solid #43B549;
+	color: #545454;
+	padding: 10px 15px;
+	line-height: 16px;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 12px;
+	margin: 0 auto;
+}
+.bossTeamProfile .teamInfoContainer .teamName {
+	font-size: 28px;
+	line-height: 42px;
+	color: #555;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.bossTeamProfile .teamInfoContainer .teamDescription {
+	font-size: 12px;
+	line-height: 18px;
+	white-space: pre-wrap;
+	margin-bottom: 30px;
+	color: #555;
+	font-weight: normal;
+}
+.bossTeamProfile .teamInfoContainer .teamNavigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+.bossTeamProfile .teamInfoContainer .teamNavigation .navitem {
+	float: left;
+	padding: 10px 15px;
+	font-size: 12px;
+	min-width: 100px;
+	cursor: pointer;
+	color: #777;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+.bossTeamProfile .teamInfoContainer .teamNavigation .navitem:hover {
+	border: 1px solid #CCC;
+	background: rgba(255, 255, 255, 0.3);
+	border-bottom: none;
+	color: #555;
+}
+.bossTeamProfile .teamInfoContainer .teamNavigation .navitem.selected {
+	border: 1px solid #CCC;
+	background: #FFF;
+	border-bottom: none;
+	color: #555;
+}
+.bossTeamProfile .navBar {
+	background: #886389 url('%{media}/frontend/wfpattern.svg');
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0;
+	z-index: 3;
+}
+.bossTeamProfile .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.bossTeamProfile .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.bossTeamProfile .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.bossTeamProfile .navBar li a:hover {
+	color: #FFF;
+}

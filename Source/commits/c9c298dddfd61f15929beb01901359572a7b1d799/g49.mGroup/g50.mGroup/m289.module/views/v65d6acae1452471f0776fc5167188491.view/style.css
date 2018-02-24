@@ -1,0 +1,93 @@
+.docViewer {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.docViewer > .middleContainer {
+	padding-top: 60px;
+}
+.docViewer .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.docViewer .middleContainer .sidebar {
+	width: 250px;
+	float: left;
+	padding: 20px 0px;
+}
+.docViewer .middleContainer .sidebar .topNav,
+.docViewer .middleContainer .sidebar .sideMenu {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+}
+.docViewer .middleContainer .sidebar .topNav .hdNav {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 3px 5px;
+	border-bottom: 3px solid transparent;
+	color: #777;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.docViewer .middleContainer .sidebar .topNav .hdNav:hover {
+	border-bottom: 3px solid #CCC;
+	color: #555;
+}
+.docViewer .middleContainer .sidebar .topNav .hdNav.selected {
+	border-bottom: 3px solid #C00403;
+	color: #555;
+}
+.docViewer .middleContainer .sidebar .sideMenu .navHeader {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 3px 5px;
+	font-size: 14px;
+	color: #555;
+	border-bottom: 1px solid #CCC;
+}
+.docViewer .middleContainer .sidebar .sideMenu .navItem {
+	font-size: 12px;
+	cursor: pointer;
+	border-left: 3px solid transparent;
+	color: #777;
+}
+.docViewer .middleContainer .sidebar .sideMenu .navItem:hover {
+	background: #F9F9F9;
+}
+.docViewer .middleContainer .sidebar .sideMenu .navItem.selected {
+	color: #555;
+	background: #EEE;
+	border-left: 3px solid #C00403;
+	font-weight: bold;
+}
+.docViewer .middleContainer .sidebar .sideMenu .navItem a {
+	display: block;
+	padding: 5px 8px;
+}
+.docViewer .middleContainer .docHolder {
+	width: 750px;
+	float: left;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.docViewer .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}

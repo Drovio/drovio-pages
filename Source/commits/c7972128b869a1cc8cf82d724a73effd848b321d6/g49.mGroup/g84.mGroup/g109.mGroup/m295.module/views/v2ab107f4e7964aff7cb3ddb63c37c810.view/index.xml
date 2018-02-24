@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v2ab107f4e7964aff7cb3ddb63c37c810"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="ESS" object="Protocol"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="open">345</module><module id="manifests">344</module></inner></view>

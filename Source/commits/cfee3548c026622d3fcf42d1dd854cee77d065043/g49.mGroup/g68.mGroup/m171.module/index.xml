@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="171"><sql/><views><view id="vc2dc111321351017e2436e0977ef9cf4" name="devAppVCSViewer"/><view id="v5436463062d285250ad6acd0dfc9e93c" name="commitsViewer"/><view id="v39136325b7fa91f1759787a4c953d79f" name="branchesViewer"/><view id="v9797bab102f8a4cd6c113077fd9fbc33" name="releaseViewer"/><view id="vbe1864e3da12e14d24ba44403f2365d5" name="overViewer"></view></views></module>

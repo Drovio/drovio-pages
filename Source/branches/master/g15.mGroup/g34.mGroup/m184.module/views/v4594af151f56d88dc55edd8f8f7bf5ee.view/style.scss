@@ -1,0 +1,115 @@
+.pageModuleExplorerContainer {
+	& {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+	}
+	.headbar {
+		overflow: auto;
+		position: relative;
+		border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+		background-color: rgba(166, 166, 166, 0.2);
+		padding: 0px 10px;
+		height: 50px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		z-index: 5;
+	}
+	.headbar #userGroupSelector {
+		float: right;
+		height: 29px;
+		padding: 10px 0px;
+	}
+	.pExplorerContainer {
+		position: absolute;
+		top: 50px;
+		bottom: 0px;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		overflow: auto;
+	}
+	.pExplorer {
+		height: 100%;
+		overflow: auto;
+		position: relative;
+	}
+	.legend {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		background-color: #DDD;
+		border: 1px solid #777;
+		padding: 10px;
+		width: 200px;
+		box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+		-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, 0.3);
+	}
+	.pExplorer .columnContainer {
+		height: 100%;
+		overflow: auto;
+		position: relative;
+	}
+	.pExplorer .exColumn {
+		width: 150px;
+		border-right: 1px solid rgba(166, 166, 166, 0.4);
+		float: left;
+	}
+	.exColItem {
+		width: 100%;
+		padding: 5px 10px;
+		border: 1px solid rgba(166, 166, 166, 0.2);
+		box-sizing: border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		height: 25px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.exColItem:empty {
+		border: none;
+	}
+	.exColItem.domain {
+		background-color: #888;
+		font-weight: bold;
+	}
+	.exColItem.folder {
+		background-color: #DDD;
+		font-weight: bold;
+	}
+	.exColItem.page {
+		border-color: #DDD;
+		cursor: pointer;
+	}
+	.exColItem.open {
+		background-color: green;
+	}
+	.exColItem.public {
+		background-color: yellow;
+	}
+	.exColItem.protected {
+		background-color: rgb(192, 4, 3);
+		color: #FFF;
+	}
+	.exColItem.uc {
+		background-color: orange;
+	}
+	.exColItem.off {
+		background-color: #000;
+		color: #FFF;
+	}
+	.exColItem.groupOn {
+		background-color: green;
+		color: #FFF;
+	}
+	.exColItem.groupOff {
+		background-color: rgb(192, 4, 3);
+		color: #FFF;
+	}
+}

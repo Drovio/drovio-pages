@@ -1,0 +1,60 @@
+.siteStatusEditor
+{
+   padding:25px;
+   background:#EFEFEF;
+}
+
+.headerdiv
+{
+   background:#EFEFEF;
+   margin-bottom:10px;
+}
+
+.optionsdiv
+{
+   
+    padding:15px;
+    text-align: center;
+}
+
+.underConstr
+{
+   margin-bottom:25px;
+   padding:10px;
+   width: 70%;
+   margin-left:  auto;
+   margin-right:  auto;
+   background:#ffb159;
+   font-weight:bold;
+   cursor:pointer;
+}
+
+.online
+{
+  
+   background:#96f8a6;
+   padding:10px;
+   width: 70%;
+   margin-left:  auto;
+   margin-right:  auto;
+   font-weight:bold;
+   cursor:pointer;
+}
+
+.publishBtn
+{
+  margin-top:20px;
+  border:1px solid #999;
+  padding:5px;
+  text-align: center;
+  background:#dedede;
+  cursor:pointer;
+  font-weight:bold;
+
+}
+
+.publishBtnLbl
+{
+  margin:auto;
+ 
+}

@@ -1,0 +1,111 @@
+.bossPage {
+	width: 100%;
+	height: 100%;
+}
+.bossPage .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.bossPage section.main {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	color: #FFF;
+	background: #886389 url('%resources%/frontend/fpattern.svg');
+}
+.bossPage section.main > .middleContainer {
+	padding-top: 120px;
+}
+.bossPage section.main > .middleContainer > .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.bossPage section.main > .middleContainer > .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 32px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.bossPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.bossPage .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.bossPage .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.bossPage .navBar .navigation a {
+	color: #FFF !important;
+}
+.bossPage .dashboard_link {
+	background: linear-gradient(#BBE2B1, #B1DAA1);
+	background: -webkit-linear-gradient(#BBE2B1, #B1DAA1);
+	background: -moz-linear-gradient(#BBE2B1, #B1DAA1);
+	border: 1px solid #43B549;
+	color: #545454;
+	padding: 15px;
+	font-size: 13px;
+	line-height: 18px;
+	cursor: pointer;
+	margin: 0px auto;
+	margin-top: 100px;
+	width: 200px;
+	display: block;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-align: center;
+}
+.bossPage .demo {
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 100px;
+	padding: 15px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.bossPage .demo .hd {
+	text-align: center;
+	font-size: 14px;
+	margin: 10px 0px;
+}
+.bossPage .demo .drow {
+	overflow: auto;
+	padding: 10px 0px;
+}
+.bossPage .demo .drow .lbl,
+.bossPage .demo .drow .val {
+	float: left;
+	width: 50%;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.bossPage .demo .drow .lbl {
+	text-align: right;
+}
+.bossPage .demo .drow .val {
+	font-weight: bold;
+}

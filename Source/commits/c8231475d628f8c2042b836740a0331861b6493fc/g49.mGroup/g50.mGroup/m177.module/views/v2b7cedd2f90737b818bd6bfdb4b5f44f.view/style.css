@@ -1,0 +1,37 @@
+.documentationPage .docViewerWrapper{
+	/*padding: 5px;*/
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	height:100%; 
+}
+.docViewerWrapper #docViewer {
+	height:100%; 
+	-moz-box-sizing:border-box;
+	box-sizing:border-box; 
+}
+.docViewerWrapper #documentViewerContainer{
+	height:100%; 
+	-moz-box-sizing:border-box;
+	box-sizing:border-box; 
+}
+.documentationPage .docViewerWrapper, .documentationPage .classNavigator {
+	overflow: auto;
+	height: 100%;
+}
+.documentationPage .classNavigator {
+	border-right: 1px solid rgba(166, 166, 166, 1);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: rgba(166, 166, 166, 0.2);
+}
+.documentationPage .pageTitle {
+	border-bottom: 1px solid #000;
+}
+
+/* */
+
+.docViewerWrapper a {
+	position:absolute; 
+	margin:5px 10px;
+}

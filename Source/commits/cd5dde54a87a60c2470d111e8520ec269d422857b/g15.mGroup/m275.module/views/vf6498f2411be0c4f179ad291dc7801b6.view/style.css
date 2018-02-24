@@ -1,0 +1,49 @@
+.marketManager {
+	height: 100%;
+}
+.marketReviewer .headBar {
+}
+.marketReviewer .headBar .navBar {
+	overflow: auto;
+	height: 26px;
+	border-bottom: 1px solid #CCC;
+}
+.marketReviewer .headBar .navBar .navTitle {
+	width: 20%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	line-height: 16px;
+	height: 26px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	cursor: pointer;
+	color: #999;
+	border-bottom: 3px solid rgba(192, 4, 3, 0);
+}
+.marketReviewer .headBar .navBar .navTitle.selected,
+.marketReviewer .headBar .navBar .navTitle:hover {
+	color: rgb(192, 4, 3);
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 3px solid rgba(192, 4, 3, 1);
+}
+.marketReviewer .rvSections {
+	position: absolute;
+	top: 27px;
+	bottom: 24px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+.marketReviewer .rvSections .rvSectContainer {
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.marketReviewer .vcsSectionContent {
+	padding: 5px;
+}

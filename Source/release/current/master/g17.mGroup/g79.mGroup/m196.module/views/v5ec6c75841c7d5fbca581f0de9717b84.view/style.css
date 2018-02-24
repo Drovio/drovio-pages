@@ -1,0 +1,272 @@
+.webDesignerPage,
+.webDesigner{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.webDesigner > .website-navbar {
+	background: #FFF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+.webDesigner > .website-sidebar {
+	position: absolute;
+	top: 70px;
+	bottom: 0px;
+	left: 0px;
+	width: 0px;
+	border-right: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+	overflow: auto;
+	background: #FFF;
+}
+
+.webDesigner > .website-content {
+	position: absolute;
+	top: 70px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #F1F1F1;
+	overflow: auto;
+	border-top: 1px solid #E8E8E8;
+	transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+}
+
+.webDesigner > .website-content .sectionContainer:empty {
+	background: url('%{media}/global/splash.png') no-repeat center;
+	background-size: 250px;
+}
+.webDesigner.sidebarContainer.openSidebar > .website-sidebar {
+	width: 300px;
+	transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+}
+
+.webDesigner.sidebarContainer.openSidebar > .website-content {
+	left: 300px;
+	transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+}
+
+.website-navbar .sideNav,
+.website-navbar .webInfoContainer {
+	float: left;
+}
+.website-navbar .bar {
+	overflow: auto;
+}
+
+.website-navbar .sideNav {
+	width: 300px;
+	overflow: auto;
+	padding: 13px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.website-navbar .sideNav .icon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/developer/projects/iconSprite.svg') no-repeat center;
+	background-size: 20px;
+	background-position: 0px 0px;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: 0.6;
+	margin-right: 10px;
+}
+
+.website-navbar .sideNav .icon:hover {
+	opacity: 1;
+}
+
+.website-navbar .webInfoContainer {
+	float: left;
+}
+.website-navbar .webInfoContainer .projectImage {
+	float: left;
+	width: 32px;
+	height: 32px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 9px 0px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.website-navbar .webInfoContainer .projectImage.noIcon {
+	background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat;
+	background-size: cover;
+}
+
+.website-navbar .webInfoContainer .projectImage img {
+	width: 32px;
+	height: 32px;
+}
+
+.website-navbar .webInfoContainer .projectTitle {
+	float: left;
+	color: #555;
+	margin: 0px;
+	line-height: 49px;
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+.sidebarContainer.openSidebar .website-navbar .sideNav .icon {
+	opacity: 1;
+}
+.webDesigner > .website-sidebar .webMenu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 10px;
+}
+.webDesigner > .website-sidebar .webMenu .menuItem, .webDesigner > .website-sidebar .webMenu .menuItem a {
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: block;
+	color: #5E6570;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem:hover, .webDesigner > .website-sidebar .webMenu .menuItem.selected {
+	background: #5E6570;
+	color: #FFF;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem:hover a, .webDesigner > .website-sidebar .webMenu .menuItem.selected a {
+	color: #FFF;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem .ico {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 5px 10px;
+	background: url('%{media}/webengine/website/wsectionSprite.svg') no-repeat;
+	background-size: 48px 216px;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.overview .ico {
+	background-position: 0px 0px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.pages .ico {
+	background-position: 0px -24px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.templates .ico {
+	background-position: 0px -48px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.themes .ico {
+	background-position: 0px -72px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.extensions .ico {
+	background-position: 0px -96px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.source .ico {
+	background-position: 0px -120px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.preview .ico {
+	background-position: 0px -144px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.resources .ico {
+	background-position: 0px -168px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.settings .ico {
+	background-position: 0px -192px;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem:hover .ico, .webDesigner > .website-sidebar .webMenu .menuItem.selected .ico {
+	background-position-x: -24px;
+	transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem .reload {
+	display: none;
+	float: right;
+	width: 16px;
+	height: 16px;
+	margin: 9px 5px;
+	background: url('%{media}/global/devIcons_w.svg') no-repeat;
+	background-position: 0px -48px;
+	background-size: cover;
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem.selected .reload {
+	display: block;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem .reload:hover {
+	opacity: 1;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem .title {
+	margin: 0px;
+	padding: 5px;
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 1.1em;
+	color: #5E6570;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .webMenu .menuItem:hover .title, .webDesigner > .website-sidebar .webMenu .menuItem.selected .title {
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.webDesigner > .website-sidebar .divider {
+    	margin: 5px;
+    	height: 1px;
+    	background: #ccc;
+}

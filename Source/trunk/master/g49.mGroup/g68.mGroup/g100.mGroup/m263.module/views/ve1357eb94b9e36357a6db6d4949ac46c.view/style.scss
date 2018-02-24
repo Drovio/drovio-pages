@@ -1,0 +1,56 @@
+.packageExplorer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+.packageExplorer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.packageExplorer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.packageExplorer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.packageExplorer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.packageExplorer .contentIcon.flIco {
+	background-position:0px -64px;
+	background-size: cover;
+}
+
+.packageExplorer,
+#appPackageViewer {
+	height: 100%;
+	overflow: auto;
+}
+.packageExplorer .srcNavTool {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.packageExplorer .srcNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.packageExplorer .srcNavTool:hover {
+	opacity: 1.0;
+}
+.packageExplorer .srcNavTool.refresh {
+	background-position: 0px -48px;
+}
+.packageExplorer .srcNavTool.create_new {
+	background-position: 0px -64px;
+}

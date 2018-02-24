@@ -1,0 +1,41 @@
+.accountList {
+	overflow: auto;
+	height: 100%;
+	background: #FAFAFA;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.accountList .accitem {
+	padding: 5px 10px;
+	cursor: pointer;
+}
+.accountList .accitem:hover {
+	background: #F0F0F0;
+	border-right: 3px solid #CCC;
+}
+.accountList .accitem.selected {
+	background: #F0F0F0;
+	border-right: 3px solid #C00403;
+}
+
+.accountList .accNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%{media}/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.accountList .accNavTool.add_new {
+	background-position: 0px -64px;
+}
+.accountList .accNavTool.refresh {
+	background-position: 0px -48px;
+}
+.accountList .accNavTool:hover {
+	opacity: 1.0;
+}

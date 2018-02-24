@@ -1,0 +1,138 @@
+.platformStatus {
+	& {
+		overflow: auto;
+		background-color: rgb(239, 242, 242);
+		position: relative;
+	}
+	.navBar {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		line-height: 40px;
+		padding: 10px 0px;
+		z-index: 3;
+	}
+	.middleContainer {
+		min-width: 700px;
+		max-width: 1200px;
+		padding: 0px 50px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+	& > .middleContainer {
+		margin-top: 80px;
+	}
+	.header {
+		font-size: 16px;
+		color: #5E6570;
+		margin: 10px;
+		line-height: 30px;
+	}
+	.menu {
+		clear: both;
+		padding: 0px;
+		margin: 0px;
+		overflow: auto;
+	}
+	.menu .menu_item {
+		float: left;
+		padding: 10px 25px;
+		margin: 0px;
+		cursor: pointer;
+		color: #5E6570;
+		border: 1px solid transparent;
+		border-bottom: none;
+	}
+	.menu .menu_item.selected {
+		background: #FFF;
+		border: 1px solid #CCC;
+		border-radius: 3px 3px 0px 0px;
+		-webkit-border-radius: 3px 3px 0px 0px;
+		-moz-border-radius: 3px 3px 0px 0px;
+		border-bottom: none;
+	}
+	.whiteBox {
+		clear: both;
+		padding: 20px;
+		margin-bottom: 50px;
+		overflow: auto;
+		background: #FFF;
+		border: 1px solid #CCC;
+	}
+	.infoBox {
+		margin-top: 10px;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		color: #5E6570;
+	}
+	.infoBox h4 {
+		margin: 0px;
+	}
+	
+	.framework {
+		.pRow {
+			padding: 10px 20px;
+			border-bottom: 1px solid rgba(166, 166, 166, 0.2);
+			overflow: auto;
+		}
+		.pRow:last-child {
+			border-bottom: none;
+		}
+		.pRow .pName {
+			float: left;
+			font-size: 13px;
+			line-height: 32px;
+		}
+		.pRow .pIco {
+			float: right;
+			width: 24px;
+			height: 24px;
+			background: url('%{media}/global/ui/notification.svg') no-repeat center;
+			background-size: cover;
+			margin: 4px 0px;
+			margin-left: 10px;
+		}
+		.pRow .pIco.healthy {
+			background-position: 0px 0px;
+		}
+		.pRow .pVer {
+			float: right;
+			text-align: right;
+		}
+		.pRow .pVer .version {
+			float: right;
+			font-weight: bold;
+			color: #c00403;
+		}
+		.pRow .pVer .time {
+			clear: right;
+			float: right;
+			padding-top: 5px;
+			color: #777;
+		}
+	}
+	
+	.issues {
+		& { 
+			padding: 10px;
+		}
+		h3 {
+			margin: 0px;
+			font-weight: normal;
+		}
+		
+		.logEntry {
+			overflow: auto;
+			border: 1px solid rgba(166, 166, 166, 1);
+			padding: 5px;
+			margin: 5px 0px;
+			max-height: 200px;
+		}
+		.logContent {
+			overflow: auto;
+			margin: 5px;
+		}
+	}
+}

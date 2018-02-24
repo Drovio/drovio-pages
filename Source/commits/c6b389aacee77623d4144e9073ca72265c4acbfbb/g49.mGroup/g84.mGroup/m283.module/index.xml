@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="283"><sql/><views><view id="v42a577a049edca6421b764ba0df2d7fb" name="coreConfigurator"/><view id="v548e977f253f76edf4d6c74682af65ae" name="ajaxTesting"/><view id="v142a03e68a0b1d1574e6838e3fbee29f" name="debugger"/><view id="vb1822e3bbc393d44f264c1450c705ebe" name="logger"/><view id="v57109dfe4108a6ea3319ec8133bae8c1" name="sdkTesting"/><view id="v153caa82f8440e5eaf0685aeb879af86" name="sqlTesting"></view></views></module>

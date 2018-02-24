@@ -1,0 +1,195 @@
+.frontendPage {
+	width: 100%;
+	height: 100%;
+}
+.frontendPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.frontendPage .main {
+	height: 600px;
+	background: rgba(192, 4, 3, 0.6) url('%resources%/frontend/fpattern2.svg');
+	position: relative;
+}
+.frontendPage .main > .middleContainer {
+	padding-top: 200px;
+}
+
+.frontendPage .main > .middleContainer .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+}
+.frontendPage .main > .middleContainer .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+	max-width: 800px;
+	margin: 40px auto;
+}
+.frontendPage .main > .middleContainer .learn_more {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 1px 1px 2px #333;
+	border: 1px solid #FFF;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.frontendPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.frontendPage .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.frontendPage .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.frontendPage .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.frontendPage .navBar li a:hover {
+	color: #FFF;
+}
+/*
+.frontendPage .tileBar {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	z-index: 2;
+}
+.frontendPage .tileBar .start {
+	margin-bottom: 15px;
+}
+.frontendPage .tileBar .start .title {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	border: 2px solid #999;
+	color: green;
+	font-size: 15px;
+	line-height: 24px;
+	padding: 5px 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.frontendPage .tileBar .start .title:hover {
+	background-color: rgba(255, 255, 255, 1);
+}
+.frontendPage .tileBar .tileList {
+	width: 900px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 0px;
+	list-style-type: none;
+	text-align: center;
+}
+.frontendPage .tileBar .tile {
+	list-style-type: none;
+	float: left;
+	width: 300px;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(255, 255, 255, 0.7);
+	cursor: pointer;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+	display: table;
+}
+.frontendPage .tileBar .tile .content {
+	display: table-cell;
+	width: 100%;
+	height: 60px;
+	font-size: 13px;
+	line-height: 14px;
+	vertical-align: middle;
+	border-right: 1px solid #FFF;
+	padding: 0px 20px;
+}
+.frontendPage .tileBar .tile:last-child .content {
+	border-right: none;
+}
+.frontendPage .tileBar .tile:hover,
+.frontendPage .tileBar .tile.active {
+	background-color: rgba(0, 0, 0, 0.65);
+	color: #FFF;
+}
+
+.frontendPage .bigTiles {
+	clear: both;
+	overflow: auto;
+	background-color: #e8eef8;
+	border-bottom: 1px solid #e7e9eb;
+}
+.frontendPage .bigTiles .bigTile {
+	display: table-cell;
+	
+	width: 25%;
+	padding: 30px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	height: 100%;
+}
+.frontendPage .bigTiles .bigTile a:hover .title {
+	text-decoration: underline;
+}
+.frontendPage .bigTiles .bigTile .ico {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+}
+.frontendPage .bigTiles .bigTile.apps {
+	background-color: rgb(158, 134, 113);
+}
+.frontendPage .bigTiles .bigTile.apps .ico {
+	background: url('%resources%/frontend/devPrograms.png') no-repeat center;
+}
+.frontendPage .bigTiles .bigTile.web {
+	background-color: rgb(244, 132, 114);
+}
+.frontendPage .bigTiles .bigTile.web .ico {
+	background: url('%resources%/developer/web_extensions_100.png') no-repeat center;
+	background-size: 75px 75px;
+}
+.frontendPage .bigTiles .bigTile.devSupport {
+	background-color: rgb(170, 180, 97);
+}
+.frontendPage .bigTiles .bigTile.devSupport .ico {
+	background: url('%resources%/frontend/devSupport.png') no-repeat center;
+}
+.frontendPage .bigTiles .bigTile.international {
+	background-color: rgb(136, 214, 224);
+}
+.frontendPage .bigTiles .bigTile.international .ico {
+	background: url('%resources%/frontend/international.png') no-repeat center;
+}
+*/

@@ -1,0 +1,135 @@
+.projectOverviewPage .header {
+	overflow: auto;
+	border-bottom: 1px solid #EEE;
+	padding: 20px 0px;
+}
+.projectOverviewPage .header .projectImage {
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgba(166, 166, 166, 1);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0px 30px;
+}
+.projectOverviewPage .header .projectTitle {
+	color: #C00403;
+	margin: 15px 0px;
+}
+.projectOverviewPage .header .projectName {
+	font-size: 14px;
+	margin-left: 10px;
+	color: #000;
+}
+.projectOverviewPage .header .projectDescription {
+	color: #888;
+}
+.projectOverviewPage .header .projectActions {
+	float: right;
+	margin: 10px;
+	color: #999;
+}
+.projectOverviewPage .header .projectActions a {
+	color: inherit;
+}
+.projectOverviewPage .header .action {
+	cursor: pointer;
+	padding: 0px 5px;
+	float: left;
+	font-weight: bold;
+}
+.projectOverviewPage .header .action.editInfoBtn {
+	font-weight: normal;
+}
+.projectOverviewPage .header .action.publisherBtn {
+	color: green;
+}
+.projectOverviewPage .header .action:hover {
+	color: #C00403;
+}
+.projectOverviewPage .nav {
+	overflow: auto;
+	margin: 20px 5px;
+}
+.projectOverviewPage .nav .navBox {
+	width: 20%;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #CCC;
+	border-right: none;
+}
+.projectOverviewPage .nav .navBox:last-child {
+	border-right: 1px solid #CCC;
+}
+.projectOverviewPage .nav .navBox .title {
+	background: #EEE;
+	border-bottom: 1px solid #DDD;
+	margin: 0px;
+	padding: 5px 8px;
+	text-align: center;
+}
+.projectOverviewPage .nav .navBox .title a {
+	color: #777;
+}
+.projectOverviewPage .nav .navBox .title a:hover {
+	color: #C00403;
+}
+.projectOverviewPage .nav .navBox .img {
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.projectOverviewPage .issuesMembers {
+	overflow: auto;
+}
+.projectOverviewPage .infoBox {
+	width: 479px;
+	margin: 0px 5px;
+	float: left;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.projectOverviewPage .infoBox h3.title {
+	color: #C00403;
+	padding: 5px 8px;
+	margin: 0px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+}
+.projectOverviewPage .infoBox .infoList {
+	padding: 5px;
+	max-height: 150px;
+	overflow: auto;
+}
+.projectOverviewPage .infoBox .infoList h4 {
+	margin: 0px;
+	padding: 5px;
+}
+.projectOverviewPage .infoBox .infoList h4 a {
+	color: #656565;
+}
+.projectOverviewPage .infoBox .infoList h4 a:hover {
+	color: #C00403;
+}
+.projectOverviewPage .projectMembers .manage {
+	float: right;
+	color: #777;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 8px;
+}
+.projectOverviewPage .projectMembers .manage:hover {
+	color: green;
+}
+.projectOverviewPage .projectReports {
+	float: none;
+	width: auto;
+	clear: both;
+	margin-top: 20px;
+}

@@ -1,0 +1,6 @@
+.corePrivileges {
+	padding: 5px;
+}
+.corePrivileges .formContainer #sdkPackages {
+	max-height: 300px;
+}

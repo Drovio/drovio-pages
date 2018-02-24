@@ -1,0 +1,77 @@
+.websiteOverviewPage,
+.websiteOverviewPage .wsOverview {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background: #EEE;
+}
+.wsOverview .header {
+	background: #FFF;
+	padding: 10px 20px;
+	border-bottom: 1px solid #CCC;
+	line-height: 32px;
+	overflow: auto;
+}
+.wsOverview .header .hd_title {
+	margin: 0px;
+	color: #999;
+}
+.wsOverview .status {
+	overflow: auto;
+}
+.wsOverview .status .boxStatus {
+	float: left;
+	margin: 20px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	min-width: 250px;
+}
+.wsOverview .status .boxStatus > .ico {
+	width: 72px;
+	height: 72px;
+	margin: 25px auto;
+	background: url('%resources%/webengine/website/statusIcons.svg') no-repeat;
+	background-size: 72px;
+}
+.wsOverview .status .boxStatus.healthy > .ico {
+	background-position: 0px 0px;
+}
+.wsOverview .status .boxStatus.error > .ico {
+	background-position: 0px -72px;
+}
+.wsOverview .status .boxStatus.warning > .ico {
+	background-position: 0px -216px;
+	
+}
+.wsOverview .status .boxStatus .sub {
+	border-top: 1px solid #CCC;
+	color: #000;
+}
+.wsOverview .status .boxStatus .title {
+	padding: 15px 20px;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	color: #545454;
+}
+.wsOverview .status .boxStatus .configure {
+	overflow: auto;
+	cursor: pointer;
+}
+.wsOverview .status .boxStatus .configure > .ico {
+	float: left;
+	width: 32px;
+	height: 32px;
+	background: url('%resources%/webengine/website/ovIcons.svg');
+	background-size: 32px;
+	margin: 5px 10px;
+}
+.wsOverview .status .boxStatus.project .configure > .ico {
+	background-position: 0px 0px;
+}
+.wsOverview .status .boxStatus.server .configure > .ico {
+	background-position: 0px -64px;
+}
+.wsOverview .status .boxStatus .configure .ctitle {
+	color: #777;
+}

@@ -1,0 +1,14 @@
+.databasesConfiguration,
+.dbServers {
+	overflow: auto;
+	height: 100%;
+}
+.dbServers .serverListContainer {
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+.dbServers .srvEditor {
+	float: left;
+	height: 100%;
+}

@@ -1,0 +1,57 @@
+.teamMembersViewer .mr {
+	overflow: auto;
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+}
+.teamMembersViewer .mr:last-child {
+	border-bottom: none;
+}
+.teamMembersViewer .mr .mn {
+	float: left;
+	width: 40%;
+	color: #555;
+}
+.teamMembersViewer .mr .edit {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.teamMembersViewer .mr .mrl {
+	width: 60%;
+	float: left;
+	display: inline-block;
+	color: #999;
+}
+.teamMembersViewer .add_new_member {
+	overflow: auto;
+	border-top: 1px solid #EFEFEF;
+	padding: 3px 5px;
+}
+.teamMembersViewer .add_new_member h4 {
+	margin: 0px;
+	float: left;
+	color: green;
+	font-weight: normal;
+}
+.teamMembersViewer .add_new_member .searchFormContainer {
+	float: right;
+}
+.teamMembersViewer .add_new_member #btn_search {
+	float: right;
+	margin: 5px;
+}
+.teamMembersViewer .add_new_member .searchFormContainer .tmsl {
+	float: right;
+	margin: 5px;
+	margin-top: 7px;
+}
+.teamMembersViewer .add_new_member .searchFormContainer .tminp {
+	float: right;
+	width: 300px;
+	padding: 4px 6px;
+	margin: 5px;
+	border-color: #999;
+}
+.teamMembersViewer .add_new_member .searchResultsContainer {
+	clear: both;
+}

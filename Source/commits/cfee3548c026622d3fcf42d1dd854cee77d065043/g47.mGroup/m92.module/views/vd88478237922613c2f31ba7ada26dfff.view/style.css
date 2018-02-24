@@ -1,0 +1,109 @@
+.topBar {
+	padding: 5px 20px;
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 1px solid rgba(166, 166, 166, 0.3);
+	overflow: auto;
+}
+.topBar .topContainer {
+	float: right;
+}
+.topBar h4 {
+	float: left;
+	font-weight: normal;
+}
+.topBar .regBtn {
+	float: left;
+	margin: 20px 10px;
+	padding: 20px 10px;
+	font-weight: bold;
+	color: green;
+	font-size: 13px;
+}
+.appCenterPage .globalContainer {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 30px;
+	overflow: auto;
+	clear: both;
+}
+.appCenterPage .globalContainer .infoContainer {
+	overflow: auto;
+	float: left;
+	max-width: 50%;
+}
+.appCenterPage .logoContainer {
+	background: url(/Library/Media/images/pages/developer/AppCenter.png) no-repeat center;
+	width: 400px;
+	height: 100px;
+	float: left;
+	text-align: center;
+	vertical-align: bottom;
+}
+.appCenterPage .logoContainer p {
+	padding-top: 75px;
+}
+.appCenterPage .navContainer {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	overflow: auto;
+}
+.appCenterPage .navContainer .navHeader {
+	float: left;
+	color: #999;
+	margin: 0px;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-bottom: 3px solid rgba(192, 4, 3, 0);
+	width: 80px;
+	text-align: center;
+}
+.appCenterPage .navContainer .navHeader:hover, .appCenterPage .navContainer .navHeader.selected {
+	border-color: rgb(192, 4, 3);
+	color: #000;
+}
+.appCenterPage .vdContainer {
+	margin: 15px auto;
+	width: 640px;
+}
+.appCenterPage .appContainer {
+	margin: 15px auto;
+}
+.appCenterPage .appContainer .appTile {
+	width: 100%;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 5px 0px;
+	overflow: auto;
+}
+.appCenterPage .appContainer .appTile .appIco {
+	float: left;
+	padding: 3px;
+	border: 1px solid rgba(166, 166, 166, 0.2);
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	margin-right: 5px;
+	background: url(/Library/Media/images/logos/RB_favicon.svg) no-repeat center;
+	background-size:60px 60px;
+}
+.appCenterPage .appContainer .appTile .appControls {
+	float: right;
+	height: 88px;
+	padding: 27px 0px;
+	box-sizing: border-box;
+}
+
+.appCenterPage .appContainer .appTile .appControls .appCtrl {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin: 5px;
+	background: url(/Library/Media/images/pages/developer/AppTileIcons.svg) no-repeat center;
+}
+.appCenterPage .appContainer .appTile .appControls .appCtrl.vcs {
+	background-position: -24px 0px;
+}
+.appCenterPage .appContainer .appTile .appControls .appCtrl.play {
+	background-position: 0px 0px;
+}

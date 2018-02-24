@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="150"><sql/><views><view id="vaf23b8ceaebc33325ca74f7abfcf426a" name="languageDataList"/><view id="v7ad2051161147e8641b7487d7a26a9e8" name="editLanguage"/><view id="v9ceb5fe17118c1e7c805f3854fcb06ff" name="setBasicLanguage"/><view id="v1da365cbf55502c8a117301b282f0225" name="nonBasicLanguages"></view></views></module>

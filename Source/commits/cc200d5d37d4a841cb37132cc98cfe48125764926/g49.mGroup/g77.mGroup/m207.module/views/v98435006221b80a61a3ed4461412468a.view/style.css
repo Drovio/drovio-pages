@@ -1,0 +1,10 @@
+.projectSecurityPage {
+	height: 100%;
+}
+.projectSecuritySettings h2.noSettings {
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-align: center;
+	margin-top: 50px;
+}

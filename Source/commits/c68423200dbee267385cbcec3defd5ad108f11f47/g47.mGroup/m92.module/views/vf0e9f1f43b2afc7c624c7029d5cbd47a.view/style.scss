@@ -1,0 +1,122 @@
+.appListContainer .appList {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column; 
+	-webkit-flex-direction: row;
+	justify-content: center;
+	-webkit-justify-content: center;
+	min-height: 600px;
+}
+
+.appListContainer .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.appListContainer {
+	.middleContainer {
+		min-width: 700px;
+		max-width: 1200px;
+		padding: 0px 50px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+	.row {
+		display: flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		align-items: center;
+		-webkit-align-items: center;
+		justify-content: center;
+		-webkit-justify-content: center;
+	}
+	.row:last-child {
+		margin-bottom: 0;
+	}
+	
+	.appTile {
+		width: 270px;
+		margin: 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background: #FFF;
+		border: 1px solid #CCC;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		padding: 10px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	
+	.appTile {
+		&:hover {
+			border-color: #555;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.bmain {
+			display: block;
+			overflow: auto;
+			margin-bottom: 10px;
+		}
+		.bmain {
+			.appIcon {
+				float: left;
+				width: 80px;
+				height: 80px;
+				margin-right: 10px;
+			}
+			
+			.appIcon img {
+				width: inherit;
+				height: inherit;
+			}
+			.appInfo .appTitle {
+				display: block;
+				height: 20px;
+				font-weight: normal;
+				font-size: 14px;
+				cursor: pointer;
+			 	overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				margin-top: 10px;
+				color: #5E6570;
+			}
+		}
+		.appControls a.playBtn {
+			display: block;
+			width: 80%;
+			margin: 0px 10%;
+			border: 1px solid #3CB0F7;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			padding: 5px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			color: #3CB0F7;
+			text-align: center;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.appControls a.playBtn:hover {
+			background: #3CB0F7;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			color: #FFF;
+		}
+	}
+}

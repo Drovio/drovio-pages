@@ -1,0 +1,35 @@
+.issuesView {
+}
+
+.mContent {
+	width:1000px;
+	margin:auto;
+}
+
+.cLeft {
+	float: left; 
+}
+
+.nav {
+	font-size: 125%;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+	
+.nav li {
+	background: none repeat scroll 0 0 #777;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+
+.nav .youarehere {
+	background: none repeat scroll 0 0 #f90;
+}
+
+.cRight {
+	float: right;
+}

@@ -1,0 +1,103 @@
+.statusHistory .hd {
+	border-bottom: 1px solid #999;
+	clear: both;
+	overflow: auto;
+	padding: 5px 8px;
+}
+.statusHistory .hd .header {
+	float: left;
+	line-height: 24px;
+	margin: 0px;
+	font-size: 12px;
+}
+.statusHistory .hd .current {
+	float: right;
+	overflow: auto;
+}
+.statusHistory .hd .current .title {
+	float: left;
+	margin: 0px;
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 12px;
+	margin-right: 15px;
+}
+
+.statusHistory .ico {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg') no-repeat;
+	background-size: 16px;
+}
+.statusHistory .current .ico {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background-size: 24px;
+}
+
+
+.statusHistory .list {
+	padding: 5px 0px;
+}
+.statusHistory .list .hentry {
+	overflow: auto;
+	clear: both;
+	padding: 5px 8px;
+	border-bottom: 1px solid #DDD;
+}
+.statusHistory .list .hentry .ico {
+	float: left;
+}
+.statusHistory .list .hentry .title {
+	float: left;
+	margin-left: 10px;
+}
+.statusHistory .list .hentry .timestamp {
+	float: right;
+	color: #999;
+}
+
+
+
+.statusHistory .current.st1 .ico {
+	background-position: 0px -72px;
+}
+.statusHistory .current.st2 .ico {
+	background-position: 0px -48px;
+}
+.statusHistory .current.st3 .ico,
+.statusHistory .current.st4 .ico {
+	background-position: 0px 0px;
+}
+.statusHistory .current.st5 .ico {
+	background-position: 0px -24px;
+}
+
+.statusHistory .list.st1 .ico {
+	background-position: 0px -48px;
+}
+.statusHistory .list.st2 .ico {
+	background-position: 0px -32px;
+}
+.statusHistory .list.st3 .ico,
+.statusHistory .list.st4 .ico {
+	background-position: 0px 0px;
+}
+.statusHistory .list.st5 .ico {
+	background-position: 0px -16px;
+}
+.statusHistory .st1 .title {
+	color: #e8732a;
+}
+.statusHistory .st2 .title {
+	color: #0f4976;
+}
+.statusHistory .st3 .title,
+.statusHistory .st4 .title {
+	color: #3EAC47;
+}
+.statusHistory .st5 .title {
+	color: #76121b;
+}

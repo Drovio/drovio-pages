@@ -1,0 +1,102 @@
+.projectMembers {
+	padding: 5px;
+}
+.projectMembers .header {
+	font-weight: normal;
+	font-size: 14px;
+	color: #555;
+	padding: 5px;
+	border-bottom: 1px solid #999;
+}
+
+.projectMembers .pr {
+	overflow: auto;
+	padding: 5px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.projectMembers .pr:last-child {
+	border-bottom: none;
+}
+.projectMembers .pr .mn {
+	float: left;
+}
+.projectMembers .pr .edit {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.projectMembers .pr .mrl {
+	float: right;
+	display: inline-block;
+	color: #999;
+}
+.projectMembers .ivrow {
+	overflow: auto;
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+}
+.projectMembers .ivrow:last-child {
+	border-bottom: none;
+}
+.projectMembers .ivrow:hover {
+	background: #EFEFEF;
+}
+.projectMembers .ivrow .iv {
+	float: left;
+}
+.projectMembers .ivrow .iv.ivn {
+	width: 50%;
+	line-height: 18px;
+}
+.projectMembers .ivrow .iv.action {
+	width: 25%;
+	text-align: right;
+}
+.projectMembers .ivrow .act_button {
+	background: none;
+	border: none;
+	color: rgb(31, 93, 144);
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.projectMembers .add_new_member {
+	overflow: auto;
+	margin-top: 20px;
+}
+.projectMembers .add_new_member h4 {
+	margin: 0px;
+	float: left;
+	color: green;
+	font-weight: normal;
+}
+.projectMembers .add_new_member #btn_search {
+	float: left;
+	margin: 5px;
+}
+.projectMembers .add_new_member .searchFormContainer .tmsl {
+	float: left;
+	margin: 5px;
+	margin-top: 7px;
+}
+.projectMembers .add_new_member .searchFormContainer .tminp {
+	float: left;
+	width: 300px;
+	padding: 4px 6px;
+	margin: 5px;
+	border-color: #999;
+}
+.projectMembers .add_new_member .searchResultsContainer {
+	padding: 5px;
+	clear: both;
+}
+.projectMembers .add_new_member .searchResultsContainer .searchResults .hd {
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}

@@ -1,0 +1,90 @@
+.developerSupport {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.developerSupport > .header {
+	width: 100%;
+	height: 140px;
+	position: relative;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	background: url('%resources%/frontend/apps_banner_flare.jpg') no-repeat center;
+	background-size: cover;
+}
+.developerSupport .header > .middleContainer {
+	padding-top: 70px;
+}
+.developerSupport .header .middleContainer h1.wtitle {
+	font-size: 24px;
+	color: #C00403;
+	font-weight: normal;
+	text-align: right;
+}
+.developerSupport .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.developerSupport .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+
+
+
+
+.developerSupport .banner {
+	padding: 30px 0px;
+}
+.developerSupport .logoImg {
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin-right: 50px;
+	background: url('%resources%/developer/support/support_logo_300.png') no-repeat center;
+	background-size: 200px 200px;
+}
+
+.developerSupport .statusBar {
+	overflow: auto;
+}
+.developerSupport .statusBar .statusIco {
+	width: 19px;
+	height: 19px;
+	float: left;
+	margin: 12px 15px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg') no-repeat center;
+	background-size: cover;
+}
+.developerSupport .statusBar.healthy .statusIco {
+	background-position: 0px 0px
+}
+.developerSupport .statusBar.sick .statusIco {
+	background-position: 0px -19px;
+}
+.developerSupport .statusBar.healthy .statusDesc a {
+	color: green;
+	margin: 0px;
+}
+.developerSupport .statusBar.sick .statusDesc a {
+	color: #C00403;
+	margin: 0px;
+}
+.developerSupport .statusBar h3.statusDesc {
+	margin: 10px 0px;
+	line-height: 24px;
+}
+.developerSupport .statusBar .statusUpdated {
+	float: right;
+	color: #999;
+}

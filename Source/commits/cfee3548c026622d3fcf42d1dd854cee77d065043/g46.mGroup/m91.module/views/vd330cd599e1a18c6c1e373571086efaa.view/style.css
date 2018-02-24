@@ -1,0 +1,62 @@
+/*____________________ medicalpage ____________________*/
+#medicalpage {
+	display:block;
+	position:relative;
+}
+#medicalpage p {
+	margin:0;
+	padding:0;
+}
+#medicalpage .mainHead {
+	height: 450px;
+	margin-bottom: 0px;
+	background: url(/Library/Media/images/pages/medical/medicalBg.png) center;
+	overflow: auto;
+}
+#medicalpage .mainHeadContent {
+	margin: 0 auto;
+	width: 980px;
+	padding-top: 30px;
+}
+#medicalpage .mainBody {
+	border-top: 3px solid #999;
+	background: url(/Library/Media/images/pages/medical/medicalGradient.png) repeat-x;
+	overflow:auto;
+}
+#medicalpage .mainBodyContent {
+	margin: 0 auto;
+	width: 980px;
+	padding: 20px 10px 25px;
+}
+
+.pageHead .headTitle {
+	padding:15px 0px;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow:0 0 15px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.3);
+	font-size: 28px;
+	text-align:center;
+	font-style:italic;
+}
+.bodyTitle {
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow:0 0 15px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.3);
+	font-size: 23px;
+	text-align:center;
+	font-style:italic;
+}
+.bodySubTitle {
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow:0 0 15px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.3);
+	font-size: 20px;
+	text-align:center;
+	padding:40px 0px;
+}
+.gridBanner h4 {
+	font-size: 14px;
+	font-weight:bold;
+	color: #000;
+}
+.gridBanner p {
+	font-size:12px;
+	color: #353535;
+}

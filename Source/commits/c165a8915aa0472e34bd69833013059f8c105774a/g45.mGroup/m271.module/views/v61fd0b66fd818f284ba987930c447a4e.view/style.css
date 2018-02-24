@@ -1,0 +1,74 @@
+.bossMarket {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.bossMarket .header .beta {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 100px;
+	background: url('%resources%/global/beta.svg');
+	background-size: contain;
+}
+.bossMarket .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.bossMarket .appContainer {
+	min-height: 400px;
+	padding: 30px 0px;
+}
+.bossMarket .appContainer .appBox {
+	width: 25%;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 10px 0px;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+.bossMarket .appContainer .appBox .ico {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+.bossMarket .appContainer .appBox .ico:empty {
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat;
+	background-size: cover;
+}
+.bossMarket .appContainer .appBox .ico img {
+	width: inherit;
+	height: inherit;
+}
+.bossMarket .appContainer .appBox .abtitle {
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 10px;
+}
+.bossMarket .appContainer .appBox .abprice {
+	color: #999;
+	font-style: italic;
+}
+.bossMarket .appContainer .appBox .abtitle:hover {
+	color: #C00403;
+}
+.bossMarket .appContainer .appBox .abget {
+	border: 1px solid #999;
+	background-color: #EEE;
+	padding: 3px 10px;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	float: left;
+}

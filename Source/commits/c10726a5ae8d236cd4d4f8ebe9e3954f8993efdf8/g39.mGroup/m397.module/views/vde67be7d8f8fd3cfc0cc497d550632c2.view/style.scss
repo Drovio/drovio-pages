@@ -1,0 +1,103 @@
+.navbarContainer {
+	& {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		background: rgba(255, 255, 255, 0.7);
+	}
+	.middleContainer {
+		max-width: 950px;
+		margin: 30px auto;
+		overflow: auto;
+	}
+	.logo {
+		& {
+			display: block;
+			float: left;
+		}
+		.ico {
+			width: 40px;
+			height: 40px;
+			background: url('%{cdn}/media/logos/dlogo.svg') no-repeat center;
+			background-size: cover;
+			float: left;
+			margin-right: 15px;
+		}
+		.title {
+			line-height: 40px;
+			font-size: 13px;
+			text-transform: uppercase;
+			color: #5E6570;
+			float: left;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		&:hover .title {
+			color: #ff5252;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+	}
+	.navMenu {
+		float: right;
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+		overflow: auto;
+	}
+	.navMenu li {
+		margin: 0px;
+		padding: 0px 10px;
+		list-style-type: none;
+		float: left;
+		line-height: 40px;
+		font-size: 13px;
+		color: #5E6570;
+		cursor: pointer;
+	}
+	.navMenu li a {
+		color: #5E6570;
+		font-weight: 400;
+		display: block;
+		text-transform: uppercase;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		font-size: 1em;
+	}
+	.navMenu li:hover,
+	.navMenu li a:hover,
+	.navMenu li a.selected {
+		color: #ff5252;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu li.dark {
+		line-height: 38px;
+		border: 1px solid #5E6570;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu li.dark:hover {
+		background: #ff5252;
+		border-color: #ff5252;
+		color: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu li.dark:hover a {
+		color: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+}

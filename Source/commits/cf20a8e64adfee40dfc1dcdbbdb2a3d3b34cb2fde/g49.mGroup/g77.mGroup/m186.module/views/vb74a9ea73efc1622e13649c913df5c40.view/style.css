@@ -1,0 +1,78 @@
+.publisherWizardContainer {
+	width: 600px;
+}
+.publisherWizardContainer .legend {
+	border: 1px solid #CCC;
+	margin: 3px;
+	padding: 3px 10px;
+}
+.publisherWizardContainer .legend .st {
+	overflow: auto;
+}
+.publisherWizardContainer .legend h4 {
+	margin: 5px;
+}
+.publisherWizardContainer .legend .statusIco {
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border: 6px solid #CCC;
+	margin: 5px 10px;
+	display: inline-block;
+	float: left;
+}
+.publisherWizardContainer .legend .currentStatus {
+	color: green;
+}
+.publisherWizardContainer .legend .currentStatus .statusIco {
+	border-color: green;
+}
+.publisherWizardContainer .legend .nextStatus {
+	color: blue;
+}
+.publisherWizardContainer .legend .nextStatus .statusIco {
+	border-color: blue;
+}
+publisherWizardContainer  .statuses {
+	width: 600px;
+	overflow: auto;
+}
+.publisherWizardContainer  .statuses .step {
+	width: 25%;
+	float: left;
+	height: 120px;
+	color: #CCC;
+	text-align: center;
+}
+.publisherWizardContainer  .statuses .step .ico {
+	font-size: 26px;
+	border: 2px solid #CCC;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: block;
+	margin: 10px auto;
+	cursor: default;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.publisherWizardContainer  .statuses .step .title {
+	color: #999;
+}
+.publisherWizardContainer  .statuses .step.active, .publisherWizardContainer  .statuses .step.active .title span {
+	color: green;
+}
+.publisherWizardContainer  .statuses .step.active .ico {
+	border-color: green;
+}
+.publisherWizardContainer  .statuses .step.next, .publisherWizardContainer  .statuses .step.next .title span {
+	color: blue;
+}
+.publisherWizardContainer  .statuses .step.next .ico {
+	border-color: blue;
+}

@@ -1,0 +1,163 @@
+.accountInfo {
+	min-width: 200px;
+	padding: 10px;
+	overflow: auto;
+}
+.accountInfo .profileSide {
+	width: 140px;
+	float: left;
+}
+
+.accountInfo .profileSide .profileImage {
+	display: block;
+	width: 140px;
+	height: 140px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.accountInfo .profileSide .profileImage:empty {
+	background: url('%{media}/global/profile.svg') no-repeat center;
+	background-size: 140px;
+}
+
+.accountInfo .profileSide .profileImage:hover {
+	opacity: 1;
+}
+
+.accountInfo .profileSide .profileImage img {
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.accountInfo .profileSide .shortcuts {
+	width: 140px;
+	overflow: auto;
+	margin-top: 20px;
+	padding: 0px 10px;
+}
+
+.accountInfo .profileSide .shortcuts .scitem {
+	display: block;
+	width: 24px;
+	height: 24px;
+	margin: 0px 12px;
+	cursor: pointer;
+	float: left;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.accountInfo .profileSide .shortcuts .scitem:first-child {
+	margin-left: 0px;
+}
+
+.accountInfo .profileSide .shortcuts .scitem:last-child {
+	margin-right: 0px;
+}
+
+.accountInfo .profileSide .shortcuts a.scitem {
+	background: url('%{media}/profile/tlbIcons.svg') no-repeat center;
+	background-size: cover;
+}
+
+.accountInfo .profileSide .shortcuts a.scitem.profile {
+	background-position: 0px 0px;
+}
+
+.accountInfo .profileSide .shortcuts a.scitem.settings {
+	background-position: 0px -24px;
+}
+
+.accountInfo .profileSide .shortcuts .scitem.logout .logoutButton {
+	display: block;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	background: url('%{media}/profile/tlbIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -48px;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	outline: none;
+}
+
+.accountInfo .profileSide .shortcuts .scitem:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.accountInfo .profileMenu {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	padding-left: 20px;
+	min-width: 180px;
+}
+
+.accountInfo .profileMenu .title {
+	margin: 0px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999;
+	padding: 3px 0px;
+}
+
+.accountInfo .profileMenu .mitem {
+	padding: 3px 8px;
+	display: block;
+	cursor: pointer;
+	color: #555459;
+	font-size: 12px;
+}
+
+.accountInfo .profileMenu .mitem:hover {
+	background: #EFEFEF;
+}
+
+.accountInfo .profileMenu .mitem.selected {
+	background: #EFEFEF;
+	font-weight: bold;
+}
+
+.accountInfo .profileMenu .mitem.default {
+	border-left: 3px solid #999;
+	padding-left: 5px;
+}
+
+.accountInfo .profileMenu .mitem a {
+	display: block;
+	color: #555459;
+}
+
+.accountInfo .profileMenu .mseparator {
+	height: 1px;
+	background-color: #CCC;
+	margin: 5px 0px;
+}
+
+.accountInfo .profileMenu .teams .list {
+	max-height: 150px;
+	overflow: auto;
+}
+
+.accountInfo .accountInfo .logoutButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	width: 98%;
+	text-align: left;
+	font-size: 12px;
+	color: #555459;
+}

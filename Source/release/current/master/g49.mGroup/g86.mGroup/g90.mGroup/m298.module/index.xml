@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="298"><sql/><views><view id="v11d0ca108fc6f3eefa76280c75d044f6" name="webCoreSettings"/><view id="vade4787475a36680a07964bf3a100d6e" name="distroList"/><view id="v9fc4f31010c1926dc813987e0fb59ea6" name="distroPackages"/><view id="vdeca50853aef877c360cfdaf0cc80691" name="createNewDistro"/></views></module>

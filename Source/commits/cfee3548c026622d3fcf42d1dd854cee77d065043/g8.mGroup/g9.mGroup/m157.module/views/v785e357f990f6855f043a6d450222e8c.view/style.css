@@ -1,0 +1,34 @@
+table {
+	border-collapse: collapse;
+	text-align:center;
+}
+table, th, td {
+	border: 1px solid black;
+}
+tr.status_complete {
+	background-color: #0C6;
+}
+tr.status_beingRevised {
+	background-color: #FFC;
+}
+tr.status_none {
+	background-color: #FFF;
+}
+td.importance_critical {
+	background-color: #F00;
+}
+td.importance_medium {
+	background-color: #C90;
+}
+td.importance_low {
+	background-color: #CCC;
+}
+.row_template, .instructions {
+	display: none;
+}
+button, h4 {
+	display:inline-block;
+}
+tr.modified_recently {
+	outline: 4px solid orange;
+}

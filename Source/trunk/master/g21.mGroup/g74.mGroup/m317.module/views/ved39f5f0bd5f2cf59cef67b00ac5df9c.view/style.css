@@ -1,0 +1,49 @@
+.keyListContainer {
+	height: 100%;
+	position: relative;
+}
+
+.keyListContainer h2.hd {
+	color: #5E6570;
+	font-size: 1.2em;
+	margin: 10px 0px;
+}
+.keyListContainer #keysList {
+	height: 500px;
+}
+.keyListContainer #keysList .keyActionContainer .keyForm {
+	float: left;
+}
+
+.keyListContainer #keysList .keyActionContainer .act {
+	display: block;
+	border: none;
+	outline: none;
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+	float: left;
+	margin: 0px 5px;
+	background: url('%{media}/boss/editIcons.svg') no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.keyListContainer #keysList .keyActionContainer .act:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.keyListContainer #keysList .keyActionContainer .act.edit {
+	background-position: 0px 0px;
+}
+
+.keyListContainer #keysList .keyActionContainer .act.remove {
+	background-position: 0px -16px;
+}

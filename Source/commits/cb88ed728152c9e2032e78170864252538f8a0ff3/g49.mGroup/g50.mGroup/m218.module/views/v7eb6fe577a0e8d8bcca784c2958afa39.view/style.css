@@ -1,0 +1,203 @@
+.sdkManual {
+	height: 100%;
+}
+.documentationViewer {
+	position:relative;
+	height:100%;
+	overflow: auto;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.documentationViewer .section {
+	padding: 5px 0px;
+	clear: both;
+}
+.documentationViewer .boxInfo {
+	float: right;
+	padding: 5px;
+	border: 1px solid rgba(166, 166, 166, 0.8);
+	text-align: right;
+}
+.documentationViewer .basicInfoContainer {
+	padding: 0px 10px;
+}
+.documentationViewer .className {
+	font-size: 30px;
+	font-weight: normal;
+}
+.documentationViewer .classTitle {
+	font-size: 12px;
+	font-weight: bold;
+}
+.documentationViewer .section > .header {
+	font-weight: bold;
+	padding: 3px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	color: rgb(100, 100, 100);
+	font-size: 16px;
+}
+.documentationViewer .section > .body .subHeader {
+	color: #646464;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 6px;
+	padding: 3px;
+}
+
+.documentationViewer .classDeclContainer .classThrows {
+}
+
+.documentationViewer .section > .body{
+	margin-left: 5px;	
+}
+.documentationViewer .infoWrapper {
+	position:relative;	
+	height: 100px;
+}
+
+.documentationViewer .classDeclContainer .section {
+	margin-left:10px;
+	padding:0px;  
+}
+
+.documentationViewer .classDeclContainer .section p {
+	margin-top: 2px;
+}
+
+.documentationViewer .classDeclContainer .section span:not(:first-child){
+	padding-left:5px;
+}
+
+.documentationViewer .classDeclContainer .classThrows {
+	padding-left:10px;
+}
+
+.documentationViewer .classDeclaration {
+	
+}
+.documentationViewer .constantsContainer .body, .documentationViewer .propertiesContainer .body, .documentationViewer .methodsContainer .body {
+	margin-left: 5px;
+}
+
+.documentationViewer .classDeclaration h2.modifier {
+	float: left;
+	padding-right: 15px;
+	clear: left;
+}
+.documentationViewer .classTitle {
+	clear: both;
+}
+.documentationViewer .modifier {
+	display: inline-block;
+	font-weight: bold;
+	color: green;
+}
+.documentationViewer .descline {
+	padding: 0px 3px 0px 3px;
+}
+.documentationViewer .descline .token {
+	font-weight: bold;
+	color: blue;
+	display: inline-block;
+}
+.documentationViewer .property, .documentationViewer .method {
+	margin-bottom: 5px;
+}
+.documentationViewer .method .methodBody {
+	margin-left: 20px;
+}
+.documentationViewer .parameter .paramName.token {
+	font-style: italic;
+}
+.documentationViewer .classSynopsis .synopsisSection, .documentationViewer .classExtended .extendedSection {
+	padding: 5px 0px;
+}
+.documentationViewer .classSynopsis > .synopsisSection > .sectionBody, .documentationViewer .classExtended .extendedSection > .sectionBody {
+	text-indent: 5px;
+}
+.documentationViewer .sectionHeader {
+	font-weight: bold;
+	padding: 3px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	color: rgb(100, 100, 100);
+	font-size: 12px;
+}
+.documentationViewer .property .pDesc, .documentationViewer .constant .cDesc {
+	white-space: pre-wrap;
+}
+.documentationViewer .method  .mDesc {
+	font-family: inherit;
+	font-style: italic;
+	margin: 0px 0px 0px 35px;
+}
+
+.documentationViewer .method  .methReternDesc,  .documentationViewer .method  .methThrows {
+	padding-left:10px;
+}
+
+.documentationViewer .deprecationMessage {
+	border: 1px solid rgba(255, 100, 0, 1);
+	background-color: #FFE8D9;
+	clear: both;
+}
+.documentationViewer .deprecationMessage .deprSign {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 3px;
+}
+.documentationViewer .decline span {
+	padding: 0px 2px 0px 2px;
+}
+.documentationViewer .token {
+	font-weight: bold;
+	color: blue;
+	display: inline-block;
+}
+
+.documentationViewer .mh {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 5px;
+}
+.documentationViewer .method .mDepr {
+	color: red;
+}
+.documentationViewer .parameters .parameter {
+	clear: both;
+	overflow: auto;
+	padding: 5px 0px;
+}
+.documentationViewer .parameters .parameter .paramType {
+	float: left;
+	width: 15%;
+}
+.documentationViewer .parameters .parameter .paramName {
+	float: left;
+	width: 15%;
+}
+.documentationViewer .parameters .parameter .paramDesc {
+	float: left;
+	width: 70%;
+	white-space: pre-wrap;
+}
+.documentationViewer p.pre {
+	white-space: pre-wrap;
+}
+.documentationViewer .documentationError{
+	margin: 10px;
+	border: 1px solid rgba(255, 100, 0, 1);
+	background-color: #FFE8D9;
+	clear: both;
+	text-indent: 5px;
+}
+.documentationViewer .documentationError.errorSign {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 3px;
+}
+
+.documentationViewer .descline span {
+	padding: 0px 2px 0px 2px;
+}

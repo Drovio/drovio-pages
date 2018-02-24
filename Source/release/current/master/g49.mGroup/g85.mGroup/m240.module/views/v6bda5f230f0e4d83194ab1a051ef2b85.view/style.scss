@@ -1,0 +1,50 @@
+.devManagementArea .contentIcon {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-right: 3px;
+	vertical-align: -4px;
+	background: url('%{media}/developer/icons/fileThumbs.svg') no-repeat center;
+	background-size: cover;
+}
+.devManagementArea .contentIcon.libIco {
+	background-position: 0px 0px;
+}
+.devManagementArea .contentIcon.pkgIco {
+	background-position: 0px -32px;
+}
+.devManagementArea .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position: 0px -16px;
+}
+.devManagementArea .contentIcon.fldIco {
+	background-position: 0px -48px;
+}
+.devManagementArea .contentIcon.flIco {
+	background-position: 0px -64px;
+}
+.devManagementArea .contentIcon.infoIcon {
+	background: url('%{media}/global/info.svg') no-repeat center;
+	background-size: contain;
+}
+#moduleExplorerTree {
+	height: 100%;
+	overflow: auto;
+}
+.moduleExplorer .mNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background: url('%{media}/global/devIcons.svg') no-repeat center;
+	background-size: cover;
+}
+.moduleExplorer .mNavTool:hover {
+	opacity: 1.0;
+}
+.moduleExplorer .mNavTool.refresh {
+	background-position: 0px -48px;
+}
+.moduleExplorer .mNavTool.create_new {
+	background-position: 0px -64px;
+}

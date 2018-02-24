@@ -1,0 +1,34 @@
+.teamInfoEditor {
+	margin: 10px 0px;
+}
+
+.teamInfoEditor .hd {
+	color: #555;
+	font-weight: normal;
+}
+
+.teamInfoEditor .close_btn {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/global/closeX.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -24px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.teamInfoEditor .close_btn:hover {
+	opacity: 1;
+}
+
+.teamInfoEditor .tinp.fLeft {
+	float: left;
+}
+
+.teamInfoEditor .tnotes {
+	margin-left: 5px;
+	color: #999;
+	padding: 3px 0px;
+	display: inline-block;
+}

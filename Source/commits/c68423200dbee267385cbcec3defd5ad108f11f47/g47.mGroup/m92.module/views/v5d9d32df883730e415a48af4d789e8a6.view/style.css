@@ -1,0 +1,193 @@
+.navigationContent .sideNav,
+.navigationContent .searchContainer, 
+.navigationContent .back,
+.navigationContent .appInfo {
+	float: left;
+}
+.navigationContent .middleContainer {
+	overflow: auto;
+}
+
+.navigationContent .sideNav {
+	width: 250px;
+	overflow: auto;
+	padding: 13px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.navigationContent .sideNav .icon {
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+	background-size: 20px;
+	background-position: 0px 0px;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.navigationContent .sideNav .icon:hover {
+	opacity: 1;
+}
+
+.navigationContent .searchContainer {
+	overflow: auto;
+	padding: 8px;
+}
+.navigationContent .searchContainer .searchInnerContainer {
+	background: #FFF;
+	overflow: auto;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.navigationContent .searchContainer .searchIcoContainer {
+	float: right;
+	width: 20px;
+	height: 20px;
+	padding: 4px;
+	cursor: pointer;
+}
+
+.navigationContent .searchContainer .searchIco {
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -20px;
+	overflow: hidden;
+}
+
+.navigationContent .searchContainer .searchInput {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 6px;
+	border: none;
+	width: 400px;
+	outline: none;
+	color: #555;
+}
+
+.navigationContent .back {
+	cursor: pointer;
+	padding: 13px;
+	display: none;
+}
+
+.navigationContent .back.active {
+	display: block;
+}
+.navigationContent .back .ico {
+	float: left;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -40px;
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+.navigationContent .back .title {
+	font-size: 12px;
+	color: #1f5d90;
+	float: left;
+	line-height: 20px;
+}
+
+.navigationContent .back:hover .ico {
+	opacity: 1;
+}
+
+.navigationContent .appInfo {
+	cursor: pointer;
+	padding: 13px;
+	display: none;
+}
+
+.navigationContent .appInfo.active {
+	display: block;
+}
+.navigationContent .appInfo .ico {
+	float: left;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -60px;
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+.navigationContent .appInfo .title {
+	font-size: 12px;
+	color: #1f5d90;
+	float: left;
+	line-height: 20px;
+}
+
+.navigationContent .appInfo:hover .ico {
+	opacity: 1;
+}
+
+.navigationContent .navigation {
+	float: right;
+	margin: 0px 20px;
+}
+.navigationContent .navigation .navMenu {
+	margin: 0px;
+	padding: 3px 0px;
+	list-style-type: none;
+	overflow: auto;
+}
+.navigationContent .navigation .navMenu li {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #545454;
+	cursor: pointer;
+}
+
+.navigationContent .navigation .navMenu li a {
+	color: #545454;
+	display: block;
+}
+
+.navigationContent .navigation .navMenu li:hover {
+	color: #C00403;
+}
+
+.navigationContent .navigation .navMenu li a:hover {
+	color: #C00403;
+}
+
+.navigationContent .navigation .navMenu li a.selected {
+	color: #C00403;
+}
+
+.navigationContent .navigation .navMenu li.login {
+	line-height: 36px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #555;
+}
+
+.navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+	background: #555;
+}
+
+.sidebarContainer.openSidebar .navigationContent .sideNav .icon {
+	opacity: 1;
+}

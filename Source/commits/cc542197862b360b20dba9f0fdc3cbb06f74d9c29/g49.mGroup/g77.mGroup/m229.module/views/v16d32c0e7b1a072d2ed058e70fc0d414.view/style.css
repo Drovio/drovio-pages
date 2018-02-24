@@ -1,0 +1,137 @@
+.bugDetails {
+	margin: 5px 5px 5px 10px;
+}
+
+.bugDetails .clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+.bugDetails .window-main-col {
+	float: left;
+	margin: 0;
+	min-height: 20px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 8px 12px 12px;
+	width: 546px;
+}
+
+.bugDetails .window-sidebar {
+	float: right;
+	overflow: hidden;
+	padding: 4px 0 4px 12px;
+	width: 250px;
+	position: relative;
+}
+
+.bugDetails .window-module {
+	clear: both;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.bugDetails .window-module > .inner {
+	border: 1px solid lightblue;
+}
+
+.bugDetails .window-module .header {
+	border-bottom: 1px solid grey;
+	background-color: lightgrey;
+	padding: 0px 5px;
+}
+
+.bugDetails .window-module  .content{
+	padding: 4px;
+	text-align:justify;
+}
+
+.bugDetails .content > pre{
+	white-space: pre-wrap;
+	text-align:justify;
+}
+
+.bugDetails .row > div {
+	display: inline-block;
+}
+
+.bugDetails .row > .rowKey{
+	margin-right:2px;
+}
+
+.bugDetails .row > .rowKey:after{
+	content:":";
+}
+
+.bugDetails .row > .rowValue{
+	margin-left:2px;
+}
+
+.bugDetails .actionBtn:hover{
+	background: green;
+	color: #FFF;
+}
+.bugDetails .actionBtn{
+	padding: 5px 10px;
+	margin: 5px 0px;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	cursor: pointer;
+	color: green;
+}
+
+.bugDetails .section{
+	margin: 7px 0 4px;
+
+}
+
+.bugDetails .section.headerBar{
+	margin-bottom: 16px;
+}
+
+.bugDetails .sectionTitle{
+	font-size: 110%;
+	color: gray;
+	padding-left:10px;
+	border-bottom:1px double gray;
+	margin-bottom: 8px;
+}
+
+.bugDetails .section:first-child{
+	margin-top: 0px;
+}
+
+.bugDetails .section:last-child{
+	margin-bottom:0px;
+}
+
+.bugDetails .headerBar > .title {
+	font-weight: bold;
+	font-size: 130%; 
+}
+
+.bugDetails .headerBar > .suBtitle {
+	color: gray;
+	padding-left:10px;
+}
+
+.bugDetails .msg_noContent {
+	text-align:center;
+	font-style: italic;
+}
+
+.bugDetails .solveBugForm .closeFormBtn {
+	background: url("/Library/Media/c/UI/closeX.svg") no-repeat scroll 0 -16px / cover  rgba(0, 0, 0, 0);
+	cursor: pointer;
+	float: right;
+	height: 16px;
+	text-align: center;
+	width: 16px;
+}
+
+.bugDetails .inlineForm form.simpleForm .formBody > div.icBlock{
+	display: inline-block;
+}

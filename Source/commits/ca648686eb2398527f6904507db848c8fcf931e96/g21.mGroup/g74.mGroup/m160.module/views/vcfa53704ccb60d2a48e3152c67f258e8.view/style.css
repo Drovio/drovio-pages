@@ -1,0 +1,24 @@
+.profileImage .imageContainer {
+	width: 80px;
+	height: 80px;
+	margin: 15px 25px;
+	float: left;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.profileImage .imageContainer img {
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.profileImage .imageContainer:empty {
+	background: url('%{media}/global/profile.svg') no-repeat center;
+	background-size: cover;
+}
+.profileImage .formContainer {
+	float: left;
+	padding: 15px 0px;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="185"><sql><query id="q65b71036ee4c4732861b8cd5f77d4db0" name="get_team_projects"/><query id="q7e6f8612f4d8468ce9ff28c975f658cb" name="add_account_to_project"/><query id="q7a6e7acd62ab915fb7111086edc2e23d" name="get_my_projects"/></sql><views><view id="v19846374ce01647b6db634c159aaf3c4" name="DashboardPage"/><view id="v64b370fcb5f235d72d9f7c09fb77eff3" name="projectWizard"/></views></module>

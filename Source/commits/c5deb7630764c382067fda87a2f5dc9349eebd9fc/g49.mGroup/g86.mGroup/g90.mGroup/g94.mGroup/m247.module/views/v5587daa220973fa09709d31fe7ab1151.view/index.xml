@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v5587daa220973fa09709d31fe7ab1151"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="DEV" object="WebEngine"></dependency><dependency library="UI" object="Forms"></dependency><dependency library="UI" object="Modules"></dependency><dependency library="UI" object="Navigation"></dependency><dependency library="UI" object="Presentation"></dependency></dependencies><inner><module id="objectEditor">248</module></inner></view>

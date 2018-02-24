@@ -1,0 +1,23 @@
+.vcs .navIco {
+	background-image:url('%resources%/developer/icons/toolbarIcons.svg');
+	background-position:0px -266px;
+}
+.literals .navIco {
+	background-image:url('%resources%/developer/icons/toolbarIcons.svg');
+	background-position:0px -380px;
+}
+.projectDesignerPage {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+.projectDesignerPage #projectDesigner {
+	height: 100%;
+	width: 100%;
+}
+.projectDesignerPage #projectDesigner:empty {
+	background: #FFF url('%resources%/global/splash.png') no-repeat center;
+	background-size: 250px;
+}

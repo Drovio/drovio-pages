@@ -1,0 +1,123 @@
+.bossPage {
+	width: 100%;
+	height: 100%;
+}
+.bossPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.bossPage .mainContainer .logoSide {
+	margin: 25px 0px;
+	margin-left: 10px;
+	height: 100px;
+	float: left;
+}
+.bossPage .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+.bossPage .mainContainer h2.subTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.bossPage section.main {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	color: #FFF;
+}
+.bossPage section.main .biz .middleContainer {
+	padding-top: 140px;
+}
+.bossPage section.main .biz {
+	height: 100%;
+	background: url('%resources%/frontend/biz_banner.jpg') no-repeat center;
+	background-size: cover;
+}
+.bossPage section.main .biz .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.bossPage section.main .biz .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.bossPage section.main .biz .sub.pilot {
+	margin-top: 100px;
+}
+.bossPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+.bossPage section.banner {
+	width: 100%;
+	position: relative;
+	font-family: "Raleway","Helvetica Neue",Helvetica,"Myriad Pro","Lucida Grande",sans-serif;
+	padding: 75px 0px;
+}
+.bossPage section.banner .title {
+	font-weight: 100;
+}
+.bossPage section.banner h1.title {
+	font-size: 32px;
+	text-align: center;
+}
+.bossPage section.apps {
+	background: linear-gradient(rgb(198, 193, 189), rgb(178, 148, 110));
+}
+.bossPage section.retail {
+	background: linear-gradient(rgb(178, 148, 110), rgb(138, 153, 114));
+}
+.bossPage section.eshop {
+	background: linear-gradient(rgb(138, 153, 114), #EFEFEF);
+}
+.bossPage section.banner .imageContainer {
+	width: 300px;
+	height: 200px;
+	margin: 0px 30px;
+}
+.bossPage section.banner .ban_desc {
+	overflow: auto;
+	padding: 10px 0px;
+}
+.bossPage section.banner .desc {
+	font-weight: 100;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 30px 0px;
+}
+.bossPage section.banner.apps .imageContainer {
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: contain;
+}
+.bossPage section.banner.retail .imageContainer {
+	background: url('%resources%/boss/retail.svg') no-repeat center;
+	background-size: contain;
+}
+.bossPage section.banner.eshop .imageContainer {
+	background: url('%resources%/boss/eshop.svg') no-repeat center;
+	background-size: contain;
+}
+.bossPage section.banner.lft .imageContainer {
+	float: left;
+}
+.bossPage section.banner.rgt .imageContainer {
+	float: right;
+}

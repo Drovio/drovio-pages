@@ -1,0 +1,56 @@
+.appVCSViewer .headBar {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	padding: 5px 20px;
+	padding-left: 75px;
+	box-sizing: border-box;
+	color: #999;
+	background: rgba(166, 166, 166, 0.15) url(/Library/Media/images/logos/RB_favicon.svg) no-repeat;
+	background-size: 40px 40px;
+	background-position: 20px 8px;
+}
+.appVCSViewer .headBar h2 .beta {
+	color: rgb(192, 4, 3);
+	font-size: 11px;
+	font-weight: normal;
+	margin-left: 10px;
+}
+.appVCSViewer .devProfile {
+	float: right;
+}
+.appVCSViewer .devProfile h4 {
+	line-height: 21px;
+}
+
+.appVCSViewer .globalContainer {
+	width: 1000px;
+	margin: 0 auto;
+}
+.appVCSViewer .globalContainer h3 {
+	color: rgb(192, 4, 3);
+}
+.appVCSViewer .globalContainer .navBar {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	border-radius: 5px;
+	box-sizing: border-box;
+	overflow: auto;
+}
+.appVCSViewer .globalContainer .navBar .navTitle {
+	width: 25%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+	color: #999;
+	border-bottom: 3px solid rgba(192, 4, 3, 0);
+}
+.appVCSViewer .globalContainer .navBar .navTitle.selected, .appVCSViewer .globalContainer .navBar .navTitle:hover {
+	color: rgb(192, 4, 3);
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 3px solid rgba(192, 4, 3, 1);
+}
+
+.appVCSViewer .vcsSectionContent {
+	padding: 5px;
+}

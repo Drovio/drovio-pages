@@ -1,0 +1,14 @@
+.accountsConfiguration,
+.accConfig {
+	overflow: auto;
+	height: 100%;
+}
+.accConfig .accListContainer {
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+.accConfig .accEditor {
+	float: left;
+	height: 100%;
+}

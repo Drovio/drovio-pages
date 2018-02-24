@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="100"><sql><query id="q3a06301dbf224271c80fbc89eeb0563f" name="get_account_projects"></query></sql><views><view id="ve3232227761ccecd5e2e7cb779472c50" name="DeveloperHomePage"/><view id="v57653ba61f57764493c16e5394780031" name="TLB_developer"/><view id="v653a0c9c70aec97d4b160353327c1ee2" name="TLB_dashboard"/><view id="v26034fa8ed6c015c42b8c3299db978b9" name="navigationBar"/><view id="v98b57f27b19bfafa586fc88fdd08dd2a" name="footerMenu"/></views></module>

@@ -1,0 +1,97 @@
+/*____________________ ebuilder.logedInUserPage ____________________*/
+.disclaimer {
+	margin: 10px 0px;
+}
+.mainContentPagePool{
+	height:100%;
+}
+.contentPage{
+	margin: 5px 10px 5px 10px;
+}
+.contentPage > .header{
+	margin-top: 15px;
+}
+
+.tileWrapper .leftSideWrapper > .content > .imageWrapper{
+	display: inline;
+	overflow: hidden;
+	width: 50px;
+	height: 50px;
+}
+.contentWrapper{
+	overflow:hidden;
+	width:auto;
+}
+.tilePool{
+	height:100%;
+}
+
+.tileWrapper {
+	height:100%;
+	margin: 5px 0;
+	max-height: 500px;
+    	min-height: 100px;
+}
+.tileWrapper .tileContent{
+}
+.tileWrapper .leftSideWrapper{
+	float:left;
+	width:300px;
+}
+.tileWrapper .leftSideWrapper.aCenter{
+}
+.tileWrapper .leftSideWrapper > .content{
+}
+.tileWrapper .leftSideWrapper > .content.aCenter{
+}
+.tileWrapper .leftSideWrapper .title{
+	overflow:hidden;
+	width:auto;
+	font-size: 13px;
+}
+.tileWrapper .rightSideWrapper{
+	float:left;
+	width:640px;;
+}
+.tileWrapper .rightSideWrapper .content{
+	padding-left:5px;
+	font-style:italic;
+	text-align: justify;
+}
+.tileWrapper .tileControlBar{
+	height: 30px;
+}
+.tileWrapper .tileControlBar > .content{
+}
+.tileWrapper .tileControlBar .link{
+	text-align: right;
+    	font-size: 12px;
+}
+.tileWrapper .tileControlBar .link:hover{
+	color:#F00;
+}
+
+.ebulderTitleSet_2.borderArtistic1{
+	padding-left:2px;
+	border-bottom:#666 thin solid;
+	border-left:#666 thin solid;
+}
+h1.ebulderTitleSet_2{
+	font-size: 22px;
+}
+h2.ebulderTitleSet_2{
+	font-size: 18px;
+	margin:0px;
+	color: rgb(96, 0, 13);
+}
+h3.ebulderTitleSet_2{
+	font-size: 15px;
+}
+h4.ebulderTitleSet_2{
+	font-size: 12px;	
+	color: #353535;
+}
+h4.underBorder {
+	padding-right : 5px;
+	border-bottom:#000 1px solid;
+}

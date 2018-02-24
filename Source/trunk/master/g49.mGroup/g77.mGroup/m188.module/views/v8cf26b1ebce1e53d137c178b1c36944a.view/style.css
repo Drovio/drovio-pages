@@ -1,0 +1,28 @@
+.vcsBuildsContainer {
+	height: 100%;
+	overflow: auto;
+}
+.vcsBuildsContainer .buildRow {
+	line-height: 18px;
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	color: #555;
+}
+.vcsBuildsContainer .buildRow:last-child {
+	border-bottom: none;
+}
+.vcsBuildsContainer .buildRow .releaseTitle {
+	margin: 0px;
+	font-weight: normal;
+	color: #656565;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.vcsBuildsContainer .buildRow .releaseTitle {
+	font-weight: bold;
+}
+.vcsBuildsContainer .buildRow .releaseDate {
+	float: right;
+	color: #999;
+}

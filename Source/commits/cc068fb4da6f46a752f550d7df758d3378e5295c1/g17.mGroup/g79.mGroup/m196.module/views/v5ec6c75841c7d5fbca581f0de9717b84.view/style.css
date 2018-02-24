@@ -1,0 +1,164 @@
+.websiteDesingerPage {
+	position:absolute;
+	top: 38px;
+	bottom: 0px;
+	right:0px;
+	left:0px;
+}
+
+.websiteDesingerPage .prjHmHeader {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: visible;
+	background: #EFEFEF;
+	border-bottom: 1px solid #DDD;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.websiteDesingerPage .prjHmHeader .projectImage {
+	float: left;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #EEE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 9px 0px;
+	margin-right: 20px;
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.websiteDesingerPage .prjHmHeader .projectInfo {
+	float: left;
+}
+.websiteDesingerPage .prjHmHeader .projectTitle {
+	color: #C00403;
+	margin: 0px;
+	line-height: 50px;
+	font-size: 16px;
+}
+.websiteDesingerPage .prjHmHeader .projectName {
+	font-size: 14px;
+	margin-left: 10px;
+	color: #000;
+}
+.websiteDesingerPage .prjHmHeader .projectStatusContainer {
+	float: right;
+	margin: 5px 0px;
+	padding: 10px 5px;
+	color: #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+	cursor: pointer;
+}
+.websiteDesingerPage .prjHmBody {
+	position: absolute;
+	top: 62px;
+	left: 0px;
+	width: 100%;
+	bottom: 0px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.websiteDesingerPage .prjHmBody .sidebar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 200px;
+	height: 100%;
+	border-right: 1px solid #DDD;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+} 
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem {
+	border-right: 3px solid transparent;
+	border-bottom: 1px solid #DDD;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem:hover {
+	border-right: 3px solid #BBB;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.selected {
+	border-right: 3px solid #C00403;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem,
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem a {
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: block;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem .ico {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 5px 10px;
+	background: url('%resources%/developer/projects/sectionSprite.svg') no-repeat;
+	background-position: 0px -150px;
+	background-size: cover;
+	opacity: 0.7;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem:hover .ico,
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.selected .ico {
+	opacity: 1;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.overview .ico {
+	background-position: 0px 0px;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.pages .ico {
+	background-position: 0px 0px;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.source .ico {
+	background-position: 0px 0px;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.templates .ico {
+	background-position: 0px 0px;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.themes .ico {
+	background-position: 0px 0px;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.settings .ico {
+	background-position: 0px 0px;
+}
+
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem .title {
+	margin: 0px;
+	padding: 5px;
+	line-height: 24px;
+	font-weight: normal;
+	font-size: 12px;
+	color: #777;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem:hover .title,
+.websiteDesingerPage .prjHmBody .sidebar .prjMenu .menuItem.selected .title {
+	color: #000;
+}
+.websiteDesingerPage .prjHmBody .prjContent {
+	position: absolute;
+	top: 0px;
+	left: 200px;
+	right: 0px;
+	height: 100%;
+	overflow: auto;
+}

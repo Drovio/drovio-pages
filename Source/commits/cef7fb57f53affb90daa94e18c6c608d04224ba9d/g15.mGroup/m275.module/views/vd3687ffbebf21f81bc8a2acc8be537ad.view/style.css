@@ -1,0 +1,66 @@
+.rvList .rvrow {
+	border-bottom: 1px solid #CCC;
+}
+.rvList .rvrow .rvhd {
+	overflow: auto;
+	padding: 3px 5px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.rvList .rvrow.open .rvhd {
+	border-bottom: 1px solid #DDD;
+}
+.rvList .rvrow .rvhd .ptico {
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.rvList .rvrow .rvhd .ptype {
+	float: left;
+	margin: 0px 5px;
+	color: #999;
+}
+.rvList .rvrow .rvhd .rTitle {
+	float: left;
+	font-size: 12px;
+}
+.rvList .rvrow .rStatus {
+	float: right;
+	line-height: 16px;
+	overflow: auto;
+	margin-right: 5px;
+}
+.rvList .rvrow .rStatus .ico {
+	float: right;
+	margin-left: 5px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg') no-repeat center;
+	background-size: cover;
+}
+.rvList .rvrow .rStatus .status {
+	float: right;
+}
+.rvList .rvrow .rStatus {
+	color: #0f4976;
+}
+.rvList .rvrow .rStatus .ico {
+	background-position: 0px -32px;
+}
+.rvList .rvrow .rvhd .rvat_live {
+	float: right;
+	padding: 0px 10px;
+	color: #999;
+}
+.rvList .rvrow .rvbd {
+	overflow: auto;
+	padding: 5px;
+	display: none;
+}
+.rvList .rvrow.open .rvbd {
+	display: block;
+}

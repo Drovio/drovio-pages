@@ -1,0 +1,66 @@
+.openRepository {
+	overflow: auto;
+	width: 100%;
+	position: relative;
+	min-height: 375px;
+}
+.openRepository .sidebar {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+	width: 115px;
+	height: 375px;
+}
+.openRepository .sidebar .navitem {
+	width: 75px;
+	height: 75px;
+	background: url('%{media}/open/repository_icons.svg');
+	background-size: 146px 292px;
+	cursor: pointer;
+	border: 1px solid #89A16B;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	margin: 15px 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.openRepository .sidebar .navitem.overview {
+	background-position: 0px 0px;
+}
+.openRepository .sidebar .navitem.commits {
+	background-position: 0px -73px;
+}
+.openRepository .sidebar .navitem.branches {
+	background-position: 0px -219px;
+}
+.openRepository .sidebar .navitem.authors {
+	background-position: 0px -146px;
+}
+.openRepository .sidebar .navitem:hover {
+	background-position-x: -73px;
+	background-color: rgba(137, 161, 107, 0.7);
+}
+.openRepository .sidebar .navitem.selected {
+	background-color: #89A16B;
+	background-position-x: -73px;
+}
+.openRepository .repoOuterContainer {
+	width: 100%;
+	min-height: 375px;
+	padding-left: 115px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.openRepository .repoContainer {
+	height: 100%;
+	min-height: 375px;
+	border-left: 1px solid #CCC;
+}
+.openRepository .repoContainer .panel {
+	overflow: auto;
+}

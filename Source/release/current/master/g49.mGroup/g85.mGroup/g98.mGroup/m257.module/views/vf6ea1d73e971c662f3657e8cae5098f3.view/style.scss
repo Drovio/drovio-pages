@@ -1,0 +1,96 @@
+.modulesPrivileges {
+	& {
+		overflow: auto;
+	}
+	.middleContainer {
+		margin: 10px 20px;
+		overflow: auto;
+	}
+	.header {
+		font-size: 16px;
+		color: #5E6570;
+		margin: 10px;
+		line-height: 30px;
+	}
+	.whiteBox {
+		clear: both;
+		overflow: auto;
+		background: #FFF;
+		border: 1px solid #CCC;
+		position: absolute;
+		top: 60px;
+		bottom: 20px;
+		left: 20px;
+		right: 20px;
+	}
+	.projectMembers {
+		& {
+			float: left;
+			height: 100%;
+			width: 25%;
+			overflow: auto;
+			border-right: 1px solid #CCC;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.memberList {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		.memberList li {
+			cursor: pointer;
+			display: block;
+			height: 24px;
+			line-height: 24px;
+			padding: 5px 8px;
+			color: #5E6570;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.memberList li:hover,
+		.memberList li.selected {
+			background: #5E6570;
+			color: #FFF;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.memberList li .ico {
+			float: left;
+			width: 24px;
+			height: 24px;
+			margin-right: 5px;
+		}
+		.memberList li .ico:empty {
+			background: url('%{media}/global/team_profile.svg') no-repeat center;
+			background-size: cover;
+		}
+		.memberList li .ico img {
+			width: inherit;
+			height: inherit;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+		}
+		.memberList li .title {
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+			line-height: 24px;
+		}
+	}
+	.privilegesInfoHolder {
+		float: right;
+		height: 100%;
+		overflow: auto;
+		width: 75%;
+	}
+	.hd {
+		color: #5E6570;
+		padding: 8px 10px;
+		border-bottom: 1px solid #CCC;
+	}
+}

@@ -1,0 +1,9 @@
+.projectSecurityPage {
+	height: 100%;
+}
+.projectSecurityPage .uc h1.title {
+	color: #C00403;
+}
+.projectSecurityPage .uc h3.uc {
+	color: orange;
+}

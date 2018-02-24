@@ -1,0 +1,327 @@
+.sdkManual {
+	height: 100%;
+}
+.documentationViewer {
+	position: relative;
+	height: 100%;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.documentationViewer .basicInfoContainer {
+	overflow: auto;
+	background: rgb(239, 242, 242);
+	border-bottom: 1px solid #999;
+	padding-top: 20px;
+}
+.documentationViewer .signature {
+	overflow: auto;
+	padding: 10px;
+}
+.documentationViewer .signature .logo {
+	width: 100px;
+	height: 100px;
+	padding: 25px;
+	margin-right: 50px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: url('%{media}/developer/docs/sdkObject.svg') no-repeat center;
+	background-size: 100px;
+	float: left;
+}
+.documentationViewer .signature .classInfo {
+	float: left;
+	overflow: auto;
+}
+.documentationViewer .signature .className {
+	font-size: 30px;
+	font-weight: normal;
+	color: #555;
+}
+.documentationViewer .signature .inheritance {
+	clear: left;
+}
+.documentationViewer .classDesc {
+	margin: 40px 20px;
+	color: #555;
+}
+.documentationViewer .classTitle {
+	font-size: 14px;
+	font-weight: bold;
+}
+.documentationViewer .classDescription {
+	white-space: pre-wrap;
+	font-size: 12px;
+	line-height: 22px;
+}
+.documentationViewer .bodyDetailsContainer {
+	clear: both;
+	overflow: auto;
+}
+.documentationViewer .docNavigation {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+.documentationViewer .docNavigation .navitem {
+	float: left;
+	padding: 10px 15px;
+	font-size: 12px;
+	min-width: 100px;
+	cursor: pointer;
+	color: #777;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+.documentationViewer .docNavigation .navitem:hover {
+	border: 1px solid #CCC;
+	background: rgba(255, 255, 255, 0.3);
+	border-bottom: none;
+	color: #555;
+}
+.documentationViewer .docNavigation .navitem.selected {
+	border: 1px solid #CCC;
+	background: #FFF;
+	border-bottom: none;
+	color: #555;
+}
+.documentationViewer .bodyDetailsContainer {
+	overflow: auto;
+	min-height: 300px;
+	padding: 30px 0px;
+}
+.documentationViewer .bodyDetailsContainer .section {
+	overflow: auto;
+}
+.documentationViewer .section > .header {
+	font-weight: bold;
+	padding: 3px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	color: rgb(100, 100, 100);
+	font-size: 16px;
+}
+.documentationViewer .section > .body .subHeader {
+	color: #646464;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 3px;
+}
+
+.documentationViewer .classDeclContainer .classThrows {
+}
+
+.documentationViewer .section > .body {
+	margin-left: 5px;	
+}
+.documentationViewer .infoWrapper {
+	position:relative;	
+	height: 100px;
+}
+
+.documentationViewer .classDeclContainer .section span:not(:first-child){
+	padding-left:5px;
+}
+
+.documentationViewer .classDeclContainer .classThrows {
+	padding-left:10px;
+}
+
+.documentationViewer .classDeclaration {
+	
+}
+.documentationViewer .constantsContainer .body, .documentationViewer .propertiesContainer .body, .documentationViewer .methodsContainer .body {
+	margin-left: 5px;
+}
+
+.documentationViewer .classDeclaration h2.modifier {
+	float: left;
+	padding-right: 15px;
+	clear: left;
+}
+.documentationViewer .modifier {
+	display: inline-block;
+	color: green;
+}
+.documentationViewer .descline {
+	padding: 0px 3px 0px 3px;
+}
+.documentationViewer .descline .token {
+	font-weight: bold;
+	color: #1f5c8f;
+	display: inline-block;
+}
+.documentationViewer .property, .documentationViewer .method {
+	margin-bottom: 5px;
+}
+.documentationViewer .method .methodBody {
+	margin-left: 20px;
+}
+.documentationViewer .parameter .paramName.token {
+	font-style: italic;
+}
+.documentationViewer .classSynopsis .synopsisSection, .documentationViewer .classExtended .extendedSection {
+	padding: 5px 0px;
+}
+.documentationViewer .classSynopsis > .synopsisSection > .sectionBody, .documentationViewer .classExtended .extendedSection > .sectionBody {
+	text-indent: 5px;
+}
+.documentationViewer .sectionHeader {
+	font-weight: bold;
+	padding: 3px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	color: rgb(100, 100, 100);
+	font-size: 12px;
+}
+.documentationViewer .property .pDesc, .documentationViewer .constant .cDesc {
+	white-space: pre-wrap;
+}
+.documentationViewer .method  .mDesc {
+	font-family: inherit;
+	font-style: italic;
+	margin: 0px 0px 0px 35px;
+}
+
+.documentationViewer .method  .methReternDesc,  .documentationViewer .method  .methThrows {
+	padding-left:10px;
+}
+
+.documentationViewer .deprecationMessage {
+	border: 1px solid rgba(255, 100, 0, 1);
+	background-color: #FFE8D9;
+	clear: both;
+}
+.documentationViewer .deprecationMessage .deprSign {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 3px;
+}
+.documentationViewer .decline span {
+	padding: 0px 2px 0px 2px;
+}
+.documentationViewer .token {
+	font-weight: bold;
+	color: #1f5c8f;
+	display: inline-block;
+}
+.documentationViewer .mh {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 5px;modi
+}
+.documentationViewer .mDepr.modifier {
+	float: right;
+	color: orange;
+	font-style: italic;
+}
+.documentationViewer .parameters .parameter {
+	clear: both;
+	overflow: auto;
+	padding: 5px 0px;
+}
+.documentationViewer .parameters .parameter .paramType {
+	float: left;
+	width: 15%;
+}
+.documentationViewer .parameters .parameter .paramName {
+	float: left;
+	width: 15%;
+}
+.documentationViewer .parameters .parameter .paramDesc {
+	float: left;
+	width: 70%;
+	white-space: pre-wrap;
+}
+.documentationViewer p.pre {
+	white-space: pre-wrap;
+}
+.documentationViewer .documentationError {
+	margin: 10px;
+	border: 1px solid rgba(255, 100, 0, 1);
+	background-color: #FFE8D9;
+	clear: both;
+	text-indent: 5px;
+}
+.documentationViewer .documentationError.errorSign {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 3px;
+}
+
+.documentationViewer .descline span {
+	padding: 0px 2px 0px 2px;
+}
+.documentationViewer .bodyDetailsContainer .hd {
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+}
+.documentationViewer #objModel {
+	padding: 0px 10px;
+}
+.documentationViewer #changelog .vInfo {
+	float: right;
+}
+.documentationViewer #changelog .br {
+	line-height: 20px;
+	color: #777;
+	overflow: auto;
+	margin: 5px 0px;
+}
+.documentationViewer #changelog .br span {
+	margin: 0px 3px;
+	float: right;
+}
+.documentationViewer #changelog .bxtl {
+	text-align: left;
+	width: 200px;
+	display: block;
+	float: right;
+}
+.documentationViewer .sHolder {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.documentationViewer .sHolder .ico {
+	float: left;
+	width: 48px;
+	height: 48px;
+	background: url('%{media}/developer/docs/sdkObject.svg') no-repeat center;
+	background-size: cover;
+	margin-right: 15px;
+}
+.documentationViewer .sHolder .sTitle {
+	display: block;
+	font-size: 12px;
+	color: #555;
+	margin: 6px 0px;
+	cursor: pointer;
+}
+.documentationViewer .sHolder .sTitle:hover {
+	color: #C00403;
+}
+.documentationViewer .sHolder .sfTitle {
+	font-size: 11px;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

@@ -1,0 +1,98 @@
+.appCenterSidebarContainer,
+.appCenterSidebar {
+	height: 100%;
+}
+.appCenterSidebar .sideMenuContainer {
+	padding: 15px 0px;
+}
+.appCenterSidebar {
+	.smenu {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+	}
+	.smenu {
+		.mitem {
+			display: block;
+			padding: 2px 0px;
+			margin: 0px;
+			line-height: 24px;
+			overflow: auto;
+			cursor: pointer;
+			color: #5E6570;
+		}
+		.mitem:hover {
+			background-color: #5E6570;
+		}
+		.mitem:hover .title {
+			color: #FFF;
+		}
+		.mitem.selected {
+			background-color: rgb(31, 93, 144);
+		}
+		.mitem.selected .title {
+			color: #FFF;
+		}
+		.mitem {
+			.ico {
+				height: 24px;
+				width: 24px;
+				float: left;
+				margin: 0px 5px;
+			}
+			.title {
+				font-size: 12px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				color: #555;
+			}
+		}
+	}
+	.sseparator {
+		height: 1px;
+		background: #e2e2e2;
+		margin: 8px 0px;
+	}
+	.loginContainer {
+		padding: 0px 25px;
+	}
+	.login {
+		font-size: 13px;
+		cursor: pointer;
+		text-align: center;
+		line-height: 36px;
+		border: 1px solid #555;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		color: #555;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.login:hover {
+		color: #FFF;
+		background: #555;
+	}
+	.adContainer {
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		height: 250px;
+		width: 300px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		overflow: hidden;
+	}
+	.adContainer.hidden {
+		display: none;
+		bottom: -300px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+}

@@ -1,0 +1,49 @@
+.myServices.middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+	clear: both;
+}
+.myServices .servicesContainer {
+	padding: 10px;
+	border-left: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	overflow: auto;
+}
+.myServicesPage .service_box {
+	float: left;
+	width: 300px;
+	padding: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.myServicesPage .service_box .header {
+	border-bottom: 1px solid #999;
+	font-size: 14px;
+	font-weight: normal;
+	color: #444;
+	text-align: center;
+}
+.myServicesPage .service_box .slist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	margin-top: 15px;
+}
+.myServicesPage .service_box .slist .srv_link {
+	margin: 0px;
+	padding: 3px 5px;
+	color: #777;
+	font-size: 12px;
+	line-height: 16px;
+}
+.myServicesPage .service_box .slist .srv_link a {
+	display: block;
+}
+.myServicesPage .service_box .slist .srv_link a:hover {
+	color: #C00403;
+}

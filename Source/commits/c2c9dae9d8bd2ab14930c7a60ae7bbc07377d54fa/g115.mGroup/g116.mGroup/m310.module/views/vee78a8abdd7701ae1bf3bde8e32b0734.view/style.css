@@ -1,0 +1,118 @@
+.openProjects {
+	width: 100%;
+	height: 100%;
+}
+.openProjects .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.openProjects .main {
+	height: 300px;
+	background: rgba(112, 142, 74, 0.8) url('%resources%/frontend/fpattern2.svg');
+	position: relative;
+}
+.openProjects .main > .middleContainer {
+	padding-top: 70px;
+}
+
+.openProjects .main > .middleContainer .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+}
+.openProjects .main > .middleContainer .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+	max-width: 800px;
+	margin: 40px auto;
+}
+.openProjects .list {
+	padding: 50px 0px;
+}
+.openProjects .list > .middleContainer .ctitle {
+	text-align: center;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #555;
+	margin-bottom: 50px;
+}
+.openProjects .list > .middleContainer .prjRow {
+	padding: 20px;
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	max-height: 100px;
+	overflow: hidden;
+}
+.openProjects .list > .middleContainer .prjRow:nth-child(even) {
+	border-right: 1px solid #DDD;
+}
+.openProjects .list > .middleContainer .prjRow .prjIcon {
+	height: 60px;
+	width: 60px;
+	margin-right: 25px;
+	overflow: hidden;
+	float: left;
+}
+.openProjects .list > .middleContainer .prjRow .prjIcon.noIcon {
+	background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.openProjects .list > .middleContainer .prjRow .prjIcon img {
+	height: inherit;
+	width: inherit;
+}
+.openProjects .list > .middleContainer .prjRow .prjTitle {
+	display: block;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #555;
+	cursor: pointer;
+}
+.openProjects .list > .middleContainer .prjRow .prjDesc {
+	font-size: 12px;
+	color: #777;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: pre;
+}
+.openProjects .list > .middleContainer .prjRow .prjTitle:hover {
+	color: rgba(112, 142, 74, 1);
+}
+.openProjects .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.openProjects .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.openProjects .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.openProjects .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.openProjects .navBar li a:hover {
+	color: #FFF;
+}

@@ -1,0 +1,10 @@
+.privilegesInfoContainer #btn_update {
+	float: right;
+	margin: 5px 10px;
+}
+
+.privilegesInfoContainer .devPrivilegesFormContents {
+	margin: 20px 10px;
+	height: 400px;
+	overflow: auto;
+}

@@ -1,0 +1,138 @@
+.classReference {
+	margin-left: 5px;	
+}
+
+.classReference .subHeader {
+	color: #646464;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 15px;
+	padding: 3px;
+}
+
+.classReference .sectionBody {
+	margin-left: 5px;
+}
+
+.classReference .modifier {
+	display: inline-block;
+	color: green;
+}
+
+.classReference .descline {
+	padding: 0px 3px 0px 3px;
+}
+
+.classReference .descline .token {
+	font-weight: bold;
+	color: #1f5c8f;
+	display: inline-block;
+}
+
+.classReference .property, .classReference .method {
+	margin-bottom: 5px;
+}
+
+.classReference .method .methodBody {
+	margin-left: 20px;
+}
+
+.classReference .property .pDesc, .classReference .constant .cDesc {
+	white-space: pre-wrap;
+}
+
+.classReference .method  .mDesc {
+	font-family: inherit;
+	font-style: italic;
+	margin: 0px 0px 0px 35px;
+}
+
+.classReference .method .methReternDesc, .classReference .method .methThrows {
+	padding-left:10px;
+}
+
+.classReference .deprecationMessage {
+	border: 1px solid rgba(255, 100, 0, 1);
+	background-color: #FFE8D9;
+	clear: both;
+}
+
+.classReference .deprecationMessage .deprSign {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 3px;
+}
+
+.classReference .decline span {
+	padding: 0px 2px 0px 2px;
+}
+
+.classReference .token {
+	font-weight: bold;
+	color: #1f5c8f;
+	display: inline-block;
+}
+
+.classReference .mh {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 5px;modi
+}
+
+.classReference .documentationViewer .mDepr.modifier {
+	float: right;
+	color: orange;
+	font-style: italic;
+}
+.classReference .parameters .parameter {
+	clear: both;
+	overflow: auto;
+	padding: 5px 0px;
+}
+
+.classReference .parameters .parameter .paramType {
+	float: left;
+	width: 15%;
+}
+
+.classReference .parameters .parameter .paramName {
+	float: left;
+	width: 15%;
+}
+
+.classReference .parameters .parameter .paramName.token {
+	font-style: italic;
+}
+
+.classReference .parameters .parameter .paramDesc {
+	float: left;
+	width: 70%;
+	white-space: pre-wrap;
+}
+
+.classReference p.pre {
+	white-space: pre-wrap;
+}
+
+.classReference .documentationError {
+	margin: 10px;
+	border: 1px solid rgba(255, 100, 0, 1);
+	background-color: #FFE8D9;
+	clear: both;
+	text-indent: 5px;
+}
+
+.classReference .documentationError.errorSign {
+	font-weight: bold;
+	margin: 0px;
+	margin-top: 3px;
+}
+
+.classReference .descline span {
+	padding: 0px 2px 0px 2px;
+}
+
+.classReference .bodyDetailsContainer .hd {
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+}

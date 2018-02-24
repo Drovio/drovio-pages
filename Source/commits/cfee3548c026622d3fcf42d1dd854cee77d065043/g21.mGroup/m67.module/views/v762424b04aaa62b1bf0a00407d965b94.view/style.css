@@ -1,0 +1,52 @@
+.registrationPage .globalContainer {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 30px;
+	overflow: auto;
+	clear: both;
+}
+.registrationPage .globalContainer .infoContainer {
+	overflow: auto;
+	float: left;
+	max-width: 50%;
+	margin-top: 100px;
+}
+.registrationPage .logoContainer {
+	background: url(/Library/Media/images/logos/RB_logo_big.svg) no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+}
+.registrationPage .globalContainer > .connectContainer {
+	padding: 5px;
+	float: right;
+	max-width: 400px;
+}
+.registrationPage .connectContainer h2.boxTitle {
+	color: rgba(166, 166, 166, 1);
+}
+.registrationPage .uiRegInput {
+	padding: 8px 10px;
+	font-size: 16px;
+	width: 378px;
+}
+.registrationPage .uiRegInput.small {
+	width: 173px;
+}
+.registrationPage .uiRegInput.small.f {
+	margin-right: 10px;
+}
+.registrationPage .reg.formRow {
+	padding: 5px 0px;
+	width: 400px;
+}
+.registrationPage .lgl a {
+	color: rgb(192, 4, 3);
+}
+.registrationPage #regSubmit {
+	padding: 8px 10px;
+	width: 150px;
+	margin: 10px auto;
+	font-size: 16px;
+}

@@ -1,0 +1,263 @@
+.dashboardPageContainer .toolbar {
+	padding: 10px;
+	width: 100%;
+	border-bottom: 10px solid rgba(31, 92, 143, 0.7);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	line-height: 29px;
+	overflow: auto;
+}
+
+.dashboardPageContainer .toolbar .teamInfo {
+	float: left;
+	margin: 0px;
+}
+.dashboardPageContainer .toolbar .newProject {
+	float: right;
+	margin: 0px;
+	font-weight: normal;
+	font-size: 12px;
+	color: green;
+	cursor: pointer;
+}
+
+.dashboardPageContainer h2.team {
+	margin: 0px;
+	font-weight: normal;
+}
+
+.dashboardPageContainer .projectContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: rgba(31, 92, 143, 0.7);
+}
+
+.dashboardPageContainer .projectContainer .sideBar {
+	float:left;
+	width:25%;
+	height:100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background: #FFF;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .selectionList {
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	padding-top: 10px;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent {
+	padding:5px;
+	cursor:pointer;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .count {
+	float: right;
+	padding: 0px 5px;
+}
+.dashboardPageContainer .listContent.selected {
+	background: rgba(31, 92, 143, 0.3);
+}
+.dashboardPageContainer .listContent:not(.selected):hover {
+	background: rgba(31, 92, 143, 0.1);
+}
+
+.dashboardPageContainer .projectContainer .sideBar .divider {
+    	margin: 5px;
+    	height: 1px;
+    	background: #ccc;
+}
+
+.dashboardPageContainer .contentMain {
+	float: right;
+	width: 75%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+	padding: 10px;
+}
+
+.dashboardPageContainer .contentMain .projectList {
+ 	overflow:auto;
+	margin:0;
+	padding:0;
+}
+
+.dashboardPageContainer .contentMain .projectList .noProjects {
+	text-align: center;
+	padding: 5px 8px;
+	font-size: 14px;
+	margin-top: 50px;
+}
+.dashboardPageContainer .contentMain .projectList .newProject {
+	text-align: center;
+	padding: 5px 8px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.dashboardPageContainer .contentMain .projectList .projectBox {
+	margin: 0px;
+	float: left;
+	width: 25%;
+	padding: 10px;
+	list-style-type:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.dashboardPageContainer .contentMain .projectList .projectBox .projectBoxContainer{
+	min-height: 100px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.5);
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxHeader {
+	line-height: 32px;
+	overflow: auto;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox {
+	float:left;
+	height: 64px;
+	width: 64px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox.noIcon {
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox img {
+	height: inherit;
+	width: inherit;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .projectTitle {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxHeader:hover .projectTitle {
+	color: #C00403;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .teamName {
+	margin: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: #595959;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.dashboardPageContainer .projectBox .projectBoxContainer .openProject {
+	float: right;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .openProject a {
+	color: green;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .projectDesc {
+	clear: both;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions {
+	overflow: auto;
+	clear: both;
+	padding: 5px;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba {
+	display: inline-block;
+	padding: 3px 5px;
+	width: 45%;
+	text-align: center;
+	line-height: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #999;
+	background: #EEE;
+	font-size: 10px;
+	color: #555;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba:hover {
+	border-color: #555;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba.info {
+	margin-right: 10%;
+	font-weight: bold;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba .ico {
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba.info .ico {
+	background: url('%resources%/global/info.svg') no-repeat center;
+	background-size: contain;
+	border-radius: 50%;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba a {
+	color: green;
+}
+.dashboardPageContainer .teamChooser {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 10%;
+	color: #FFF;
+}
+.dashboardPageContainer .teamChooser .htitle {
+	font-family: "Raleway","Helvetica Neue",Helvetica,"Myriad Pro","Lucida Grande",sans-serif;
+	font-weight: 100;
+}
+.dashboardPageContainer .teamChooser .teams .htitle {
+	text-align: center;
+}
+.dashboardPageContainer .teamChooser .teams h2.htitle {
+	font-size: 22px;
+}
+.dashboardPageContainer .teamChooser .teams h3.htitle {
+	font-size: 16px;
+}
+.dashboardPageContainer .teamChooser .teams {
+	padding: 10px;
+	border-bottom: 1px solid #FFF;
+}
+.dashboardPageContainer .teamChooser .teams .tn {
+	text-align: center;
+	font-weight: normal;
+	margin: 20px 0px;
+	cursor: pointer;
+}
+.dashboardPageContainer .teamChooser .teams .tn:hover {
+	color: #C00403;
+}
+.dashboardPageContainer .teamChooser .create_new {
+	text-align: right;
+}
+.dashboardPageContainer .teamChooser .create_new a {
+	color: #FFF;
+	display: inline-block;
+}
+.dashboardPageContainer .teamChooser .create_new .htitle {
+	font-size: 16px;
+}

@@ -1,0 +1,49 @@
+.wsPublisherDialog {
+	margin: 10px 5px;
+}
+
+/* Overide expander CSS */
+.wsPublisherDialog .expander{
+	border: none;
+	margin-top: 10px;
+}
+
+.wsPublisherDialog .expander .miniatureTitle {
+	height: 20px;
+}
+
+.wsPublisherDialog .expander .advanceOptions > .header {
+	background:lightgray;
+	padding: 2px 5px;
+}
+
+.wsPublisherDialog.startScreen .section.guides  {
+	margin: 10px;
+}
+
+.progressHolder div.step {
+	width:40px;
+	height: 20px;
+	display:inline-block;
+}
+ 
+.progressHolder div.step.done {
+	background-color: green;
+}
+
+
+.wsPublisherDialog .stepRow {
+	clear: both;
+}
+
+.wsPublisherDialog .stepRow .stepNum{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	float: left;
+}
+
+.wsPublisherDialog .stepRow .stepDesc{
+	display: inline-block;
+	float: left;
+}

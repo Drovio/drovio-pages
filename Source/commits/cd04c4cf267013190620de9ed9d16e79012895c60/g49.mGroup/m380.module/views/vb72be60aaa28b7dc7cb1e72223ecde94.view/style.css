@@ -1,0 +1,180 @@
+.pricingPlans {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	background: #F1F1F1;
+}
+
+.pricingPlans .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+.pricingPlans .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.pricingPlans .main {
+	overflow: auto;
+}
+
+.pricingPlans .main > .middleContainer {
+	padding-top: 65px;
+}
+
+.pricingPlans .phd {
+	color: #5E6570;
+	text-align: center;
+	margin: 15px 0px;
+}
+
+.pricingPlans h1.phd {
+	font-size: 26px;
+	line-height: 24px;
+}
+
+.pricingPlans h2.phd {
+	font-size: 13px;
+	line-height: 18px;
+}
+.pricingPlans .plans {
+	clear: both;
+	margin: 50px 0px;
+	overflow: auto;
+}
+
+.pricingPlans .plans .descriptions {
+	float: left;
+	width: 20%;
+}
+.pricingPlans .plans .pricing {
+	float: left;
+	width: 80%;
+	overflow: auto;
+}
+
+.pricingPlans .plans .pricing .plan {
+	float: left;
+	width: 25%;
+}
+
+.pricingPlans .plans .pricing .plbody {
+	border-right: 1px solid #DBDBDB;
+}
+
+.pricingPlans .plans .descriptions .plbody .plitem {
+	font-weight: bold;
+}
+
+.pricingPlans .plans .plan .plheader {
+	height: 50px;
+	vertical-align: baseline;
+}
+
+.pricingPlans .plans .plan .plheader .hd {
+	color: #FFF;
+	padding: 15px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 0px 15%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pricingPlans .plans .plan.free .plheader .hd {
+	background: #43B549;
+}
+
+.pricingPlans .plans .plan.basic .plheader .hd {
+	background: #3CB0F7;
+	font-weight: bold;
+}
+
+.pricingPlans .plans .plan.premium .plheader .hd {
+	background: #ed5e54;
+}
+
+.pricingPlans .plans .plan.enterprise .plheader .hd {
+	background: #886389;
+}
+
+.pricingPlans .plans .plan.descriptions .plbody {
+	border-right: 2px dashed #DBDBDB;
+}
+
+.pricingPlans .plans .plan:last-child .plbody {
+	border-right: none;
+}
+
+.pricingPlans .plans .plan .plbody {
+	overflow: auto;
+}
+.pricingPlans .plans .plan .plbody .plitem {
+	margin: 15px 0px;
+	line-height: 24px;
+	color: #5E6570;
+	text-align: center;
+}
+
+.pricingPlans .plans .plan .plbody .plitem.b {
+	font-weight: bold;
+}
+
+.pricingPlans .plans .plan .plbody .plitem.green {
+	color: #43B549;
+}
+
+.pricingPlans .plans .plan .plbody .plitem.red {
+	color: #ed5e54;
+}
+
+.pricingPlans .plans .plan .plbody .plitem.last {
+	background: #5E6570;
+	color: #FFF;
+	padding: 5px 15px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 0px 15%;
+	text-align: center;
+}
+.pricingPlans .sections {
+	overflow: auto;
+	background: rgba(192, 4, 6, 0.6) ;
+}
+
+.pricingPlans .sections .middleContainer {
+	margin: 20px 50px;
+}
+
+.pricingPlans .sections .srow {
+	overflow: auto;
+	margin: 15px 0px;
+	padding: 10px;
+	border-bottom: 1px solid #E8E8E8;
+	color: #FFF;
+}
+
+.pricingPlans .sections .srow .title {
+	float: left;
+	width: 30%;
+	font-size: 14px;
+}
+
+.pricingPlans .sections .srow .description {
+	float: left;
+	width: 70%;
+	font-size: 12px;
+	line-height: 16px;
+}

@@ -1,0 +1,100 @@
+.literalTranslations {
+	overflow: auto;
+}
+
+.literalTranslations .ltgroup {
+	border-top: 1px solid #CCC;
+}
+
+.literalTranslations .ltgroup:first-child {
+	border-top: none;
+}
+.literalTranslations .header {
+	overflow: auto;
+	text-align: right;
+	line-height: 16px;
+}
+
+.literalTranslations .header .hd {
+	padding: 3px 5px;
+	color: #555;
+	font-size: 0.8em;
+	font-weight: normal;
+}
+.literalTranslations .ltlist {
+	clear: both;
+	padding: 3px 5px;
+}
+.literalTranslations .ltlist .ltrow {
+	padding: 2px;
+	line-height: 24px;
+	color: #5E6570;
+}
+
+.literalTranslations .ltlist .ltrow .lcflag {
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+
+.literalTranslations .ltlist .ltrow .lcflag img {
+	width: inherit;
+	height: inherit;
+}
+
+.literalTranslations .ltlist .ltrow .lcfname {
+	float: left;
+	width: 20%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 0px 10px;
+	color: #999;
+}
+
+.literalTranslations .ltlist .ltrow .sticon {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%{media}/developer/loc_icons.svg') no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	outline: none;
+	margin: 0px;
+}
+
+.literalTranslations .ltlist .ltrow .sticon.default {
+	background-position: 0px -18px;
+	border: 3px solid #43B549;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.literalTranslations .ltlist .ltrow .sticon.lock {
+	background-position: 0px -24px;
+}
+
+.literalTranslations .ltlist .ltrow .sticon.unlock {
+	background-position: 0px -48px;
+}
+
+.literalTranslations .ltlist .ltrow .sticon.edit {
+	background-position: 0px 0px;
+}
+
+.literalTranslations .ltlist .ltrow form.lform {
+	float: right;
+}
+
+.literalTranslations .ltlist .ltrow .trinput {
+	border: none;
+	color: #777;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

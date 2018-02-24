@@ -1,0 +1,10 @@
+.projectStatisticsPage {
+	height: 100%;
+}
+.projectStatistics h2.noStatistics {
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-align: center;
+	margin-top: 50px;
+}

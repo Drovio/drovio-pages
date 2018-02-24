@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="310"><sql><query id="qbdcf76d093cdb72089002d648fdbbb07" name="get_open_projects"></query></sql><views><view id="vee78a8abdd7701ae1bf3bde8e32b0734" name="OpenProjectsPage"/></views></module>

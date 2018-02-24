@@ -1,0 +1,53 @@
+.transLiterals .tRow {
+	clear: both;
+}
+.transLiterals .tRow .tHead {
+	border-bottom: 1px solid #CCC;
+	color: #545454;
+	line-height: 24px;
+	padding: 0px 5px;
+	overflow: auto;
+}
+.transLiterals .tRow .tHead .ltVal {
+	float: left;
+}
+.transLiterals .tRow .tHead .rgt {
+	float: right;
+	overflow: auto;
+}
+.transLiterals .tRow .tHead .rgt .ico {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%resources%/developer/projects/sectionSprite.svg') no-repeat;
+	background-size: cover;
+	background-position: 0px -312px;
+	opacity: 0.7;
+	display: none;
+}
+.transLiterals .tRow .tHead .rgt .status {
+	float: right;
+	cursor: pointer;
+	display: block;
+	color: #999;
+}
+.transLiterals .tRow.locked .rgt .ico {
+	display: block;
+}
+.transLiterals .tRow.locked .rgt .status {
+	display: none;
+}
+.transLiterals .tRow .tContent {
+	display: none;
+	padding: 5px;
+}
+.transLiterals .tRow.open .tContent {
+	display: block
+}
+.transLiterals .tRow.open {
+	border-bottom: 1px solid #999;
+	border-left: 2px solid #999;
+}
+.transLiterals .tRow.open .tHead {
+	background-color: #EFEFEF;
+}

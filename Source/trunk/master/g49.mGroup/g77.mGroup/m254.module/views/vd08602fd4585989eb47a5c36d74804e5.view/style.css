@@ -1,0 +1,25 @@
+.projectReadmeEditor,
+.projectReadmeEditor .outerContainer {
+	height: 100%;
+	position: relative;
+}
+.projectReadmeEditor .docTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%{media}/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.projectReadmeEditor .docTool:hover {
+	opacity: 1.0;
+}
+.projectReadmeEditor button.docTool {
+	border : none;
+	background-color: transparent;
+}
+.projectReadmeEditor .docTool.save {
+	background-position: 0px 0px;
+}

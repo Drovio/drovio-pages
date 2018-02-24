@@ -1,0 +1,68 @@
+.memberListContainer .tmember {
+	overflow: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.memberListContainer .tmember .stico {
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/boss/navIcons.svg') no-repeat center;
+	background-position: 0px -32px;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.4;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.memberListContainer .tmember .stico:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.memberListContainer .tmember .tmico {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-right: 10px;
+}
+
+.memberListContainer .tmember .tmico:empty {
+	background: url('%{media}/global/team_profile.svg') no-repeat center;
+	background-size: cover;
+}
+
+.memberListContainer .tmember .tmico img {
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.memberListContainer .tmember .tminfo {
+	float: left;
+	overflow: auto;
+}
+
+.memberListContainer .tmember .tmname {
+	color: #555459;
+	font-size: 12px;
+	line-height: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.memberListContainer .tmember .tmrole {
+	color: #999;
+	line-height: 14px;
+}

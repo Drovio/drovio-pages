@@ -1,0 +1,67 @@
+.locOverview .stats {
+	overflow: auto;
+}
+.locOverview .otile {
+	padding: 5px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.locOverview .otile.perc {
+	width: 25%;
+}
+.locOverview .otile.lit {
+	width: 75%;
+}
+.locOverview .tile {
+	border: 1px solid #CCC;
+	box-shadow: 0 0px 5px #CCC;
+	-webkit-box-shadow: 0 0px 5px #CCC;
+	-moz-box-shadow: 0 0px 5px #CCC;
+	margin: 5px;
+	position: relative;
+}
+.locOverview .tile .title {
+	line-height: 75px;
+	margin: 0px;
+	padding: 10px 30px;
+	font-size: 28px;
+	font-weight: normal;
+}
+.locOverview .tile .sub {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	font-size: 11px;
+	color: #000;
+}
+.locOverview .localeList .lct {
+	overflow: auto;
+	padding: 5px 10px;
+}
+.locOverview .localeList .lct .lcimg {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin-right: 10px;
+}
+.locOverview .localeList .lct .lcnt {
+	line-height: 32px;
+}
+.locOverview .localeList .lct .lcnt .lcperc {
+	float: right;
+	font-weight: bold;
+}
+.locOverview .localeList .lct .sb {
+	clear: both;
+	margin-top: 3px;
+	height: 2px;
+	width: 100%;
+	border-bottom: 1px solid #006400;
+}
+.locOverview .localeList .lct .sb .sp {
+	height: 100%;
+	background-color: #228B22;
+	display: block;
+}

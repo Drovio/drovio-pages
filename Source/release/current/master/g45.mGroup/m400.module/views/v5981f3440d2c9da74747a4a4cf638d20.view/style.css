@@ -1,0 +1,130 @@
+.enpKeys {
+	height: 100%;
+	position: relative;
+}
+
+.enpKeys h1.hd {
+	font-size: 1.1em;
+	color: #5E6570;
+	font-weight: normal;
+	line-height: 26px;
+	float: left;
+}
+
+.enpKeys h2.hd {
+	color: #5E6570;
+	text-align: center;
+	font-size: 1em;
+	margin: 10px 0px;
+}
+.enpKeys .controls {
+	overflow: auto;
+	clear: both;
+	margin: 10px 0px;
+}
+
+.enpKeys .controls form {
+	float: right;
+}
+
+.enpKeys .controls .ctrl.add_key {
+	display: block;
+	background: none;
+	border: none;
+	outline: none;
+	float: right;
+	border: 1px solid #5E6570;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 5px 10px;
+	margin: 0px 5px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.enpKeys .controls .ctrl.add_key:hover {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.enpKeys .list .keyList {
+	height: 300px;
+}
+.enpKeys .list .keyActionContainer .keyForm {
+	float: left;
+}
+
+.enpKeys .list .keyActionContainer .act {
+	display: block;
+	border: none;
+	outline: none;
+	width: 16px;
+	height: 16px;
+	padding: 0px;
+	float: left;
+	margin: 0px 5px;
+	background: url('%{media}/boss/editIcons.svg') no-repeat;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.enpKeys .list .keyActionContainer .act:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.enpKeys .list .keyActionContainer .act.edit {
+	background-position: 0px 0px;
+}
+
+.enpKeys .list .keyActionContainer .act.remove {
+	background-position: 0px -16px;
+}
+.enpKeys .newKeyButton {
+	display: block;
+	background: none;
+	border: none;
+	outline: none;
+	width: 50%;
+	margin: 30px auto;
+	overflow: auto;
+	cursor: pointer;
+}
+
+.enpKeys .newKeyButton .ico {
+	width: 100px;
+	height: 100px;
+	margin: 10px auto;
+	background: url('%{media}/icons/apiSprite.svg') no-repeat;
+	background-size: cover;
+	background-position: center 0px;
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.enpKeys .newKeyButton:hover .ico {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.enpKeys .newKeyButton .title {
+	font-size: 12px;
+	text-align: center;
+	color: #5E6570;
+	line-height: 18px;
+}

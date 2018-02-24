@@ -1,0 +1,17 @@
+.overviewSection .bodyContent {
+	margin-top: 8px;
+}
+
+.overviewSection .bodyContent > div{
+	padding: 0px 2px 0px 10px;
+}
+.overviewSection .bodyContent > div:hover {
+	cursor: pointer;
+	background: lightgrey;
+}
+
+.itemRow .controls > .control > span:hover {
+	cursor: pointer;
+	color: blue;
+	text-decoration: underline;
+}

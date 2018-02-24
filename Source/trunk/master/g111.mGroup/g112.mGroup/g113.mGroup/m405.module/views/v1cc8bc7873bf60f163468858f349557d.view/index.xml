@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v1cc8bc7873bf60f163468858f349557d"><dependencies><dependency library="AEL" object="Platform"></dependency><dependency library="AEL" object="Security"></dependency><dependency library="API" object="Model"></dependency><dependency library="DEV" object="Apps"></dependency><dependency library="ESS" object="Protocol"></dependency></dependencies><inner/></view>

@@ -1,0 +1,189 @@
+<?php
+//#section#[header]
+// Module Declaration
+$moduleID = 370;
+
+// Inner Module Codes
+$innerModules = array();
+
+// Check Module Preloader Defined in RB Platform (prevent outside executions)
+if (!defined("_MDL_PRELOADER_") && !defined("_RB_PLATFORM_"))
+	throw new Exception("Module is not loaded properly!");
+
+// Use Platform classes
+use \API\Platform\importer;
+use \API\Platform\engine;
+
+// Increase module's loading depth
+importer::import("ESS", "Protocol", "loaders::ModuleLoader");
+use \ESS\Protocol\loaders\ModuleLoader;
+ModuleLoader::incLoadingDepth();
+
+// Import Initial Libraries
+importer::import("UI", "Html", "DOM");
+importer::import("UI", "Html", "HTML");
+importer::import("DEV", "Profiler", "mlogger");
+
+// Use
+use \UI\Html\DOM;
+use \UI\Html\HTML;
+use \DEV\Profiler\mlogger;
+use \DEV\Profiler\mlogger as logger;
+
+// Code Variables
+$_ASCOP = $GLOBALS['_ASCOP'];
+
+// If Async Request Pre-Loader exists, Initialize DOM
+if (defined("_MDL_PRELOADER_") && ModuleLoader::getLoadingDepth() === 1)
+	DOM::initialize();
+
+// Import Packages
+importer::import("API", "Literals");
+importer::import("API", "Profile");
+importer::import("API", "Security");
+importer::import("SYS", "Comm");
+importer::import("UI", "Forms");
+importer::import("UI", "Modules");
+importer::import("UI", "Presentation");
+//#section_end#
+//#section#[code]
+use \SYS\Comm\db\dbConnection;
+use \API\Literals\moduleLiteral;
+use \API\Profile\account;
+use \API\Profile\team;
+use \API\Security\akeys\apiKey;
+use \API\Security\akeys\apiKeyType;
+use \API\Security\privileges;
+use \UI\Presentation\popups\popup;
+use \UI\Presentation\dataGridList;
+use \UI\Modules\MContent;
+use \UI\Forms\templates\simpleForm;
+use \UI\Forms\formReport\formNotification;
+use \UI\Forms\formReport\formErrorNotification;
+
+// Get team and member id
+$teamID = engine::getVar('tid');
+$memberID = engine::getVar('aid');
+$keys = apiKey::getTeamKeys($teamID, $memberID);
+
+$pageContent = new MContent($moduleID);
+$actionFactory = $pageContent->getActionFactory();
+$dbc = new dbConnection();
+
+// Get keys
+$roles = array();
+$akeys = array();
+foreach ($keys as $key)
+{
+	$groupIDs[$key['type_id']] = $key['user_group_id'];
+	$roles[$key['type_id']] = $key['user_group_name'];
+	$akeys[$key['type_id']] = $key['akey'];
+}
+
+if (engine::isPost())
+{
+	// Check to remove member
+	if (isset($_POST['remove']))
+	{
+		// Remove account from team
+		team::removeTeamAccount($teamID, $memberID);
+		
+		// Remove all team keys
+		foreach ($keys as $key)
+			apiKey::remove($key['akey']);
+		
+		// COMPATIBILITY
+		// Remove member from team and remove any relative keys
+		$q = $pageContent->getQuery("remove_team_member");
+		$attr = array();
+		$attr['aid'] = $memberID;
+		$attr['tid'] = $teamID;
+		$dbc->execute($q, $attr);
+	}
+	else
+	{
+		// Remove roles not checked
+		foreach ($roles as $id => $role)
+			if (!isset($_POST['tg'][$id]))
+				apiKey::remove($akeys[$id]);
+				
+		// Add extra roles
+		foreach ($_POST['tg'] as $typeID => $nothing)
+		{
+			privileges::addAccountToGroupID($memberID, $groupIDs[$typeID]);
+			if (!isset($roles[$typeID]))
+				apiKey::create($typeID, $memberID, $teamID, $projectID = NULL);
+		}
+	}
+	
+	$fnt = new formNotification();
+	$fnt->build($type = formNotification::SUCCESS, $header = TRUE, $timeout = TRUE);
+	
+	// Notification Message
+	$errorMessage = $fnt->getMessage("success", "success.save_success");
+	$fnt->append($errorMessage);
+	
+	// Reload members
+	$fnt->addReportAction("team_members.reload");
+	
+	return $fnt->getReport(FALSE);
+}
+
+// Build the module content
+$pageContent->build("", "teamRolesEditor", TRUE);
+
+// Build form
+$formContainer = HTML::select(".editorFormContainer")->item(0);
+$form = new simpleForm();
+$roleEditorForm = $form->build($moduleID, "editRoles", TRUE)->get();
+DOM::append($formContainer, $roleEditorForm);
+
+// Add member id
+$input = $form->getInput($type = "hidden", $name = "aid", $value = $memberID);
+$form->append($input);
+
+// Add team id
+$input = $form->getInput($type = "hidden", $name = "tid", $value = $teamID);
+$form->append($input);
+
+// Get account team roles
+$gridList = new dataGridList();
+$roleList = $gridList->build("", TRUE)->get();
+$form->append($roleList);
+
+// Set headers
+$headers = array();
+$headers[] = "Team Role";
+$gridList->setHeaders($headers);
+
+// Get team key types
+$keyTypes = apiKeyType::getAllKeyTypes($compact = FALSE);
+foreach ($keyTypes as $typeInfo)
+{
+	// Check for team key types
+	if (!preg_match('/TEAM_.*/', $typeInfo['user_group_name']))
+	    continue;
+	
+	// Insert row
+	$row = array();
+	$row[] = $typeInfo['user_group_name'];
+	$gridList->insertRow($row, "tg[".$typeInfo['id']."]", isset($roles[$typeInfo['id']]));
+}
+
+if ($memberID != account::getAccountID())
+{
+	// Remove member checkbox
+	$title = moduleLiteral::get($moduleID, "lbl_removeMember");
+	$input = $form->getInput($type = "checkbox", $name = "remove", $value = "1", $class = "", $autofocus = FALSE, $required = FALSE);
+	$frow = $form->buildRow($title, $input, $required = TRUE, $notes = "");
+	$form->append($frow);
+}
+
+// Create popup
+$pp = new popup();
+$pp->position("bottom|center");
+$pp->build($pageContent->get());
+
+return $pp->getReport();
+//#section_end#
+?>

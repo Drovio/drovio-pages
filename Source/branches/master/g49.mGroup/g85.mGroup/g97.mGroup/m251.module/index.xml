@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="251"><sql><query id="q89a1eae0fe93186433e7b777051a987a" name="get_all_modules"></query></sql><views><view id="v0fde2bcd1cf9a3d0d81c2dbd242eb269" name="modulesAnalysisPage"/><view id="va6636ec29223e5775687cc21607a7c5e" name="modulesMetrics"/></views></module>

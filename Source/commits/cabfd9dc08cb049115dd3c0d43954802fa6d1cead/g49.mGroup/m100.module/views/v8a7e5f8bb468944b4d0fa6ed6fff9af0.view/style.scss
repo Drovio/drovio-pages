@@ -1,0 +1,109 @@
+.dev-sidebar-container {
+	.logo {
+		width: 60px;
+		height: 60px;
+		margin: 0 auto;
+		display: block;
+		background: url('%{cdn}/media/logos/dlogo.svg') no-repeat center;
+		background-size: cover;
+		margin-bottom: 30px;
+	}
+	.searchContainer {
+		& {
+			overflow: auto;
+			border: 1px solid #CCC;
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			background: #FFF;
+			padding: 9px 15px;
+			margin-bottom: 40px;
+			width: 100%;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.searchIco {
+			float: right;
+			width: 18px;
+			height: 18px;
+			background: url('%{media}/developer/docs/searchMenuIco.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -18px;
+			opacity: 0.6;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.searchIco:hover {
+			opacity: 1;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.searchInput {
+			float: left;
+			line-height: 18px;
+			font-size: 12px;
+			color: #555;
+			border: none;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			width: 90%;
+			outline: none;
+			padding: 0px;
+		}
+	}
+	.menuContainer {
+		.sd-title {
+			margin-bottom: 10px;
+			text-transform: uppercase;
+			color: #555;
+			font-weight: 600;
+			font-size: 14px;
+		}
+		ul.menu {
+			& {
+				list-style-type: none;
+				margin: 0;
+				margin-bottom: 30px;
+				display: none;
+			}
+			li.menu-item {
+				line-height: 23px;
+				font-size: 1.1em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			li.menu-item a {
+				display: block;
+				color: #7C858E;
+				cursor: pointer;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			li.menu-item a:hover {
+				color: #333;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			li.menu-item a.selected {
+				color: #333;
+				font-weight: 600;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+		}
+		&.open ul.menu {
+			display: block;
+		}
+	}
+}

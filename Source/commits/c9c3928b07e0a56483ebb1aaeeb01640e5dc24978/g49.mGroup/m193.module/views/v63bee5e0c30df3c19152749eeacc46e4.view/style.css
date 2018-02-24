@@ -1,0 +1,75 @@
+.devSupportPage .header {
+	height: 280px;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+}
+.devSupportPage .logoImg {
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 0px 100px;
+	background: url('%resources%/pages/developer/devSupportLogo.png') no-repeat center;
+	background-size: 200px 200px;
+}
+.devSupportPage .header h1.title {
+	font-size: 42px;
+	font-weight: normal;
+	color: #C00403;
+	margin-bottom: 20px;
+}
+.devSupportPage .header h2.subtitle {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.devSupportPage .header .description {
+	line-height: 18px;
+}
+.devSupportPage .statusBar {
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.devSupportPage .statusBar .statusIco {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin: 10px 15px;
+}
+.devSupportPage .statusBar.healthy .statusDesc a {
+	color: green;
+	margin: 0px;
+}
+.devSupportPage .statusBar h3.statusDesc {
+	margin: 10px 0px;
+	line-height: 24px;
+}
+.devSupportPage .statusBar .statusUpdated {
+	float: right;
+	color: #999;
+}
+.devSupportPage .links {
+	overflow: auto;
+}
+.devSupportPage .links .devNews {
+	width: 40%;
+	float: left;
+}
+.devSupportPage .links .devRsrc, .devSupportPage .links .devTools {
+	width: 30%;
+	float: left;
+}
+.devSupportPage .links h3.title {
+	color: blue;
+}
+.devSupportPage .links .linkList h4 {
+	text-indent: 5px;
+}
+.devSupportPage .links .linkList h4 a {
+	color: #777;
+}
+.devSupportPage .links .linkList h4 a:hover {
+	color: #000;
+}
+.devSupportPage .roadmap h2.title {
+	color: blue;
+}

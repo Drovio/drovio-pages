@@ -1,0 +1,68 @@
+.projectExplorerContainer {
+	height: 100%;
+	overflow: auto;
+}
+.projectExplorer {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.projectExplorer .pageTitle {
+	margin: 8px 5px;
+}
+.projectExplorer .pHeader {
+	color: #C00403;
+	border-bottom: 1px solid #999;
+	margin: 0px;
+	margin-top: 20px;
+	padding: 5px 3px;
+}
+.projectExplorer .newProject {
+	color: green;
+	cursor: pointer;
+}
+.projectExplorer .projectList {
+	overflow: auto;
+}
+.projectExplorer .projectList .noProjects {
+	color: #999;
+	margin: 0;
+}
+.projectExplorer .projectList .newProject {
+	float: left;
+}
+.projectExplorer .projectRow {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+	padding: 5px;
+}
+.projectExplorer .projectRow .projectIco {
+	display: block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #DDD;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-right: 10px;
+}
+.projectExplorer .projectRow .projectIco.empty {
+	background: #FFF url('%resources%/developer/projects/defaultProjectIco.png') no-repeat;
+	background-size: cover;
+}
+.projectExplorer .projectRow .projectTitle {
+	margin: 0px;
+	font-weight: normal;
+	line-height: 32px;
+	cursor: pointer;
+}
+.projectExplorer .projectRow:hover .projectTitle {
+	color: #C00403;
+}

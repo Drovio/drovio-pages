@@ -1,0 +1,134 @@
+.developerPage {
+	width: 100%;
+	height: 100%;
+}
+.developerPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.developerPage .mainContainer .logoSide {
+	margin: 25px 0px;
+	margin-left: 10px;
+	height: 100px;
+	float: left;
+}
+.developerPage .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+.developerPage .mainContainer h2.subTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.developerPage section.main {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	color: #FFF;
+}
+.developerPage section.main .dev .middleContainer {
+	padding-top: 140px;
+}
+.developerPage section.main .dev {
+	height: 100%;
+	background: url('%resources%/frontend/apps_banner_flare.jpg') no-repeat center;
+	background-size: cover;
+}
+.developerPage section.main .dev .fRight {
+	width: 70%;
+	float: right;
+	overflow: auto;
+}
+.developerPage section.main .dev .beta {
+	margin-top: 100px;
+	color: #545454;
+	text-align: center;
+}
+.developerPage section.main .dev .beta h3 {
+	font-size: 14px;
+}
+.developerPage section.main .dev .beta a {
+	padding: 9px 12px;
+	margin-top: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: rgba(255, 255, 255, 0.8);
+	color: #C00403;
+	display: inline-block;
+}
+.developerPage section.main .dev .title {
+	text-align: center;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.developerPage section.main .dev .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.developerPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+.developerPage section.features .fgrid {
+	width: 90%;
+	margin: 0 auto;
+	overflow: auto;
+}
+.developerPage section.features .fgrid .gridrow {
+	overflow: auto;
+}
+.developerPage section.features .fItem {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 10px;
+	overflow: auto;
+}
+.developerPage section.features .fItem .ico {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url('%resources%/developer/featureSprite_50.png');
+	opacity: 0.7;
+	margin: 20px;
+}
+.developerPage section.features .fItem.values .ico {
+	background-position: 0px 0px;
+}
+.developerPage section.features .fItem.web .ico {
+	background-position: 0px -50px;
+}
+.developerPage section.features .fItem.projdev .ico {
+	background-position: 0px -100px;
+}
+.developerPage section.features .fItem.space .ico {
+	background-position: 0px -150px;
+}
+.developerPage section.features .fItem.apps .ico {
+	background-position: 0px -200px;
+}
+.developerPage section.features .fItem.projft .ico {
+	background-position: 0px -251px;
+}
+.developerPage section.features .fItem .title {
+	color: #656565;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="355"><sql><query id="q8baa3d271f86a340fd422f3e7124326c" name="get_team_members"></query></sql><views><view id="v20b29e64cb881087786df9753cd18b7c" name="teamMembers"/></views></module>

@@ -1,0 +1,31 @@
+.bossSettings {
+	padding: 5px;
+}
+.bossSettings .header {
+	font-size: 12px;
+	color: #555;
+	font-weight: normal;
+	border-bottom: 1px solid #CCC;
+}
+.bossSettings .desc {
+	color: #555;
+	line-height: 16px;
+}
+.bossSettings .searchContainer {
+	margin-top: 20px;
+}
+.bossSettings .searchContainer #btn_search {
+	float: left;
+	margin: 0px 5px;
+}
+.bossSettings .searchContainer .tminp {
+	float: left;
+	width: 300px;
+	padding: 4px 6px;
+	margin-right: 5px;
+	border-color: #999;
+}
+.bossSettings .searchContainer .searchResultsContainer {
+	clear: both;
+	margin-top: 5px;
+}

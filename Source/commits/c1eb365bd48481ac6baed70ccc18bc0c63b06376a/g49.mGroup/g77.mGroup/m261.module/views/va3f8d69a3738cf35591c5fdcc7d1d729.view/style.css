@@ -1,0 +1,170 @@
+.projectPublisher,
+.projectPublisherContainer {
+	overflow: auto;
+}
+.projectPublisherContainer {
+	width: 650px;
+	padding: 10px;
+}
+
+.projectPublisherContainer.startScreen .section.guides {
+	margin: 10px;
+}
+
+.projectPublisherContainer .repoReleaseContainer {
+	clear: both;
+}
+
+.projectPublisherContainer .repoReleaseContainer .hd {
+	color: rgb(31, 92, 143);
+	cursor: pointer;
+	line-height: 14px;
+	padding-top: 15px;
+}
+
+.projectPublisherContainer .repoReleaseContainer .hd .ico {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: url('%{media}/global/pointer.svg') no-repeat center;
+	background-size: cover;
+	margin: 2px 0px;
+	margin-right: 5px;
+	transform: rotate(0deg);
+	transition: transform 100ms;
+	-moz-transform: rotate(0deg);
+	-moz-transition: transform 100ms;
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: transform 100ms;
+}
+
+.projectPublisherContainer .repoReleaseContainer.open .hd {
+	padding-bottom: 15px;
+}
+
+.projectPublisherContainer .repoReleaseContainer.open .hd .ico {
+	transform: rotate(90deg);
+	transition: transform 100ms;
+	-moz-transform: rotate(90deg);
+	-moz-transition: transform 100ms;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: transform 100ms;
+}
+
+.projectPublisherContainer .repoReleaseContainer .repoReleaseFormContainer {
+	display: none;
+}
+
+.projectPublisherContainer .repoReleaseContainer.open .repoReleaseFormContainer {
+	display: block;
+}
+
+.projectPublisherContainer .formsHolder {
+	display: none !important;
+}
+
+.projectPublisherContainer .lspan {
+	display: block;
+	padding: 3px 0px;
+}
+
+.projectPublisherContainer #btn_publish {
+	width: 50%;
+	margin: 0px 25%;
+	margin-top: 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #5E6570;
+	border: 1px solid #5E6570;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.projectPublisherContainer #btn_publish:hover {
+	background: #3CB0F7;
+	border: 1px solid #3CB0F7;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.projectPublisherContainer .progressHolder {
+	position: relative;
+	overflow: auto;
+}
+
+.projectPublisherContainer .progressHolder .tlist {
+	padding: 10px 0px;
+}
+
+.projectPublisherContainer .progressHolder .title.template {
+	display: none;
+}
+
+.projectPublisherContainer .progressHolder .title {
+	line-height: 32px;
+	color: #555;
+	font-size: 12px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+
+.projectPublisherContainer .progressHolder .title .ico {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 4px 0px;
+	margin-right: 10px;
+	background: url('%{media}/global/loader.svg') no-repeat center;
+}
+
+.projectPublisherContainer .progressHolder .title.ok {
+	font-weight: normal;
+}
+
+.projectPublisherContainer .progressHolder .title.ok .ico {
+	background: url('%{media}/global/ui/notification.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+}
+
+.projectPublisherContainer .progressHolder .title.error .ico {
+	background: url('%{media}/global/ui/notification.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -24px;
+}
+
+.projectPublisherContainer .progressHolder .progressbar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 3px;
+	background: rgba(31, 92, 143, 0.7);
+}
+
+.projectPublisherContainer .progressHolder .progressbar.error {
+	background: rgba(192, 4, 3, 0.7);
+}
+
+.projectPublisherContainer .errorHolder:empty {
+	display: none;
+}
+
+.projectPublisherContainer .errorHolder {
+	border-top: 1px solid rgba(192, 4, 3, 0.7);
+	padding: 5px;
+	line-height: 14px;
+	color: #c00403;
+}

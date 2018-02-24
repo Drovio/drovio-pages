@@ -1,0 +1,139 @@
+.myRelations.middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.myRelations .currentTeam,
+.myRelations .allTeams {
+	overflow: auto;
+	padding: 20px 0px;
+}
+.myRelations .allTeams {
+	border-top: 1px solid #CCC;
+}
+.myRelations .allTeams:empty {
+	border-top: none;
+}
+.myRelations .teamBox {
+	margin: 0px;
+	float: left;
+	padding: 10px;
+	list-style-type:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.myRelations .teamBox .teamBoxContainer {
+	width: 250px;
+	background: #FFF;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border-left: 3px solid #777;
+}
+.myRelations .teamBox.new .teamBoxContainer {
+	border-left: 3px solid #5FA344;
+}
+.myRelations .teamBox .teamBoxContainer a {
+	display: block;
+	overflow: auto;
+}
+.myRelations .teamBox .teamBoxContainer .boxHeader {
+	line-height: 32px;
+	overflow: auto;
+	padding: 10px;
+}
+.myRelations .teamBox .teamBoxContainer .imageBox {
+	float:left;
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.myRelations .teamBox .teamBoxContainer .imageBox:empty {
+	background: url('%{media}/my/teamIcons.svg') no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+.myRelations .teamBox.new .teamBoxContainer .imageBox {
+	background: url('%{media}/my/create.svg') no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+.myRelations .teamBox .teamBoxContainer .imageBox img {
+	height: inherit;
+	width: inherit;
+}
+.myRelations .teamBox .teamBoxContainer .teamName {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-transform: capitalize;
+}
+.myRelations .teamBox .teamBoxContainer .pinfo {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 10px;
+}
+.myRelations .teamBox .teamBoxContainer .tinfo {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 10px;
+}
+.myRelations .teamBox .teamBoxContainer .tinfo .ico {
+	float: left;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/my/teamIcons.svg') no-repeat;
+	background-position: 0px -16px;
+	background-size: cover;
+}
+.myRelations .teamBox .teamBoxContainer .boxActions {
+	overflow: auto;
+	clear: both;
+	padding: 5px;
+	margin-top: 30px;
+	background: #F8F9FB;
+}
+.myRelations .teamBox .teamBoxContainer .boxActions .ba {
+	display: inline-block;
+	float: right;
+	padding: 5px 0px;
+	width: 50%;
+	text-align: center;
+	line-height: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+	font-size: 10px;
+	color: #555;
+	border: 1px solid rgb(40, 117, 206)
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+.myRelations .teamBox .teamBoxContainer .boxActions .ba:hover {
+	color: #C00403;
+}
+.myRelations .teamBox.new .teamBoxContainer .boxActions .ba:hover {
+	color: #5FA344;
+}

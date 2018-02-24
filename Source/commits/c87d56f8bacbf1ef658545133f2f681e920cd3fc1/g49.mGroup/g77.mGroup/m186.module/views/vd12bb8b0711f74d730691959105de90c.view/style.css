@@ -1,0 +1,47 @@
+.statusListContainer .statusList {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.statusListContainer .statusList .mainList {
+	padding: 5px 0px;
+}
+.statusListContainer .statusList .statusItem {
+	padding: 6px 15px;
+	overflow: auto;
+	cursor: pointer;
+}
+.statusListContainer .statusList .statusItem:hover:not(.update):not(.active) .ico {
+	opacity: 0.5;
+}
+.statusListContainer .statusList .statusItem.active .ico {
+	opacity: 1;
+}
+.statusListContainer .statusList .statusItem.active .title {
+	font-weight: bold;
+}
+.statusListContainer .statusList .statusItem:first-child {
+	border-top: none;
+}
+.statusListContainer .statusList .statusItem .ico {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin-right: 10px;
+	opacity: 0;
+	background: url('%resources%/developer/projects/check_icon.svg') no-repeat center;
+	background-size: cover;
+}
+.statusListContainer .statusList .statusItem .title {
+	display: block;
+	float: left;
+	line-height: 16px;
+}
+.statusListContainer .statusList .statusItem.update {
+	border-top: 3px solid #CCC;
+}
+.statusListContainer .statusList .statusItem.update .title {
+	font-weight: bold;
+	color: #C00403;
+}

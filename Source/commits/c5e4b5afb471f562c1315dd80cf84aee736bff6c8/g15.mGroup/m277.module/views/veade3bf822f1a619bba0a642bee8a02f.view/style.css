@@ -1,0 +1,30 @@
+.redbackStatistics .stats {
+	overflow: auto;
+}
+.redbackStatistics .stats .cgroup {
+	margin-bottom: 20px;
+	overflow: auto;
+	color: #777;
+	font-size: 12px;
+}
+.redbackStatistics .stats .cgroup .title {
+	float: left;
+}
+.redbackStatistics .stats .cgroup .count {
+	float: right;
+	text-align: right;
+}
+.redbackStatistics .stats .cgroup .header {
+	overflow: auto;
+	color: #555;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-size: 14px;
+	border-bottom: 1px solid #999;
+}
+.redbackStatistics .stats .cgroup .crow {
+	overflow: auto;
+	clear: both;
+	padding: 5px 10px;
+	border-bottom: 1px solid #CCC;
+}

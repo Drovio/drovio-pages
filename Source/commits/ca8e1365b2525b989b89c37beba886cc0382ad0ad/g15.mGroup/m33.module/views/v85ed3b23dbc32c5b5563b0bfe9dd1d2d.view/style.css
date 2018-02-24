@@ -1,0 +1,48 @@
+a.overview {
+	font-weight: bold;
+}
+.overview .navIco {
+	background-image: url('%{media}/admin/navIcons_t.svg');
+	background-position: 0px 0px;
+}
+.settings .navIco {
+	background-image: url('%{media}/admin/navIcons_t.svg');
+	background-position: 0px -38px;
+}
+.pages .navIco {
+	background-image: url('%{media}/admin/navIcons_t.svg');
+	background-position: 0px -76px;
+}
+.security .navIco {
+	background-image: url('%{media}/admin/navIcons_t.svg');
+	background-position: 0px -114px;
+}
+.market .navIco {
+	background-image: url('%{media}/admin/navIcons_t.svg');
+	background-position: 0px -152px;
+}
+
+.adminHomePage {
+	position: absolute;
+	top: 38px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+.adminHomePage .adminHome {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: #FFF;
+}
+.adminHomePage .adminHome .admContainer {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.adminHomePage .adminHome .admContainer:empty {
+	background: #FFF url('%{media}/global/splash.png') no-repeat center;
+	background-size: 250px;
+}

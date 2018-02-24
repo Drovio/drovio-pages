@@ -1,0 +1,76 @@
+#imports {
+	height:88%;
+}
+
+#innerCodes {
+	max-height:90%;
+}
+
+.devManagementArea {
+	overflow-y:auto;
+	height:100%;
+}
+
+
+.devManagementArea .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+}
+.devManagementArea .contentIcon.mgIcon {
+	background-image: url(/Library/Media/images/icons/16x16/boxClose.png);
+	background-position-y:1px;
+}
+.devManagementArea .open > :not(ul):not(.subTreeView) .contentIcon.mgIcon {
+	background-image: url(/Library/Media/images/icons/16x16/boxOpen.png);
+	background-position-y:0;
+}
+.devManagementArea .contentIcon.mIcon {
+	background-image: url(/Library/Media/images/icons/16x16/module.png);
+}
+.devManagementArea .contentIcon.auxIcon {
+	background-image: url(/Library/Media/images/icons/16x16/auxModule.png);
+}
+.devManagementArea .contentIcon.cssIcon {
+	background-image: url(/Library/Media/images/icons/16x16/moduleCSS.png);
+	position:absolute;
+	top:1px;
+	right:19px;
+}
+.devManagementArea .contentIcon.jsIcon {
+	background-image: url(/Library/Media/images/icons/16x16/moduleJS.png);
+	position:absolute;
+	top:2px;
+	right:0;
+}
+.devManagementArea .contentIcon.jsIcon:hover, .devManagementArea .contentIcon.cssIcon:hover {
+	transform:scale(1.1, 1.1);
+	transform-origin:50% 50%;
+	-webkit-transform:scale(1.1, 1.1);
+	-webkit-transform-origin:50% 50%;
+	-ms-transform:scale(1.1, 1.1);
+	-ms-transform-origin:50% 50%;
+}
+button.sideTool{
+	border : none;
+	background-color: transparent;
+}
+/* For old style form headers backwords compability */
+
+.lhd {
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid rgba(166, 166, 166, 0.5);
+	margin-bottom:10px;
+	margin-top:15px;
+	text-indent:5px;
+	font-weight:bold;
+}
+.hd2 {
+	font-size:13px;
+	color:rgb(100, 100, 100);
+}

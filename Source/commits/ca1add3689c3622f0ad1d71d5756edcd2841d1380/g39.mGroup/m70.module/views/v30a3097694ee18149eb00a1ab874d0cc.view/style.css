@@ -1,0 +1,39 @@
+.navigationContent .navigation {
+	float: right;
+}
+
+.navigationContent .navigation .navMenu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: auto;
+}
+
+.navigationContent .navigation .navMenu li {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.navigationContent .navigation .navMenu li a {
+	color: #FFF;
+	display: block;
+}
+
+.navigationContent .navigation .navMenu li:hover, .navigationContent .navigation .navMenu li a:hover, .navigationContent .navigation .navMenu li a.selected {
+	color: #FFF;
+}
+
+.navigationContent .navigation .navMenu li.login {
+	background: rgba(255, 255, 255, 0.8);
+	line-height: 36px;
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}

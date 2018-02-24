@@ -1,0 +1,138 @@
+.projectIssuesPage {
+}
+
+.projectIssuesPage .clickable {
+	cursor: pointer;
+}
+
+.projectIssuesPage .mContent {
+	margin: 0;
+    	width: 100%;
+	min-width:1000px;
+}
+
+.projectIssuesPage .cLeft {
+	float: left;
+	height: 100%;
+	width: 200px;
+}
+
+.projectIssuesPage .sideBox {
+	margin: 5px 10px;
+}
+
+.projectIssuesPage .sideBox::first-child {
+	margin-top:0px;
+}
+
+.projectIssuesPage .sideBox::last-child {
+	margin-bottom:0px;
+}
+
+.projectIssuesPage .sbWrapper {
+	border: 1px solid lightblue;
+	border-radius: 5px;
+}
+
+.projectIssuesPage .sbWrapper > .header{
+	border-bottom: 1px solid grey;
+	background-color: lightgrey;
+	padding: 0px 5px;
+}
+
+.projectIssuesPage .sbWrapper > .content{
+	
+}
+
+.projectIssuesPage .content > .noActions {
+	text-align:center;
+	font-style: italic;
+}
+
+.projectIssuesPage .actionList > .actionRow > div{
+	display:inline-block;
+}
+
+.projectIssuesPage .cMiddle { 
+	display: block;
+	float: left;
+	height: 100%;
+	width: 730px;
+}
+
+.projectIssuesPage .cRight {
+	display: block;
+	height: 100%;
+	margin-left: 930px;
+}
+.projectIssuesPage .nav {
+	font-size: 125%;
+}
+
+.projectIssuesPage .navBar {
+	box-sizing: border-box;
+	overflow: auto;
+}
+
+.projectIssuesPage .navBar > .navTile {
+	border-bottom: 2px solid rgba(192, 4, 3, 0);
+	box-sizing: border-box;
+	color: #999999;
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+	text-align: center;
+}
+
+	
+.projectIssuesPage .nav li {
+	background: none repeat scroll 0 0 #c5c5c5;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+
+.projectIssuesPage .navBar > .navTile.selected {
+	border-bottom: 2px solid #c00403;
+	border-radius: 5px;
+}
+
+.projectIssuesPage .navBar > .navTile:hover {
+	border-bottom: 2px solid gray;
+	border-radius: 5px;
+}
+
+.projectIssuesPage .reportNew {
+}
+
+
+
+.projectIssuesPage .cMiddle .inner {
+	height: auto;
+	overflow-y: hidden;
+}
+
+.projectIssuesPage .bugList{
+	height: inherit;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.projectIssuesPage .linkbtn  {
+	color:lightblue;
+	text-decoration:underline;
+}
+
+.projectIssuesPage .linkbtn:hover {
+	color:blue;
+}
+.projectIssuesPage .msg_noContent {
+	text-align:center;
+	font-style: italic;
+}
+
+.projectIssuesPage .noBugs  {
+	font-size: 130%;
+	margin-top:30px;
+}

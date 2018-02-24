@@ -1,0 +1,18 @@
+.uiPreview .objectContainer {
+	position: relative;
+	overflow: auto;
+	padding: 5px;
+	margin: 8px 5px;
+	border-bottom: 1px solid #CCC;
+}
+.uiPreview .objectContainer > .title {
+	color: #545454;
+	margin: 0px;
+	padding: 3px 8px;
+}
+.uiPreview .objectContainer > .objModel {
+	position: relative;
+	margin-top: 5px;
+	overflow: auto;
+	clear: both;
+}

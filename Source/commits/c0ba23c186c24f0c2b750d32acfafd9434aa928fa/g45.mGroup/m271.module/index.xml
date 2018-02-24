@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="271"><sql><query id="q7753a376fb6eaf2c34c9d9cb0c7e67c1" name="get_boss_apps"/><query id="q51401c10d13de69f54fb7559b68245cf" name="get_app_info"/><query id="q06e38feb51744e1312219977abc19d40" name="get_team_app_version"></query></sql><views><view id="v61fd0b66fd818f284ba987930c447a4e" name="bossMarketPage"/><view id="v8ed53b8cd293a9a861ff3b3e0b3f72d0" name="marketFooter"/><view id="va7e1da82004b4fe481a476bda908c22d" name="appDetails"/></views></module>

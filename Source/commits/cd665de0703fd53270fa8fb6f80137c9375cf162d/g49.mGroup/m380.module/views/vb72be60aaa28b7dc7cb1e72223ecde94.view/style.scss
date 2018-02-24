@@ -1,0 +1,167 @@
+.pricingPlans {
+	& {
+		height: 100%;
+		width: 100%;
+		position: relative;
+		overflow: auto;
+		background: #F1F1F1;
+	}
+	.navBar {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		line-height: 40px;
+		padding: 10px 0px;
+		z-index: 3;
+	}
+	.middleContainer {
+		min-width: 700px;
+		max-width: 1200px;
+		padding: 0px 50px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+	.main {
+		overflow: auto;
+	}
+	
+	.main > .middleContainer {
+		padding-top: 65px;
+	}
+	.phd {
+		color: #5E6570;
+		text-align: center;
+		margin: 15px 0px;
+	}
+	h1.phd {
+		font-size: 26px;
+		line-height: 24px;
+	}
+	h2.phd {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	.plans {
+		& {
+			clear: both;
+			margin: 50px 0px;
+			overflow: auto;
+		}
+		.descriptions {
+			float: left;
+			width: 20%;
+		}
+		.pricing {
+			& {
+				float: left;
+				width: 80%;
+				overflow: auto;
+			}
+			.plan {
+				float: left;
+				width: 25%;
+			}
+		}
+		.pricing .plbody {
+			border-right: 1px solid #DBDBDB;
+		}
+		
+		.descriptions .plbody .plitem {
+			font-weight: bold;
+		}
+		.plan {
+			& {
+			}
+			
+			.plheader {
+				height: 50px;
+				vertical-align: baseline;
+			}
+			.plheader .hd {
+				color: #FFF;
+				padding: 15px;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				margin: 0px 15%;
+				text-align: center;
+				text-transform: uppercase;
+			}
+			&.free .plheader .hd {
+				background: #43B549;
+			}
+			&.basic .plheader .hd {
+				background: #3CB0F7;
+				font-weight: bold;
+			}
+			&.premium .plheader .hd {
+				background: #ed5e54;
+			}
+			&.enterprise .plheader .hd {
+				background: #886389;
+			}
+			&.descriptions .plbody {
+				border-right: 2px dashed #DBDBDB;
+			}
+			&:last-child .plbody {
+				border-right: none;
+			}
+			.plbody {
+				overflow: auto;
+			}
+			.plbody {
+				.plitem {
+					margin: 15px 0px;
+					line-height: 24px;
+					color: #5E6570;
+					text-align: center;
+				}
+				.plitem.green {
+					color: #43B549;
+				}
+				.plitem.red {
+					color: #ed5e54;
+				}
+				.plitem.last {
+					background: #5E6570;
+					color: #FFF;
+					padding: 5px 15px;
+					border-radius: 3px;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					margin: 0px 15%;
+					text-align: center;
+				}
+			}
+		}
+	}
+	.sections {
+		& {
+			overflow: auto;
+			
+			background: rgba(192, 4, 6, 0.6) ;
+		}
+		.middleContainer {
+			margin: 20px 50px;
+		}
+		.srow {
+			overflow: auto;
+			margin: 15px 0px;
+			padding: 10px;
+			border-bottom: 1px solid #E8E8E8;
+			color: #FFF;
+		}
+		.srow .title {
+			float: left;
+			width: 30%;
+			font-size: 14px;
+		}
+		.srow .description {
+			float: left;
+			width: 70%;
+			font-size: 12px;
+			line-height: 16px;
+		}
+	}
+}

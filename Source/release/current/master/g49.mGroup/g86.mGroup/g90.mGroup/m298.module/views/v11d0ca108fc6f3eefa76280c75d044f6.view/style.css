@@ -1,0 +1,28 @@
+.webCoreSettingsDialog {
+	height: 100%;
+	overflow: auto;
+}
+.distroManager {
+	width: 900px;
+	overflow: auto;
+	position: relative;
+	height: 400px;
+}
+.distroManager .distroList {
+	height: 100%;
+	width: 30%;
+	float: left;
+	border-right: 1px solid #CCC;
+	background: #FEFEFE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.distroManager .distroPackages {
+	height: 100%;
+	width: 70%;
+	float: right;
+	overflow: auto;
+	position: relative;
+}

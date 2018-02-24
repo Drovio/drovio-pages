@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="275"><sql><query id="qe10b8f7adb68f2d477155056012d702b" name="review_project"/><query id="q25488a435db1791a3050d00d7047a18b" name="get_projects_releases"/><query id="qe759a8a24ad3201c61e336e3f0e75ec9" name="get_project_members"/></sql><views><view id="vf6498f2411be0c4f179ad291dc7801b6" name="MarketReview"/><view id="v8aea2b9b11b0ea3e2cdedc435ece7f45" name="reviewProject"/><view id="v676d7b5ae6900fd652ffb741827057f0" name="downloadProject"/></views></module>

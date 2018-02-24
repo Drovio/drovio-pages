@@ -1,0 +1,16 @@
+.applicationTester #OneColumnFullscreen {
+	top: 0px;
+}
+.applicationTester #applicationContainer {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	box-sizing: border-box;
+}
+.applicationTester #applicationContainer:empty {
+	background: url('%resources%/appcenter/app_logo_150.png') no-repeat center;
+	background-size: 150px 150px;
+	opacity: 0.6;
+}

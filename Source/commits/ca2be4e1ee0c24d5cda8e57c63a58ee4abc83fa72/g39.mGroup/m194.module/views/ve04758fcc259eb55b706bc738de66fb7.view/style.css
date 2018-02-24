@@ -1,0 +1,9 @@
+.discoverPage .presentation {
+	width: 850px;
+	height: 350px;
+	border: 1px solid #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 20px auto;
+}

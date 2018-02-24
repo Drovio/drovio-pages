@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="126"><sql/><views><view id="v946705cacd735be10e66e1e98a3ec391" name="componentEditor"/><view id="v48d550e0573f36ff703684d89f873def" name="themeStructureSelector"/><view id="v211fdf68407b6a8319bab2f73402eaf2" name="sideBar"/><view id="v1361c9b3b8b2c005c89d41316f4467ce" name="psObjectEditor"/><view id="v614b281ebf917fb92071b502568b7504" name="thObjectEditor"/><view id="v4ad5585c5b7cf73ced7dc9e8018a21c3" name="psItemSnippet"/><view id="v6e10202bf68260132f23629226b77227" name="thItemSnippet"></view></views></module>

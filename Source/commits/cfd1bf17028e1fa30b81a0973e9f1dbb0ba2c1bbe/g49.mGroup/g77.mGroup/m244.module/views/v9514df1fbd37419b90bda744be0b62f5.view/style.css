@@ -1,0 +1,40 @@
+.releaseLog .hd {
+	border-bottom: 1px solid #999;
+	clear: both;
+	overflow: auto;
+	padding: 5px 8px;
+}
+.releaseLog .hd .header {
+	float: left;
+	line-height: 24px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+
+.releaseLog .list {
+	clear: both;
+}
+.releaseLog .releaseRow {
+	padding: 2px 5px;
+	border-bottom: 1px solid #CCC;
+}
+.releaseLog .releaseRow .releaseDate {
+	float: right;
+	color: #999;
+}
+.releaseLog .releaseRow .releaseTitle {
+	float: left;
+	margin: 0px;
+	font-weight: normal;
+}
+.releaseLog .releaseRow .releaseChangelog {
+	clear: both;
+	margin: 0px;
+	padding: 0px 10px;
+	padding-top: 5px;
+	color: #999;
+}
+.releaseLog .prel .logList .releaseRow {
+	padding-left: 50px;
+}

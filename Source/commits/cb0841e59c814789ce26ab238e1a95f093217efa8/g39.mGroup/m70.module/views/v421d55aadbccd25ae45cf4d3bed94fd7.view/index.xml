@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v421d55aadbccd25ae45cf4d3bed94fd7"><dependencies><dependency library="API" object="Security"></dependency><dependency library="API" object="Resources"></dependency><dependency library="UI" object="Presentation"></dependency><dependency library="UI" object="Html"></dependency></dependencies><inner><module id="loginPage">66</module></inner></view>

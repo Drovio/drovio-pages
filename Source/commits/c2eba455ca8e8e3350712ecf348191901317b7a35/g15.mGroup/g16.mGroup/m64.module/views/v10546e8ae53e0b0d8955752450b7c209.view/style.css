@@ -1,0 +1,29 @@
+.devManagementArea .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+.devManagementArea .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.devManagementArea .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.devManagementArea .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.devManagementArea .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.devManagementArea .contentIcon.flIco {
+	background-position:0px -64px;
+}
+.devManagementArea .contentIcon.infoIcon {
+	background-image: url('/Library/Media/c/icons/19x19/notifications.svg');
+	background-size: cover;
+}

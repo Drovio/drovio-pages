@@ -1,0 +1,63 @@
+.navbarContainer .middleContainer {
+	max-width: 950px;
+}
+
+.navbarContainer .navMenu {
+	float: right;
+	margin: 50px 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: auto;
+}
+
+.navbarContainer .navMenu li {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #545454;
+	cursor: pointer;
+}
+
+.navbarContainer .navMenu li a {
+	color: #5E6570;
+	font-weight: 400;
+	display: block;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	font-size: 1em;
+}
+
+.navbarContainer .navMenu li:hover, .navbarContainer .navMenu li a:hover, .navbarContainer .navMenu li a.selected {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navbarContainer .navMenu li.dark {
+	line-height: 40px;
+	background: #454A54;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navbarContainer .navMenu li.dark a {
+	color: #FFF;
+}
+
+.navbarContainer .navMenu li.dark:hover {
+	background: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}

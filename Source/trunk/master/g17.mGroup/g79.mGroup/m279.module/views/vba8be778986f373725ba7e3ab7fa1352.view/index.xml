@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vba8be778986f373725ba7e3ab7fa1352"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="API" object="Security"></dependency><dependency library="DEV" object="Websites"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="publisher">284</module></inner></view>

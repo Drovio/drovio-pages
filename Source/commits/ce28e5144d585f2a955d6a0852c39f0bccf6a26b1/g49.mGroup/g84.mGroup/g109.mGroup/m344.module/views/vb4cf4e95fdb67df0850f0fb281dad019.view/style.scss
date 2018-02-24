@@ -1,0 +1,35 @@
+.mfEditor {
+	.mf_header {
+		overflow: auto;
+		padding: 10px;
+		border-bottom: 1px solid #CCC;
+	}
+	.ico {
+		width: 50px;
+		height: 50px;
+		float: left;
+		margin-right: 10px;
+		background: url('%{media}/developer/docs/default_permission_icon.svg') no-repeat center;
+		background-size: cover;
+	}
+	.info {
+	}
+	.hd {
+		color: #5E6570;
+		font-weight: normal;
+	}
+	h2.hd {
+		font-size: 14px;
+		margin: 5px 0px;
+	}
+	h4.hd {
+		font-size: 12px;
+		line-height: 18px;
+	}
+	#sdkPackages {
+		max-height: 300px;
+	}
+	.formContainer {
+		padding: 10px;
+	}
+}

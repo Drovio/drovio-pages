@@ -1,0 +1,202 @@
+.frontendPage {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.frontendPage .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.frontendPage .ptitle {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	color: #FFF;
+}
+
+.frontendPage .psub {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #FFF;
+	margin: 40px 0px;
+}
+
+.frontendPage .wbutton {
+	width: 150px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 15px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	margin-right: 20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.frontendPage .wbutton:last-child {
+	margin-right: 0px;
+}
+
+.frontendPage .wbutton:hover {
+	background-color: #FFF;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.frontendPage .wbutton.developers {
+	border-color: #3CB0F7;
+	color: #3CB0F7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.frontendPage .wbutton.developers:hover {
+	background-color: #3CB0F7;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.frontendPage .fsection {
+	position: relative;
+	color: #FFF;
+	padding: 60px 0px;
+}
+
+.frontendPage .fsection.main {
+	background: #5E6570;
+}
+
+.frontendPage .fsection.main > .middleContainer {
+	margin-top: 70px;
+}
+
+.frontendPage .fsection.main > .middleContainer .logo {
+	display: block;
+	width: 250px;
+	height: 150px;
+	margin: 0px auto;
+	background: url('%{cdn}/media/logos/logo.png') no-repeat center;
+	background-size: contain;
+}
+
+.frontendPage .fsection.main > .middleContainer .ptitle {
+	text-align: center;
+}
+
+.frontendPage .fsection.main > .middleContainer .psub {
+	text-align: center;
+	max-width: 800px;
+	margin: 40px auto;
+}
+
+.frontendPage .fsection.main .connect {
+	width: 320px;
+	margin: 20px auto;
+	overflow: auto;
+}
+
+.frontendPage .fsection.main .connect .wbutton {
+	float: left;
+}
+
+.frontendPage .fsection.apps {
+	background: #ed5e54;
+}
+
+.frontendPage .fsection.apps .psub {
+	float: left;
+	width: 60%;
+}
+
+.frontendPage .fsection.apps .app_tiles {
+	float: right;
+	overflow: auto;
+	margin-top: 60px;
+}
+
+.frontendPage .fsection.apps .app_tiles .at {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin: 5px 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.frontendPage .fsection.apps .app_tiles .at.relations {
+	background-image: url('%{media}/frontend/apps/relations.svg');
+}
+
+.frontendPage .fsection.apps .app_tiles .at.messages {
+	background-image: url('%{media}/frontend/apps/messages.svg');
+}
+
+.frontendPage .fsection.apps .app_tiles .at.calendar {
+	background-image: url('%{media}/frontend/apps/calendar.svg');
+}
+
+.frontendPage .fsection.apps .app_tiles .at.store {
+	background-image: url('%{media}/frontend/apps/store.svg');
+}
+
+.frontendPage .fsection.apps .app_tiles .at.settings {
+	background-image: url('%{media}/frontend/apps/settings.svg');
+}
+.navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.navBar .navigation {
+	float: right;
+}
+
+.navBar .navigation .navMenu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: auto;
+}
+
+.navBar .navigation .navMenu li {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.navBar .navigation .navMenu li a {
+	color: #FFF;
+	display: block;
+}
+
+.navBar .navigation .navMenu li:hover, .navBar .navigation .navMenu li a:hover, .navBar .navigation .navMenu li a.selected {
+	color: #FFF;
+}

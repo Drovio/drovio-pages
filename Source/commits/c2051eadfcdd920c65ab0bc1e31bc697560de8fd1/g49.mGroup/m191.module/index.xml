@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="191"><sql><query id="q57e4bac18291f2dcd59a41d6e696378a" name="get_account_info"/><query id="q4b932a8e1b7e90e2326addc02a160425" name="get_account_projects"/></sql><views><view id="v28ce9e0a529954cbef18b4c2f4ccd0e3" name="DeveloperProfilePage"/><view id="vdfefb374b840910831673aa123d381a8" name="aboutDeveloper"/><view id="va9db4bfbbfb52c76ef3ff490f8c2e789" name="publicProjects"/><view id="v08243a9d4fba7633410de578069e1eed" name="contactDialog"/></views></module>

@@ -1,0 +1,16 @@
+.pageManagerContainer,
+.pageManager {
+	overflow: auto;
+	height: 100%;
+}
+.pageManager .pageListExplorer {
+	float: left;
+	width: 25%;
+	height: 100%;
+}
+.pageManager .contentEditor {
+	float: left;
+	width: 75%;
+	height: 100%;
+	position: relative;
+}

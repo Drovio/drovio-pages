@@ -1,0 +1,115 @@
+.websiteOverview {
+	overflow: auto;
+}
+
+.websiteOverview .middleContainer {
+	margin: 10px 20px;
+	overflow: auto;
+}
+
+.websiteOverview .wbutton {
+	float: right;
+	margin: 10px;
+	width: 150px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #3CB0F7;
+	border: 1px solid #3CB0F7;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.websiteOverview .wbutton.delete {
+	background: #ed5e54;
+	border: 1px solid #ed5e54;
+}
+
+.websiteOverview .wbutton:hover {
+	background: transparent;
+	color: #3CB0F7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.websiteOverview .wbutton.delete:hover {
+	color: #ed5e54;
+}
+
+.websiteOverview .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.websiteOverview .whiteBox {
+	clear: both;
+	padding: 10px;
+	overflow: auto;
+	background: #FFF;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: 60px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+
+.websiteOverview .boxStatusContainer {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.websiteOverview .boxStatus {
+	background: #FFF;
+	border: 1px solid #CCC;
+}
+
+.websiteOverview .boxStatus > .ico {
+	width: 72px;
+	height: 72px;
+	margin: 25px auto;
+	background: url('%resources%/webengine/website/statusIcons.svg') no-repeat;
+	background-size: 72px;
+}
+
+.websiteOverview .boxStatus.healthy > .ico {
+	background-position: 0px 0px;
+}
+
+.websiteOverview .boxStatus.error > .ico {
+	background-position: 0px -72px;
+}
+
+.websiteOverview .boxStatus.warning > .ico {
+	background-position: 0px -216px;
+}
+
+.websiteOverview .boxStatus .sub {
+	border-top: 1px solid #CCC;
+	color: #000;
+}
+
+.websiteOverview .boxStatus .title {
+	padding: 15px 20px;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	color: #555;
+}

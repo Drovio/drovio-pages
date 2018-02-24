@@ -1,0 +1,341 @@
+.webDesigner{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.webDesigner {
+	> .website-navbar {
+		background: #FFF;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		line-height: 40px;
+		padding: 10px 0px;
+		z-index: 3;
+	}
+	> .website-sidebar {
+		position: absolute;
+		top: 70px;
+		bottom: 0px;
+		left: 0px;
+		width: 0px;
+		border-right: 1px solid #E8E8E8;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		transition: width 0.3s;
+		-moz-transition: width 0.3s;
+		-webkit-transition: width 0.3s;
+		overflow: auto;
+		background: #FFF;
+	}
+	> .website-content {
+		position: absolute;
+		top: 70px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		background: #F1F1F1;
+		overflow: auto;
+		border-top: 1px solid #E8E8E8;
+		transition: left 0.3s;
+		-moz-transition: left 0.3s;
+		-webkit-transition: left 0.3s;
+	}
+	> .website-content .sectionContainer:empty {
+		background: url('%{media}/global/splash.png') no-repeat center;
+		background-size: 250px;
+	}
+}
+.webDesigner.sidebarContainer.openSidebar {
+	> .website-sidebar {
+		width: 300px;
+		transition: width 0.3s;
+		-moz-transition: width 0.3s;
+		-webkit-transition: width 0.3s;
+	}
+	> .website-content {
+		left: 300px;
+		transition: left 0.3s;
+		-moz-transition: left 0.3s;
+		-webkit-transition: left 0.3s;
+	}
+}
+
+.website-navbar .sideNav,
+.website-navbar .webInfoContainer {
+	float: left;
+}
+.website-navbar {
+	.bar {
+		overflow: auto;
+	}
+	.sideNav {
+		width: 300px;
+		overflow: auto;
+		padding: 13px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.sideNav {
+		.icon {
+			float: left;
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/developer/projects/iconSprite.svg') no-repeat center;
+			background-size: 20px;
+			background-position: 0px 0px;
+			overflow: hidden;
+			cursor: pointer;
+			opacity: 0.6;
+			margin-right: 10px;
+		}
+		.icon:hover {
+			opacity: 1;
+		}
+	}
+	.webInfoContainer {
+		float: left;
+	}
+	.webInfoContainer {
+		.projectImage {
+			float: left;
+			width: 32px;
+			height: 32px;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			margin: 9px 0px;
+			margin-right: 20px;
+			margin-left: 10px;
+		}
+		.projectImage.noIcon {
+			background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat;
+			background-size: cover;
+		}
+		.projectImage img {
+			width: 32px;
+			height: 32px;
+		}
+		.projectTitle {
+			float: left;
+			color: #555;
+			margin: 0px;
+			line-height: 49px;
+			font-size: 18px;
+			font-weight: normal;
+		}
+	}
+}
+.sidebarContainer.openSidebar .website-navbar .sideNav .icon {
+	opacity: 1;
+}
+
+.webDesigner > .website-sidebar {
+	.webMenu {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		padding-top: 10px;
+	}
+	.webMenu {
+		.menuItem {
+			border-right: 3px solid transparent;
+			cursor: default;
+			padding: 1px 0px;
+		}
+		.menuItem:hover {
+			border-right: 3px solid #BBB;
+			background: #EFEFEF;
+		}
+		.menuItem.selected {
+			border-right: 3px solid rgb(31, 93, 144);
+			background: rgba(31, 93, 144, 0.5);
+			color: #FFF;
+		}
+		.menuItem,
+		.menuItem a {
+			overflow: auto;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			display: block;
+		}
+		.menuItem .ico {
+			float: left;
+			width: 24px;
+			height: 24px;
+			margin: 5px 10px;
+			background: url('%{media}/webengine/website/wsectionSprite.svg') no-repeat;
+			background-position: 0px -150px;
+			background-size: cover;
+			opacity: 0.7;
+		}
+		.menuItem:hover .ico {
+			opacity: 1;
+		}
+		.menuItem.selected .ico {
+			opacity: 1;
+		}
+		.menuItem.overview .ico {
+			background-position: 0px 0px;
+		}
+		.menuItem.pages .ico {
+			background-position: 0px -24px;
+		}
+		.menuItem.templates .ico {
+			background-position: 0px -48px;
+		}
+		.menuItem.themes .ico {
+			background-position: 0px -72px;
+		}
+		.menuItem.extensions .ico {
+			background-position: 0px -96px;
+		}
+		.menuItem.resources .ico {
+			background-position: 0px -120px;
+		}
+		.menuItem.localization .ico {
+			background-position: 0px -144px;
+		}
+		.menuItem.source .ico {
+			background-position: 0px -168px;
+		}
+		.menuItem.preview .ico {
+			background-position: 0px -192px;
+		}
+		.menuItem.settings .ico {
+			background-position: 0px -216px;
+		}
+		.menuItem .reload {
+			display: none;
+			float: right;
+			width: 16px;
+			height: 16px;
+			margin: 9px 5px;
+			background: url('%{media}/global/devIcons.svg') no-repeat;
+			background-position: 0px -48px;
+			background-size: cover;
+			opacity: 0.7;
+			cursor: pointer;
+		}
+		.menuItem.selected .reload {
+			display: block;
+		}
+		.menuItem .reload:hover {
+			opacity: 1;
+		}
+		.menuItem .title {
+			margin: 0px;
+			padding: 5px;
+			line-height: 24px;
+			font-weight: normal;
+			font-size: 12px;
+			color: #555;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.menuItem:hover .title {
+			color: #000;
+		}
+		.menuItem.selected .title {
+			color: #FFF;
+		}
+	}
+	.divider {
+	    	margin: 5px;
+	    	height: 1px;
+	    	background: #ccc;
+	}
+}
+
+
+
+.overview .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px 0px;
+}
+.pages .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -38px;
+}
+.templates .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -76px;
+}
+.themes .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -114px;
+}
+.source .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -152px;
+}
+.resources .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -190px;
+}
+.literals .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -228px;
+}
+.settings .navIco {
+	background: url('%resources%/webengine/website/toolbarIcons.svg') no-repeat;
+	background-position: 0px -264px;
+}
+
+
+.websiteDesingerPage {
+	position: absolute;
+	top: 38px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+.websiteDesingerPage .webDesigner {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: #FFF;
+}
+.websiteDesingerPage .webDesigner .webContainer {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+.websiteDesingerPage .webDesigner .settingsPanel {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 100%;
+	right: 0px;
+	z-index: 10;
+	background-color: #FAFAFA;
+	overflow: auto;
+	box-shadow: 0px 0px 5px #CCC;
+	-webkit-box-shadow: 0px 0px 5px #CCC;
+	-moz-box-shadow: 0px 0px 5px #CCC;
+	transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	-webkit-transition: left 0.5s;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.websiteDesingerPage .webDesigner .settingsPanel.open {
+	border-left: 1px solid #CCC;
+	left: 30%;
+	transition: left 0.5s;
+	-moz-transition: left 0.5s;
+	-webkit-transition: left 0.5s;
+}
+.websiteDesingerPage .wsContainer:empty {
+	background: #FFF url('%resources%/global/splash.png') no-repeat center;
+	background-size: 250px;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="351"><sql><query id="qa0328ecd3ee567abd56233c0d5f6618d" name="get_team_info"/><query id="q42988afdf03a21032f11a25c26806256" name="remove_account_from_team"></query></sql><views><view id="v8eaa7991a7f5f4c24667b7450ef86b28" name="teamProfilePage"/><view id="vff175509e4e8f8cc5c5b6ea12ba42f49" name="leaveTeam"/></views></module>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="377"><sql><query id="q2abe7bfd2726692a36019792a3319c6a" name="get_team_info"></query></sql><views><view id="v1f84ba77e35dd09243b6bb21b012fc19" name="teamInfo"/><view id="v85cdfb468403fe4dc35e5c5c090ede1e" name="editInfo"/></views></module>

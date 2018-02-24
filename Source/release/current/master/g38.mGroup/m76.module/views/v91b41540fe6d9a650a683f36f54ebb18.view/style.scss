@@ -1,0 +1,90 @@
+.help-navbarContainer {
+	.middleContainer {
+		max-width: 950px;
+	}
+	.toggle_sidebar.menu {
+		display: none;
+		float: left;
+		width: 32px;
+		height: 32px;
+		margin-top: 54px;
+		margin-left: 50px;
+		background: url('%{media}/global/menu.svg') no-repeat center;
+		background-size: cover;
+		cursor: pointer;
+		opacity: 0.7;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.toggle_sidebar.menu:hover {
+		opacity: 1;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu {
+		float: right;
+		margin: 50px 20px;
+		padding: 0px;
+		list-style-type: none;
+		overflow: auto;
+	}
+	.navMenu li {
+		margin: 0px;
+		padding: 0px 10px;
+		list-style-type: none;
+		float: left;
+		line-height: 40px;
+		font-size: 13px;
+		color: #5E6570;
+		cursor: pointer;
+	}
+	.navMenu li a {
+		color: #5E6570;
+		font-weight: 400;
+		display: block;
+		text-transform: uppercase;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		font-size: 1em;
+	}
+	.navMenu li:hover,
+	.navMenu li a:hover,
+	.navMenu li a.selected {
+		color: #ff5252;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu li.dark {
+		line-height: 38px;
+		border: 1px solid #5E6570;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu li.dark:hover {
+		background: #ff5252;
+		border-color: #ff5252;
+		color: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navMenu li.dark:hover a {
+		color: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+}
+@media screen and (max-width: 750px) {
+	.help-navbarContainer .toggle_sidebar.menu {
+		display: block;
+	}
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="146"><sql/><views><view id="vb2175e3408e42999fcc89473e7081908" name="localeDataList"/><view id="vd350138ba3e26f9e252f4eda544cb30d" name="nonActiveLocale"/><view id="v6356962e45affd5a788df00de708aa5a" name="setActiveLocale"/><view id="v37f55cfe2c3f11c6f2e4bb8f51df5161" name="editLocale"/><view id="v232e1fde2102b09cea917e24c3249d61" name="addLocale"></view></views></module>

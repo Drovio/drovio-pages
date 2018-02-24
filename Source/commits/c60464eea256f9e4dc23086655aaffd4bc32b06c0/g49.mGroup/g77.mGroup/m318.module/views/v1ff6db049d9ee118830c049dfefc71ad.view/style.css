@@ -1,0 +1,56 @@
+.projectFileLogsPage,
+.projectFileLogsPage .projectFileLogs {
+	height: 100%;
+	overflow: auto;
+}
+.projectFileLogs .panel {
+	height: 100%;
+	float: left;
+	overflow: auto;
+}
+.projectFileLogs .panel.list {
+	width: 30%;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #F5F5F5;
+}
+.projectFileLogs .panel.context {
+	width: 70%;
+}
+.projectFileLogs .fRow {
+	overflow: auto;
+	cursor: pointer;
+	line-height: 18px;
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	color: #555;
+	border-right: 3px solid transparent;
+}
+.projectFileLogs .fRow:hover {
+	background: #EAEAEA;
+}
+.projectFileLogs .fRow.selected {
+	background: #EAEAEA;
+	border-right: 3px solid #C00403;
+}
+.projectFileLogs .fRow .fTitle {
+	float: left;
+	margin: 0px;
+	color: #656565;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 12px;
+}
+.projectFileLogs .fRow .fSize {
+	float: left;
+	clear: left;
+	color: #777;
+}
+.projectFileLogs .fRow .fModified {
+	float: right;
+	color: #777;
+}

@@ -1,0 +1,36 @@
+.profileSnippet {
+	min-width: 200px;
+	padding: 10px;
+	overflow: auto;
+}
+.profileSnippet.guest {
+	padding: 0;
+}
+.profileSnippet .userImage {
+	float: left;
+	width: 140px;
+	height: 140px;
+	background: url('/Library/Media/c/global/profile.svg') no-repeat center;
+	background-size: 140px;
+}
+.profileSnippet .profileMenu {
+	float: right;
+	padding-left: 10px;
+	min-width: 180px;
+}
+.profileSnippet .logoutButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	width: 98%;
+	text-align: left;
+	font-family: "Verdana", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+.profileSnippet .menuSeparator {
+	height: 2px;
+	background-color: rgb(166, 166, 166);
+	margin: 3px 0px;
+}

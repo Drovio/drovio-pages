@@ -1,0 +1,72 @@
+.logExplorerContainer,
+.logExplorer {
+	height: 100%;
+	overflow: auto;
+}
+.logExplorer .hd {
+	font-size: 14px;
+	text-align: center;
+	color: #555;
+	margin-top: 50px;
+	font-weight: normal;
+}
+.logExplorer .fRow {
+	overflow: auto;
+	cursor: pointer;
+	line-height: 18px;
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	color: #555;
+	border-right: 3px solid transparent;
+}
+.logExplorer .fRow:hover {
+	background: #EAEAEA;
+}
+.logExplorer .fRow.selected {
+	background: #EAEAEA;
+	border-right: 3px solid #C00403;
+}
+.logExplorer .fRow .fTitle {
+	margin: 0px;
+	color: #656565;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 12px;
+}
+.logExplorer .fRow .fSize {
+	float: right;
+	color: #777;
+}
+.logExplorer .fRow .fModified {
+	float: left;
+	color: #777;
+}
+.logExplorer .fRow .removeForm {
+	float: left;
+	width: 24px;
+	height: 24px;
+	padding: 6px 0px;
+	padding-right: 5px;
+}
+.logExplorer .fRow .removeForm #removeBtn {
+	display: none;
+	border: none;
+	background: url('%{media}/global/closeX.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -24px;
+	width: 24px;
+	height: 24px;
+	cursor: ponter;
+	opacity: 0.2;
+	margin: 0px;
+	padding: 0px;
+}
+.logExplorer .fRow:hover .removeForm #removeBtn,
+.logExplorer .fRow.selected .removeForm #removeBtn {
+	display: block;
+}
+.logExplorer .fRow .removeForm #removeBtn:hover {
+	opacity: 1;
+}

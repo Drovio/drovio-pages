@@ -1,0 +1,33 @@
+.appList .appTile {
+	width: 33%;
+	float: left;
+	margin: 5px 0px;
+	overflow: auto;
+}
+.appList .appTile .appIco {
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: 50px 50px;
+	margin: 5px 10px;
+}
+.appList .appTile .appTitle {
+	margin: 10px 0px;
+}
+.appList .appTile .appTitle a {
+	color: #999;
+}
+.appList .appTile .appTitle:hover a {
+	color: #C00403;
+}
+.appList .appTile .appDesc {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.appList .noApps {
+	margin-top: 80px;
+	color: #C00403;
+	text-align: center;
+}

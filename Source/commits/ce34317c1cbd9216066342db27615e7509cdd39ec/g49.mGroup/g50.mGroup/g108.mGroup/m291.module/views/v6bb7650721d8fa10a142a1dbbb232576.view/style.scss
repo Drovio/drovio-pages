@@ -1,0 +1,22 @@
+.classInfo {
+	.hd {
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.classDescription {
+		white-space: pre-wrap;
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.inheritance .inhr {
+		clear: both;
+	}
+	.inheritance .inhr .rarr,
+	.inheritance .inhr a {
+		float: left;
+	}
+	.inheritance .inhr a:hover {
+		color: #C00403;
+		text-decoration: underline !important;
+	}
+}

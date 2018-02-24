@@ -1,0 +1,34 @@
+.historyContent .hentry {
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.historyContent .hentry .hhd {
+	padding: 5px 10px;
+	line-height: 21px;
+	overflow: auto;
+}
+
+.historyContent .hentry .title {
+	float: left;
+}
+.historyContent .hentry .timestamp {
+	float: right;
+	color: #999;
+}
+.historyContent .hentry .preview,
+.historyContent .hentry .loader {
+	float: left;
+	margin-left: 15px;
+	color: #999;
+	cursor: pointer;
+}
+.historyContent .hentry .loader:hover {
+	color: #C00403;
+}
+.historyContent .hentry .hContents {
+	clear: both;
+	white-space: pre-wrap;
+	margin: 0px;
+	padding: 5px;
+	backround: #EFEFEF;
+}

@@ -1,0 +1,82 @@
+button.sideTool{
+	border : none
+}
+
+.leftSidebar {
+	width: 20%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.rightContent {
+	width: 80%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;	
+	border-left : thin solid black;
+}
+
+#extRrscManagerSideMenu .sideMenuItem {
+	font-size: 14px;
+	border-top : thin solid black;
+	border-bottom : thin solid black;
+	border-right : thin solid black;
+	margin : 5px 5px 5px 0px;
+}
+
+#extRrscManagerSideMenu .sideMenuItemContext {
+	line-height: 30px;
+	padding-left : 15px;
+	width : auto;
+}
+
+#extRrscManagerSideMenu .selected {
+	
+}
+
+
+.codeEditorSidebar .listItemContent{
+	width: 90%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.codeEditorSidebar .listItemControls{
+	width: 10%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.codeEditorSidebar .inListHeader{
+	text-decoration: underline;
+}
+
+h1.sectionHeader{
+}
+
+h2.sectionHeader{
+}
+
+h3.sectionHeader{
+}
+
+.userGuidanceText{
+}

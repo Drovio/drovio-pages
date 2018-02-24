@@ -1,0 +1,98 @@
+<?php
+//#section#[header]
+// Module Declaration
+$moduleID = 97;
+
+// Inner Module Codes
+$innerModules = array();
+
+// Check Module Preloader Defined in RB Platform (prevent outside executions)
+if (!defined("_MDL_PRELOADER_") && !defined("_RB_PLATFORM_"))
+	throw new Exception("Module is not loaded properly!");
+
+// Use Importer
+use \API\Platform\importer;
+
+// Increase module's loading depth
+importer::import("ESS", "Protocol", "loaders::ModuleLoader");
+use \ESS\Protocol\loaders\ModuleLoader;
+ModuleLoader::incLoadingDepth();
+
+// Import Initial Libraries
+importer::import("UI", "Html", "DOM");
+importer::import("UI", "Html", "HTML");
+importer::import("DEV", "Profiler", "logger");
+
+// Use
+use \UI\Html\DOM;
+use \UI\Html\HTML;
+use \DEV\Profiler\logger;
+
+// Code Variables
+$_ASCOP = $GLOBALS['_ASCOP'];
+
+// If Async Request Pre-Loader exists, Initialize DOM
+if (defined("_MDL_PRELOADER_") && ModuleLoader::getLoadingDepth() === 1)
+	DOM::initialize();
+
+// Import Packages
+importer::import("API", "Model");
+importer::import("UI", "Navigation");
+importer::import("UI", "Presentation");
+importer::import("UI", "Modules");
+importer::import("SYS", "Comm");
+//#section_end#
+//#section#[code]
+use \SYS\Comm\db\dbConnection;
+use \API\Model\sql\dbQuery;
+use \UI\Modules\MContent;
+use \UI\Navigation\treeView;
+use \UI\Presentation\togglers\accordion;
+
+// Create Module Content
+$content = new MContent($moduleID);
+
+// Build the content
+$content->build("", "moduleViewerContent");
+
+
+$mdlAcc = new accordion();
+$moduleAccordion = $mdlAcc->build()->get();
+$content->append($moduleAccordion);
+
+// Get Modules
+$dbc = new dbConnection();
+$dbq = new dbQuery("727912579", "units.modules");
+$attr = array();
+$attr['gid'] = $_GET['gid'];
+$result = $dbc->execute($dbq, $attr);
+$allModules = $dbc->fetch($result, TRUE);
+
+foreach ($allModules as $module)
+{
+	// Set slice head
+	$head = DOM::create("div", "", "", "moduleHeader");
+	$mdlTitle = DOM::create("b", $module['module_title'], "", "moduleTitle");
+	DOM::append($head, $mdlTitle);
+	$mdlScope = DOM::create("span", " [".$module['scope']."] ", "", "moduleScope");
+	DOM::append($head, $mdlScope);
+	$mdlStatus = DOM::create("span", " [".$module['status']."] ", "", "moduleStatus");
+	DOM::append($head, $mdlStatus);
+	
+	// Set slice content
+	$sliceContent = DOM::create("span", "empty content for now");
+	$attr = array();
+	$attr['id'] = $module['module_id'];
+	$sliceContent = $content->getModuleContainer($moduleID, $action = "moduleEditor", $attr, $startup = FALSE, $containerID = "mdl_".$module['module_id']);
+	
+	DOM::attr($head, "data-ref", $module['module_id']);
+	
+	// Add slice
+	$mdlAcc->addSlice("sl_".$module['module_id'], $head, $sliceContent, $selected = FALSE);
+}
+
+
+// Return output
+return $content->getReport();
+//#section_end#
+?>

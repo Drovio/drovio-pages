@@ -1,0 +1,290 @@
+.appCenterUserHome {
+	height: 100%;
+}
+
+.appCenterUserHome > .appGrid{
+	height: 100%;
+}
+
+.appCenterUserHome .wdthSlide {
+	-webkit-transition: width 1s;
+	-moz-transition: width 1s;
+	-o-transition: width 1s;
+	transition: width 1s;
+}
+
+.appCenterUserHome > .appGrid .appGrid-sidebar{
+	width:0px;
+	
+	overflow:hidden;
+	float: left;
+	height:100%;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper{
+	height:100%;
+	width:100%;
+	float: left;
+}
+ 
+
+.appCenterUserHome > .appGrid.open{
+
+}
+
+.appCenterUserHome > .appGrid.open .appGrid-sidebar{
+	width: 20%;
+	
+}
+
+.appCenterUserHome > .appGrid.open .appHolderWrapper{
+	width:80%
+}
+
+.appCenterUserHome .appGrid-sidebar > .inner {
+	border-right: 1px solid black;
+	height: 100%;
+	
+	overflow-x: hidden;
+	min-width: 199px;
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section {
+	margin: 5px 0px  5px  5px;
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section > .header{
+	font-size: 120%;
+	color: gray;
+	border-bottom: 2px solid red;
+	margin-right:5px;
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section > .header > .inner{
+	padding: 0px 3px
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section > .content{
+	padding: 2px 0px 0px 5px;
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section > .content .item {
+	cursor: pointer;
+	padding: 2px;
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section > .content .item:hover {
+	background-color: gray;
+}
+
+.appCenterUserHome .appGrid-sidebar .sidebar-section > .content .item:selected {
+	background-color: lightgray;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper > .toolbar{
+
+}
+
+
+
+
+.appCenterUserHome .navigationContainer {
+	overflow: auto;
+	z-index: 2;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #FFF none repeat scroll 0% 0%;
+	float: right;
+
+}
+.appCenterUserHome .navigationContainer .searchContainer {
+	overflow: auto;
+	padding: 4px;
+}
+.appCenterUserHome .navigationContainer .searchContainer .explorerIcoContainer {
+	float: right;
+	width: 20px;
+	height: 20px;
+	padding: 1px 4px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+.appCenterUserHome .navigationContainer .searchContainer .explorerIcoContainer:hover,
+.appCenterUserHome .navigationContainer.open .searchContainer .explorerIcoContainer {
+	opacity: 1;
+}
+.appCenterUserHome .navigationContainer .searchContainer .explorerIco {
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/developer/docs/searchMenuIco.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+	overflow: hidden;
+}
+.appCenterUserHome .navigationContainer.searching .searchContainer .explorerIco {
+	background-position: 0px -20px;
+}
+.appCenterUserHome .navigationContainer .searchContainer .searchInput {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 3px 6px;
+	border: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 250px;
+	outline: none;
+	color: #555;
+}
+.appCenterUserHome .navigationContainer .objectExplorerContainer {
+	display: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-top: 10px;
+}
+.appCenterUserHome .navigationContainer.open .searchContainer {
+	border-bottom: 1px solid #DDD;
+} 
+.appCenterUserHome display: block;
+	display: block;
+}
+.appCenterUserHome .objectExplorerContainer .searchResults {
+	display: none;
+	overflow: auto;
+}
+.appCenterUserHome .objectExplorerContainer .searchResults .results {
+	overflow: auto;
+	max-height: 500px;
+}
+.appCenterUserHome .objectExplorerContainer .searchResults .results_title {
+	color: #555;
+	text-align: center;
+}
+.appCenterUserHome .objectExplorerContainer .searchResults .sr {
+	display: block;
+	padding: 4px 2px;
+}
+.appCenterUserHome .objectExplorerContainer .searchResults .sr:hover {
+	background: #EEE;
+}
+.appCenterUserHome .navigationContainer.searching .objectExplorerContainer .searchResults {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appHolder{
+	display: -webkit-flex; /* Safari */  
+	display: flex;
+	flex-direction: column; 
+	-webkit-flex-direction: row;
+	justify-content: center;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appHolder .row {
+	display: -webkit-flex; /* Safari */  
+	-webkit-flex-flow: row wrap; /* Safari 6.1+ */
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0px;
+	margin-bottom: 10px; 
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+}
+.appCenterUserHome > .appGrid .appHolderWrapper .appHolder .row:last-child {
+	margin-bottom: 0;
+}
+
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appHolder .appTile {
+	width: 250px;
+	height: 220px;
+	
+	margin: 5px;
+	box-sizing: border-box;
+    	padding: 5px;
+    	cursor: pointer;
+    	border: 1px solid #EEE;
+    	border-radius: 5px;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appHolder .appTile:hover {
+	border-color: #CCC;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .upper {
+	height: 80px;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .upper .appIco {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 10px;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .upper .appIco img {
+	width: inherit;
+	height: inherit;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .upper .appTitle {
+	display: block;
+	line-height: 32px;
+	font-weight: bold;
+	font-size: 12px;
+	cursor: pointer;
+ 	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 10px;
+	color: #555;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .middle {
+	margin-top: 5px;
+	height: 95px;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .middle .appDescription{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 100%;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .lower{
+	height: 20px;
+	margin-top: 5px;
+	margin: 0px 3px;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .lower > .inner{
+	border-top: 1px solid lightgray;
+	
+}

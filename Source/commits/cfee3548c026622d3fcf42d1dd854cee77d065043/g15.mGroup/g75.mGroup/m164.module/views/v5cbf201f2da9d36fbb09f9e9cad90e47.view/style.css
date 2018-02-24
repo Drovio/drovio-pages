@@ -1,0 +1,16 @@
+.msgBodyWrapper .contentTypeSwitchWrapper{
+	height:20px;
+}
+
+.msgBodyWrapper .contentTypeSwitch {
+	float:right;
+	background-color: darkgray;
+}
+
+.msgBodyWrapper .contentTypeSwitch > .control{
+	float:right;
+}
+
+.msgBodyWrapper .contentTypeSwitch > .control.selected{
+	background-color: lightgray;
+}

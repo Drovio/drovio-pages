@@ -1,0 +1,68 @@
+.appSessionsPage,
+.appSessionsPage .appSessions {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background: #F5F5F5;
+}
+.appSessions {
+	.box {
+		float: left;
+		margin: 20px;
+		background: #FFF;
+		border: 1px solid #CCC;
+		min-width: 250px;
+	}
+	.box > .ico {
+		width: 100px;
+		height: 100px;
+		margin: 40px auto;
+		background: url('%{media}/developer/projects/statistics.svg') no-repeat;
+		background-size: 100px;
+	}
+	.box .sub {
+		border-top: 1px solid #CCC;
+		color: #000;
+	}
+	.box .title {
+		padding: 15px 20px;
+		font-weight: normal;
+		font-size: 14px;
+		text-align: center;
+		color: #555;
+	}
+	.sessions {
+		margin: 20px;
+	}
+	.sessions {
+		.sr {
+			overflow: auto;
+			color: #555;
+			padding: 10px;
+			line-height: 20px;
+			border-bottom: 1px solid #CCC;
+			min-width: 300px;
+		}
+		.sr:last-child {
+			border: none;
+		}
+		.sr .key {
+			float: left;
+			margin: 0px;
+			font-weight: normal;
+			color: #777;
+			font-size: 13px;
+		}
+		.sr .value {
+			float: right;
+			font-weight: normal;
+			margin: 0px;
+		}
+	}
+	.details {
+		clear: both;
+	}
+	.details #sess_detailed {
+		max-height: 300px;
+	}
+}

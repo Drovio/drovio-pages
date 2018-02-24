@@ -1,0 +1,193 @@
+@import url("http://cdn.drov.io/media/css/fonts/roboto.font.css");
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'), url(http://fonts.gstatic.com/s/robotoslab/v6/MEz38VLIFL-t46JUtkIEgNFPPhm6yPYYGACxOp9LMJ4.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJUo2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+}
+.docViewer {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	background: #F1F1F1;
+}
+
+.docViewer .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.docViewer > .middleContainer {
+	padding-top: 30px;
+}
+.docViewer .sidebar {
+	width: 25%;
+	float: left;
+	padding: 20px 0px;
+}
+
+.docViewer .sidebar .myDashboard {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 15px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	background-color: #454A54;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .myDashboard:hover {
+	background-color: #3CB0F7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.docViewer .sidebar .sideMenu {
+	margin: 20px 0px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+}
+.docViewer .sidebar .sideMenu .doc_group {
+	margin: 10px 0px;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .glist {
+	display: none;
+	margin-bottom: 10px;
+}
+
+.docViewer .sidebar .sideMenu .doc_group.open .glist {
+	display: block;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navHeader {
+	margin-bottom: 5px;
+	padding: 3px 5px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #555;
+	cursor: pointer;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navHeader .ico {
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin: 2px;
+	margin-right: 10px;
+	background: url('%{media}/global/pointer.svg') no-repeat center;
+	background-size: cover;
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	opacity: 0.6;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navHeader:hover .ico {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group.open .navHeader .ico {
+	opacity: 1;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navHeader .ico:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navItem {
+	font-size: 12px;
+	cursor: pointer;
+	border-left: 3px solid transparent;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navSeparator {
+	height: 1px;
+	margin: 5px 25px;
+	background: #5E6570;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navItem:hover, .docViewer .sidebar .sideMenu .doc_group .navItem.selected {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navItem a {
+	display: block;
+	padding: 8px 12px;
+	padding-left: 30px;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .navItem:hover a, .docViewer .sidebar .sideMenu .doc_group .navItem.selected a {
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .contentHolder {
+	width: 75%;
+	float: left;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}

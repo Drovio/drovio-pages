@@ -1,0 +1,103 @@
+.drovioSub {
+	& {
+		padding: 0px 5px;
+	}
+	.section {
+		overflow: auto;
+		border-bottom: 1px solid #454A54;
+		padding: 5px;
+	}
+	.section:last-child {
+		border-bottom: none;
+	}
+	.navitem {
+		& {
+			display: block;
+			float: left;
+			padding: 3px 5px;
+			margin: 5px;
+			line-height: 24px;
+			color: #FFF;
+			background: #454A54;
+			transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-moz-transition: background-color .2s ease-in-out;
+			cursor: pointer;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			width: 100px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-spate: nowrap;
+		}
+		&:hover {
+			background-color: #5E6570;
+			transition: background-color .2s ease-in-out;
+			-webkit-transition: background-color .2s ease-in-out;
+			-moz-transition: background-color .2s ease-in-out;
+		}
+		.ico {
+			height: 24px;
+			width: 24px;
+			background: url('%{media}/developer/icons/toolbarIcons.svg') no-repeat center;
+			background-size: cover;
+			margin-right: 5px;
+			float: left;
+		}
+		&.drovio .ico {
+			background-position: 0px 0px;
+		}
+		&.developers .ico {
+			background-position: 0px -24px;
+		}
+	}
+	.teams {
+		& {
+			max-height: 200px;
+		}
+		.hd {
+			color: #777;
+			margin: 15px 0px;
+			text-align: center;
+		}
+		.ttile {
+			overflow: auto;
+			line-height: 24px;
+			padding: 5px 8px;
+			cursor: pointer;
+			background: #FFF;
+			display: block;
+			border-bottom: 1px solid #DDD;
+		}
+		.ttile:last-child {
+			border-bottom: none;
+		}
+		.ttile:hover {
+			background-color: #454A54;
+		}
+		.ttile .icon {
+			width: 24px;
+			height: 24px;
+			float: left;
+			margin-right: 10px;
+		}
+		.ttile .icon img {
+			width: inherit;
+			height: inherit;
+		}
+		.ttile .title {
+			color: #555459;
+		}
+		.ttile:hover .title {
+			color: #FFF;
+		}
+	}
+	.new_team .new {
+		margin: 5px auto;
+		float: none;
+	}
+	.new_team .new .ico {
+		background-position: 0px -72px;
+	}
+}

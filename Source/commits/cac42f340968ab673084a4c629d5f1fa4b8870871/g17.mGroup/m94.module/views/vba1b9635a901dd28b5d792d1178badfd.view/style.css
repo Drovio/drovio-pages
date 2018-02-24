@@ -1,0 +1,57 @@
+#webFrontend {
+	width: 100%;
+	height: 100%;
+}
+#webFrontend .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+#webFrontend .mainContainer {
+	height: 400px;
+}
+#webFrontend .mainContainer .middleContainer {
+	height: 400px;
+	position: relative;
+}
+
+#webFrontend .mainContainer .imageLogo {
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: none;
+}
+#webFrontend .mainContainer .logoSide {
+	margin-top: 25px;
+	margin-left: 25px;
+	float: left;
+}
+#webFrontend .mainContainer .logoSide.center {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+#webFrontend .mainContainer .textLogo {
+	background: url(/Library/Media/images/logos/RB_logo_big.svg) no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+}
+#webFrontend .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+#webFrontend .mainContainer h2.logTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+#webFrontend .mainContainer h3.subTitle {
+	margin-top: 50px;
+	color: #c00403;
+}

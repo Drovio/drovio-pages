@@ -1,0 +1,86 @@
+.newProjectWizard {
+	padding: 5px;
+	width: 700px;
+}
+.newProjectWizard .slides {
+	width: 1400px;
+	overflow: hidden;
+}
+.newProjectWizard .slides .slide {
+	width: 700px;
+	float: left;
+}
+.newProjectWizard .projectCategories .pSelector {
+	height: 150px;
+	margin: 0px 50px;
+}
+.newProjectWizard .projectCategories .pSelector .pt {
+	width: 120px;
+	height: 120px;
+	padding: 20px;
+	margin: 15px;
+	float: left;
+	text-align: center;
+	padding-top: 40px;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	cursor: pointer;
+}
+.newProjectWizard .projectCategories .pSelector .pt:hover, .newProjectWizard .projectCategories .pSelector .pt.selected {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(166, 166, 166, 0.5);
+}
+.newProjectWizard .projectCategories .pSelector .pt.selected {
+	background-color: rgba(166, 166, 166, 0.1);
+}
+.newProjectWizard .projectCategories .pDescription {
+	margin: 0px 20px;
+}
+.newProjectWizard .projectCategories h4.descHeader {
+	margin-left: 5px;
+}
+.newProjectWizard .selectorControls {
+	overflow: auto;
+	padding: 5px;
+	border-top: 1px solid rgba(166, 166, 166, 0.5);
+}
+.newProjectWizard .projectCategories .selectorControls p {
+	color: #999;
+	float: left;
+}
+.newProjectWizard .selectorControls .cancelBtn {
+	float: left;
+}
+.newProjectWizard .selectorControls .nextBtn {
+	float: right;
+}
+.newProjectWizard .website .wBuilderLink {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	height: 150px;
+	display: block;
+}
+.newProjectWizard .website .wBuilderImage {
+	height: 120px;
+	margin: 0 auto;
+}
+.newProjectWizard .website .wBuilderLink:hover .wBuilderText {
+	color: #C00403;
+}
+.newProjectWizard .radioContainer {
+	display: none;
+}
+.newProjectWizard .projectInfo .infoControls {
+	overflow: auto;
+	padding: 5px;
+	border-top: 1px solid rgba(166, 166, 166, 0.5);
+	margin-top: 50px;
+}
+.newProjectWizard .projectInfo .infoControls #submitBtn {
+	float: right;
+}

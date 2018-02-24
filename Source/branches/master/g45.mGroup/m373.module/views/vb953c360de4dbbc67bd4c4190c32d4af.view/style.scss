@@ -1,0 +1,134 @@
+.bossLogin {
+	& {
+		height: 100%;
+		width: 100%;
+		background: #F1F1F1;
+		overflow: auto;
+	}
+	.whiteBox {
+		max-width: 600px;
+		overflow: auto;
+		margin: 50px auto;
+		margin-bottom: 20px;
+		background: #FFF;
+		border: 1px solid #CCC;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		padding: 20px;
+	}
+	.logoContainer {
+		& {
+			overflow: hidden;
+			margin: 50px auto;
+			margin-top: 20px;
+		}
+		.team_logo {
+			width: 70%;
+			height: 75px;
+			float: left;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			padding-left: 50px;
+		}
+		.team_logo .logo {
+			float: left;
+			width: 75px;
+			height: 75px;
+			margin-right: 25px;
+		}
+		.team_logo .logo img {
+			height: inherit;
+			width: inherit;
+		}
+		.team_logo .title {
+			line-height: 75px;
+			color: #5E6570;
+			font-size: 28px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+		.platform_logo {
+			width: 30%;
+			height: 35px;
+			margin: 20px 0px;
+			float: right;
+			background: url('%{cdn}/media/logos/logo.png') no-repeat center;
+			background-size: contain;
+		}
+	}
+	.description {
+		font-size: 16px;
+		color: #5E6570;
+		text-align: center;
+		line-height: 24px;
+	}
+	.description h1 {
+		font-weight: bold;
+	}
+	.connect {
+		overflow: auto;
+		width: 320px;
+		margin: 50px auto;
+	}
+	.wbutton {
+		float: left;
+		width: 150px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background: #3CB0F7;
+		border: 1px solid #3CB0F7;
+		color: #FFF;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		cursor: pointer;
+		padding: 15px;
+		line-height: 18px;
+		text-align: center;
+		font-size: 12px;
+		margin-right: 20px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton:last-child {
+		margin-right: 0px;
+	}
+	.wbutton:hover {
+		background-color: transparent;
+		color: #3CB0F7;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton.home {
+		background-color: transparent;
+		border-color: #5E6570;
+		color: #5E6570;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton.home:hover {
+		background-color: #5E6570;
+		color: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.pgfooter {
+		max-width: 600px;
+		overflow: auto;
+		margin: 0px auto;
+		text-align: center;
+		font-size: 14px;
+		color: #5E6570;
+	}
+	.pgfooter a {
+		color: #5E6570;
+	}
+}

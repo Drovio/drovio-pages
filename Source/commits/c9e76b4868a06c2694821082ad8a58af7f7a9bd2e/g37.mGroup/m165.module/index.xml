@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="165"><sql><query id="q784ceba5a9c6a9abd0afd25ddb4df400" name="set_reset_account"/><query id="q6ca0ecfde2295f4d74d458a330659c35" name="account_info"></query></sql><views><view id="v14b758f169825285bcb63c15d60b8b9c" name="ResetPassword"/></views></module>

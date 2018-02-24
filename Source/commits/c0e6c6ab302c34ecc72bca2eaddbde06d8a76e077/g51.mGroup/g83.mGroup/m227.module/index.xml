@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="227"><sql/><views><view id="vc45f5f8ff998fcdd3a92bab639e1cde7" name="issues"/><view id="v63175c731b5faf73ccee964e64222f77" name="newIssue"/><view id="vb71b230ab7390897a2dcb2d874600b48" name="issueDetails"/><view id="v8b3a7728dc49a6da09641027f9e93794" name="issueList"/><view id="ve9fe77b921a51f3b9f7d0229cab60641" name="assign"/><view id="v991244a2491230a609d50ae21866a473" name="test"></view></views></module>

@@ -1,0 +1,73 @@
+.apcAnalyticsPage,
+.apcAnalyticsPage .apcAnalytics {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background: #F5F5F5;
+}
+.apcAnalytics .box {
+	float: left;
+	margin: 20px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	min-width: 250px;
+}
+
+.apcAnalytics .box > .ico {
+	width: 100px;
+	height: 100px;
+	margin: 40px auto;
+	background: url('%{media}/developer/projects/statistics.svg') no-repeat;
+	background-size: 100px;
+}
+
+.apcAnalytics .box .sub {
+	border-top: 1px solid #CCC;
+	color: #000;
+}
+
+.apcAnalytics .box .title {
+	padding: 15px 20px;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	color: #555;
+}
+
+.apcAnalytics .sessions {
+	margin: 20px;
+}
+.apcAnalytics .sessions .sr {
+	overflow: auto;
+	color: #555;
+	padding: 10px;
+	line-height: 20px;
+	border-bottom: 1px solid #CCC;
+	min-width: 300px;
+}
+
+.apcAnalytics .sessions .sr:last-child {
+	border: none;
+}
+
+.apcAnalytics .sessions .sr .key {
+	float: left;
+	margin: 0px;
+	font-weight: normal;
+	color: #777;
+	font-size: 13px;
+}
+
+.apcAnalytics .sessions .sr .value {
+	float: right;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.apcAnalytics .details {
+	clear: both;
+}
+
+.apcAnalytics .details #sess_detailed {
+	max-height: 300px;
+}

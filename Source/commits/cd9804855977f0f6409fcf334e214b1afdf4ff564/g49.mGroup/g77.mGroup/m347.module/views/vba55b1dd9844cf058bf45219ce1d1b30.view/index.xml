@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vba55b1dd9844cf058bf45219ce1d1b30"><dependencies><dependency library="API" object="Geoloc"></dependency><dependency library="API" object="Literals"></dependency><dependency library="API" object="Profile"></dependency><dependency library="DEV" object="Literals"></dependency><dependency library="ESS" object="Environment"></dependency><dependency library="UI" object="Forms"></dependency><dependency library="UI" object="Modules"></dependency><dependency library="UI" object="Presentation"></dependency></dependencies><inner/></view>

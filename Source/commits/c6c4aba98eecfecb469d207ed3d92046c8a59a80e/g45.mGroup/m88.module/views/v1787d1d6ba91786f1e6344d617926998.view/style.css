@@ -1,0 +1,57 @@
+#bossFrontend {
+	width: 100%;
+	height: 100%;
+}
+#bossFrontend .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+#bossFrontend .mainContainer {
+	height: 400px;
+}
+#bossFrontend .mainContainer .middleContainer {
+	height: 400px;
+	position: relative;
+}
+
+#bossFrontend .mainContainer .imageLogo {
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: none;
+}
+#bossFrontend .mainContainer .logoSide {
+	margin-top: 25px;
+	margin-left: 25px;
+	float: left;
+}
+#bossFrontend .mainContainer .logoSide.center {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+#bossFrontend .mainContainer .textLogo {
+	background: url(/Library/Media/images/pages/boss/bossLogo.png) no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+}
+#bossFrontend .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+#bossFrontend .mainContainer h2.logTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+#bossFrontend .mainContainer h3.subTitle {
+	margin-top: 50px;
+	color: #c00403;
+}

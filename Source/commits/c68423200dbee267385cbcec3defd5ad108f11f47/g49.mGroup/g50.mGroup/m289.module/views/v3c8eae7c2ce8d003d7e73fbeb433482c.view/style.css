@@ -1,0 +1,280 @@
+.startScreen .whitebox {
+	background-color: #FFF;
+	border: 1px solid #E8E8E8;
+	margin: 20px 0px;
+}
+
+.startScreen .objectIco {
+	width: 100px;
+	height: 100px;
+	padding: 25px;
+	margin: 0 auto;
+	margin-top: 100px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: url('%{media}/developer/docs/sdkObject.svg') no-repeat center;
+	background-size: 100px;
+}
+
+.startScreen.open .bigTiles {
+	display: none;
+}
+.startScreen .bigTiles {
+	overflow: auto;
+	padding: 20px 40px;
+}
+
+.startScreen .bigTiles .bigTile {
+	display: table-cell;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+	overflow: auto;
+	width: 25%;
+}
+
+.startScreen .bigTiles .bigTile a {
+	display: block;
+	color: #666;
+	overflow: auto;
+}
+
+.startScreen .bigTiles .bigTile a:hover {
+	color: #333;
+}
+
+.startScreen .bigTiles .bigTile .ico {
+	width: 122px;
+	height: 122px;
+	padding: 20px;
+	margin: 20px auto;
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: url('%{media}/developer/docCategories.svg') no-repeat center;
+	background-size: cover;
+	border: 1px solid #999;
+	border-radius: 50%;
+}
+
+.startScreen .bigTiles .bigTile a:hover .ico {
+	box-shadow: 0px 0px 8px #777;
+	-webkit-box-shadow: 0px 0px 8px #777;
+	-moz-box-shadow: 0px 0px 8px #777;
+}
+
+.startScreen .bigTiles .bigTile .title {
+	text-align: center;
+	margin: 10px 0px;
+	font-weight: normal;
+}
+
+.startScreen .bigTiles .bigTile.basics .ico {
+	background-position: 0px 0px;
+}
+
+.startScreen .bigTiles .bigTile.tutorials .ico {
+	background-position: 0px -480px;
+}
+
+.startScreen .bigTiles .bigTile.sdk .ico {
+	background-position: 0px -120px;
+}
+
+.startScreen .bigTiles .bigTile.api .ico {
+	background-position: 0px -600px;
+}
+.startScreen .searchContainer {
+	overflow: auto;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #FFF;
+	padding: 9px 15px;
+}
+
+.startScreen .searchContainer .explorerIcoContainer {
+	float: right;
+	width: 18px;
+	height: 18px;
+	cursor: pointer;
+	opacity: 0.6;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.startScreen .searchContainer .explorerIcoContainer:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.startScreen .searchContainer .explorerIco {
+	width: 18px;
+	height: 18px;
+	background: url('%{media}/developer/docs/searchMenuIco.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+	overflow: hidden;
+}
+
+.startScreen .searchContainer .searchInput {
+	float: left;
+	line-height: 18px;
+	font-size: 12px;
+	color: #555;
+	border: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 90%;
+	outline: none;
+	padding: 0px;
+}
+
+.startScreen.open .objectExplorerContainer {
+	display: block;
+}
+
+.startScreen.searching .objectExplorerContainer .searchResults {
+	display: block;
+}
+
+.startScreen.searching .objectExplorerContainer .topNav {
+	display: none;
+}
+
+.startScreen.searching .objectExplorerContainer .objectExplorer {
+	display: none;
+}
+
+.startScreen.open .searchContainer .explorerIcoContainer {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.startScreen.searching .searchContainer .explorerIco {
+	background-position: 0px -20px;
+}
+.startScreen .objectExplorerContainer {
+	display: none;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-top: 10px;
+}
+
+.startScreen .objectExplorerContainer .searchResults {
+	display: none;
+}
+
+.startScreen .objectExplorerContainer .searchResults .results {
+	margin-bottom: 20px;
+}
+
+.startScreen .objectExplorerContainer .searchResults .results:last-child {
+	margin-bottom: none;
+}
+
+.startScreen .objectExplorerContainer .searchResults .results_title {
+	color: #555;
+	font-size: 16px;
+	border-bottom: 1px solid #999;
+	font-weight: normal;
+	padding: 5px;
+}
+
+.startScreen .objectExplorerContainer .searchResults .sr {
+	display: block;
+	padding: 4px 2px;
+}
+
+.startScreen .objectExplorerContainer .searchResults .sr:hover {
+	background: #EEE;
+}
+
+.startScreen .objectExplorerContainer .topNav {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.startScreen .objectExplorerContainer .topNav .hdNav {
+	float: left;
+	width: 40%;
+	margin: 0px 5%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 8px 12px;
+	border: 1px solid #5E6570;
+	color: #5E6570;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.startScreen .objectExplorerContainer .topNav .hdNav:hover, .startScreen .objectExplorerContainer .topNav .hdNav.selected {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.startScreen .objectExplorerContainer .objectExplorer {
+	overflow: auto;
+}
+
+.startScreen .objectExplorerContainer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%{media}/developer/icons/fileThumbs.svg');
+	background-size: cover;
+}
+
+.startScreen .objectExplorerContainer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+
+.startScreen .objectExplorerContainer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+
+.startScreen .objectExplorerContainer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+
+.startScreen .objectExplorerContainer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+
+.startScreen .objectExplorerContainer .contentIcon.flIco {
+	background-position:0px -64px;
+}

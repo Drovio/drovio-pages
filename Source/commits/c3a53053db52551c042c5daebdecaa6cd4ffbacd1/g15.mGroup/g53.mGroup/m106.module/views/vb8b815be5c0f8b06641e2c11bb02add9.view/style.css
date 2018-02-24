@@ -1,0 +1,92 @@
+.developerControlPanel {
+	height: 400px;
+}
+.developerControlPanel #testerController {
+	overflow: auto;
+}
+.developerControlPanel .testerPanels {
+	overflow: auto;
+	padding: 5px 0px;
+	box-sizing: border-box;
+}
+.developerControlPanel .testerPanels .panel {
+	width: 50%;
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.developerControlPanel .testerPanels .panel.moduleTester {
+	border-right: 1px solid rgba(166, 166, 166, 0.5);
+}
+.developerControlPanel .switchRow {
+	width: 50%;
+	display: block;
+	overflow: auto;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+.developerControlPanel .moduleTester .moduleConfigurator, .developerControlPanel .coreTester .packageConfigurator {
+	padding: 5px;
+}
+.developerControlPanel .moduleTester .modulesList, .developerControlPanel .coreTester .packageList {
+	height: 180px;
+}
+
+.developerControlPanel .switchRow > span {
+	float: left;
+	min-width: 150px;
+	padding-right: 10px;
+}
+.developerControlPanel .switchRow > .uiSwitchButton {
+	float: right;
+}
+
+.developerControlPanel #loggerDataContainer {
+	clear: both;
+	width: 50%;
+	padding: 5px;
+	overflow: auto;
+}
+.developerControlPanel #resourceProfiler {
+	padding: 10px;
+}
+.developerControlPanel #resourceProfiler .resourceListContainer {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+}
+.developerControlPanel #resourceProfiler .resourceListContainer .cssResources {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+
+.developerControlPanel #resourceProfiler .resourceListContainer .bootResource {
+	list-style: none;
+	padding: 3px;
+	margin: 0px;
+	line-height: 16px;
+}
+.developerControlPanel #resourceProfiler .resourceListContainer .bootResource:nth-child(even) {
+	background-color: #EEE;
+}
+#resourceProfiler .bootResource .rsrcIco {
+	width: 5%;
+	display: inline-block;
+	float: left;
+	height: 16px;
+}
+#resourceProfiler .resourceListContainer .cssResources .bootResource .rsrcIco {
+	background: url('/Library/Media/images/icons/16x16/moduleCSS.png') no-repeat center;
+}
+#resourceProfiler .resourceListContainer .jsResources .bootResource .rsrcIco {
+	background: url('/Library/Media/images/icons/16x16/moduleJS.png') no-repeat center;
+}
+#resourceProfiler .bootResource .rsrcUrl {
+	width: 75%;
+	display: inline-block;
+}
+#resourceProfiler .bootResource .rsrcReload, .bootResource .rsrcRemove {
+	width: 10%;
+	color: blue;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}

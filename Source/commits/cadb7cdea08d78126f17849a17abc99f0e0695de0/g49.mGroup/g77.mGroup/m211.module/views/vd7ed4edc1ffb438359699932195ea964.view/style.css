@@ -1,0 +1,48 @@
+.projectMembers .pr {
+	overflow: auto;
+	padding: 5px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.projectMembers .pr:last-child {
+	border-bottom: none;
+}
+.projectMembers .pr .mn {
+	float: left;
+}
+.projectMembers .pr .edit {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.projectMembers .pr .mrl {
+	float: right;
+	display: inline-block;
+	color: #999;
+}
+.projectMembers .add_new_member {
+	overflow: auto;
+	border-top: 1px solid #EFEFEF;
+	padding: 3px 5px;
+}
+.projectMembers .add_new_member h4 {
+	margin: 0px;
+	float: left;
+	color: green;
+	font-weight: normal;
+}
+.projectMembers .add_new_member #btn_add_member {
+	float: left;
+	margin: 5px;
+}
+.projectMembers .add_new_member #addMemberForm .tmsl {
+	float: left;
+	margin: 5px;
+	margin-top: 7px;
+}
+.projectMembers .add_new_member #addMemberForm .tminp {
+	float: left;
+	width: 300px;
+	padding: 4px 6px;
+	margin: 5px;
+	border-color: #999;
+}

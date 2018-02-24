@@ -1,0 +1,11 @@
+.legalPage h1, .legalPage h3 {
+	text-align: center;
+}
+.legalPage h3 {
+	color: #565656;
+	margin: 75px 0px;
+	font-weight: normal;
+}
+.legalPage h4 a {
+	color: rgb(192, 4, 3);
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="151"><sql/><views><view id="v04b37338cc82f95d41f7e01d694eb804" name="timezoneDataList"/><view id="v8d555b98762c7746ccf8f8d760fef9c4" name="setBasicTimezone"/><view id="vf63fcb21ab9c9dbe82f18c32f9be60b5" name="editTimezone"/><view id="vc6d2eefe65316d4cc0bfcc4b703d20e0" name="nonBasicTimezones"></view></views></module>

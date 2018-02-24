@@ -1,0 +1,99 @@
+.sdkManualPage {
+	width: 100%;
+	height: 100%;
+}
+.sdkManualContainer {
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.sdkManualContainer > .middleContainer {
+	padding-top: 60px;
+}
+.sdkManualContainer .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.sdkManualContainer .middleContainer .sidebar {
+	width: 250px;
+	float: left;
+	padding: 20px 0px;
+}
+.sdkManualContainer .middleContainer .sidebar .topNav {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+.sdkManualContainer .middleContainer .sidebar .topNav .hdNav {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 3px 5px;
+	border-bottom: 3px solid transparent;
+	color: #777;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.sdkManualContainer .middleContainer .sidebar .topNav .hdNav:hover {
+	border-bottom: 3px solid #CCC;
+	color: #555;
+}
+.sdkManualContainer .middleContainer .sidebar .topNav .hdNav.selected {
+	border-bottom: 3px solid #C00403;
+	color: #555;
+}
+.sdkManualContainer .middleContainer .manualHolder {
+	width: 750px;
+	float: left;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.sdkManualContainer .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+
+
+.sdkManualContainer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+	background-size: cover;
+}
+.sdkManualContainer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.sdkManualContainer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.sdkManualContainer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.sdkManualContainer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.sdkManualContainer .contentIcon.flIco {
+	background-position:0px -64px;
+}

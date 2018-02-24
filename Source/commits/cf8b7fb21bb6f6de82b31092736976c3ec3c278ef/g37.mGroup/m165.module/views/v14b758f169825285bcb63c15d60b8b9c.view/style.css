@@ -1,0 +1,280 @@
+.resetPwPage {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: #FFF url('%resources%/frontend/biz_banner.jpg') no-repeat center;
+	background-size: cover;
+	overflow: auto;
+}
+.resetPwPage .whiteBox {
+	background: rgba(255, 255, 255, 0.8);
+	padding: 15px;
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 150px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.resetPwPage .whiteBox .header .lside {
+	width: 50%;
+	float: left;
+}
+.resetPwPage .whiteBox .logo {
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+	float: left;
+	background: url('%resources%/logos/logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.resetPwPage .whiteBox .header .text {
+	font-size: 20px;
+	margin: 10px 0px;
+	line-height: 75px;
+	text-align: left;
+}
+.resetPwPage .whiteBox .header .small {
+	line-height: 75px;
+	font-weight: normal;
+	font-size: 24px;
+	float: left;
+	color: #C00403;
+	margin: 10px 0px;
+	padding: 0px 10px;
+}
+.resetPwPage .whiteBox .main {
+	clear: both;
+	overflow: auto;
+}
+.resetPwPage .whiteBox .main .side {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+.resetPwPage .whiteBox .side.leftSide {
+	border-right: 1px solid #CCC;
+	text-align: center;
+}
+.resetPwPage .whiteBox .side.leftSide .title {
+	font-size: 18px;
+	color: #777;
+	font-weight: normal;
+	margin: 8px 0px;
+}
+.resetPwPage .whiteBox .side.leftSide .sub {
+	font-size: 13px;
+	color: #777;
+	font-weight: normal;
+	margin: 5px 0px;
+}
+.resetPwPage .whiteBox .lpinp {
+	width: 100%;
+	padding: 5px 8px;
+	margin: 5px 0px;
+	font-size: 14px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-color: #777;
+	color: #777;
+	outline: none;
+}
+.resetPwPage .whiteBox button[type='submit'] {
+	padding: 8px 10px;
+	width: 150px;
+	margin: 10px auto;
+	font-size: 16px;
+}
+.resetPwPage .whiteBox .rcont {
+	margin-top: 10px;
+}
+.resetPwPage .whiteBox .rocnt {
+	margin-top: 10px;
+	width: 50%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.resetPwPage .whiteBox .rocnt a {
+	display: block;
+	padding: 10px 5px;
+}
+.resetPwPage .whiteBox .rocnt .ricnt {
+	background: linear-gradient(#FEFEFE, #f0f0f0);
+	border: 1px solid #CCC;
+	border-color: #cdced0 #c5c6c8 #b6b7b9;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.resetPwPage .whiteBox .rocnt .ricnt label {
+	display: block;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.resetPwPage .whiteBox .rocnt.selected .ricnt {
+	background: linear-gradient(rgb(45, 171, 220), rgb(14, 149, 211));
+	border: 1px solid rgb(10, 104, 146);
+	color: #FFF;
+}
+.resetPwPage .whiteBox .rocnt .ricnt input[type='radio'] {
+	display: none;
+}
+.resetPwPage .whiteBox .rnotes {
+	color: #999;
+	font-size: 10px;
+	text-align: center;
+	padding-top: 5px;
+	clear: both;
+}
+.resetPwPage .whiteBox .rnotes .nt {
+	display: none;
+}
+.resetPwPage .whiteBox .rnotes .nt.selected {
+	display: inline-block;
+}
+.resetPwPage .whiteBox .footer {
+	border-top: 1px solid #CCC;
+	margin-top: 10px;
+	color: #777;
+	font-weight: normal;
+}
+.resetPwPage .whiteBox .footer h4 {
+	text-align: left;
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 5px 0px;
+}
+.resetPwPage .pgFooter {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	border-top: 2px solid #CCC;
+	background: #FFF;
+	line-height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.resetPwPage .pgFooter .left {
+	float: left;
+	font-weight: bold;
+	color: #C00403;
+}
+.resetPwPage .pgFooter .right {
+	float: right;
+	color: #C00403;
+}
+
+
+
+
+/*
+.resetPwPage {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: #FFF url('%resources%/frontend/biz_banner.jpg') no-repeat center;
+	background-size: cover;
+	overflow: auto;
+}
+.resetPwPage .whiteBox {
+	background: #FFF;
+	border: 2px solid #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 15px;
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 150px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.resetPwPage .whiteBox .logo {
+	width: 75px;
+	height: 75px;
+	margin: 10px auto;
+	background: url('%resources%/logos/logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.resetPwPage .whiteBox .text {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.resetPwPage .whiteBox .small {
+	font-weight: normal;
+	font-size: 12px;
+	color: #C00403;
+	margin-bottom: 10px;
+}
+.resetPwPage .whiteBox form {
+	text-align: left;
+}
+.resetPwPage .whiteBox .lpinp {
+	font-size: 12px;
+	padding: 5px;
+	margin: 5px 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-color: #777;
+	color: #777;
+	outline: none;
+	float: left;
+	width: 80%;
+}
+.resetPwPage .whiteBox button[type='submit'] {
+	display: block;
+	margin: 5px 0px;
+	float: right;
+	width: 15%;
+}
+.resetPwPage .whiteBox .footer {
+	border-top: 1px solid #CCC;
+	margin-top: 10px;
+	color: #777;
+}
+.resetPwPage .pgFooter {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	border-top: 2px solid #CCC;
+	background: #FFF;
+	line-height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.resetPwPage .pgFooter .left {
+	float: left;
+	font-weight: bold;
+	color: #C00403;
+}
+.resetPwPage .pgFooter .right {
+	float: right;
+	color: #C00403;
+}*/

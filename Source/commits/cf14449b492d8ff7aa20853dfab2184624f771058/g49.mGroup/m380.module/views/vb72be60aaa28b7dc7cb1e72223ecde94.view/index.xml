@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vb72be60aaa28b7dc7cb1e72223ecde94"><dependencies><dependency library="API" object="Geoloc"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="devHome">100</module><module id="devDocs">289</module><module id="landingPage">397</module></inner></view>

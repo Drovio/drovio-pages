@@ -1,0 +1,148 @@
+.myTeams .currentTeam, .myTeams .allTeams {
+	overflow: auto;
+	padding: 20px 0px;
+}
+
+.myTeams .allTeams {
+	border-top: 1px solid #CCC;
+}
+
+.myTeams .allTeams:empty {
+	border-top: none;
+}
+.myTeams .teamBox {
+	margin: 0px;
+	float: left;
+	padding: 10px;
+	list-style-type:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.myTeams .teamBox .teamBoxContainer {
+	width: 250px;
+	background: #FFF;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border-left: 3px solid #777;
+}
+
+.myTeams .teamBox .teamBoxContainer a {
+	display: block;
+	overflow: auto;
+}
+
+.myTeams .teamBox .teamBoxContainer .boxHeader {
+	line-height: 32px;
+	overflow: auto;
+	padding: 10px;
+}
+
+.myTeams .teamBox .teamBoxContainer .imageBox {
+	float:left;
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.myTeams .teamBox .teamBoxContainer .imageBox:empty {
+	background: url('%{media}/my/teamIcons.svg') no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+
+.myTeams .teamBox .teamBoxContainer .imageBox img {
+	height: inherit;
+	width: inherit;
+}
+
+.myTeams .teamBox .teamBoxContainer .teamName {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-transform: capitalize;
+}
+
+.myTeams .teamBox .teamBoxContainer .pinfo {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 10px;
+}
+
+.myTeams .teamBox .teamBoxContainer .tinfo {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 10px;
+}
+
+.myTeams .teamBox .teamBoxContainer .tinfo .ico {
+	float: left;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/my/teamIcons.svg') no-repeat;
+	background-position: 0px -16px;
+	background-size: cover;
+}
+
+.myTeams .teamBox .teamBoxContainer .boxActions {
+	overflow: auto;
+	clear: both;
+	padding: 5px;
+	margin-top: 30px;
+	background: #F8F9FB;
+}
+
+.myTeams .teamBox .teamBoxContainer .boxActions .ba {
+	display: inline-block;
+	float: right;
+	padding: 5px 0px;
+	width: 50%;
+	text-align: center;
+	line-height: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+	font-size: 10px;
+	color: #555;
+	border: 1px solid rgb(40, 117, 206)
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.myTeams .teamBox .teamBoxContainer .boxActions .ba:hover {
+	color: #C00403;
+}
+
+.myTeams .teamBox.new .teamBoxContainer {
+	border-left: 3px solid #5FA344;
+}
+
+.myTeams .teamBox.new .teamBoxContainer .imageBox {
+	background: url('%{media}/my/create.svg') no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+
+.myTeams .teamBox.new .teamBoxContainer .boxActions .ba:hover {
+	color: #5FA344;
+}

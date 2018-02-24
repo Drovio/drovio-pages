@@ -1,0 +1,175 @@
+.devControlPanel {
+	max-height: 400px;
+}
+
+.devControlPanel .devSection {
+	height: 350px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.devControlPanel .devSection .title {
+	margin: 0px;
+	padding: 8px 5px;
+}
+
+.devControlPanel .hpanel {
+	height: 100%;
+	overflow: auto;
+	float: left;
+	position: relative;
+}
+.devControlPanel .projectList {
+	width: 35%;
+	float: left;
+	overflow: auto;
+	height: 350px;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.devControlPanel .projectList .toolbar {
+	height: 50px;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	background-color: #EEE;
+}
+.devControlPanel .projectList .toolbar .searchContainer {
+	background: #FFF;
+	overflow: auto;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 10px;
+	position: relative;
+}
+
+.devControlPanel .projectList .toolbar .searchContainer .searchIco {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/developer/icons/searchIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -20px;
+	overflow: hidden;
+	margin: 4px;
+}
+
+.devControlPanel .projectList .toolbar .searchContainer .searchInput {
+	float: left;
+	width: 100%;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 6px;
+	padding-right: 28px;
+	border: none;
+	outline: none;
+	color: #555;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.devControlPanel .projectList .list {
+	position: absolute;
+	top: 51px;
+	width: 100%;
+	bottom: 0px;
+	overflow: auto;
+}
+.devControlPanel .projectList .projectRow {
+	padding: 3px;
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	cursor: pointer;
+}
+
+.devControlPanel .projectList .projectRow.selected {
+	background: #EEE;
+}
+
+.devControlPanel .projectList .projectRow .pTitle .icon {
+	float: left;
+	margin: 3px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	opacity: 0.8;
+}
+
+.devControlPanel .projectList .projectRow.selected .pTitle .icon {
+	opacity: 1;
+}
+
+.devControlPanel .projectList .projectRow .pTitle .icon.noIcon {
+	background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+
+.devControlPanel .projectList .projectRow .pTitle .icon img {
+	height: inherit;
+	width: inherit;
+}
+
+.devControlPanel .projectList .projectRow .pTitle .pointer {
+	float: right;
+	margin: 3px;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/global/pointer.svg') center no-repeat;
+	vertical-align: middle;
+	transform-origin:50% 50%;
+	transition: transform 100ms;
+	-moz-transition: -moz-transform 100ms;
+	-moz-transform-origin:50% 50%;
+	-webkit-transition: -webkit-transform 100ms;
+	-webkit-transform-origin:50% 50% 0;
+	-o-transition: -o-transform 100ms;
+	-o-transform-origin:50% 50%;
+	opacity: 0;
+}
+
+.devControlPanel .projectList .projectRow:hover .pTitle .pointer {
+	opacity: 0.5;
+}
+
+.devControlPanel .projectList .projectRow.selected .pTitle .pointer {
+	opacity: 1;
+}
+
+.devControlPanel .projectList .projectRow .pTitle .title {
+	margin: 0px;
+	padding: 3px;
+	line-height: 16px;
+	float: left;
+	color: #656565;
+}
+
+.devControlPanel .projectList .projectRow.selected .pTitle .title, .devControlPanel .projectList .projectRow:hover .pTitle .title {
+	color: #C00403;
+}
+
+.devControlPanel .hpanel.configurators {
+	width: 65%;
+}
+
+.devControlPanel .hpanel.configurators .configLoader:empty {
+	background: #FFF url('%{cdn}/media/logos/splash.svg') no-repeat center;
+	background-size: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}

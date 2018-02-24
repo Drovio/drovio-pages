@@ -1,0 +1,86 @@
+.legalHome {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.legalHome > .header {
+	width: 100%;
+	height: 140px;
+	position: relative;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	background: url('%resources%/helpcenter/banner.jpg') no-repeat center;
+	background-size: cover;
+}
+.legalHome .header > .middleContainer {
+	padding-top: 70px;
+}
+.legalHome .header .middleContainer h1.wtitle {
+	font-size: 24px;
+	color: #C00403;
+	font-weight: normal;
+}
+.legalHome .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.legalHome .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.legalHome .reference {
+	padding: 30px 0px;
+}
+.legalHome .box {
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	display: block;
+}
+.legalHome .box:last-child {
+	border: none;
+}
+.legalHome .box:hover .title {
+	color: #C00403;
+}
+.legalHome .box .title {
+	float: left;
+	width: 40%;
+	color: #555;
+	font-size: 13px;
+	line-height: 50px;
+}
+.legalHome .box .title .ico {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+	background: url('%{media}/helpcenter/policies.svg') no-repeat center;
+	background-size: cover;
+}
+.legalHome .box.privacy .title .ico {
+	background-position: 0px 0px;
+}
+.legalHome .box.terms .title .ico {
+	background-position: 0px -50px;
+}
+.legalHome .box.usage .title .ico {
+	background-position: 0px -100px;
+}
+.legalHome .box .sub {
+	float: left;
+	width: 60%;
+	color: #777;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 22px;
+}

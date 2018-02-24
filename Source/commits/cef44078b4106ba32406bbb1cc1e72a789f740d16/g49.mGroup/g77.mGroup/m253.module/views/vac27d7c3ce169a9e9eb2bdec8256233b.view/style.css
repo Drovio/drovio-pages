@@ -1,0 +1,54 @@
+.literalEditorContainer {
+	height: 100%;
+	overflow: auto;
+}
+.literalEditor {
+	width: 900px;
+	overflow: auto;
+	position: relative;
+	overflow: auto;
+}
+.literalEditor .literalsContainer {
+	height: 450px;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.literalEditor .scopeExplorer {
+	height: 100%;
+	width: 30%;
+	float: left;
+	border-right: 1px solid #CCC;
+	background: #FEFEFE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.literalEditor .literalsContent {
+	height: 100%;
+	width: 70%;
+	float: right;
+	overflow: auto;
+	position: relative;
+}
+.literalEditor .lcNtf {
+	clear: both;
+	background: #EEE;
+	border-top: 1px solid #CCC;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 5px 8px;
+	line-height: 24px;
+}
+.literalEditor .lcNtf .ico {
+	float: left;
+	margin-right: 5px;
+	width: 24px;
+	height: 24px;
+}
+.literalEditor .lcNtf .ico img {
+	width: 24px;
+	height: 24px;
+}

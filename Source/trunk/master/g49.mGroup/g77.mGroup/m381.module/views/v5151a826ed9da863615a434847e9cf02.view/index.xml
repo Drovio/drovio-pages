@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v5151a826ed9da863615a434847e9cf02"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="API" object="Resources"></dependency><dependency library="DEV" object="Projects"></dependency><dependency library="UI" object="Forms"></dependency><dependency library="UI" object="Modules"></dependency><dependency library="UI" object="Presentation"></dependency></dependencies><inner/></view>

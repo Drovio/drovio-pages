@@ -1,0 +1,30 @@
+.stepsBar{
+	display: block;
+	border-bottom: 1px solid grey;
+	height: 30px;
+	width: 100%;
+}
+
+.stepsBar > .step {
+	-moz-box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid grey;
+	padding: 5px;
+}
+
+.stepsBar > .step.disabled {
+}
+
+.stepsBar > .step.current{
+}
+
+.stepsBar > .step.visited{
+}
+
+.stepsBar > .step > .indicator{
+	display: inline-block;
+}
+
+.stepsBar > .step > .label{
+	display: inline-block;
+}

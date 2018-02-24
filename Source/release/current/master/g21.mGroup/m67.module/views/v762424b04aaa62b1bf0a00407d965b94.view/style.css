@@ -1,0 +1,74 @@
+.registerPage {
+	height: 100%;
+	width: 100%;
+	background: #F1F1F1;
+	overflow: auto;
+}
+
+.registerPage .logo {
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 25px auto;
+	background: url('%{cdn}/media/logos/dlogo.png') no-repeat center;
+	background-size: contain;
+	opacity: 0.8;
+	transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+}
+
+.registerPage .logo:hover {
+	opacity: 1;
+	transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+}
+
+.registerPage .whiteBox {
+	max-width: 530px;
+	overflow: auto;
+	margin: 0 auto;
+	background: #FFF;
+	border: 1px solid #BBB;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: 0 0px 5px #CCC;
+	-webkit-box-shadow: 0 0px 5px #CCC;
+	-moz-box-shadow: 0 0px 5px #CCC;
+}
+
+.registerPage .pgFooter {
+	max-width: 530px;
+	margin: 0 auto;
+	margin-top: 10px;
+	line-height: 30px;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #555459;
+	overflow: auto;
+}
+
+.registerPage .pgFooter .left {
+	float: left;
+	font-weight: bold;
+}
+
+.registerPage .pgFooter .right {
+	float: right;
+}
+
+.registerPage .pgFooter a {
+	color: #55459;
+}
+
+@media screen and (max-width: 530px) {
+	.registerPage .pgFooter .left,
+	.registerPage .pgFooter .right {
+		float: none;
+		text-align: center;
+	}
+}

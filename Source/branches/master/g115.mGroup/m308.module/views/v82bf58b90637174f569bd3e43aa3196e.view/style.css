@@ -1,0 +1,111 @@
+.openPage {
+	width: 100%;
+	height: 100%;
+}
+.openPage .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.openPage .main {
+	height: 600px;
+	background: rgba(112, 142, 74, 0.8) url('%{media}/frontend/wfpattern.svg');
+	position: relative;
+}
+.openPage .main > .middleContainer {
+	padding-top: 150px;
+}
+
+.openPage .main > .middleContainer .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+}
+.openPage .main > .middleContainer .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+	max-width: 800px;
+	margin: 40px auto;
+}
+.openPage .main > .middleContainer .learn_more {
+	font-size: 12px;
+	line-height: 18px;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 1px 1px 2px #333;
+	border: 1px solid #FFF;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+.openPage .main .tiles {
+	max-width: 900px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.openPage .main .tiles .atile {
+	display: block;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	color: #FFF;
+}
+.openPage .main .tiles .atile .ico {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	background: url('%{media}/open/openIcons.svg') no-repeat;
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.openPage .main .tiles .atile.data .ico {
+	background-position: 0px 0px;
+}
+.openPage .main .tiles .atile.contributors .ico {
+	background-position: 0px -100px;
+}
+.openPage .main .tiles .atile.projects .ico {
+	background-position: 0px -200px;
+}
+.openPage .main .tiles .atile .title {
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: normal;
+}
+.openPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.openPage .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.openPage .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.openPage .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.openPage .navBar li a:hover {
+	color: #FFF;
+}

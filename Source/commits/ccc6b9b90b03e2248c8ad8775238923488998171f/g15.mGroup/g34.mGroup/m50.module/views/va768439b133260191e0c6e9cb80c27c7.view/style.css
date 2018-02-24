@@ -1,0 +1,46 @@
+.adminSecurity {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+.adminSecurity .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right:0px;
+
+	overflow: auto;
+	height: 26px;
+	border-bottom: 1px solid #CCC;
+}
+.adminSecurity .navBar .navTile {
+	width: 25%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 5px;
+	line-height: 16px;
+	height: 26px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	cursor: pointer;
+	color: #999;
+	border-bottom: 3px solid rgba(192, 4, 3, 0);
+}
+.adminSecurity .navBar .navTile.selected,
+.adminSecurity .navBar .navTile:hover {
+	color: rgb(192, 4, 3);
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 3px solid rgba(192, 4, 3, 1);
+}
+
+.adminSecurity .securitySections {
+	position: absolute;
+	top: 26px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}

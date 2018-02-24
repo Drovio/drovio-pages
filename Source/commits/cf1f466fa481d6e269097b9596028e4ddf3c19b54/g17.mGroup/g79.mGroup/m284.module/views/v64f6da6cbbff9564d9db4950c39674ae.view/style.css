@@ -1,0 +1,118 @@
+.wsPublisherDialog,
+.wsPublisher {
+	overflow: auto;
+}
+.wsPublisher {
+	width: 650px;
+	padding: 10px;
+}
+.wsPublisher.startScreen .section.guides  {
+	margin: 10px;
+}
+.wsPublisher .advancedSettingsContainer {
+	clear: both;
+}
+.wsPublisher .advancedSettingsContainer .hd {
+	color: rgb(31, 92, 143);
+	cursor: pointer;
+	line-height: 14px;
+	padding-top: 15px;
+}
+.wsPublisher .advancedSettingsContainer .hd .ico {
+	float: left;
+	width: 10px;
+	height: 10px;
+	background: url('%{media}/global/pointer.svg') no-repeat center;
+	background-size: cover;
+	margin: 2px 0px;
+	margin-right: 5px;
+	
+	transform: rotate(0deg);
+	transition: transform 100ms;
+	-moz-transform: rotate(0deg);
+	-moz-transition: transform 100ms;
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: transform 100ms;
+}
+.wsPublisher .advancedSettingsContainer.open .hd {
+	padding-bottom: 15px;
+}
+.wsPublisher .advancedSettingsContainer.open .hd .ico {
+	transform: rotate(90deg);
+	transition: transform 100ms;
+	-moz-transform: rotate(90deg);
+	-moz-transition: transform 100ms;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: transform 100ms;
+}
+.wsPublisher .advancedSettingsContainer .advancedSettings {
+	display: none;
+}
+.wsPublisher .advancedSettingsContainer.open .advancedSettings {
+	display: block;
+}
+.wsPublisher .formsHolder {
+	display: none !important;
+}
+.wsPublisher .lspan {
+	display: block;
+	padding: 3px 0px;
+}
+.wsPublisher .progressHolder {
+	position: relative;
+	overflow: auto;
+}
+.wsPublisher .progressHolder .tlist {
+	padding: 10px 0px;
+}
+.wsPublisher .progressHolder .title.template {
+	display: none;
+}
+.wsPublisher .progressHolder .title {
+	line-height: 32px;
+	color: #555;
+	font-size: 12px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+.wsPublisher .progressHolder .title .ico {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 4px 0px;
+	margin-right: 10px;
+	background: url('%{media}/global/loader.svg') no-repeat center;
+}
+.wsPublisher .progressHolder .title.ok {
+	font-weight: normal;
+}
+.wsPublisher .progressHolder .title.ok .ico {
+	background: url('%{media}/global/ui/notification.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+}
+.wsPublisher .progressHolder .title.error .ico {
+	background: url('%{media}/global/ui/notification.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -24px;
+}
+.wsPublisher .progressHolder .progressbar {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	height: 3px;
+	background: rgba(31, 92, 143, 0.7);
+}
+.wsPublisher .progressHolder .progressbar.error {
+	background: rgba(192, 4, 3, 0.7);
+}
+.wsPublisher .errorHolder:empty {
+	display: none;
+}
+.wsPublisher .errorHolder {
+	border-top: 1px solid rgba(192, 4, 3, 0.7);
+	padding: 5px;
+	line-height: 14px;
+	color: #c00403;
+}

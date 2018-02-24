@@ -1,0 +1,64 @@
+.tplExplorer {
+	height: 100%;
+	overflow: auto;
+}
+
+.tplExplorer #tplEplorerTree {
+	height: 100%;
+	overflow: auto;
+}
+
+.tplExplorer .tplNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.tplExplorer .tplNavTool:hover {
+	opacity: 1.0;
+}
+
+.tplExplorer .tplNavTool.refresh {
+	background-position: 0px -48px;
+}
+
+.tplExplorer .tplNavTool.create_new {
+	background-position: 0px -64px;
+}
+
+.tplExplorer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+
+.tplExplorer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+
+.tplExplorer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+
+.tplExplorer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+
+.tplExplorer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+
+.tplExplorer .contentIcon.flIco {
+	background-position:0px -64px;
+	background-size: cover;
+}

@@ -1,0 +1,96 @@
+.releaseLog .hd {
+	border-bottom: 1px solid #999;
+	clear: both;
+	overflow: auto;
+	padding: 5px 8px;
+}
+.releaseLog .hd .header {
+	float: left;
+	line-height: 24px;
+	margin: 0px;
+	font-size: 12px;
+}
+.releaseLog .hd .publisher {
+	float: right;
+	line-height: 24px;
+	cursor: pointer;
+	color: green;
+}
+
+.releaseLog .list {
+	clear: both;
+}
+.releaseLog .releaseRow {
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+}
+.releaseLog .releaseRow.open .rhd {
+	background: #EFEFEF;
+}
+.releaseLog .releaseRow .rhd {
+	padding: 5px;
+	overflow: auto;
+}
+.releaseLog .releaseRow .releaseDate {
+	float: left;
+	margin-left: 10px;
+	color: #999;
+	cursor: pointer;
+}
+.releaseLog .releaseRow .releaseTitle {
+	float: left;
+	margin: 0px;
+	font-weight: normal;
+	cursor: pointer;
+}
+.releaseLog .releaseRow .rStatus {
+	float: right;
+	line-height: 16px;
+	overflow: auto;
+	margin-right: 5px;
+}
+.releaseLog .releaseRow .rStatus .ico {
+	float: right;
+	margin-left: 5px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg') no-repeat center;
+	background-size: cover;
+}
+.releaseLog .releaseRow .rStatus .status {
+	float: right;
+}
+.releaseLog .releaseRow .rStatus.st1 {
+	color: #0f4976;
+}
+.releaseLog .releaseRow .rStatus.st2 {
+	color: #3EAC47;
+}
+.releaseLog .releaseRow .rStatus.st3 {
+	color: #76121b;
+}
+.releaseLog .releaseRow .rStatus.st1 .ico {
+	background-position: 0px -32px;
+}
+.releaseLog .releaseRow .rStatus.st2 .ico {
+	background-position: 0px 0px;
+}
+.releaseLog .releaseRow .rStatus.st3 .ico {
+	background-position: 0px -16px;
+}
+.releaseLog .releaseRow .releaseInfo {
+	clear: both;
+	overflow: auto;
+	padding: 0px 5px;
+	border-top: 1px solid #CCC;
+	display: none;
+}
+.releaseLog .releaseRow.open .releaseInfo {
+	display: block;
+}
+.releaseLog .releaseRow .releaseInfo .releaseChangelog,
+.releaseLog .releaseRow .releaseInfo .reviewComments {
+	white-space: pre-wrap;
+	color: #999;
+}

@@ -1,0 +1,36 @@
+.distroPackagesContainer {
+	height: 100%;
+	position: relative;
+}
+.distroPackagesContainer .distroInnnerContainer {
+	height: 100%;
+	position: relative;
+}
+.distroPackagesContainer .distroInnnerContainer .distrosGridListContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 40px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+.distroPackagesContainer .distroInnnerContainer .distroGridList {
+	height: 100%;
+}
+.distroPackagesContainer .dControls {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	background: #EFEFEF;
+	border-top: 1px solid #CCC;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	line-height: 30px;
+	padding: 5px;
+}
+.distroPackagesContainer .dControls button {
+	float: right;
+}

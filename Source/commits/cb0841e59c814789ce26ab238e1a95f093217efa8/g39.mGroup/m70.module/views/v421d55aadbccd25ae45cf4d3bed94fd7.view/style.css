@@ -1,0 +1,93 @@
+.registrationBar {
+	padding: 5px 20px;
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 1px solid rgba(166, 166, 166, 0.3);
+	text-align: right;
+	overflow: auto;
+}
+.registrationBar .regContainer {
+	float: right;
+}
+.registrationBar h4 {
+	float: left;
+	font-weight: normal;
+}
+.registrationBar .regBtn {
+	float: left;
+	margin: 14px;
+	font-weight: bold;
+	color: rgb(192, 4, 3);
+	font-size: 13px;
+}
+.frontendPage .globalContainer {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 30px;
+	overflow: auto;
+	clear: both;
+}
+.frontendPage .globalContainer .infoContainer {
+	overflow: auto;
+	float: left;
+	max-width: 50%;
+}
+.frontendPage .globalContainer .infoContainer.cntr {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.frontendPage .globalContainer .pageContainer {
+	clear: both;
+}
+.frontendPage .logoContainer {
+	background: url(/Library/Media/images/logos/RB_logo_big.svg) no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.frontendPage .globalContainer > .connectContainer {
+	padding: 5px;
+	float: right;
+	max-width: 50%;
+	background: rgba(166, 166, 166, 0.1);
+	border: 1px solid rgba(166, 166, 166, 0.3);
+}
+.frontendPage h1.infoTitle {
+	font-size: 16px;
+}
+.frontendPage h3.boxTitle {
+	color: rgba(166, 166, 166, 1);
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+.frontendPage a.forgotP {
+	color: rgb(192, 4, 3);
+	font-weight: bold;
+}
+
+.frontendPage .servicesContainer {
+	width: 60%;
+	float: left;
+}
+.frontendPage .supportContainer {
+	width: 40%;
+	float: left;
+}
+
+.frontendPage h1, .frontendPage h2 {
+	color: #565656;
+}
+.frontendPage h3, .frontendPage h3 a {
+	color: rgb(192, 4, 3);
+}
+/*
+#frontendPage {
+	width: 100%;
+	height: 100%;
+}
+#frontendPage .middleColumn {
+	width: 1000px;
+	margin: 0 auto;
+}*/

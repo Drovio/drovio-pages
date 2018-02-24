@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="370"><sql><query id="qb927021cee1b463ffa3aad9fbe4bd31d" name="get_team_members"></query></sql><views><view id="ve6b37ea15ef29650f599d6c6047c74e6" name="bossDashboardTeamMembers"/></views></module>

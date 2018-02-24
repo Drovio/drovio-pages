@@ -1,0 +1,26 @@
+.coreTester h3.header {
+	margin: 0px;
+	margin-bottom: 5px;
+	color: #999;
+}
+.coreTester .content {
+	border: 1px solid rgba(166, 166, 166, 1);
+	height: 200px;
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.coreTester .console .content {
+	margin-bottom: 5px;
+}
+.coreTester .console .controls {
+	overflow: auto;
+	margin-bottom: 15px;
+}
+.coreTester #consoleSubmit {
+	float: right;
+}
+.coreTester .output .content .result {
+	white-space: pre-wrap;
+	padding: 5px;
+	margin: 0px;
+}

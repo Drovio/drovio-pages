@@ -1,0 +1,171 @@
+.teamCreatorDialog {
+	min-width: 400px;
+	background: #FFF;
+	border: 1px solid #555459;
+	padding: 20px;
+}
+
+.teamCreatorDialog .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.teamCreatorDialog .close_button {
+	width: 24px;
+	height: 24px;
+	margin: 3px 0px;
+	float: right;
+	cursor: pointer;
+	background: url('%{media}/global/closeX.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -24px;
+	opacity: 0.5;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamCreatorDialog .close_button:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamCreatorDialog .formContainer {
+	margin-top: 30px;
+}
+
+.teamCreatorDialog .formContainer .tmcnt {
+	overflow: auto;
+	padding: 5px;
+}
+
+.teamCreatorDialog .tmcnt {
+	float: left;
+	width: 65%;
+	position: relative;
+	border: 1px solid rgba(120, 120, 120, 1);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	padding: 5px;
+}
+
+.teamCreatorDialog .tminp {
+	float: left;
+	width: 70%;
+	font-size: 12px;
+	line-height: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	outline: none;
+}
+
+.teamCreatorDialog .tmlbl {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	line-height: 16px;
+	font-size: 12px;
+	color: #AAA;
+	padding: 8px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-transform: none;
+}
+
+.teamCreatorDialog .tmbtn {
+	width: 30%;
+	float: right;
+	display: inline-block;
+	margin: 0 auto;
+	padding: 8px 0px;
+	font-size: 16px;
+	font-weight: 500;
+	border-color: rgba(0, 0, 0, 0.1);
+	background: #ff5252;
+	background-image: -webkit-linear-gradient(top, #ff6161 0%, #ff4343 100%);
+	background-image: -o-linear-gradient(top, #ff6161 0%, #ff4343 100%);
+	background-image: linear-gradient(to bottom, #ff6161 0%, #ff4343 100%);
+	background-repeat: repeat-x;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.teamCreatorDialog .tmbtn:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+	background: #ff4343;
+	background-image: -webkit-linear-gradient(top, #ff5252 0%, #ff2e2e 100%);
+	background-image: -o-linear-gradient(top, #ff5252 0%, #ff2e2e 100%);
+	background-image: linear-gradient(to bottom, #ff5252 0%, #ff2e2e 100%);
+	background-repeat: repeat-x;
+	color: white;
+	outline: none;
+}
+
+.teamCreatorDialog .rContainer {
+	clear: both;
+	margin-top: 10px;
+	border-top: 1px solid #CCC;
+	padding-top: 20px;
+}
+
+.teamCreatorDialog .rContainer .lb {
+	text-align: center;
+	color: #5E6570;
+	cursor: pointer;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamCreatorDialog .rContainer .lb:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamCreatorDialog .rfContainer {
+	position: relative;
+	margin-top: 0px;
+	height: 0px;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamCreatorDialog .rContainer.open .rfContainer {
+	margin-top: 20px;
+	padding: 5px;
+	height: 38px;
+	overflow: auto;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamCreatorDialog .tmbtn.small {
+	line-height: 14px;
+}
+
+@media screen and (max-width: 500px) {
+	.teamCreatorDialog {
+		min-width: 250px;
+		padding: 20px;
+		background: #FFF;
+		border: 1px solid #555459;
+	}
+}

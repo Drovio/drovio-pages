@@ -1,0 +1,99 @@
+.teamMembersViewer .teamList,
+.teamMembersViewer .teamInvitations {
+	padding: 20px 10px;
+}
+.teamMembersViewer .hd {
+	color: #555;
+	font-weight: normal;
+}
+.teamMembersViewer .mr {
+	overflow: auto;
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+}
+.teamMembersViewer .mr:last-child {
+	border-bottom: none;
+}
+.teamMembersViewer .mr .mn {
+	float: left;
+	width: 40%;
+	color: #555;
+}
+.teamMembersViewer .mr .mrl {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	color: #999;
+}
+.teamMembersViewer .mr .edit {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.teamMembersViewer .ivrow {
+	overflow: auto;
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+}
+.teamMembersViewer .ivrow:last-child {
+	border-bottom: none;
+}
+.teamMembersViewer .ivrow:hover {
+	background: #EFEFEF;
+}
+.teamMembersViewer .ivrow .iv {
+	float: left;
+}
+.teamMembersViewer .ivrow .iv.ivn {
+	width: 50%;
+	line-height: 18px;
+}
+.teamMembersViewer .ivrow .iv.action {
+	width: 25%;
+	text-align: right;
+}
+.teamMembersViewer .ivrow .act_button {
+	background: none;
+	border: none;
+	color: rgb(31, 93, 144);
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+.teamMembersViewer .add_new_member {
+	overflow: auto;
+	padding: 5px 10px;
+	margin-top: 20px;
+	border-top: 1px solid #999;
+}
+.teamMembersViewer .add_new_member .header {
+	overflow: auto;
+}
+.teamMembersViewer .add_new_member h3 {
+	float: left;
+}
+.teamMembersViewer .add_new_member .searchFormContainer {
+	float: right;
+}
+.teamMembersViewer .add_new_member #btn_search {
+	float: right;
+	margin: 5px;
+}
+.teamMembersViewer .add_new_member .searchFormContainer .tmsl {
+	float: right;
+	margin: 5px;
+	margin-top: 7px;
+}
+.teamMembersViewer .add_new_member .searchFormContainer .tminp {
+	float: right;
+	width: 300px;
+	padding: 4px 6px;
+	margin: 5px;
+	border-color: #999;
+}
+.teamMembersViewer .add_new_member .searchResultsContainer {
+	padding: 5px;
+	clear: both;
+}

@@ -1,0 +1,45 @@
+.applicationPlayer,
+.appPlayerWrapper {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+.appPlayerWrapper .appStatus {
+	display: none;
+}
+.appPlayerWrapper.withStatus .appStatus {
+	display: block;
+}
+.applicationPlayer #applicationContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.appPlayerWrapper.withStatus #applicationContainer {
+	top: 33px;
+}
+.applicationPlayer #applicationContainer:empty {
+	background: url('%resources%/appcenter/app_logo_150.png') no-repeat center;
+	background-size: 150px 150px;
+	opacity: 0.6;
+}
+.applicationPlayer #applicationContainer .applicationUpdater {
+	height: 24px;
+	width: 100%;
+	padding: 3px 5px;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	line-height: 24px;
+}

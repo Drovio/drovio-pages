@@ -1,0 +1,88 @@
+.accountInfo {
+	min-width: 200px;
+	padding: 10px;
+	overflow: auto;
+}
+.accountInfo.guest {
+	padding: 0;
+}
+.accountInfo .personImage {
+	display: block;
+	float: left;
+	width: 140px;
+	height: 140px;
+	opacity: 0.8;
+	cursor: pointer;
+}
+.accountInfo .personImage:empty {
+	background: url('%{media}/global/profile.svg') no-repeat center;
+	background-size: 140px;
+}
+.accountInfo .personImage:hover {
+	opacity: 1;
+}
+.accountInfo .personImage img {
+	width: inherit;
+	height: inherit;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.accountInfo .profileMenu {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	padding-left: 20px;
+	min-width: 180px;
+}
+.accountInfo .profileMenu .title {
+	margin: 0px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999;
+	padding: 3px 0px;
+}
+.accountInfo .profileMenu .mitem {
+	padding: 3px 8px;
+	display: block;
+	cursor: pointer;
+	color: #555459;
+	font-size: 12px;
+}
+.accountInfo .profileMenu .mitem:hover {
+	background: #EFEFEF;
+}
+.accountInfo .profileMenu .mitem.selected {
+	background: #EFEFEF;
+	font-weight: bold;
+}
+.accountInfo .profileMenu .mitem.default {
+	border-left: 3px solid #999;
+	padding-left: 5px;
+}
+.accountInfo .profileMenu .mitem a {
+	display: block;
+	color: #555459;
+}
+.accountInfo .profileMenu .mseparator {
+	height: 1px;
+	background-color: #CCC;
+	margin: 5px 0px;
+}
+.accountInfo .profileMenu .teams .list {
+	max-height: 150px;
+	overflow: auto;
+}
+.accountInfo .logoutButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	width: 98%;
+	text-align: left;
+	font-size: 12px;
+	color: #555459;
+}

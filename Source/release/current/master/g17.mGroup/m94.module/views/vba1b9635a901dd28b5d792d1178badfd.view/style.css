@@ -1,0 +1,63 @@
+.webHome {
+	width: 100%;
+	height: 100%;
+}
+.webHome .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.webHome .main {
+	min-height: 600px;
+	background: rgba(192, 4, 6, 0.6) url('%{media}/frontend/fpattern.svg');
+	position: relative;
+}
+.webHome .main > .middleContainer {
+	padding-top: 120px;
+}
+
+.webHome .main > .middleContainer .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+}
+.webHome .main > .middleContainer .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+	max-width: 800px;
+	margin: 40px auto;
+}
+.webHome .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.webHome .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.webHome .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.webHome .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.webHome .navBar li a:hover {
+	color: #FFF;
+}

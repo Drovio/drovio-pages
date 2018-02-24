@@ -1,0 +1,21 @@
+.projectFileLogsPage,
+.projectFileLogsPage .projectFileLogs {
+	height: 100%;
+	overflow: auto;
+}
+.projectFileLogs .panel {
+	height: 100%;
+	float: left;
+	overflow: auto;
+}
+.projectFileLogs .panel.list {
+	width: 30%;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #F5F5F5;
+}
+.projectFileLogs .panel.context {
+	width: 70%;
+}

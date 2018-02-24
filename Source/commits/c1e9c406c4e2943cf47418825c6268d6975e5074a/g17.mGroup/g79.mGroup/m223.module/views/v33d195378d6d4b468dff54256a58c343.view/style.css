@@ -1,0 +1,82 @@
+.websiteSettingPage .navSidebar {
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	width: 200px;
+}
+
+.websiteSettingPage .navSidebar > .inner {
+	padding: 0px 5px;
+}
+
+.websiteSettingPage .navSidebar .navSection {
+	margin: 5px 0px;
+}
+
+.websiteSettingPage .navSidebar .navSection:first-child {
+	margin-top:0px
+}
+
+.websiteSettingPage .navSidebar .navSection:last-child {
+	margin-top:0px
+}
+
+.websiteSettingPage .navSidebar .navSection > .sectionHeader{	
+	border-bottom: 1px solid gray;
+	padding: 0px 4px 5px 4px;
+	margin: 10px 5px 5px 5px;
+	font-size: 110%;	
+}
+
+.websiteSettingPage .navSidebar .navSection > .sectionContent{
+	margin: 0px 12px;
+}
+
+.websiteSettingPage .settingsEditorHolder {
+	height: 100%;
+	left: 200px;
+	overflow: auto;
+	position: absolute;
+ 	right: 0;
+	top: 0;
+}
+
+.websiteSettingPage .settingsEditorHolder > .inner {
+	padding: 0px 10px;
+}
+
+/* menu */
+.websiteSettingPage .membersList ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.websiteSettingPage .membersList ul > li.selected {
+	background-color:rgba(166, 166, 166, 0.3);
+}
+
+.websiteSettings .membersList ul > li:hover {
+	background-color:rgba(166, 166, 166, 0.3);
+}
+ 
+.websiteSettingPage .membersList ul > li > div {
+	cursor: pointer;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 19px;
+	line-height: 19px;
+	position: relative;}
+
+/* */
+
+.websiteSettingPage .devPrivilegesFormContents {
+	height: 400px;
+	overflow: auto;
+}

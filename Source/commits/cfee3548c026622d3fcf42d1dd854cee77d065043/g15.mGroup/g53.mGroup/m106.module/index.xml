@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="106"><sql/><views><view id="vb8b815be5c0f8b06641e2c11bb02add9" name="testControlPanel"/><view id="v20e21ba8b65279aed87de2466dff5482" name="packageConfig"/><view id="v38621541494c958673649c6eb46d0cc7" name="debugger"/><view id="v631fa1086df07057a46caafab70eba77" name="logger"/><view id="vdce989d65ee5709fdaea5980eb839c22" name="sqlTesting"></view></views></module>

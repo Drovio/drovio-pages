@@ -1,0 +1,52 @@
+.international {
+	width: 100%;
+	height: 100%;
+}
+.international .middleContainer .context {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.international .head .banner {
+	height: 300px;
+	background: url('%resources%/frontend/international/world_map.png') no-repeat center;
+	border-bottom: 1px solid #CCC;
+}
+.international .head .banner .t {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 250px;
+}
+.international .title {
+	color: #C00403;
+}
+.international .head .context {
+	height: 150px;
+	text-align: center;
+}
+.international .head .context .desc {
+	color: rgb(0, 170, 192);
+}
+.international .head .context .contact {
+	margin-top: 50px;
+}
+.international .head .context .contact a {
+	color: green;
+}
+.international .translator {
+	margin-top: 50px;
+}
+.international .translator .banner {
+	height: 300px;
+	background: url('%resources%/frontend/international/word_cloud.png') no-repeat center;
+	border-top: 1px solid rgb(214, 98, 108);
+	border-bottom: 1px solid rgb(231, 186, 82);
+}
+.international .translator .context {
+	text-align: center;
+}
+.international .translator .coming {
+	margin-top: 30px;
+	color: green;
+}

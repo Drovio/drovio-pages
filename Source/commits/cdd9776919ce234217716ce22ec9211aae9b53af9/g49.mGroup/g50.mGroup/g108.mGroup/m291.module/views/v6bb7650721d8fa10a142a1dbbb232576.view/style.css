@@ -1,0 +1,10 @@
+.classInfo .classTitle {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.classInfo .classDescription {
+	white-space:pre-wrap;
+	font-size:12px;
+	line-height:22px;
+}

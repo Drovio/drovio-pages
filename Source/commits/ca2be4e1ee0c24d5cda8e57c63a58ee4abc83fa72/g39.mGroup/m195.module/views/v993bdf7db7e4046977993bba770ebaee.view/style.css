@@ -1,0 +1,18 @@
+.internationalPage .head {
+	border-bottom: 1px solid #999;
+}
+.internationalPage .head .bigLogo {
+	width: 800px;
+	height: 300px;
+	border: 1px solid #999;
+	margin: 10px auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.internationalPage .translator .link {
+	float: right;
+}
+.internationalPage .translator .link a {
+	color: green;
+}

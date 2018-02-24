@@ -1,0 +1,49 @@
+.serverList,
+.srvList {
+	overflow: auto;
+	height: 100%;
+}
+.serverList .srvList {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	background: #FAFAFA;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.serverList .srvList .srvitem {
+	padding: 10px;
+	cursor: pointer;
+}
+.serverList .srvList .srvitem:hover {
+	background: #F0F0F0;
+	border-right: 3px solid #CCC;
+}
+.serverList .srvList .srvitem.selected {
+	background: #F0F0F0;
+	border-right: 3px solid #C00403;
+}
+
+.serverList .dbNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%{media}/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.serverList .dbNavTool.add_new {
+	background-position: 0px -64px;
+}
+.serverList .dbNavTool.refresh {
+	background-position: 0px -48px;
+}
+.serverList .dbNavTool:hover {
+	opacity: 1.0;
+}

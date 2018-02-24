@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="400"><sql/><views><view id="v5981f3440d2c9da74747a4a4cf638d20" name="bossDashboardTeamKeys"/><view id="vd4c85a0939987da9b1a231dfe66ea951" name="editKeyDialog"/><view id="va89ee0c494db6b2bfad444755af2bac9" name="removeKey"/><view id="v16cddf3402043b5ddb1f146810a13b38" name="createNewKey"/><view id="v5b3c3b95d61b2994916b893ec2b2d634" name="keyInfo"></view></views></module>

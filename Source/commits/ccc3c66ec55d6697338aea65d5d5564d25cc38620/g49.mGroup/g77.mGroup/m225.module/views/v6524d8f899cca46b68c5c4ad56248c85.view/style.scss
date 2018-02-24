@@ -1,0 +1,110 @@
+.projectOverviewPage,
+.projectOverviewPage .projectOverview {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background: #F5F5F5;
+}
+.projectOverview {
+	.box {
+		& {
+			float: left;
+			margin: 20px;
+			background: #FFF;
+			border: 1px solid #CCC;
+			min-width: 250px;
+		}
+		& > .ico {
+			width: 72px;
+			height: 72px;
+			margin: 40px auto;
+			background: url('%resources%/developer/projects/statusIcons.svg') no-repeat;
+			background-size: 72px;
+		}
+		&.healthy > .ico {
+			background-position: 0px 0px;
+		}
+		&.error > .ico {
+			background-position: 0px -72px;
+		}
+		&.warning > .ico {
+			background-position: 0px -216px;
+			
+		}
+		.sub {
+			border-top: 1px solid #CCC;
+			color: #000;
+		}
+		.title {
+			padding: 15px 20px;
+			font-weight: normal;
+			font-size: 14px;
+			text-align: center;
+			color: #555;
+		}
+	}
+	.stats {
+		& {
+			float: left;
+			margin: 20px;
+		}
+		.sr {
+			overflow: auto;
+			color: #555;
+			padding: 10px;
+			line-height: 20px;
+			border-bottom: 1px solid #CCC;
+			min-width: 300px;
+		}
+		.sr:last-child {
+			border: none;
+		}
+		.sr .key {
+			float: left;
+			margin: 0px;
+			font-weight: normal;
+			color: #777;
+			font-size: 13px;
+		}
+		.sr .value {
+			float: right;
+			font-weight: normal;
+			margin: 0px;
+		}
+	}
+	.quickActions {
+		& {
+			clear: both;
+			margin: 20px;
+		}
+		.qAction {
+			width: 240px;
+			font-size: 12px;
+			padding: 8px 15px;
+			text-align: center;
+			cursor: pointer;
+			background: #454A54;
+			color: #FFF;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			margin: 10px 5px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.qAction:hover {
+			color: #FFF;
+			background-color: #3CB0F7 !important;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.qAction.delete {
+			background: #ed5e54;
+		}
+	}
+}

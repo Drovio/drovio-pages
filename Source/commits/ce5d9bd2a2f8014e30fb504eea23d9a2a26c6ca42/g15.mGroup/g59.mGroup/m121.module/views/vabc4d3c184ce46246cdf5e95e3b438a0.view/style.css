@@ -1,0 +1,51 @@
+.webSDKExplorer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+	background-size: cover;
+}
+.webSDKExplorer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.webSDKExplorer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.webSDKExplorer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.webSDKExplorer .contentIcon.flIco {
+	background-position:0px -64px;
+}
+
+.refreshToolbar {
+	width:100%;
+	border-bottom: 1px dashed #A6A6A6;
+	position:relative;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.refreshToolbar .toolbarTool {
+	width:16px;
+	height:16px;
+	margin: 6px;
+	cursor: pointer;
+	opacity: 0.7;
+	display: inline-block;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 0px -48px;
+}
+.refreshToolbar .toolbarTool:hover {
+	opacity: 1.0;
+}

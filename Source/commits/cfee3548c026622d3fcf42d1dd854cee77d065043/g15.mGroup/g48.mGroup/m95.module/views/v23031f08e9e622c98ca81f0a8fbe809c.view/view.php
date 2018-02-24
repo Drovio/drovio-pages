@@ -1,0 +1,89 @@
+<?php
+//#section#[header]
+// Module Declaration
+$moduleID = 95;
+
+// Inner Module Codes
+$innerModules = array();
+
+// Check Module Preloader Defined in RB Platform (prevent outside executions)
+if (!defined("_MDL_PRELOADER_") && !defined("_RB_PLATFORM_"))
+	throw new Exception("Module is not loaded properly!");
+
+// Require Importer
+use \API\Platform\importer;
+
+// Import Initial Libraries
+importer::import("UI", "Html", "DOM");
+
+// New
+use \UI\Html\DOM;
+
+// Code Variables
+$_ASCOP = $GLOBALS['_ASCOP'];
+
+// If Async Request Pre-Loader exists, Initialize DOM
+if (defined("_MDL_PRELOADER_"))
+	DOM::initialize();
+
+// Import Packages
+importer::import("API", "Developer");
+importer::import("UI", "Navigation");
+importer::import("UI", "Html");
+importer::import("ESS", "Protocol");
+//#section_end#
+//#section#[code]
+use \ESS\Protocol\server\ModuleProtocol;
+use \API\Developer\components\ajax\ajaxDirectory;
+use \API\Developer\components\ajax\ajaxPage;
+use \UI\Html\HTMLContent;
+use \UI\Navigation\treeView;
+
+// Build and Return HTML Content
+$content = new HTMLContent();
+$content->build();
+
+// Create domain tree on the sidebar
+$treeView = new treeView();
+$navTreeElement = $treeView->build("ajaxPageExplorer")->get();
+$content->append($navTreeElement);
+
+function buildSubTree($container, $treeView, $name, $sub, $fullDirectory, $moduleID)
+{
+	// Build the domain tree item
+	$item = DOM::create("div", $name);
+	$treeItem = $treeView->insert_expandableTreeItem($container, $name, $item);
+	//_____ Build the query tree list
+	buildPages($treeView, $treeItem, $fullDirectory, $moduleID);
+	
+	// If there are no subdomains, exit function
+	if (is_array($sub) && count($sub) == 0)
+		return;
+	
+	// Foreach subdomain, build a tree
+	foreach ($sub as $key => $value)
+		buildSubTree($treeItem, $treeView, $key, $value, $fullDirectory."/".$key, $moduleID);
+}
+
+function buildPages($treeView, $container, $directory, $moduleID)
+{
+	$pages = ajaxPage::getPages($directory);
+	foreach ($pages as $pageName)
+	{
+		$attr = array();
+		$attr['dir'] = $directory;
+		$attr['name'] = $pageName;
+		$item = DOM::create("div", $pageName.".php");
+		ModuleProtocol::addActionGET($item, $moduleID, "ajaxPageEditor", "", $attr);
+		$treeItem = $treeView->insert_treeItem($container, $key, $item);
+	}
+}
+
+$dirs = ajaxDirectory::getDirs();
+foreach ($dirs as $key => $value)
+	buildSubTree($navTreeElement, $treeView, $key, $value, $key, $moduleID);
+
+
+return $content->getReport();
+//#section_end#
+?>

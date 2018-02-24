@@ -1,0 +1,14 @@
+.logsContainer {
+	overflow: auto;
+	padding: 10px;
+}
+.logsContainer .logEntry {
+	overflow: auto;
+	border: 1px solid rgba(166, 166, 166, 1);
+	padding: 5px;
+	margin: 5px 0px;
+}
+.logsContainer .logContent {
+	overflow: auto;
+	margin: 5px;
+}

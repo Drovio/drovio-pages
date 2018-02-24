@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="348"><sql/><views><view id="v3ce6e569765810de2afe1613deeffe7b" name="applicationSecuritySettings"/><view id="v0831b80dc86febf2d5bdb38f49adb78a" name="addPermissionPackage"/><view id="v30877a154e3d4a3b255f7ac9b8a7a432" name="applicationManifests"/><view id="v54eb96bc6319d2a9a7bb07bc515ad50e" name="developerKeys"/><view id="v5ecbd7f159b77b61632b27a1a8f5e79c" name="regenerateKey"></view></views></module>

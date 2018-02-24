@@ -1,0 +1,33 @@
+.tepmlatePageEditor {
+	&,
+	.outerEditorContainer,
+	.pageDesignerContainer {
+		height: 100%;
+	}
+	.objTool {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		opacity: 0.7;
+		cursor: pointer;
+		background-image:url('%resources%/global/devIcons.svg');
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+	.objTool:hover {
+		opacity: 1.0;
+	}
+	button.objTool {
+		border : none;
+		background-color: transparent;
+	}
+	.objTool.save {
+		background-position: 0px 0px;
+	}
+	.objTool.settings {
+		background-position: 0px -16px;
+	}
+	.objTool.delete {
+		background-position: 0px -32px;
+	}
+}

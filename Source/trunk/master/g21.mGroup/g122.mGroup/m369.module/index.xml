@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="369"><sql><query id="q9185ece365574025e23e6d840881e579" name="add_account_to_team"/><query id="q9c579cddd694ad94bdbabe713c306c01" name="add_account_to_project"></query></sql><views><view id="v2389d376e799212455cabf97d4597c1b" name="AccountInvitations"/><view id="v3792750f0879732e26aa4cf4a925a355" name="acceptInvitation"/><view id="vd36d329cf3bec509efeb21ec943612e5" name="rejectInvitation"/></views></module>

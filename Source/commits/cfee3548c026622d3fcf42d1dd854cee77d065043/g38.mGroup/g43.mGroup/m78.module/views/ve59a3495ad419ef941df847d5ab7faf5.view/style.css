@@ -1,0 +1,12 @@
+.helpCenter h1, .helpCenter h3 {
+	text-align: center;
+}
+.helpCenter h3 {
+	color: #565656;
+	margin: 25px 0px;
+	font-weight: normal;
+}
+.helpCenter h3 a {
+	color: rgb(192, 4, 3);
+	font-weight: bold;
+}

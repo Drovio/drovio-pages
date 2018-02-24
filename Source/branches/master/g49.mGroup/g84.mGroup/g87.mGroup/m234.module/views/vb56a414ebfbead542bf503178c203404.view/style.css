@@ -1,0 +1,83 @@
+.sdkPackageViewer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+.sdkPackageViewer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.sdkPackageViewer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.sdkPackageViewer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.sdkPackageViewer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.sdkPackageViewer .contentIcon.flIco {
+	background-position:0px -64px;
+	background-size: cover;
+}
+
+#sdkExplorer,
+.sdkPackageViewer {
+	height: 100%;
+	overflow: auto;
+}
+.sdkPackageViewer .sdkNavTool {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background: url('%{media}/global/devIcons.svg') no-repeat center;
+	background-size: cover;
+}
+.sdkPackageViewer .sdkNavTool:hover {
+	opacity: 1.0;
+}
+.sdkPackageViewer .sdkNavTool.refresh {
+	background-position: 0px -48px;
+}
+.sdkPackageViewer .sdkNavTool.create_new {
+	background-position: 0px -64px;
+}
+
+.sdkPackageViewer .sdkLegend {
+	position: absolute;
+	top: 70px;
+	right: 31px;
+	background: rgba(255, 255, 255, 0.45);
+	opacity:0;
+	transition: opacity 350ms 500ms;
+	-webkit-transition: opacity 350ms 500ms;
+	padding:3px;
+	pointer-events: none;
+	box-shadow: 0px 0px 1px #999;
+}
+.sdkPackageViewer .sdkLegend .legendEntry {
+	display:block;
+	padding:3px;
+}
+.sdkPackageViewer:hover .sdkLegend {
+	opacity:1;
+	-webkit-transition: opacity 350ms;
+	transition: opacity 350ms;
+}
+.sdkPackageViewer .deprecatedObject {
+	color:rgba(0, 0, 0, 0.2);
+}
+.sdkPackageViewer .undocumentedObject {
+	font-weight: bold;
+}
+.sdkPackageViewer .updatedObject {
+	font-style:italic;
+}

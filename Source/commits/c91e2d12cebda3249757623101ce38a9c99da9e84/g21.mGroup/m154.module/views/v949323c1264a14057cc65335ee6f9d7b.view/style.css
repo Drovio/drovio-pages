@@ -1,0 +1,61 @@
+.accountInfo {
+	min-width: 200px;
+	padding: 10px;
+	overflow: auto;
+}
+.accountInfo.guest {
+	padding: 0;
+}
+.accountInfo .personImage {
+	float: left;
+	width: 140px;
+	height: 140px;
+	background: url('/Library/Media/c/global/profile.svg') no-repeat center;
+	background-size: 140px;
+}
+.accountInfo .profileMenu {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+	padding-left: 10px;
+	min-width: 180px;
+}
+.accountInfo .profileMenu .title {
+	margin: 0px;
+	font-size: 10px;
+	font-weight: normal;
+	color: #999;
+	padding: 3px 0px;
+}
+.accountInfo .profileMenu .mitem {
+	padding: 3px 5px;
+	display: block;
+	cursor: pointer;
+}
+.accountInfo .profileMenu .mitem:hover {
+	background: #EFEFEF;
+}
+.accountInfo .profileMenu .mitem.selected {
+	background: #EFEFEF;
+	font-weight: bold;
+}
+.accountInfo .profileMenu .mitem a {
+	display: block;
+}
+.accountInfo .profileMenu .mseparator {
+	height: 1px;
+	background-color: #CCC;
+	margin: 5px 0px;
+}
+.accountInfo .logoutButton {
+	background: none;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	margin: 0;
+	font-size: 11px;
+	width: 98%;
+	text-align: left;
+	font-family: "Verdana", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}

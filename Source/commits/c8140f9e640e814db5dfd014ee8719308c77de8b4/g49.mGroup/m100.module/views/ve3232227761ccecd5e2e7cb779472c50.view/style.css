@@ -1,0 +1,100 @@
+.devCenterPage .header {
+	overflow: auto;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+.devCenterPage .header .content {
+	float: left;
+	width: 60%;
+}
+.devCenterPage .header .connect {
+	float: right;
+	width: 40%;
+	padding-top: 100px;
+}
+.devCenterPage .header .connect .img {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid #999;
+}
+.devCenterPage .header .connect a.cna {
+	color: #888;
+	text-align: center;
+}
+.devCenterPage .header .connect a.cna:hover {
+	color: green;
+}
+.devCenterPage .header h1.title {
+	font-size: 36px;
+	font-weight: normal;
+	color: #C00403;
+	margin-bottom: 20px;
+}
+.devCenterPage .header h2.subtitle {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+.devCenterPage .header .description {
+	line-height: 18px;
+	font-weight: normal;
+}
+.devCenterPage .devCategories {
+	margin-top: 50px;
+}
+.devCenterPage .devCategories .dvc {
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.devCenterPage .devCategories .dvc .img {
+	width: 30%;
+	height: 150px;
+	background:#999;
+}
+.devCenterPage .devCategories .dvc .ctx {
+	width: 70%;
+	float: left;
+	padding: 0px 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.devCenterPage .devCategories .dvc.lft .img {
+	float: left;
+}
+.devCenterPage .devCategories .dvc.rgt .img {
+	float: right;
+}
+.devCenterPage .devCategories .dvc .ctx h2.title {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 10px 0px;
+}
+.devCenterPage .devCategories .dvc .ctx h3.desc {
+	line-height: 18px;
+	font-weight: normal;
+	margin-top: 20px;
+	color: #777;
+}
+.devCenterPage .devCategories .dvc .ctx p.more {
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.devCenterPage .devCategories .dvc .ctx p.more a {
+	color: green;
+}
+.devCenterPage .devCategories .webs {
+	margin-top: 30px;
+}
+.devCenterPage .devCategories .webs > h2.title {
+	font-size: 26px;
+	margin: 10px;
+	color: #C00403;
+}
+.devCenterPage .devCategories .webs .dvc {
+	margin-bottom: 40px;
+}

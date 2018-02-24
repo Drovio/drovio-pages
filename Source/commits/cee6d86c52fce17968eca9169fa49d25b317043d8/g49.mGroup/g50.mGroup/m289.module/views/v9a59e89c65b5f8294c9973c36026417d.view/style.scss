@@ -1,0 +1,54 @@
+.navbarContainer {
+	.navbar__hr {
+		width: 100%;
+		height: 0;
+		background: #333333;
+		border-top: 1px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+	.navbar {
+		background-color: #333;
+		box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+		-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+		overflow: auto;
+		color: #cfd8dc;
+		font-family: 'Roboto Slab', serif;
+	}
+	.navbar .middleContainer {
+		padding: 0px 15px;
+	}
+	.navbar .navbar-logo {
+		float: left;
+		
+	}
+	.navbar .navbar-logo .navbar-brand {
+		padding: 26px 15px;
+		font-size: 18px;
+		line-height: 18px;
+		display: inline-block;
+	}
+	.navbar a {
+		color: #cfd8dc;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navbar a:hover {
+		color: #ff5252;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.navbar .navbar-menu {
+		float: right;
+	}
+	.navbar .navbar-menu li {
+		float: left;
+	}
+	.navbar .navbar-menu li a {
+		display: inline-block;
+		padding: 26px 15px;
+		font-size: 13px;
+	}
+}

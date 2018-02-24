@@ -1,0 +1,51 @@
+.sdkPackageViewer {
+	height: 100%;
+	overflow: auto;
+}
+.sdkPackageViewer .sdkNavTool {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+.sdkPackageViewer .sdkNavTool.refresh {
+	background: url('/Library/Media/images/icons/19x19/refresh_ico.svg') no-repeat;
+	background-size: 16px 16px;
+}
+.sdkPackageViewer .sdkNavTool.settings {
+	background: url('/Library/Media/images/icons/22x22/userSettings_nav.svg') no-repeat;
+	background-size: 16px 16px;
+}
+.sdkPackageViewer .sdkLegend {
+	position: absolute;
+	top: 70px;
+	right: 31px;
+	background: rgba(255, 255, 255, 0.45);
+	opacity:0;
+	transition: opacity 350ms 500ms;
+	-webkit-transition: opacity 350ms 500ms;
+	padding:3px;
+	pointer-events: none;
+	box-shadow: 0px 0px 1px #999;
+}
+
+.sdkPackageViewer .sdkLegend .legendEntry {
+	display:block;
+	padding:3px;
+}
+
+.sdkPackageViewer:hover .sdkLegend {
+	opacity:1;
+	-webkit-transition: opacity 350ms;
+	transition: opacity 350ms;
+}
+.sdkPackageViewer .deprecatedObject {
+	color:rgba(0, 0, 0, 0.2);
+}
+
+.sdkPackageViewer .undocumentedObject {
+	font-weight: bold;
+}
+
+.sdkPackageViewer .updatedObject {
+	font-style:italic;
+}

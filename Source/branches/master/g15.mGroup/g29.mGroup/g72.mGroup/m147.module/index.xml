@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="147"><sql/><views><view id="v48c1e837d42c171a7fa6d4d54bd6739a" name="currencyDataList"/><view id="v8f54e9cc734a54c326d799126aeff45a" name="editCurrency"/><view id="va78d67c52e5b603fcf7bec2844d09d7e" name="setBasicCurrency"/><view id="v83633d2bf2fb5b186b571ca0f073ac20" name="nonBasicCurrencies"></view></views></module>

@@ -1,0 +1,217 @@
+.frontendPage {
+	width: 100%;
+	height: 100%;
+}
+.frontendPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.frontendPage .mainContainer {
+	height: 400px;
+}
+.frontendPage .mainContainer .middleContainer {
+	height: 400px;
+	position: relative;
+}
+
+.frontendPage .mainContainer .imageLogo {
+	margin: 25px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background: url('%resources%/logos/logo.png') center no-repeat;
+	background-size: 100px 100px;
+}
+.frontendPage .mainContainer .logoSide {
+	margin: 25px 0px;
+	margin-left: 10px;
+	height: 100px;
+	float: left;
+}
+.frontendPage .mainContainer .logoSide.center {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+.frontendPage .mainContainer .textLogo {
+	background: url('%resources%/logos/RB_logo_big.svg') no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+}
+.frontendPage .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+.frontendPage .mainContainer h2.subTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.frontendPage .headLinks {
+	clear: both;
+	overflow: auto;
+	padding-top: 50px;
+}
+.frontendPage .headLinks .panel {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.frontendPage .mainContainer .socialBar {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	overflow: auto;
+}
+.frontendPage .mainContainer .socialBar .socialButtons {
+	height: 30px;
+	float: left;
+}
+.frontendPage .mainContainer .socialBar .socialButtons .socialBtn {
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+	background-color: #DDD;
+	background-size: 30px 30px;
+	background-position: center;
+	border: #545454;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.frontendPage .mainContainer .socialBar .socialButtons .socialBtn.socialFb {
+	background-image: url('%resources%/social/facebook/fb_logo_blue_50.png');
+}
+.frontendPage .mainContainer .socialBar .socialButtons .socialBtn.socialGp {
+	background-image: url('%resources%/social/googleplus/gp_logo_64.png');
+}
+.frontendPage .mainContainer .socialBar .socialButtons .socialBtn.socialTt {
+	background-image: url('%resources%/social/twitter/tt_logo_50.png');
+}
+.frontendPage .mainContainer .socialBar .socialText {
+	float: left;
+	color: #999;
+	font-weight: normal;
+	margin: 0px;
+	line-height: 30px;
+}
+.frontendPage .engines {
+	height: 200px;
+	background: #EEE;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+.frontendPage .engines .middleContainer {
+	height: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .engines .engineBox {
+	width: 300px;
+	float: left;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .engines .engineBox .boxImage {
+	height: 100px;
+}
+.frontendPage .engines .engineBox.app .boxImage {
+	background: url('%resources%/pages/frontend/appEngineLogo.png') no-repeat center;
+	background-size: 100px 76px;
+}
+.frontendPage .engines .engineBox.app .boxTitle a {
+	color: green;
+}
+.frontendPage .engines .engineBox.web .boxImage {
+	background: url('%resources%/pages/webEngine/webEngineLogo.png') no-repeat center;
+}
+.frontendPage .engines .engineBox.web .boxTitle a {
+	color: #c00403;
+}
+.frontendPage .engines .engineBox.boss .boxImage {
+	background: url('%resources%/pages/boss/bossEngineLogo.png') no-repeat center;
+}
+.frontendPage .engines .engineBox.boss .boxTitle a {
+	color: #004080;
+}
+.frontendPage .developer .middleContainer {
+	padding: 10px 0px;
+}
+.frontendPage .developer .devLogo {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	border: 1px solid #999;
+	float: left;
+	margin-right: 20px;
+}
+.frontendPage .international .middleContainer {
+	padding: 10px 0px;
+}
+.frontendPage .international .intLogo {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	float: left;
+	margin-right: 20px;
+	background: url('%resources%/pages/frontend/intLogo.png') no-repeat center;
+	background-size: 75px 75px;
+}
+.frontendPage .programs {
+	height: 100px;
+}
+.frontendPage .programs .middleContainer {
+	height: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .programs .dev {
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .footLinks {
+	background-color: #EEE;
+	border-top: 1px solid #CCC;
+}
+.frontendPage .footLinks .linkCol {
+	float: left;
+	width: 33%;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	text-align: center;
+}
+.frontendPage .footLinks .linkCol .listItem {
+	font-weight: normal;
+}
+.frontendPage .footLinks .linkCol .listItem a {
+	color: #777;
+	display: block;
+}
+.frontendPage .footLinks .linkCol .listItem a:hover {
+	color: #C00403;
+}

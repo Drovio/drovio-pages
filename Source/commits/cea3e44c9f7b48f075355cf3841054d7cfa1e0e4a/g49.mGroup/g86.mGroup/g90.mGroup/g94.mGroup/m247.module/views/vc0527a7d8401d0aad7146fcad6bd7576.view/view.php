@@ -1,0 +1,170 @@
+<?php
+//#section#[header]
+// Module Declaration
+$moduleID = 247;
+
+// Inner Module Codes
+$innerModules = array();
+
+// Check Module Preloader Defined in RB Platform (prevent outside executions)
+if (!defined("_MDL_PRELOADER_") && !defined("_RB_PLATFORM_"))
+	throw new Exception("Module is not loaded properly!");
+
+// Use Platform classes
+use \API\Platform\importer;
+use \API\Platform\engine;
+
+// Increase module's loading depth
+importer::import("ESS", "Protocol", "loaders::ModuleLoader");
+use \ESS\Protocol\loaders\ModuleLoader;
+ModuleLoader::incLoadingDepth();
+
+// Import Initial Libraries
+importer::import("UI", "Html", "DOM");
+importer::import("UI", "Html", "HTML");
+importer::import("DEV", "Profiler", "logger");
+
+// Use
+use \UI\Html\DOM;
+use \UI\Html\HTML;
+use \DEV\Profiler\logger;
+
+// Code Variables
+$_ASCOP = $GLOBALS['_ASCOP'];
+
+// If Async Request Pre-Loader exists, Initialize DOM
+if (defined("_MDL_PRELOADER_") && ModuleLoader::getLoadingDepth() === 1)
+	DOM::initialize();
+
+// Import Packages
+importer::import("API", "Resources");
+importer::import("API", "Literals");
+importer::import("UI", "Forms");
+importer::import("UI", "Presentation");
+importer::import("DEV", "WebEngine");
+//#section_end#
+//#section#[code]
+use \API\Literals\moduleLiteral;
+use \API\Resources\forms\inputValidator;
+use \UI\Forms\templates\simpleForm;
+use \UI\Forms\formReport\formErrorNotification;
+use \UI\Forms\formReport\formNotification;
+use \UI\Presentation\frames\dialogFrame;
+use \DEV\WebEngine\sdk\webLibrary;
+use \DEV\WebEngine\sdk\webPackage;
+use \DEV\WebEngine\webCoreProject;
+
+if (engine::isPost())
+{	
+	$has_error = FALSE;
+	
+	// Create form Notification
+	$errFormNtf = new formErrorNotification();
+	$formNtfElement = $errFormNtf->build()->get();
+	
+	// Validate form post
+	if (!simpleForm::validate())
+	{
+		// Add form post error header
+		$err_header = DOM::create("div", "ERROR");
+		$err = $errFormNtf->addHeader($err_header);
+		$errFormNtf->addDescription($err, $errFormNtf->getErrorMessage("err.invalidate"));
+		
+		return $errFormNtf->getReport();
+	}
+
+	// Check Package Name
+	if (empty($_POST['package']))
+	{
+		$has_error = TRUE;
+		
+		// Header
+		$err_header = moduleLiteral::get($moduleID, "lbl_package");
+		$err = $errFormNtf->addHeader($err_header);
+		$errFormNtf->addDescription($err, $errFormNtf->getErrorMessage("err.required"));
+	}
+	
+	// Check Namespace Name
+	if (empty($_POST['nsName']))
+	{
+		$has_error = TRUE;
+		
+		// Header
+		$err_header = moduleLiteral::get($moduleID, "lbl_namespaceName");
+		$err = $errFormNtf->addHeader($err_header);
+		$errFormNtf->addDescription($err, $errFormNtf->getErrorMessage("err.required"));
+	}
+	
+	// If error, show notification
+	if ($has_error)
+		return $errFormNtf->getReport();
+	
+	// Get libName and packageName
+	$packageNameArray = explode("::", $_POST['package']);
+	$libName = $packageNameArray[0];
+	$packageName = $packageNameArray[1];
+
+	$ebPckg = new webPackage();
+	$result = $ebPckg->createNS($libName, $packageName, $_POST['nsName'], $_POST['parentNs']);
+	
+	// If there is an error in creating the namespace, show it
+	if (!$result)
+	{
+		$err_header = moduleLiteral::get($moduleID, "lbl_namespaceName");
+		$err = $errFormNtf->addHeader($err_header);
+		$errFormNtf->addDescription($err, DOM::create("span", "Error creating namespace..."));
+		return $errFormNtf->getReport();
+	}
+	
+	$succFormNtf = new formNotification();
+	$succFormNtf->build($type = formNotification::SUCCESS, $header = TRUE, $timeout = FALSE, $disposable = FALSE);
+	
+	// Notification Message
+	$errorMessage = $succFormNtf->getMessage("success", "success.save_success");
+	$succFormNtf->append($errorMessage);
+	return $succFormNtf->getReport();
+}
+
+
+// Build the frame
+$frame = new dialogFrame();
+$title = moduleLiteral::get($moduleID, "hd_createNamespace");
+$frame->build($title, "", FALSE)->engageModule($moduleID, "createNamespace");
+$form = $frame->getFormFactory();
+
+// Project ID
+$input = $form->getInput("hidden", "id", webCoreProject::PROJECT_ID, $class = "", $autofocus = FALSE);
+$form->append($input);
+
+// Library Name
+$ebLib = new webLibrary();
+$libraries = $ebLib->getList();
+$packages = array();
+foreach ($libraries as $library)
+{
+	$libPackages = $ebLib->getPackageList($library);
+	foreach ($libPackages as $package)
+		$packages[$library."::".$package] = $library." > ".$package;
+}
+$title = moduleLiteral::get($moduleID, "lbl_package");
+$input = $form->getResourceSelect($name = "package", $multiple = FALSE, $class = "", $packages, $selectedValue = "");
+$libRow = $form->buildRow($title, $input, $required = TRUE, $notes = "");
+$frame->append($libRow);
+
+// Parent Namespace
+$notes = moduleLiteral::get($moduleID, "lbl_namespaceNotes");
+$title = moduleLiteral::get($moduleID, "lbl_parentNamespace");
+$input = $form->getInput($type = "text", $name = "parentNs", $value = "", $class = "", $autofocus = FALSE);
+$nsRow = $form->buildRow($title, $input, $required = FALSE, $notes);
+$frame->append($nsRow);
+
+// Namespace
+$title = moduleLiteral::get($moduleID, "lbl_namespaceName");
+$input = $form->getInput($type = "text", $name = "nsName", $value = "", $class = "", $autofocus = FALSE);
+$objRow = $form->buildRow($title, $input, $required = TRUE, $notes = "");
+$frame->append($objRow);
+
+// Return the report
+return $frame->getFrame();
+//#section_end#
+?>

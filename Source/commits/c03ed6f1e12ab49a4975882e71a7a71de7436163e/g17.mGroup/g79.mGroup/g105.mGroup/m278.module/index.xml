@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="278"><sql/><views><view id="v4cad2e8f8aab0e591829cd8afc984be0" name="websiteSourceEditor"/><view id="v1c2418047c3ec97b7a894a9d2da2e93c" name="sourceExplorer"/><view id="v96ba7148a8ad33afbe6a591f550a7432" name="createDialog"/><view id="v83d07913fa00ae45a50740fa0e88cdd0" name="createLibrary"/><view id="v0d6a427eaef27158d765a2a34e7f8dc5" name="createPackage"/><view id="v5e0e41e71e7d630c97879ed82d49231a" name="createNamespace"/><view id="vb030707f4db372889576e8f86b8c826b" name="createObject"></view></views></module>

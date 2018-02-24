@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="86"><sql/><views><view id="va6e7846ed4675edfaf19d7ab25414b1c" name="userPrivileges"/><view id="va4a46c607f69ee81548ff4c6d637ae9c" name="privilegesInfo"/><view id="vfcd8376f5f2dbc0525d32c7c4ecf9448" name="createUserGroup"></view></views></module>

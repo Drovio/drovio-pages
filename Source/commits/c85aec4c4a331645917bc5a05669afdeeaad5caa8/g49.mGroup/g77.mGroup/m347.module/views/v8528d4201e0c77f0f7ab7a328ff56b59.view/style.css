@@ -1,0 +1,101 @@
+.translationsContent {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.locTranslations {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.locTranslations .literalNav {
+	height: 100%;
+	width: 30%;
+	float: left;
+	border-right: 1px solid #CCC;
+	background: #FEFEFE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+	position: relative;
+}
+.locTranslations .literalNav .toolbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 31px;
+	border-bottom: 1px solid #CCC;
+	line-height: 25px;
+	padding: 3px 5px;
+	background: #EFEFEF;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.locTranslations .literalNav .toolbar .mi {
+	float: left;
+	margin: 0px 3px;
+	cursor: pointer;
+}
+.locTranslations .literalNav .toolbar .mi.separator,
+.locTranslations .literalNav .toolbar .mi.current {
+	color: #999;
+	cursor: default;
+	display: none;
+}
+.locTranslations .literalNav .toolbar.lt .mi.separator,
+.locTranslations .literalNav .toolbar.lt .mi.current {
+	display: block;
+}
+.locTranslations .literalNav .navContent {
+	position: absolute;
+	top: 31px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+.locTranslations .literalNav .navContent .literalExplorer {
+	display: none;
+}
+.locTranslations .literalNav .navContent.lt .scopeExplorer {
+	display: none;
+}
+.locTranslations .literalNav .navContent.lt .literalExplorer {
+	display: block;
+}
+.locTranslations .transContent {
+	height: 100%;
+	width: 70%;
+	float: right;
+	overflow: auto;
+}
+
+.scopeExplorer ul.scopes,
+.literalExplorer ul.literals {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.scopeExplorer ul.scopes .sc,
+.literalExplorer ul.literals .lt {
+	padding: 5px 8px;
+	line-height: 14px;
+	cursor: pointer;
+	border-right: 3px solid transparent;
+}
+.scopeExplorer ul.scopes .sc:hover,
+.literalExplorer ul.literals .lt:hover {
+	border-right: 3px solid #CCC;
+}
+.literalExplorer ul.literals .lt.selected {
+	border-right: 3px solid #C00403;
+}

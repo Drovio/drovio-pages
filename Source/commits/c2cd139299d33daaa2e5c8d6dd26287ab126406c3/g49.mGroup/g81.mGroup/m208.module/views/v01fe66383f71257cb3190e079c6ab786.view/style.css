@@ -1,0 +1,82 @@
+.devControlPanel {
+	max-height: 400px;
+}
+.devControlPanel .devPanel {
+	overflow: auto;
+}
+.devControlPanel .devPanel .feedback {
+	float: right;
+}
+.devControlPanel .devPanel .feedback .title {
+	margin: 0px;
+	padding: 8px 5px;
+	margin-right: 20px;
+	cursor: pointer;
+	color: #999;
+}
+.devControlPanel .devPanel .feedback .title:hover {
+	color: #C00403;
+}
+.devControlPanel .devSection {
+	min-height: 200px;
+	max-height: 400px;
+}
+.devControlPanel .devSection .title {
+	margin: 0px;
+	padding: 8px 5px;
+}
+.devControlPanel .projects .projectRow {
+	padding: 3px;
+	clear: both;
+	overflow: auto;
+}
+.devControlPanel .projects .projectRow .configurator {
+	display: none;
+}
+.devControlPanel .projects .projectRow.open .configurator {
+	display: block;
+}
+.devControlPanel .projects .projectRow .pTitle {
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	cursor: pointer;
+}
+.devControlPanel .projects .projectRow .pTitle .icon {
+	float: left;
+	margin: 3px;
+	width: 16px;
+	height: 16px;
+	background: url(/Library/Media/images/icons/custom/list_arrow.svg) center no-repeat;
+	vertical-align: middle;
+	transform-origin:50% 50%;
+	transition: transform 100ms;
+	-moz-transition: -moz-transform 100ms;
+	-moz-transform-origin:50% 50%;
+	-webkit-transition: -webkit-transform 100ms;
+	-webkit-transform-origin:50% 50% 0;
+	-o-transition: -o-transform 100ms;
+	-o-transform-origin:50% 50%;
+}
+.devControlPanel .projects .projectRow.open .pTitle .icon {
+	transform: rotate(90deg);
+	transition: transform 100ms;
+	-moz-transform: rotate(90deg);
+	-moz-transition: -moz-transform 100ms;
+	-webkit-transform: rotate(90deg);
+	-webkit-transition: -webkit-transform 100ms;
+	-o-transform: rotate(90deg);
+	-o-transition: -o-transform 100ms;
+}
+.devControlPanel .projects .projectRow .pTitle .title {
+	margin: 0px;
+	padding: 3px;
+	line-height: 16px;
+	float: left;
+	color: #656565;
+}
+.devControlPanel .projects .projectRow.open .pTitle .title {
+	color: #C00403;
+}
+.devControlPanel .projects .projectRow .pTitle:hover .title {
+	color: #C00403;
+}

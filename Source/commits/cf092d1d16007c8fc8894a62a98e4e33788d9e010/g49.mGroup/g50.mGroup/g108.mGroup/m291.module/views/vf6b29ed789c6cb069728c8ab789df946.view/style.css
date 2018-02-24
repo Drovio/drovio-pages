@@ -1,0 +1,201 @@
+.sdkManualPage {
+	width: 100%;
+	height: 100%;
+}
+.sdkManualContainer {
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.sdkManualContainer > .header {
+	width: 100%;
+	height: 140px;
+	position: relative;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	background: url('%{media}/frontend/apps_banner_flare.jpg') no-repeat center;
+	background-size: cover;
+}
+.sdkManualContainer .header > .middleContainer {
+	padding-top: 70px;
+}
+.sdkManualContainer .header .middleContainer h1.wtitle {
+	font-size: 24px;
+	color: #C00403;
+	font-weight: normal;
+	text-align: right;
+}
+.sdkManualContainer .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.sdkManualContainer .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.sdkManualContainer .navigationContainer {
+	position: absolute;
+	top: 190px;
+	right: 50px;
+	overflow: auto;
+	z-index: 2;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #FFF;
+}
+.sdkManualContainer .navigationContainer .searchContainer {
+	overflow: auto;
+	padding: 8px;
+}
+.sdkManualContainer .navigationContainer .searchContainer .explorerIcoContainer {
+	float: right;
+	width: 20px;
+	height: 20px;
+	padding: 4px;
+	cursor: pointer;
+	opacity: 0.6;
+}
+.sdkManualContainer .navigationContainer .searchContainer .explorerIcoContainer:hover,
+.sdkManualContainer .navigationContainer.open .searchContainer .explorerIcoContainer {
+	opacity: 1;
+}
+.sdkManualContainer .navigationContainer .searchContainer .explorerIco {
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/developer/docs/searchMenuIco.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+	overflow: hidden;
+}
+.sdkManualContainer .navigationContainer.searching .searchContainer .explorerIco {
+	background-position: 0px -20px;
+}
+.sdkManualContainer .navigationContainer .searchContainer .searchInput {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 6px;
+	border: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 350px;
+	outline: none;
+	color: #555;
+}
+.sdkManualContainer .navigationContainer .objectExplorerContainer {
+	display: none;
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin-top: 10px;
+}
+.sdkManualContainer .navigationContainer.open .searchContainer {
+	border-bottom: 1px solid #DDD;
+}
+.sdkManualContainer .navigationContainer.open .objectExplorerContainer {
+	display: block;
+}
+.sdkManualContainer .objectExplorerContainer .searchResults {
+	display: none;
+	overflow: auto;
+}
+.sdkManualContainer .objectExplorerContainer .searchResults .results {
+	overflow: auto;
+	max-height: 500px;
+}
+.sdkManualContainer .objectExplorerContainer .searchResults .results_title {
+	color: #555;
+	text-align: center;
+}
+.sdkManualContainer .objectExplorerContainer .searchResults .sr {
+	display: block;
+	padding: 4px 2px;
+}
+.sdkManualContainer .objectExplorerContainer .searchResults .sr:hover {
+	background: #EEE;
+}
+.sdkManualContainer .navigationContainer.searching .objectExplorerContainer .searchResults {
+	display: block;
+}
+.sdkManualContainer .navigationContainer.searching .objectExplorerContainer .topNav {
+	display: none;
+}
+.sdkManualContainer .navigationContainer.searching .objectExplorerContainer .objectExplorer {
+	display: none;
+}
+.sdkManualContainer .objectExplorerContainer .topNav {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+	margin-bottom: 20px;
+}
+.sdkManualContainer .objectExplorerContainer .topNav .hdNav {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 3px 5px;
+	border-bottom: 3px solid transparent;
+	color: #777;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.sdkManualContainer .objectExplorerContainer .topNav .hdNav:hover {
+	border-bottom: 3px solid #CCC;
+	color: #555;
+}
+.sdkManualContainer .objectExplorerContainer .topNav .hdNav.selected {
+	border-bottom: 3px solid #C00403;
+	color: #555;
+}
+.sdkManualContainer .objectExplorerContainer .objectExplorer {
+	overflow: auto;
+	max-height: 500px;
+}
+.sdkManualContainer .objectExplorerContainer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+	background-size: cover;
+}
+.sdkManualContainer .objectExplorerContainer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.sdkManualContainer .objectExplorerContainer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.sdkManualContainer .objectExplorerContainer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.sdkManualContainer .objectExplorerContainer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.sdkManualContainer .objectExplorerContainer .contentIcon.flIco {
+	background-position:0px -64px;
+}

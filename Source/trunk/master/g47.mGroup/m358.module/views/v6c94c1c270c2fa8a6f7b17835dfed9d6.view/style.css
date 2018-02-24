@@ -1,0 +1,19 @@
+.appChangelog .uc {
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.appChangelog .header {
+	color: #555;
+	font-size: 14px;
+	font-weight: bold;
+}
+.appChangelog .changelog {
+	color: #5E6570;
+	font-size: 12px;
+	line-height: 18px;
+	white-space: pre-wrap;
+}

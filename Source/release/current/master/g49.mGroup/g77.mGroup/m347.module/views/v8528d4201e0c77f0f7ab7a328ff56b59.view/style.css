@@ -1,0 +1,138 @@
+.projectLiteralTranslationsContainer {
+	height: 100%;
+}
+.projectLiteralTranslations {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+
+.projectLiteralTranslations .hd.no_translator {
+	font-size: 14px;
+	margin: 50px 0px;
+	text-align: center;
+	color: #555;
+}
+
+.projectLiteralTranslations .locTranslations {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.projectLiteralTranslations .literalNav {
+	height: 100%;
+	width: 30%;
+	float: left;
+	border-right: 1px solid #CCC;
+	background: #FEFEFE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+	position: relative;
+}
+
+.projectLiteralTranslations .literalNav .toolbar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 31px;
+	border-bottom: 1px solid #CCC;
+	line-height: 25px;
+	padding: 3px 5px;
+	background: #EFEFEF;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.projectLiteralTranslations .literalNav .toolbar .mi {
+	float: left;
+	margin: 0px 3px;
+	cursor: pointer;
+	color: #555;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.projectLiteralTranslations .literalNav .toolbar .mi.separator, .projectLiteralTranslations .literalNav .toolbar .mi.current {
+	color: #999;
+	cursor: default;
+	display: none;
+}
+
+.projectLiteralTranslations .literalNav .toolbar.lt .mi.all {
+	color: #999;
+}
+
+.projectLiteralTranslations .literalNav .toolbar.lt .mi.separator, .projectLiteralTranslations .literalNav .toolbar.lt .mi.current {
+	display: block;
+	color: #555;
+}
+
+.projectLiteralTranslations .literalNav .toolbar .mi:hover {
+	color: #555 !important;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.projectLiteralTranslations .literalNav .navContent {
+	position: absolute;
+	top: 31px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+
+.projectLiteralTranslations .literalNav .navContent .literalExplorer {
+	display: none;
+}
+
+.projectLiteralTranslations .literalNav .navContent.lt .scopeExplorer {
+	display: none;
+}
+
+.projectLiteralTranslations .literalNav .navContent.lt .literalExplorer {
+	display: block;
+}
+
+.projectLiteralTranslations .literalNav .scopeExplorer ul.scopes, .projectLiteralTranslations .literalNav .literalExplorer ul.literals {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+
+.projectLiteralTranslations .literalNav .scopeExplorer ul.scopes .sc, .projectLiteralTranslations .literalNav .literalExplorer ul.literals .lt {
+	padding: 8px 10px;
+	line-height: 14px;
+	cursor: pointer;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.projectLiteralTranslations .literalNav .scopeExplorer ul.scopes .sc:hover, .projectLiteralTranslations .literalNav .literalExplorer ul.literals .lt:hover, .projectLiteralTranslations .literalNav .literalExplorer ul.literals .lt.selected {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.projectLiteralTranslations .transContent {
+	height: 100%;
+	width: 70%;
+	float: right;
+	overflow: auto;
+}

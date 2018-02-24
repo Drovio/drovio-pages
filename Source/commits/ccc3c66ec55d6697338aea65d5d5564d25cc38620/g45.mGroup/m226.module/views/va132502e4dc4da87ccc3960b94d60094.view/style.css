@@ -1,0 +1,105 @@
+.teamDashboardPage {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.teamDashboard {
+	background: #F1F1F1;
+	width: 100%;
+	height: 100%;
+}
+
+.teamDashboard .apps_pool {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 2;
+	background: #FFF;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: none;
+	-webkit-user-select: initial;
+	-moz-user-select: initial;
+	cursor: initial;
+}
+
+.teamDashboard .apps_pool.open {
+	display: block;
+}
+.teamDashboard .mainContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.teamDashboard .mainContainer .navbar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.teamDashboard .mainContainer .navbar .navmenu {
+	padding: 15px;
+	float: right;
+}
+
+.teamDashboard .mainContainer .navbar .navitem {
+	float: right;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: url('%{media}/boss/navIcons.svg') no-repeat center;
+	background-size: cover;
+	cursor: pointer;
+	margin: 0px 15px;
+	opacity: 0.5;
+	transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .navbar .navitem.selected, .teamDashboard .mainContainer .navbar .navitem:hover {
+	opacity: 1;
+	transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .navbar .navitem.dashboard {
+	background-position: 0px 0px;
+}
+
+.teamDashboard .mainContainer .navbar .navitem.members {
+	background-position: 0px -20px;
+}
+
+.teamDashboard .mainContainer .navbar .navitem.settings {
+	background-position: 0px -40px;
+}
+
+.teamDashboard .mainContainer .sectionContainer {
+	position: absolute;
+	top: 50px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.teamDashboard .mainContainer .sectionContainer .dsection {
+	height: 100%;
+	width: 100%;
+}

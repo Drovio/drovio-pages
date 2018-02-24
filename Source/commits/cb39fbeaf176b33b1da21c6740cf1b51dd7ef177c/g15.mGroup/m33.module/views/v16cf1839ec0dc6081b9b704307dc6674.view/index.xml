@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v16cf1839ec0dc6081b9b704307dc6674"><dependencies><dependency library="API" object="Resources"></dependency><dependency library="UI" object="Html"></dependency></dependencies><inner><module id="securityHome">50</module><module id="moduleManager">97</module><module id="accountGroups">90</module><module id="privileges">163</module><module id="pageExplorer">184</module></inner></view>

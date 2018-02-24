@@ -1,0 +1,61 @@
+#sourceExplorer,
+.srcPackageExplorer {
+	height: 100%;
+	overflow: auto;
+}
+
+.srcPackageExplorer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+.srcPackageExplorer .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.srcPackageExplorer .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.srcPackageExplorer .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.srcPackageExplorer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.srcPackageExplorer .contentIcon.flIco {
+	background-position:0px -64px;
+	background-size: cover;
+}
+.srcPackageExplorer .srcNavTool {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	opacity: 0.7;
+}
+.srcPackageExplorer .srcNavTool.refresh {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 0px -48px;
+}
+.srcPackageExplorer .srcNavTool.create_new {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: 0px -64px;
+}
+.srcPackageExplorer .srcNavTool:hover {
+	opacity: 1.0;
+}

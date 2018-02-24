@@ -1,0 +1,41 @@
+.supportPage h1, .supportPage h3 {
+	text-align: center;
+}
+.supportPage h3 {
+	color: #565656;
+}
+
+.supportPage .gContainer {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.supportPage .gContainer .tile {
+	padding: 5px;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+	margin-top: 10px;
+}
+.supportPage .gContainer .tile a {
+	display: inline-block;
+	overflow: auto;
+	width: 100%;
+}
+.supportPage .gContainer .tile h2 {
+	padding: 3px;
+	color: rgb(192, 4, 3);
+	float: left;
+	width: 20%;
+}
+.supportPage .gContainer .tile p {
+	color: #565656;
+	text-indent: 15px;
+	float: left;
+	margin-top: 21px;
+}
+.supportPage .gContainer .tile:hover {
+	border-color: #656565;
+}
+.supportPage .gContainer .tile:hover2 p {
+	font-weight: bold;
+}

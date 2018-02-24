@@ -1,0 +1,161 @@
+.modulesConfigurator {
+	height: 100%;
+}
+
+.modulesConfigurator .configTabs {
+	height: 100%;
+}
+.modulesConfigurator .tabs {
+	float: left;
+	width: 20%;
+	list-style: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	border-right: 1px solid #CCC;
+	background: #EEE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.modulesConfigurator .tabs .navTab {
+	list-style: none;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 5px 8px;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.modulesConfigurator .tabs .navTab:hover, .modulesConfigurator .tabs .navTab.selected {
+	color: #FFF;
+	background: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.modulesConfigurator .tabs .navTab span {
+	display: block;
+	line-height: 20px;
+}
+.modulesConfigurator .pages {
+	float: left;
+	width: 80%;
+	height: 100%;
+}
+
+.modulesConfigurator .pages .page {
+	padding: 5px;
+	overflow: auto;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.modulesConfigurator .pages .switchRow {
+	width: 50%;
+	display: block;
+	overflow: auto;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.modulesConfigurator .pages .switchRow.mtester, .modulesConfigurator .pages .switchRow.logger {
+	float: left;
+}
+
+.modulesConfigurator .pages #logViewer {
+	height: 280px;
+	overflow: auto;
+}
+
+.modulesConfigurator .pages .testerPanel .moduleConfigurator {
+	padding: 5px;
+}
+
+.modulesConfigurator .pages .testerPanel .moduleConfigurator h4 {
+	margin: 3px 5px;
+}
+
+.modulesConfigurator .pages .testerPanel .modulesList {
+	height: 200px;
+}
+
+.modulesConfigurator .pages .switchRow > span {
+	float: left;
+	min-width: 150px;
+	padding-right: 10px;
+}
+
+.modulesConfigurator .pages .switchRow > .uiSwitchButton {
+	float: right;
+}
+.modulesConfigurator .resourceProfiler {
+	padding: 10px;
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	height: 290px;
+	overflow: auto;
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer .cssResources {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer .bootResource {
+	list-style: none;
+	padding: 3px;
+	margin: 0px;
+	line-height: 16px;
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer .bootResource:nth-child(even) {
+	background-color: #EEE;
+}
+
+.modulesConfigurator .resourceProfiler .bootResource .rsrcIco {
+	display: inline-block;
+	float: left;
+	height: 16px;
+	width: 16px;
+	background: url('%resources%/developer/icons/fileThumbs.svg') no-repeat;
+	background-size: 16px;
+	margin: 0px 10px;
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer .cssResources .bootResource .rsrcIco {
+	background-position: 0px -80px;
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer .jsResources .bootResource .rsrcIco {
+	background-position: 0px -64px;
+}
+
+.modulesConfigurator .resourceProfiler .bootResource .rsrcUrl {
+	width: 70%;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.modulesConfigurator .resourceProfiler .bootResource .rsrcReload, .modulesConfigurator .resourceProfiler .bootResource .rsrcRemove {
+	width: 10%;
+	color: blue;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}

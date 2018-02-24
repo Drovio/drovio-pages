@@ -1,0 +1,114 @@
+.drovioSub {
+	padding: 0px 5px;
+}
+
+.drovioSub .section {
+	overflow: auto;
+	border-bottom: 1px solid #454A54;
+	padding: 5px;
+}
+
+.drovioSub .section:last-child {
+	border-bottom: none;
+}
+.drovioSub .navitem {
+	display: block;
+	float: left;
+	padding: 3px 5px;
+	margin: 5px;
+	line-height: 24px;
+	color: #FFF;
+	background: #454A54;
+	transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-spate: nowrap;
+}
+
+.drovioSub .navitem:hover {
+	background-color: #5E6570;
+	transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+}
+
+.drovioSub .navitem .ico {
+	height: 24px;
+	width: 24px;
+	background: url('%{media}/developer/icons/toolbarIcons.svg') no-repeat center;
+	background-size: cover;
+	margin-right: 5px;
+	float: left;
+}
+
+.drovioSub .navitem.drovio .ico {
+	background-position: 0px 0px;
+}
+
+.drovioSub .navitem.developers .ico {
+	background-position: 0px -24px;
+}
+.drovioSub .teams {
+	max-height: 200px;
+}
+
+.drovioSub .teams .hd {
+	color: #777;
+	margin: 15px 0px;
+	text-align: center;
+}
+
+.drovioSub .teams .ttile {
+	overflow: auto;
+	line-height: 24px;
+	padding: 5px 8px;
+	cursor: pointer;
+	background: #FFF;
+	display: block;
+	border-bottom: 1px solid #DDD;
+}
+
+.drovioSub .teams .ttile:last-child {
+	border-bottom: none;
+}
+
+.drovioSub .teams .ttile:hover {
+	background-color: #454A54;
+}
+
+.drovioSub .teams .ttile .icon {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-right: 10px;
+}
+
+.drovioSub .teams .ttile .icon img {
+	width: inherit;
+	height: inherit;
+}
+
+.drovioSub .teams .ttile .title {
+	color: #555459;
+}
+
+.drovioSub .teams .ttile:hover .title {
+	color: #FFF;
+}
+
+.drovioSub .new_team .new {
+	margin: 5px auto;
+	float: none;
+	width: 70%;
+}
+
+.drovioSub .new_team .new .ico {
+	background-position: 0px -72px;
+}

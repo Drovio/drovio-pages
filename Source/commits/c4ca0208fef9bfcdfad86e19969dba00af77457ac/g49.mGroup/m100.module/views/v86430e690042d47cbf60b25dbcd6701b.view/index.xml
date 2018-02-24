@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v86430e690042d47cbf60b25dbcd6701b"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="API" object="Model"></dependency><dependency library="API" object="Profile"></dependency><dependency library="API" object="Resources"></dependency><dependency library="DEV" object="Prototype"></dependency><dependency library="ESS" object="Environment"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="sdkManual">291</module></inner></view>

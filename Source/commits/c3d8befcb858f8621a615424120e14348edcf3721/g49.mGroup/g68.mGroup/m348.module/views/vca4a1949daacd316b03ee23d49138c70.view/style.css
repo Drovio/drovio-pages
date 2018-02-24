@@ -1,0 +1,43 @@
+.keyInfo .kr {
+	overflow: auto;
+	margin: 5px 0px;
+	clear: both;
+	color: #5E6570;
+}
+
+.keyInfo .kr .title {
+	width: 150px;
+	float: left;
+	padding: 2px 0px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.keyInfo .kr .value {
+	float: left;
+	padding: 2px 0px;
+}
+.keyInfo .keyActions {
+	overflow: auto;
+}
+.keyInfo .keyActions .actionForm {
+	float: right;
+	overflow: auto;
+}
+
+.keyInfo .keyActions .actionForm .key_action {
+	background: none;
+	border: none;
+	float: right;
+	outline: none;
+}
+
+.keyInfo .keyActions .actionForm .key_action.remove {
+	color: #ff5252;
+}
+
+.keyInfo .keyActions .actionForm .key_action.regenerate {
+	color: #3CB0F7;
+}

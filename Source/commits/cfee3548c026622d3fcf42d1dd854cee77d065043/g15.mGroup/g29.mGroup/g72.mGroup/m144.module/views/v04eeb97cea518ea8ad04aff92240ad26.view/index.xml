@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v04eeb97cea518ea8ad04aff92240ad26"><dependencies><dependency library="UI" object="Navigation"></dependency><dependency library="UI" object="Presentation"></dependency><dependency library="UI" object="Html"></dependency></dependencies><inner><module id="localeModule">146</module><module id="countryModule">145</module><module id="currencyModule">147</module><module id="regionModule">148</module><module id="languageModule">150</module><module id="timezoneModule">151</module><module id="townsModule">152</module></inner></view>

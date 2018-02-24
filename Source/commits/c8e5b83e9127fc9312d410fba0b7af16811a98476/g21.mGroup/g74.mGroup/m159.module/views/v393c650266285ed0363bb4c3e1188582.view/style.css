@@ -1,0 +1,29 @@
+#settingsMenu {
+	margin-top: 15px;
+}
+.mySettingsPage .side_header {
+	color: #777;
+	padding: 5px;
+	margin-top: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.mySettingsPage .side_menu {
+	list-style-type: none;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+.mySettingsPage .side_menu .menu_item {
+	padding: 10px;
+	border-right: 3px solid transparent;
+	color: #555;
+	cursor: pointer;
+}
+.mySettingsPage .side_menu .menu_item:hover {
+	background: #FAFAFA;
+	border-right: 3px solid #CCC;
+}
+.mySettingsPage .side_menu .menu_item.selected {
+	background: #EEE;
+	border-right: 3px solid #C00403;
+}

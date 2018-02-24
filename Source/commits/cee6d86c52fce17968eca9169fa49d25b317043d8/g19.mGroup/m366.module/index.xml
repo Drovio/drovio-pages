@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="366"><sql><query id="q5d319b7faa7e795427f3fe400d5cfc40" name="create_team"/><query id="qc575d940113fe514c995311588661514" name="get_team"/></sql><views><view id="vcd7cb4c1c1398bea186421a982b30e47" name="DrovioSub"/><view id="vc7397f25811416a497ca0d85ed925837" name="createTeam"/><view id="ve67e4a04ea1a10feaf6fb17db32f941b" name="teamSelector"></view></views></module>

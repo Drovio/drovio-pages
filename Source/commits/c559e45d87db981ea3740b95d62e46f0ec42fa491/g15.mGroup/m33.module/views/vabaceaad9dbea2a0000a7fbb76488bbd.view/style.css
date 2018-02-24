@@ -1,0 +1,55 @@
+.adminSideNav {
+	overflow: auto;
+	min-width: 250px;
+}
+.adminSideNav .menu {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.adminSideNav .menu li {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+	border-bottom: 1px solid #CCC;
+}
+.adminSideNav .menu li a {
+	display: block;
+	padding: 5px 10px;
+}
+.adminSideNav .menu li a .ico {
+	float: left;
+	width: 32px;
+	height: 32px;
+	background-image: url('%resources%/admin/navIcons.svg');
+	background-size: cover;
+}
+.adminSideNav .menu li a .ico.home {
+	background-position: 0px -96px;
+}
+.adminSideNav .menu li a .ico.pages {
+	background-position: 0px 0px;
+}
+.adminSideNav .menu li a .ico.resources {
+	background-position: 0px -160px;
+}
+.adminSideNav .menu li a .ico.literals {
+	background-position: 0px -32px;
+}
+.adminSideNav .menu li a .ico.geo {
+	background-position: 0px -225px;
+}
+.adminSideNav .menu li a .ico.schemas {
+	background-position: 0px -64px;
+}
+.adminSideNav .menu li a .ico.security {
+	background-position: 0px -128px;
+}
+.adminSideNav .menu li a .ico.publisher {
+	background-position: 0px -192px;
+}
+.adminSideNav .menu li a .title {
+	line-height: 32px;
+	display: inline-block;
+	margin-left: 10px;
+}

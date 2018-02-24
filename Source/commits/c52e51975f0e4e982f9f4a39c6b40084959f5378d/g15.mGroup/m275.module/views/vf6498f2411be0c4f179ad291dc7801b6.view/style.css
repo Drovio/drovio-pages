@@ -1,0 +1,88 @@
+.marketReviewer .hd {
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-indent: 10px;
+	border-bottom: 1px solid #999;
+	padding: 5px 0px;
+}
+
+.project_list .rvrow {
+	border-bottom: 1px solid #CCC;
+}
+.project_list .rvrow .rvhd {
+	overflow: auto;
+	padding: 3px 5px;
+	line-height: 16px;
+	cursor: pointer;
+}
+.project_list .rvrow.open .rvhd {
+	border-bottom: 1px solid #DDD;
+}
+.project_list .rvrow .rvhd .ptico {
+	float: left;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.project_list .rvrow .rvhd .ptype {
+	float: left;
+	margin: 0px 5px;
+	color: #999;
+}
+.project_list .rvrow .rvhd .rTitle {
+	float: left;
+	font-size: 12px;
+}
+.project_list .rvrow .rStatus {
+	float: right;
+	line-height: 16px;
+	overflow: auto;
+	margin-right: 5px;
+}
+.project_list .rvrow .rStatus .ico {
+	float: right;
+	margin-left: 5px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg') no-repeat center;
+	background-size: cover;
+}
+.project_list .rvrow .rStatus .status {
+	float: right;
+}
+.project_list .rvrow .rStatus.st1 {
+	color: #0f4976;
+}
+.project_list .rvrow .rStatus.st2 {
+	color: #3EAC47;
+}
+.project_list .rvrow .rStatus.st3 {
+	color: #76121b;
+}
+.project_list .rvrow .rStatus.st1 .ico {
+	background-position: 0px -32px;
+}
+.project_list .rvrow .rStatus.st2 .ico {
+	background-position: 0px 0px;
+}
+.project_list .rvrow .rStatus.st3 .ico {
+	background-position: 0px -16px;
+}
+
+.project_list .rvrow .rvhd .rvat_live {
+	float: right;
+	padding: 0px 10px;
+	color: #999;
+}
+.project_list .rvrow .rvbd {
+	overflow: auto;
+	padding: 5px;
+	display: none;
+}
+.project_list .rvrow.open .rvbd {
+	display: block;
+}

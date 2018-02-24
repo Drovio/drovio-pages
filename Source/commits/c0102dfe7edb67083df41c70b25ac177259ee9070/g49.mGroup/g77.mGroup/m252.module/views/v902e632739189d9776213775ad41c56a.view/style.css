@@ -1,0 +1,50 @@
+.translationsContent {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.locTranslations {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.locTranslations .scopeExplorer {
+	height: 100%;
+	width: 30%;
+	float: left;
+	border-right: 1px solid #CCC;
+	background: #FEFEFE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.locTranslations .transContent {
+	height: 100%;
+	width: 70%;
+	float: right;
+	overflow: auto;
+}
+
+.scopeExplorer ul.scopes {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.scopeExplorer ul.scopes .sc {
+	padding: 5px 8px;
+	line-height: 14px;
+	cursor: pointer;
+	border-right: 3px solid transparent;
+}
+.scopeExplorer ul.scopes .sc:hover {
+	border-right: 3px solid #CCC;
+}
+.scopeExplorer ul.scopes .sc.selected {
+	border-right: 3px solid #C00403;
+}

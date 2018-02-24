@@ -1,0 +1,66 @@
+#navigationSideMenu{
+	height:100%;
+	border-right: 1px solid black;
+}
+
+.dataRow, .dataSection{
+	margin: 5px 0;
+}
+ 
+.dataRow:first-child, .dataSection:first-child{
+	margin: 0px 0px 5px 0px;
+}
+
+
+.dataRow > .label{
+	font-weight: bold;
+   	margin-left: 10px;
+}
+
+.dataRow > .text{
+	font-style: italic;
+	margin: 0 10px;
+}
+
+.dataSection > .header {
+	font-weight: bold;
+   	margin-left: 3px;
+}
+
+.dataSection > .content{
+	height:inherit;
+}
+.dataSection > .content.grid.half {
+	width:50%;
+}
+
+.verticalScroll {
+	overflow-y: scroll;
+}
+
+.horrizontalScroll {
+	overflow-x: scroll;
+}
+
+.contentPage {
+	height:100%;
+}
+
+.analyticsPlainData {
+	height:100%;
+}
+
+.filtersWrapper {
+	padding-left:10px;
+}
+
+.rangeSelector {
+}
+
+.controlWrapper {
+	display: inline-block;
+}
+
+.controlWrapper > span, .controlWrapper > div{
+	display: inline-block;
+}

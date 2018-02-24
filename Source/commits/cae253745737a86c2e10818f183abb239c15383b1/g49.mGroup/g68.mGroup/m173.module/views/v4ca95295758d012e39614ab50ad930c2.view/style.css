@@ -1,0 +1,12 @@
+.applicationViewContainer {
+	height: 100%;
+}
+.applicationViewContainer .viewPhpCode {
+	height: 100%;
+}
+.applicationViewContainer .viewHtmlCode {
+	height: 100%;
+}
+.applicationViewContainer .objectJSCode {
+	height: 100%;
+}

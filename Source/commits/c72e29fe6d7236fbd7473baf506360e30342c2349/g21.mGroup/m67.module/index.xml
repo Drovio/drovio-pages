@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="67"><sql><query id="q32be14e82938853fa4248dcc6d4b6649" name="register"/><query id="qbdafdc435c9877979305dd45d11a6f79" name="get_nonactivated_person"/><query id="qc70c74d6d8288d88967e682cbbee931b" name="register_update"></query></sql><views><view id="v762424b04aaa62b1bf0a00407d965b94" name="accountRegistrationPage"/></views></module>

@@ -1,0 +1,35 @@
+#appSectionViewer, .viewDesigner {
+	height: 100%;
+}
+.devapp .navIco {
+	background-image:url(/Library/Media/images/pages/developer/appDevSprite.svg);
+	background-position:-30px 0px;
+}
+.devapp.info .navIco {
+	background-position:-150px 0px;
+}
+.devapp.settings .navIco {
+	background-position:-30px 0px;
+}
+.devapp.vcs .navIco {
+	background-position:0px 0px;
+}
+.devapp.literals .navIco {
+	background-position:-60px 0px;
+}
+.devapp.media .navIco {
+	background-position:-90px 0px;
+}
+.devapp.publisher .navIco {
+	background-position:-180px 0px;
+}
+.devapp.run .navIco {
+	background-position:-120px 0px;
+}
+
+#appMediaManager {
+	width: 1000px;
+	height: 400px;
+	background-color: #FFF;
+	border: 1px solid rgb(166, 166, 166);
+}

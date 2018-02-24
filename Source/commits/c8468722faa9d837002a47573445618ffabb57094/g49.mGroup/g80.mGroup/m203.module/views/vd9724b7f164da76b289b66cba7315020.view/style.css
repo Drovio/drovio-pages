@@ -1,0 +1,17 @@
+.devTools h1.title {
+	color: #C00403;
+}
+.devTools h3.sub {
+	color: #656565;
+	line-height: 20px;
+}
+.devTools .menu {
+	border-top: 1px solid #CCC;
+	padding-left: 30px;
+}
+.devTools .menu .menuItem a {
+	color: #545454;
+}
+.devTools .menu .menuItem:hover a {
+	color: #C00403;
+}

@@ -1,0 +1,11 @@
+.objectGlobalContainer, .objectGlobalContainer .objectSourceCode {
+	height:100%;
+}
+
+.objectGlobalContainer .objectJSCode, .objectGlobalContainer .objectJSCode .JSCodeContainer {
+	height:100%;
+}
+
+.objectGlobalContainer .objectModel, .objectGlobalContainer .objectModel .objModelContainer {
+	height:100%;
+}

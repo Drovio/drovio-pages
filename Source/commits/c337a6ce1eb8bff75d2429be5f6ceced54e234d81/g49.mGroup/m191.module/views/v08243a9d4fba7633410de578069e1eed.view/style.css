@@ -1,0 +1,19 @@
+.contactDeveloperDialog .hd {
+	font-size: 14px;
+	font-weight: normal;
+}
+.contactDeveloperDialog .context {
+	font-size: 12px;
+	color: #555;
+	font-style: italic;
+}
+.cmtxt {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	min-height: 50px;
+	resize: none;
+	padding: 5px;
+	font-size: 12px;
+	color: #555;
+}

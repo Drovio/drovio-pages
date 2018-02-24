@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="101"><sql><query id="qc8b5ed1ee615f4cb472ccd79c3d2cbf3" name="testq1"/><query id="qd873ccd46b44d7005c8d2c36fe447e48" name="testq2"/><query id="q79b9e5f2f040b48bb5eaea03b8653d48" name="testq3"/><query id="qbde6a8d2783b40e974d9de088e6fc880" name="testq4"></query></sql><views><view id="v2cd28d9f95e588dcb88540ef2b3cd68c" name="testing"/></views></module>

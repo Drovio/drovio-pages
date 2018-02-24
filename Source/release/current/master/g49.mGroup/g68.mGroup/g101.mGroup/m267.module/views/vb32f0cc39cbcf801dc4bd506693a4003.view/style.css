@@ -1,0 +1,26 @@
+.objectGlobalContainer {
+	height: 100%;
+}
+.objectGlobalContainer .objTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.objectGlobalContainer .objTool:hover {
+	opacity: 1.0;
+}
+button.objTool {
+	border : none;
+	background-color: transparent;
+}
+.objectGlobalContainer .objTool.save {
+	background-position: 0px 0px;
+}
+.objectGlobalContainer .objTool.delete {
+	background-position: 0px -32px;
+}

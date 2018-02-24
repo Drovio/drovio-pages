@@ -1,0 +1,116 @@
+#scopesViewer {
+	height:100%;
+	overflow:auto;
+	padding: 0 10px;
+	padding-bottom:10px;
+	box-sizing: border-box;
+}
+
+#literalViewer {
+	width:100%;
+	height: 100%;
+	overflow: auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+#translationsEditor .currentScope {
+	position:relative;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 5px;
+	padding: 0 5px; 
+	display:inline-block;
+}
+#translationsEditor .currentScope > span:last-of-type {
+	font-weight:bold;
+}
+#translationsEditor .currentScope > .localeFlag {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgb(166, 166, 166);
+	margin-right: 6px;
+}
+
+#translationsEditor .translationRow {
+	line-height:24px;
+	padding:0 5px;
+}
+#translationsEditor .translationRow:first-child {
+	padding-top:5px;
+	padding-bottom:5px;
+	position:relative;
+}
+
+#translationsEditor .translationRow:first-child:not(:only-child):after {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: -1px;
+	right: -1px;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgb(166, 166, 166) 0%, transparent 50%, transparent 100%);
+	background-image: -moz-linear-gradient(left, rgb(166, 166, 166) 0%, transparent 50%, transparent 100%);
+	background-image: -o-linear-gradient(left, rgb(166, 166, 166) 0%, transparent 50%, transparent 100%);
+}
+
+#translationsEditor .translationRow:nth-child(2) {
+	padding-top:5px;
+}
+#translationsEditor .translationRow:last-child {
+	padding-bottom:5px;
+}
+#translationsEditor .translationRow > * {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+#translationsEditor .translationRow > .editTranslation {
+	width:17px;
+	height:17px;
+	background: url(/Library/Media/images/icons/16x16/btn_edit.svg) no-repeat 2px 0px;
+	visibility:hidden;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	padding:0;
+	cursor:pointer;
+}
+#translationsEditor .translationRow:not(.locked):hover > .editTranslation {
+	visibility:visible;
+}
+#translationsEditor .translationRow:not(.locked):hover > .editTranslation:hover {
+	border: 1px solid rgb(166, 166, 166);
+}
+#translationsEditor .translationRow > .translationFlag {
+	width:24px;
+	height: 24px;
+}
+#translationsEditor .translationRow > .translationFlag:first-child {
+	padding-left: 22px;
+}
+#translationsEditor .translationRow > .translationValue {
+	height: 24px;
+	position: relative;
+	top: 2px;
+}
+#translationsEditor .translationRow form {
+	display:none;
+}
+
+#translationsEditor .untranslated {
+	padding: 5px;
+}
+#translationsEditor .untranslated p {
+	margin: 0;
+}
+#translationsEditor .untranslated a {
+	font-weight:bold;
+}
+#translationsEditor .untranslated a:hover {
+	text-decoration:underline;
+}

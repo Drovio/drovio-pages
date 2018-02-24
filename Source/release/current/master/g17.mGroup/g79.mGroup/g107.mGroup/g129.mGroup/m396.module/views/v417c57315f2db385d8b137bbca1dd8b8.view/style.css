@@ -1,0 +1,35 @@
+.themeJsEditor {
+	height: 100%;
+}
+
+.themeJsEditor .objTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%resources%/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.themeJsEditor .objTool:hover {
+	opacity: 1.0;
+}
+
+.themeJsEditor button.objTool {
+	border : none;
+	background-color: transparent;
+}
+
+.themeJsEditor .objTool.save {
+	background-position: 0px 0px;
+}
+
+.themeJsEditor .objTool.delete {
+	background-position: 0px -32px;
+}
+
+.themeJsEditor .objTool.test {
+	background-position: 0px -48px;
+}

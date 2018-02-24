@@ -1,0 +1,52 @@
+.applicationManifestsContainer,
+.applicationManifests {
+	height: 100%;
+	overflow: auto;
+}
+.applicationManifests h1.title {
+	font-size: 16px;
+	font-weight: normal;
+	color: #555;
+	padding: 5px 10px;
+}
+
+.applicationManifests .ptitle {
+	color: #555;
+	font-size: 14px;
+	font-weight: normal;
+	border-bottom: 1px solid #CCC;
+	padding: 5px 10px;
+	margin: 0px;
+}
+
+.applicationManifests .prow {
+	overflow: auto;
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+}
+
+.applicationManifests .prow .ico {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	background: url('%{media}/developer/docs/default_permission_icon.svg') no-repeat center;
+	background-size: cover;
+}
+
+.applicationManifests .prow .mf_switch {
+	float: right;
+	margin: 10px;
+}
+
+.applicationManifests .prow .mf_title {
+	color: #5E6570;
+	font-size: 12px;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+.applicationManifests .prow .mf_desc {
+	color: #5E6570;
+	margin: 0px;
+}

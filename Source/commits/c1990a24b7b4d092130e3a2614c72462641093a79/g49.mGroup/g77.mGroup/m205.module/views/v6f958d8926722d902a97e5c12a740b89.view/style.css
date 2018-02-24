@@ -1,0 +1,27 @@
+.projectResources {
+	overflow: auto;
+}
+
+.projectResources .middleContainer {
+	margin: 10px 20px;
+	overflow: auto;
+}
+
+.projectResources .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.projectResources .whiteBox {
+	clear: both;
+	overflow: auto;
+	background: #FFF;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: 60px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}

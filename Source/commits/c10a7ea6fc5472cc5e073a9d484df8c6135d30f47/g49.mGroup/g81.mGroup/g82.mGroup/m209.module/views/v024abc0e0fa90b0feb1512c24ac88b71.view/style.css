@@ -1,0 +1,28 @@
+.coreConfigurator .switchRow {
+	width: 50%;
+	display: block;
+	overflow: auto;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.coreConfigurator .coreTester .packageConfigurator {
+	padding: 5px;
+}
+.coreConfigurator .coreTester .packageConfigurator h4 {
+	margin: 3px 5px;
+}
+.coreConfigurator .coreTester .packageList {
+	height: 200px;
+}
+
+.coreConfigurator .switchRow > span {
+	float: left;
+	min-width: 150px;
+	padding-right: 10px;
+}
+.coreConfigurator .switchRow > .uiSwitchButton {
+	float: right;
+}

@@ -1,0 +1,19 @@
+.verticalScroll {
+	overflow-y: scroll;
+}
+
+.horrizontalScroll {
+	overflow-x: scroll;
+}
+
+.dataPresentation {
+	height:100%;
+}
+
+.analyticsPlainData {
+	height:100%;
+}
+
+.filtersWrapper {
+	padding-left:10px;
+}

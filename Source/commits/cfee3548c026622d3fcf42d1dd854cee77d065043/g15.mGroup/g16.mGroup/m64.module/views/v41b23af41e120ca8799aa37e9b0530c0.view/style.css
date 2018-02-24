@@ -1,0 +1,29 @@
+.devManagementArea .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+}
+.devManagementArea .contentIcon.mgIcon {
+	background-image: url(/Library/Media/images/icons/16x16/boxClose.png);
+	background-position-y:1px;
+}
+.devManagementArea .open > :not(ul):not(.subTreeView) .contentIcon.mgIcon {
+	background-image: url(/Library/Media/images/icons/16x16/boxOpen.png);
+	background-position-y:0;
+}
+.devManagementArea .contentIcon.mIcon {
+	background-image: url(/Library/Media/images/icons/16x16/module.png);
+}
+.devManagementArea .contentIcon.auxIcon {
+	background-image: url(/Library/Media/images/icons/16x16/auxModule.png);
+}
+.devManagementArea .contentIcon.cssIcon {
+	background-image: url(/Library/Media/images/icons/16x16/moduleCSS.png);
+	position:absolute;
+	top:1px;
+	right:19px;
+}

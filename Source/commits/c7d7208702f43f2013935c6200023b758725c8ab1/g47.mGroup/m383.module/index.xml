@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="383"><sql><query id="q0b90b18fc95138fee83b8dc737a14f99" name="app_info"/><query id="qb7697c1ba713d92f8a2b764b0e9bc311" name="get_appcenter_app"></query></sql><views><view id="v9ea33cbb0140b74def17cc0f98533b88" name="ApplicationFramePlayer"/></views></module>

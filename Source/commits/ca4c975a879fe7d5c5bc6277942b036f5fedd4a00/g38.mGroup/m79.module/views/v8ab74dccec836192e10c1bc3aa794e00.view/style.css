@@ -1,0 +1,33 @@
+.contact {
+	width: 100%;
+	height: 100%;
+}
+.contact .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.contact .header {
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+.contact .header > .middleContainer {
+	padding-top: 80px;
+	overflow: auto;
+}
+.contact .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.contact .header > .middleContainer > h3 {
+	color: #565656;
+	font-weight: normal;
+}

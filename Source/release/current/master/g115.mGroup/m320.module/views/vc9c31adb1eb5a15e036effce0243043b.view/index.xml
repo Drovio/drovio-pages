@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vc9c31adb1eb5a15e036effce0243043b"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="API" object="Model"></dependency><dependency library="ESS" object="Environment"></dependency><dependency library="SYS" object="Comm"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="openPage">308</module></inner></view>

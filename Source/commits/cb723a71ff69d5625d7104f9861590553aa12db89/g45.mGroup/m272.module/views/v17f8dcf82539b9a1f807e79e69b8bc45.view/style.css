@@ -1,0 +1,73 @@
+.applicationPlayer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}
+.applicationPlayer .enp-dashboard {
+	float: left;
+	cursor: pointer;
+}
+
+.applicationPlayer .enp-dashboard .dshb-ico {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin: 9px 4px;
+	margin-right: 10px;
+	background: url('%{media}/boss/navIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -72px;
+}
+
+.applicationPlayer .enp-dashboard .dshb-title {
+	float: left;
+	line-height: 42px;
+	font-size: 1.1em;
+	color: #3CB0F7;
+}
+
+.applicationPlayer .enp-appPlayerWrapper {
+	width: 100%;
+	height: 100%;
+}
+.applicationPlayer .enp-navbar {
+	position: absolute;
+	top: 0px;
+	padding: 4px 15px;
+	height: 51px;
+	width: 100%;
+	border-bottom: 1px solid #FFF;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.applicationPlayer .enp-navbar .app-ico {
+	float: right;
+	width: 36px;
+	height: 36px;
+	margin: 3px 4px;
+	margin-left: 10px;
+}
+
+.applicationPlayer .enp-navbar .app-ico img {
+	width: inherit;
+	height: inherit;
+}
+
+.applicationPlayer .enp-navbar .app-title {
+	float: right;
+	line-height: 42px;
+	font-size: 1.3em;
+	color: #5E6570;
+}
+
+.applicationPlayer .enp-ifp-container {
+	position: absolute;
+	top: 51px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+}

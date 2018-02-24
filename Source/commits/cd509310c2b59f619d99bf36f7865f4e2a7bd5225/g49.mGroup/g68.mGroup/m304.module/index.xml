@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="304"><sql><query id="q14496a0577f752ccec38478e71554f37" name="appcenter_info"/><query id="q0a656aaeef567be5e71187c605bf5743" name="bossmarket_info"/><query id="q6f337a49a3625b87c7b08e04512ac2dd" name="update_appcenter"/><query id="q1dd1f4db0ea4331a0a8ea139ef89011f" name="update_bossmarket"></query></sql><views><view id="vadfec875d1f9707f23fac3e0bdfe8839" name="applicationMarketSettings"/><view id="ve749ca13a322c1021a9378b209c5b9a8" name="updateSettings"/></views></module>

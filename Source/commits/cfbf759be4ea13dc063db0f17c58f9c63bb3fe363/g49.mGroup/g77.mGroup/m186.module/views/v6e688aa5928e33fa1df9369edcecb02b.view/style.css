@@ -1,0 +1,92 @@
+.projectOverviewPage .header {
+	overflow: auto;
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 30px;
+}
+.projectOverviewPage .header .projectImage {
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid rgba(166, 166, 166, 1);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 10px 30px;
+	display: none;
+}
+.projectOverviewPage .header .projectTitle {
+	color: #C00403;
+	margin: 15px 0px;
+}
+.projectOverviewPage .header .projectName {
+	font-size: 14px;
+	margin-left: 10px;
+	color: #000;
+}
+.projectOverviewPage .header .projectDescription {
+	color: #888;
+}
+.projectOverviewPage .header .projectActions {
+	float: right;
+	margin: 10px;
+	color: #999;
+}
+.projectOverviewPage .header .projectActions a {
+	color: inherit;
+}
+.projectOverviewPage .header .action {
+	cursor: pointer;
+	padding: 0px 5px;
+	float: left;
+	font-weight: bold;
+}
+.projectOverviewPage .header .action.editInfoBtn {
+	font-weight: normal;
+}
+.projectOverviewPage .header .action.publisherBtn {
+	color: green;
+}
+.projectOverviewPage .header .action:hover {
+	color: #C00403;
+}
+.projectOverviewPage .infoBox {
+	width: 479px;
+	margin: 0px 5px;
+	float: left;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.projectOverviewPage .infoBox h3.title {
+	color: #C00403;
+	padding: 5px 8px;
+	margin: 0px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+}
+.projectOverviewPage .infoBox .infoList {
+	padding: 5px;
+	max-height: 150px;
+	overflow: auto;
+}
+.projectOverviewPage .infoBox .infoList h4 {
+	margin: 0px;
+	padding: 5px;
+}
+.projectOverviewPage .infoBox .infoList h4 a {
+	color: #656565;
+}
+.projectOverviewPage .infoBox .infoList h4 a:hover {
+	color: #C00403;
+}
+.projectOverviewPage .projectMembers .addMember {
+	float: right;
+	color: #777;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 8px;
+}
+.projectOverviewPage .projectMembers .addMember:hover {
+	color: green;
+}

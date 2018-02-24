@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="33"><sql/><views><view id="v85ed3b23dbc32c5b5563b0bfe9dd1d2d" name="adminHomePage"/><view id="v18bcd412a564348480026e44f5009973" name="TLB_homeNav"/><view id="ve71adcf047c9b988a7c7017d8e5e9c90" name="TLB_rsrcNav"/><view id="v2269b609fd5c495f55cc39665de4a06c" name="TLB_devNav"/><view id="v16cf1839ec0dc6081b9b704307dc6674" name="TLB_securityNav"/><view id="vabaceaad9dbea2a0000a7fbb76488bbd" name="sideNavigation"></view></views></module>

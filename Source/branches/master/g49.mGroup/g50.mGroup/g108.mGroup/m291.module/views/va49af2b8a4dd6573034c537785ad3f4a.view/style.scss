@@ -1,0 +1,154 @@
+.classReference {
+	& {
+		margin-left: 5px;	
+	}
+	.subHeader {
+		color: #646464;
+		font-size: 1.1em;
+		margin-top: 15px;
+		padding: 3px;
+	}
+	.sectionBody {
+		margin-left: 5px;
+	}
+	.modifier {
+		display: inline-block;
+		color: green;
+	}
+	.descline {
+		padding: 0px 3px 0px 3px;
+	}
+	.descline .token {
+		font-weight: bold;
+		color: #1f5c8f;
+		display: inline-block;
+	}
+	.property,
+	.method {
+		margin-bottom: 5px;
+	}
+	.method .methodBody {
+		margin-left: 20px;
+	}
+	.property .pDesc,
+	.constant .cDesc {
+		white-space: pre-wrap;
+	}
+	.method  .mDesc {
+		font-family: inherit;
+		font-style: italic;
+		margin: 0px 0px 0px 35px;
+	}
+	.method .methReternDesc,
+	.method .methThrows {
+		padding-left:10px;
+	}
+	.deprecationMessage {
+		border: 1px solid rgba(255, 100, 0, 1);
+		background-color: #FFE8D9;
+		clear: both;
+	}
+	.deprecationMessage .deprSign {
+		font-weight: bold;
+		margin: 0px;
+		margin-top: 3px;
+	}
+	.decline span {
+		padding: 0px 2px 0px 2px;
+	}
+	.token {
+		font-weight: bold;
+		color: #1f5c8f;
+		display: inline-block;
+	}
+	.mh {
+		border-bottom: 1px solid #CCC;
+		margin-bottom: 5px;modi
+	}
+	.documentationViewer .mDepr.modifier {
+		float: right;
+		color: orange;
+		font-style: italic;
+	}
+	.parameters .parameter {
+		& {
+			clear: both;
+			overflow: auto;
+			padding: 5px 0px;
+		}
+		.paramType {
+			float: left;
+			width: 15%;
+		}
+		.paramName {
+			float: left;
+			width: 15%;
+		}
+		.paramName.token {
+			font-style: italic;
+		}
+		.paramDesc {
+			float: left;
+			width: 70%;
+			white-space: pre-wrap;
+		}
+	}
+	p.pre {
+		white-space: pre-wrap;
+	}
+	.documentationError {
+		margin: 10px;
+		border: 1px solid rgba(255, 100, 0, 1);
+		background-color: #FFE8D9;
+		clear: both;
+		text-indent: 5px;
+	}
+	.documentationError.errorSign {
+		font-weight: bold;
+		margin: 0px;
+		margin-top: 3px;
+	}
+	
+	.descline span {
+		padding: 0px 2px 0px 2px;
+	}
+	.bodyDetailsContainer .hd {
+		color: #555;
+		font-weight: normal;
+		font-size: 14px;
+	}
+	
+	.methodBox {
+		& {
+			margin: 10px 0px;
+			padding: 5px;
+			border: 1px solid #CCC;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+		}
+		.msignature {
+			padding: 5px 0px;
+			font-size: 1.2em;
+			border-bottom: 1px solid #DDD;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		.subHeader {
+			color: #ff5252;
+			border-bottom: 1px solid #ff5252;
+			margin-bottom: 3px;
+		}
+		.modifier.sign {
+			margin-right: 5px;
+		}
+	}
+	.pDesc.pre {
+		white-space: pre-wrap;
+	}
+	.section__hr_center {
+		border-top: 2px solid #ff5252;
+		width: 100px;
+		margin: 50px auto;
+	}
+}

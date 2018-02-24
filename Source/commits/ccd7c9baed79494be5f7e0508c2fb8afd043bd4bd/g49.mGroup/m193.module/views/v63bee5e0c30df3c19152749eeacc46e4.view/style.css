@@ -1,0 +1,148 @@
+.devPrograms .bodyWrapper {
+	width: 100%;
+/*	width: 600px;*/
+	margin: 20px auto 0;
+}
+
+.devPrograms .bodyWrapper .program {
+	float: left;
+	width: 250px;
+	box-sizing: border-box;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+	margin: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	color: #656565;
+}
+.devPrograms .bodyWrapper .program label {
+	cursor: pointer;
+	padding: 20px;
+	width: 250px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.devPrograms .bodyWrapper .program.active {
+	color: green;
+	border-color: green;
+	background: rgba(166, 166, 166, 0.2) url('/Library/Media/images/icons/19x19/success_ico.svg') 19px 19px no-repeat;
+}
+.devPrograms .bodyWrapper .program:hover {
+	color: green;
+}
+.devPrograms .bodyWrapper .program .pCheck {
+	display: none;
+}
+
+
+/* */
+.banner {
+	width:978px;
+	height:150px;
+	position:relative;
+	border-bottom: 1px solid grey;
+}
+
+.smallRow {
+	height: 30px;
+	overflow:hidden;
+	padding: 0px 10px;
+}
+
+
+.banner > .text {
+	position : absolute;
+	left:400px;
+}
+.banner > .content {
+	
+}
+.banner > .content > .headerWrapper{
+	color: #0099FF;
+	background-color: #333333;
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+.banner > .image{
+	position : absolute
+	left:0px;
+	top: 0px;
+}
+
+.banner > .image > img{
+	margin: 25px 0 0 100px;
+}
+
+.text  p {
+	margin-top: 25px;
+}
+.banner h1 {
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.banner h3 {
+	text-align:center;
+	margin-top: 25px;
+	font-style:italic;
+}
+
+.bodyWrapper {
+}
+
+.columnWrapper {
+	position: relative;
+	max-height: 350px;
+	overflow: hidden;
+}
+
+.columnWrapper > .box{
+	display: inline-block;
+	margin: 0px 10px;
+	vertical-align: top;
+	padding-left:10px;
+}
+
+.columnWrapper > .box > .upperContent{
+	border: 1px solid black;
+	border-bottom:none;
+	height: 20px;
+	background-color: lightgrey;
+}
+
+.columnWrapper > .box  > .mainContent{
+	border: 1px solid black;
+	border-top: none;
+	padding: 10px;
+	min-height: 20px;
+	background-color: lightgrey;
+}
+
+
+.columnWrapper > .box > .header{
+	border-right: 1px solid black;
+	margin-left: -20px;
+	font-size: 20px;	
+	color: #0099FF;
+	background-color: #333333;
+	zoom: 1;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	padding-left: 40px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.columnWrapper > .box.medium {
+	width: 440px;
+	
+}
+
+.columnWrapper > .box.small {
+	width: 215px;
+}

@@ -1,0 +1,40 @@
+.similarObjects .sHolder {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.similarObjects .sHolder .ico {
+	float: left;
+	width: 48px;
+	height: 48px;
+	background: url('%{media}/developer/docs/sdkObject.svg') no-repeat center;
+	background-size: cover;
+	margin-right: 15px;
+}
+
+.similarObjects .sHolder .sTitle {
+	display: block;
+	font-size: 12px;
+	color: #555;
+	margin: 6px 0px;
+	cursor: pointer;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.similarObjects .sHolder .sTitle:hover {
+	color: #C00403;
+}
+
+.similarObjects .sHolder .sfTitle {
+	font-size: 11px;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

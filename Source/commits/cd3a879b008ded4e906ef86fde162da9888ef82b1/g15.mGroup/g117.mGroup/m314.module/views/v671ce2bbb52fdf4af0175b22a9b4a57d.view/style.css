@@ -1,0 +1,35 @@
+.adminConfigurationPage,
+.adminConfiguration {
+	height: 100%;
+	overflow: auto;
+}
+.adminConfiguration .navigation {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.adminConfiguration .navigation .navItem {
+	float: left;
+	min-width: 100px;
+	margin: 0px;
+	padding: 5px 10px;
+	cursor: pointer;
+	color: #777;
+	border-bottom: 2px solid transparent;
+}
+.adminConfiguration .navigation .navItem:hover,
+.adminConfiguration .navigation .navItem.selected {
+	color: #555;
+	background: #EEE;
+	border-bottom: 2px solid #C00403;
+}
+.adminConfiguration .configPanes {
+	position: absolute;
+	top: 28px;
+	bottom: 0px;
+	width: 100%;
+	clear: both;
+	overflow: auto;
+}

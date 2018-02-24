@@ -1,0 +1,159 @@
+.teamDashboardPage {
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.teamDashboard {
+	background: #F1F1F1;
+	width: 100%;
+	height: 100%;
+}
+
+.teamDashboard .apps_pool {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 2;
+	background: #FFF;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	display: none;
+	-webkit-user-select: initial;
+	-moz-user-select: initial;
+	cursor: initial;
+}
+
+.teamDashboard .apps_pool.open {
+	display: block;
+}
+.teamDashboard .mainContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: hidden;
+}
+.teamDashboard .mainContainer .ds-navbar {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 51px;
+	width: 100%;
+	overflow: hidden;
+	background: #FFF;
+	border-bottom: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .ds-navbar.onback {
+	opacity: 0;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .ds-navbar.ontop {
+	z-index: 5;
+	opacity: 1;
+	box-shadow: 0px 0px 5px #999;
+	-webkit-box-shadow: 0px 0px 5px #999;
+	-moz-box-shadow: 0px 0px 5px #999;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .ds-navbar .team_info {
+	float: left;
+	padding: 4px 15px;
+	overflow: auto;
+}
+
+.teamDashboard .mainContainer .ds-navbar .team_info .logo {
+	float: left;
+	width: 36px;
+	height: 36px;
+	margin: 3px 4px;
+	margin-right: 10px;
+}
+
+.teamDashboard .mainContainer .ds-navbar .team_info .logo img {
+	height: inherit;
+	width: inherit;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.teamDashboard .mainContainer .ds-navbar .team_info .title {
+	float: left;
+	line-height: 42px;
+	font-size: 18px;
+	color: #5E6570;
+}
+
+.teamDashboard .mainContainer .ds-navbar .navmenu {
+	padding: 15px;
+	float: right;
+}
+
+.teamDashboard .mainContainer .ds-navbar .navitem {
+	float: right;
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: url('%{media}/boss/navIcons.svg') no-repeat center;
+	background-size: cover;
+	cursor: pointer;
+	margin: 0px 15px;
+	opacity: 0.5;
+	transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .ds-navbar .navitem.selected, .teamDashboard .mainContainer .ds-navbar .navitem:hover {
+	opacity: 1;
+	transition: opacity .2s ease-in-out;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+}
+
+.teamDashboard .mainContainer .ds-navbar .navitem.dashboard {
+	background-position: 0px 0px;
+}
+
+.teamDashboard .mainContainer .ds-navbar .navitem.members {
+	background-position: 0px -20px;
+}
+
+.teamDashboard .mainContainer .ds-navbar .navitem.settings {
+	background-position: 0px -40px;
+}
+
+.teamDashboard .mainContainer .ds-sectionContainer {
+	position: absolute;
+	top: 51px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.teamDashboard .mainContainer .ds-sectionContainer .dsection {
+	height: 100%;
+	width: 100%;
+}

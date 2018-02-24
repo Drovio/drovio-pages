@@ -1,0 +1,80 @@
+.pageExplorer .headbar {
+	overflow: auto;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+	padding: 0px 10px;
+	height: 50px;
+	box-sizing: border-box;
+}
+.pageExplorer .headbar #userGroupSelector {
+	float: right;
+	height: 29px;
+	padding: 10px 0px;
+}
+.pageExplorer .pExplorerContainer {
+	padding-top: 50px;
+	margin-top: -50px;
+	box-sizing: border-box;
+	height: 100%;
+}
+.pageExplorer .pExplorer {
+	height: 100%;
+	overflow: auto;
+}
+.pageExplorer .pExplorer .columnContainer {
+	height: 100%;
+	overflow: auto;
+}
+.pageExplorer .pExplorer .exColumn {
+	width: 150px;
+	border-right: 1px solid rgba(166, 166, 166, 0.4);
+	float: left;
+}
+.pageExplorer .pExplorer .exColumn .exColItem {
+	width: 100%;
+	padding: 5px 10px;
+	border: 1px solid rgba(166, 166, 166, 0.2);
+	box-sizing: border-box;
+	height: 25px;
+}
+.pageExplorer .pExplorer .exColumn .exColItem:empty {
+	border: none;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.domain {
+	background-color: #888;
+	font-weight: bold;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.folder {
+	background-color: #DDD;
+	font-weight: bold;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.page {
+	border-color: #DDD;
+	cursor: pointer;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.open {
+	background-color: green;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.public {
+	background-color: yellow;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.protected {
+	background-color: rgb(192, 4, 3);
+	color: #FFF;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.uc {
+	background-color: orange;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.off {
+	background-color: #000;
+	color: #FFF;
+}
+
+.pageExplorer .pExplorer .exColumn .exColItem.groupOn {
+	background-color: green;
+	color: #FFF;
+}
+.pageExplorer .pExplorer .exColumn .exColItem.groupOff {
+	background-color: rgb(192, 4, 3);
+	color: #FFF;
+}

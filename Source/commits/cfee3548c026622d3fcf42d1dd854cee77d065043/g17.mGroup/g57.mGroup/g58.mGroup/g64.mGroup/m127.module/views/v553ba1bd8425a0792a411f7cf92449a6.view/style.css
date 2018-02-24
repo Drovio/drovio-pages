@@ -1,0 +1,31 @@
+.refreshControl {
+	background-color: #CCCCCC;
+	-moz-box-sizing: border-box;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.8);
+	display: block;
+	margin: 0;
+	padding-left: 10px;
+}
+
+.refreshControl span {
+	display: block;
+	line-height: 25px;
+}
+
+.refreshControl span:hover{
+	cursor: pointer;
+}
+
+.userPrompt {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.8);
+	padding-left: 10px;
+}
+
+.userPrompt span {
+	font-size:14px;
+}
+
+button.sideTool{
+	border : none;
+	background-color: transparent;
+}

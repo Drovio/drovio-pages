@@ -1,0 +1,26 @@
+.userPrivileges {
+	display:block;
+	width:1000px;
+	margin:auto;
+	position:relative;
+	margin-bottom:0px;
+	overflow:auto;
+}
+.userPrivileges .sidebar {
+	width:200px;
+	background-color:inherit;
+	float:left;
+}
+.userPrivileges .mainContent {
+	width:800px;
+	padding:10px;
+	min-height:200px;
+	border-left:1px solid rgba(166, 166, 166, 0.5);
+	border-right:1px solid rgba(166, 166, 166, 0.5);
+	border-bottom:1px solid rgba(166, 166, 166, 0.5);
+	overflow:auto;
+	float:right;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}

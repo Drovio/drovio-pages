@@ -1,0 +1,84 @@
+.websiteSettingsPage .navSidebar {
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	width: 200px;
+}
+
+.websiteSettingsPage .navSidebar .navSection {
+	margin: 5px 0px;
+}
+
+.websiteSettingsPage .navSidebar .navSection:first-child {
+	margin-top:0px
+}
+
+.websiteSettingsPage .navSidebar .navSection:last-child {
+	margin-top:0px
+}
+
+.websiteSettingsPage .navSidebar .navSection .sectionHeader {	
+	border-bottom: 1px solid #CCC;
+	padding: 3px 8px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+
+.websiteSettingsPage .settingsEditorHolder {
+	height: 100%;
+	left: 200px;
+	overflow: auto;
+	position: absolute;
+ 	right: 0;
+	top: 0;
+}
+
+.websiteSettingsPage .settingsEditorHolder > .inner {
+	padding: 0px 10px;
+}
+
+.websiteSettingsPage .settingsEditorHolder > .inner .header{
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	margin-bottom: 10px;
+	margin-top: 15px;
+	text-indent: 5px;
+	font-weight: bold;
+}
+
+.websiteSettingsPage .settingsEditorHolder > .inner .header > .title{
+	font-size: 13px;
+	color: rgb(100, 100, 100);
+}
+
+/* menu */
+.websiteSettingsPage .membersList ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.websiteSettingsPage .navSidebar .menuItem {
+	cursor: pointer;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 19px;
+	line-height: 19px;
+	position: relative;
+	padding: 0px 5px;
+}
+.websiteSettingsPage .navSidebar .menuItem.selected,
+.websiteSettingsPage .navSidebar .menuItem:hover {
+	background-color:rgba(166, 166, 166, 0.3);
+}
+.websiteSettingsPage .navSidebar .menuItem a {
+	display: block;
+}

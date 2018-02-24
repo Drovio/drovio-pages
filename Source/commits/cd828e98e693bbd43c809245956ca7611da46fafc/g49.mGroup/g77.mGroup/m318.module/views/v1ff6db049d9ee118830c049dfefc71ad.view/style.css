@@ -1,0 +1,45 @@
+.projectFileLogs {
+	overflow: auto;
+}
+
+.projectFileLogs .middleContainer {
+	margin: 10px 20px;
+	overflow: auto;
+}
+
+.projectFileLogs .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.projectFileLogs .whiteBox {
+	clear: both;
+	overflow: auto;
+	background: #FFF;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: 60px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+
+.projectFileLogs .panel {
+	float: left;
+	height: 100%;
+}
+
+.projectFileLogs .panel.list {
+	width: 30%;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #F5F5F5;
+}
+
+.projectFileLogs .panel.context {
+	width: 70%;
+}

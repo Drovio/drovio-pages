@@ -1,0 +1,209 @@
+.navigationContent .sideNav,
+.navigationContent .searchContainer, 
+.navigationContent .back,
+.navigationContent .appInfo {
+	float: left;
+}
+.navigationContent {
+	.middleContainer {
+		overflow: auto;
+	}
+	.sideNav {
+		width: 300px;
+		overflow: auto;
+		padding: 13px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.sideNav {
+		.icon {
+			float: left;
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+			background-size: 20px;
+			background-position: 0px 0px;
+			overflow: hidden;
+			cursor: pointer;
+			opacity: 0.6;
+			margin-right: 10px;
+		}
+		.icon:hover {
+			opacity: 1;
+		}
+		.title {
+			font-size: 16px;
+			line-height: 20px;
+			margin: 0px;
+			color: #5E6570;
+			font-weight: normal;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: pre-wrap;
+		}
+	}
+	.searchContainer {
+		overflow: auto;
+		padding: 8px;
+	}
+	.searchContainer {
+		.searchInnerContainer {
+			background: #FFF;
+			overflow: auto;
+			border: 1px solid #CCC;
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+		}
+		.searchIcoContainer {
+			float: right;
+			width: 20px;
+			height: 20px;
+			padding: 4px;
+			cursor: pointer;
+		}
+		.searchIco {
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -20px;
+			overflow: hidden;
+		}
+		.searchInput {
+			float: left;
+			line-height: 16px;
+			font-size: 12px;
+			padding: 6px;
+			border: none;
+			width: 400px;
+			outline: none;
+			color: #555;
+		}
+	}
+	.back {
+		cursor: pointer;
+		padding: 13px;
+		display: none;
+	}
+	.back.active {
+		display: block;
+	}
+	.back {
+		.ico {
+			float: left;
+			margin-right: 5px;
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -40px;
+			overflow: hidden;
+			opacity: 0.6;
+		}
+		.title {
+			font-size: 12px;
+			color: #1f5d90;
+			float: left;
+			line-height: 20px;
+		}
+	}
+	.back:hover .ico {
+		opacity: 1;
+	}
+	.appInfo {
+		cursor: pointer;
+		padding: 13px;
+		display: none;
+	}
+	.appInfo.active {
+		display: block;
+	}
+	.appInfo {
+		.ico {
+			float: left;
+			margin-right: 5px;
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/appcenter/iconSprite.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -60px;
+			overflow: hidden;
+			opacity: 0.6;
+		}
+		.title {
+			font-size: 12px;
+			color: #1f5d90;
+			float: left;
+			line-height: 20px;
+		}
+	}
+	.appInfo:hover .ico {
+		opacity: 1;
+	}
+	.navigation {
+		float: right;
+		margin: 0px 20px;
+	}
+	.navigation {
+		.navMenu {
+			margin: 0px;
+			padding: 3px 0px;
+			list-style-type: none;
+			overflow: auto;
+		}
+		.navMenu {
+			li {
+				margin: 0px;
+				padding: 0px 10px;
+				list-style-type: none;
+				float: left;
+				line-height: 40px;
+				font-size: 13px;
+				color: #545454;
+				cursor: pointer;
+			}
+			li a {
+				color: #545454;
+				display: block;
+			}
+			li:hover {
+				color: #C00403;
+			}
+			li a:hover {
+				color: #C00403;
+			}
+			li a.selected {
+				color: #C00403;
+			}
+			li.nbutton {
+				line-height: 36px;
+				border: 1px solid #555;
+				border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				color: #555;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			li.nbutton:hover {
+				color: #FFF;
+				background: #555;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			li.nbutton:hover a {
+				color: #FFF;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+		}
+	}
+}
+.sidebarContainer.openSidebar .navigationContent .sideNav .icon {
+	opacity: 1;
+}

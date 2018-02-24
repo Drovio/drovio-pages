@@ -1,0 +1,13 @@
+#applicationExplorerSide, .viewDesigner {
+	height: 100%;
+}
+.devapp .navIco {
+	background-image:url(/Library/Media/images/pages/developer/appDevSprite.svg);
+	background-position:-30px 0px;
+}
+.devapp.settings .navIco {
+	background-position:-30px 0px;
+}
+.devapp.literals .navIco {
+	background-position:-60px 0px;
+}

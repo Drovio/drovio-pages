@@ -1,0 +1,79 @@
+.developerNav .teamList {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.developerNav .teamList .titem {
+	line-height: 20px;
+	float: left;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+	padding: 3px 10px;
+	color: #999;
+	font-size: 12px;
+}
+.developerNav .teamList .titem:hover,
+.developerNav .teamList .titem.selected {
+	border-bottom: 2px solid #C00403;
+	color: #444;
+}
+.developerNav .projectList .pList {
+	min-width: 360px;
+	max-width: 600px;
+	max-height: 250px;
+	overflow: auto;
+}
+.developerNav .projectList .pList .pitem {
+	width: 120px;
+	min-height: 50px;
+	float: left;
+	text-align: center;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.developerNav .projectList .pList .pitem a {
+	display: block;
+}
+.developerNav .projectList .pList .pitem a:hover {
+	color: #C00403;
+}
+.developerNav .projectList .pList .pitem a .imageBox {
+	height: 32px;
+	width: 32px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.developerNav .projectList .pList .pitem a .imageBox.noIcon {
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.developerNav .projectList .pList .pitem a .imageBox img {
+	height: 32px;
+	width: 32px;
+}
+
+.developerNavContent .devDashboard {
+	padding: 3px;
+	border-top: 1px solid #CCC;
+}
+.developerNavContent .devDashboard a {
+	overflow: auto;
+	display: block;
+	line-height: 24px;
+	color: #555;
+}
+.developerNavContent .devDashboard .ico {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	background: url('%resources%/developer/icons/dashboard.svg');
+	background-position: 0px -144px;
+	background-size: cover;
+}

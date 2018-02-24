@@ -1,0 +1,51 @@
+.sqlQueryViewer {
+	height: 100%;
+	overflow: auto;
+}
+
+.sqlQueryViewer .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+
+.sqlQueryViewer .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+
+.sqlQueryViewer .contentIcon.flIco {
+	background-position:0px -64px;
+}
+
+.sqlQueryViewer #dbQueriesTree {
+	height: 100%;
+	overflow: auto;
+}
+
+.sqlQueryViewer .qNavTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%{media}/global/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.sqlQueryViewer .qNavTool:hover {
+	opacity: 1.0;
+}
+
+.sqlQueryViewer .qNavTool.refresh {
+	background-position: 0px -48px;
+}
+
+.sqlQueryViewer .qNavTool.create_new {
+	background-position: 0px -64px;
+}

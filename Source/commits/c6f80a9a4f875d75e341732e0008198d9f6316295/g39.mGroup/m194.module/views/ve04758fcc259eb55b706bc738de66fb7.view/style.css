@@ -1,0 +1,9 @@
+.discoverPage .presentation {
+	height: 350px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0px auto;
+	background: url('%resources%/frontend/discover/discover.png') no-repeat center;
+	background-size: 350px;
+}

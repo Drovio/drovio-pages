@@ -1,0 +1,133 @@
+.literalViewer .lockFlag {
+	width: 24px;
+	height: 24px;
+	float: right;
+	background: url("/Library/Media/images/icons/16x16/locker.svg") no-repeat center;
+}
+.literalViewer .translatedFlag {
+	width: 24px;
+	height: 24px;
+	float: right;
+	background: url("/Library/Media/images/icons/24x24/tick_delete.svg") no-repeat 0px 0px;
+}
+.literalViewer .notTranslatedFlag {
+	width: 24px;
+	height: 24px;
+	float: right;
+	background: url("/Library/Media/images/icons/24x24/tick_delete.svg") no-repeat -24px 0px;
+}
+.literalViewer .scopeHeader {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	margin-bottom: 5px;
+	padding: 5px 2px;
+}
+.literalViewer .literalHeader {
+	overflow: auto;
+}
+.literalViewer .literalHeader > .content {	
+	display: inline-block;
+	float: left;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	max-width: 90%;
+}
+.literalViewer .literalHeader > .indicators {
+	display: inline-block;
+	max-width: 10%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	float: right;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	min-height: 24px;
+}
+
+.literalViewer .literalTranslations .translations .translationRow {
+	position:relative;
+}
+
+.literalViewer .literalTranslations .translations .translationRow:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.literalViewer .literalTranslations .translations {
+	position:relative;
+}
+.literalViewer .literalTranslations .translations li.active {
+	list-style-type:none;
+}
+.literalViewer .literalTranslations .translations li.active:before {
+	content: "\2192 \0020";
+	position: absolute;
+	left: 21px;
+}
+
+.literalViewer .literalTranslations .translations .tlscore {
+	padding-left: 10px;
+	/*position: absolute;
+	right: 40px;*/
+}
+.literalViewer .literalTranslations .translations .tlscore:before {
+	content:"(";
+}
+.literalViewer .literalTranslations .translations .tlscore:after {
+	content:")";
+}
+
+.literalViewer .literalTranslations .translations .ctrlInnerWrapper {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 0;
+    white-space: nowrap;
+}
+.literalViewer .literalTranslations .translations .ctrlInnerWrapper > span {
+	cursor:pointer;
+	padding:0 5px;
+}
+.literalViewer .literalTranslations .translations .ctrlInnerWrapper > span:first-child:hover, .literalViewer .literalTranslations .translations .ctrlInnerWrapper.positive > span:first-child {
+	background:#90EE90;
+	border-top-left-radius:2px;
+	border-bottom-left-radius:2px;
+}
+.literalViewer .literalTranslations .translations .ctrlInnerWrapper > span:last-child:hover, .literalViewer .literalTranslations .translations .ctrlInnerWrapper.negative > span:last-child {
+	background:#F08080;
+	border-top-right-radius:2px;
+	border-bottom-right-radius:2px;
+}
+
+.literalViewer .literalTranslations {
+	position:relative;
+}
+
+.literalViewer .literalTranslations .rmMyTl {
+	display: none;
+}
+.literalViewer .literalTranslations .rmMyTl p, .literalViewer .literalTranslations .rmMyTl h4 {
+	margin: 0;
+}
+.literalViewer .literalTranslations .rmMyTl h4, .literalViewer .literalTranslations .votingResult h4 {
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+.literalViewer .literalTranslations .rmMyTl button {
+	margin-top: 10px;
+	position: relative;
+	float: right;
+	right: 30px;
+}

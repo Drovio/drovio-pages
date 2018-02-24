@@ -1,0 +1,163 @@
+.projectOverview {
+	& {
+		overflow: auto;
+	}
+	.middleContainer {
+		margin: 10px 20px;
+		overflow: auto;
+	}
+	.wbutton {
+		float: right;
+		margin: 10px;
+		width: 150px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background-color: #3CB0F7;
+		border: 1px solid #3CB0F7;
+		color: #FFF;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		cursor: pointer;
+		padding: 5px 10px;
+		line-height: 18px;
+		text-align: center;
+		font-size: 12px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton.delete {
+		background: #ed5e54;
+		border: 1px solid #ed5e54;
+	}
+	.wbutton:hover {
+		background: transparent;
+		color: #3CB0F7;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton.delete:hover {
+		color: #ed5e54;
+	}
+	.header {
+		font-size: 16px;
+		color: #5E6570;
+		margin: 10px;
+		line-height: 30px;
+	}
+	.whiteBox {
+		clear: both;
+		padding: 10px;
+		overflow: auto;
+		background: #FFF;
+		border: 1px solid #CCC;
+		position: absolute;
+		top: 60px;
+		bottom: 20px;
+		left: 20px;
+		right: 20px;
+	}
+	.box {
+		& {
+			float: left;
+			margin: 20px;
+			background: #FFF;
+			border: 1px solid #CCC;
+			min-width: 220px;
+		}
+		& > .ico {
+			width: 72px;
+			height: 72px;
+			margin: 40px auto;
+			background: url('%resources%/developer/projects/statusIcons.svg') no-repeat;
+			background-size: 72px;
+		}
+		&.healthy > .ico {
+			background-position: 0px 0px;
+		}
+		&.error > .ico {
+			background-position: 0px -72px;
+		}
+		&.warning > .ico {
+			background-position: 0px -216px;
+			
+		}
+		.sub {
+			border-top: 1px solid #CCC;
+			color: #000;
+		}
+		.title {
+			padding: 15px 20px;
+			font-weight: normal;
+			font-size: 14px;
+			text-align: center;
+			color: #555;
+		}
+	}
+	.stats {
+		& {
+			margin: 20px;
+		}
+		.sr {
+			overflow: auto;
+			color: #555;
+			padding: 10px;
+			line-height: 20px;
+			border-bottom: 1px solid #CCC;
+			min-width: 300px;
+		}
+		.sr:last-child {
+			border: none;
+		}
+		.sr .key {
+			float: left;
+			margin: 0px;
+			font-weight: normal;
+			color: #777;
+			font-size: 13px;
+		}
+		.sr .value {
+			float: right;
+			font-weight: normal;
+			margin: 0px;
+		}
+	}
+	.complete_tasks {
+		& {
+			clear: both;
+			margin: 20px;
+		}
+		.rtask {
+			& {
+				padding: 5px;
+				cursor: pointer;
+			}
+			.status {
+				width: 24px;
+				height: 24px;
+				float: left;
+				margin-right: 15px;
+				background: url('%{media}/developer/projects/statusIcons.svg') no-repeat center;
+				background-size: cover;
+				background-position: 0px -24px;
+			}
+			&.done .status {
+				background-position: 0px 0px;
+			}
+			.title {
+				line-height: 24px;
+				font-size: 13px;
+				color: #76121b;
+			}
+			&:hover .title {
+				text-decoration: underline;
+			}
+			&.done .title {
+				color: #3EAC47;
+			}
+		}
+	}
+}

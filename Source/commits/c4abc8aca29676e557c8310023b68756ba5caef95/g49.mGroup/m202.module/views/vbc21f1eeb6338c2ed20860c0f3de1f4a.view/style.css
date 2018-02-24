@@ -1,0 +1,49 @@
+.devAPI {
+	width: 100%;
+	height: 100%;
+}
+.devAPI .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.devAPI .head {
+	width: 100%;
+	padding: 25px 0px;
+	position: relative;
+}
+.devAPI section {
+	border-bottom: 1px solid #CCC;
+}
+.devAPI .head > .middleContainer {
+	padding-top: 50px;
+}
+.devAPI .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.devAPI .head > .middleContainer > .title {
+	font-size: 26px;
+	color: #C00403;
+}
+.devAPI .head > .middleContainer > .sub {
+	line-height: 18px;
+	font-weight: normal;
+}
+.devAPI .reference {
+	padding: 25px 0px;
+}
+.devAPI .box {
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+}
+.devAPI .box:last-child {
+	border: none;
+}

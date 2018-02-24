@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="378"><sql><query id="q954b7425aef371cfa3c84d704e7d3bfa" name="get_team_info"/><query id="q24bac21c5e9e03688096060ff94f093a" name="get_team_projects"></query></sql><views><view id="v832c5064919fb21701f53913fad0a274" name="teamPublicProjects"/></views></module>

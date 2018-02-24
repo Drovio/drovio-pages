@@ -1,0 +1,196 @@
+.tlb-developerNav {
+	overflow: auto;
+}
+
+.tlb-developerNav .tlb-sidebar {
+	float: left;
+	width: 250px;
+	height: 100%;
+}
+
+.tlb-developerNav .tlb-explorer {
+	overflow: auto;
+	height: 390px;
+}
+.tlb-developerNav .tlb-navbar {
+	padding: 10px 5px;
+	overflow: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.tlb-developerNav .tlb-navbar .shortcuts {
+	float: right;
+	overflow: auto;
+}
+
+.tlb-developerNav .tlb-navbar .shrct {
+	display: block;
+	padding: 3px 5px;
+	margin: 0px 5px;
+	float: right;
+	line-height: 24px;
+	color: #FFF;
+	background: #5E6570;
+	transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-spate: nowrap;
+}
+
+.tlb-developerNav .tlb-navbar .shrct:hover {
+	background-color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tlb-developerNav .tlb-navbar .shrct .ico {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+.tlb-developerNav .tlb-navbar .shrct.dashboard .ico {
+	background: url('%{media}/developer/icons/dashboard.svg');
+	background-size: cover;
+}
+
+.tlb-developerNav .tlb-navbar .shrct.new_project .ico {
+	background: url('%{media}/global/devIcons_w.svg');
+	background-size: cover;
+	background-position: 0px -96px
+}
+.tlb-developerNav .tlb-navbar .tlb-menu {
+	float: right;
+	list-style-type: none;
+	padding: 3px 5px;
+}
+
+.tlb-developerNav .tlb-navbar .tlb-menu li {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+
+.tlb-developerNav .tlb-navbar .tlb-menu li a {
+	line-height: 24px;
+	padding: 0px 10px;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tlb-developerNav .tlb-navbar .tlb-menu li a:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.tlb-developerNav .teamList {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: auto;
+	height: 100%;
+}
+
+.tlb-developerNav .teamList .titem {
+	line-height: 24px;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+	padding: 3px 10px;
+	color: #5E6570;
+	font-size: 1em;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tlb-developerNav .teamList .titem:hover, .tlb-developerNav .teamList .titem.selected {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tlb-developerNav .teamList .titem .ico {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-right: 10px;
+}
+
+.tlb-developerNav .teamList .titem .ico img {
+	width: inherit;
+	height: inherit;
+}
+
+.tlb-developerNav .projectList {
+	float: left;
+	width: 601px;
+	height: 100%;
+	overflow: auto;
+	background: #F1F1F1;
+	border-top: 1px solid #E8E8E8;
+	border-left: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.tlb-developerNav .projectList .pitem {
+	width: 120px;
+	min-height: 50px;
+	float: left;
+	text-align: center;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.tlb-developerNav .projectList .pitem a {
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tlb-developerNav .projectList .pitem a:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tlb-developerNav .projectList .pitem a .imageBox {
+	height: 32px;
+	width: 32px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.tlb-developerNav .projectList .pitem a .imageBox.noIcon {
+	background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+
+.tlb-developerNav .projectList .pitem a .imageBox img {
+	height: 32px;
+	width: 32px;
+}

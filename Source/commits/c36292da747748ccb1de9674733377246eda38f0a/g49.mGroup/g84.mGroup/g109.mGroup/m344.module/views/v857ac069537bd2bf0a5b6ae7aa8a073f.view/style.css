@@ -1,0 +1,22 @@
+.coreManifestsContainer,
+.coreManifests {
+	height: 100%;
+	overflow: auto;
+}
+.coreManifests .sidenav {
+	float: left;
+	width: 25%;
+	height: 100%;
+	overflow: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-right: 1px solid #CCC;
+	background: #EEE;
+}
+.coreManifests .mfContainer {
+	float: left;
+	width: 75%;
+	height: 100%;
+	overflow: auto;
+}

@@ -1,0 +1,38 @@
+.modulesTesterPage,
+.modulesTester {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+.modulesTester .toolbar {
+	background: #EDEDED;
+	padding: 5px 10px;
+	height: 49px;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.modulesTester .toolbar .title {
+	line-height: 38px;
+	font-size: 14px;
+	margin: 0px;
+	font-weight: normal;
+	float: left;
+}
+.modulesTester .toolbar .testingControlPanel {
+	float: right;
+	height: 38px;
+	line-height: 38px;
+}
+.testingContainer {
+	position: absolute;
+	top: 49px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	overflow: auto;
+}

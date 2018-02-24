@@ -1,0 +1,124 @@
+.devDocs {
+	width: 100%;
+	height: 100%;
+}
+.devDocs .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.devDocs .banner {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background: url('%resources%/frontend/apps_banner_flare.jpg') no-repeat center;
+	background-size: cover;
+	color: #FFF;
+}
+.devDocs .banner > .middleContainer {
+	padding-top: 80px;
+}
+.devDocs .banner > .middleContainer .fRight {
+	width: 70%;
+	float: right;
+	overflow: auto;
+}
+.devDocs .banner > .middleContainer .fRight > .title {
+	text-align: center;
+	font-size: 28px;
+	line-height: 32px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.devDocs .banner > .middleContainer .fRight > .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.devDocs .banner > .middleContainer .start {
+	text-align: center;
+	margin-top: 50px;
+}
+.devDocs .banner > .middleContainer .start .title {
+	font-size: 14px;
+	color: #545454;
+}
+.devDocs .banner > .middleContainer .start .start_here {
+	display: inline-block;
+	line-height: 32px;
+	padding: 0px 20px;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #C00403;
+}
+.devDocs .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.devDocs .bigTiles .tileRow {
+	width: 900px;
+	margin: 10px auto;
+	overflow: auto;
+}
+.devDocs .bigTiles .bigTile {
+	display: table-cell;
+	padding: 10px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+	overflow: auto;
+}
+.devDocs .bigTiles .bigTile a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+	color: #FFF;
+}
+.devDocs .bigTiles .bigTile.hlf {
+	width: 450px;
+}
+.devDocs .bigTiles .bigTile.trd {
+	width: 300px;
+}
+.devDocs .bigTiles .bigTile .ico {
+	width: 75px;
+	height: 75px;
+	padding: 20px;
+	margin: 0 auto;
+	display: block;
+}
+.devDocs .bigTiles .bigTile .title {
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+.devDocs .bigTiles .bigTile.basics a {
+	background: rgba(0, 64, 81, 0.7);
+}
+.devDocs .bigTiles .bigTile.projects a {
+	background: rgba(44, 0, 78, 0.7);
+}
+.devDocs .bigTiles .bigTile.apps a {
+	background: rgba(11, 77, 40, 0.7);
+}
+.devDocs .bigTiles .bigTile.web a {
+	background: rgba(252, 191, 47, 0.7);
+}
+.devDocs .bigTiles .bigTile.sdk a {
+	background: rgba(93, 0, 15, 0.7);
+}

@@ -1,0 +1,296 @@
+.dashboardPageContainer .toolbar {
+	padding: 10px;
+	width: 100%;
+	border-bottom: 2px solid #777;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	line-height: 29px;
+	overflow: auto;
+}
+
+.dashboardPageContainer .toolbar .teamInfo {
+	float: left;
+	margin: 0px;
+}
+.dashboardPageContainer .toolbar .newProject {
+	float: right;
+	margin: 0px;
+	cursor: pointer;
+	width: 29px;
+	height: 29px;
+	background: url('%{media}/developer/icons/button_add.svg') no-repeat center;
+	background-size: contain;
+}
+
+.dashboardPageContainer h2.team {
+	margin: 0px;
+	font-weight: normal;
+}
+
+.dashboardPageContainer .projectContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: #F2F3F7;
+}
+
+.dashboardPageContainer .projectContainer .sideBar {
+	float:left;
+	width:25%;
+	height:100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-right: 1px solid #777;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .selectionList {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	padding-top: 10px;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent {
+	line-height: 16px;
+	padding: 10px 5px;
+	cursor: pointer;
+	border-right: 3px solid transparent;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .count {
+	float: right;
+	padding: 0px 5px;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .create,
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .edit {
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/global/devIcons.svg') no-repeat center;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.6;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .create {
+	background-position: 0px -64px;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .edit {
+	background-position: 0px -16px;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .create:hover,
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .edit:hover {
+	opacity: 1;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent.selected {
+	border-right: 3px solid #777;
+	background: rgba(0, 0, 0, 0.1);
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent.new_bundle {
+	font-weight: bold;
+}
+.dashboardPageContainer .listContent:not(.selected):hover {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.dashboardPageContainer .projectContainer .sideBar .divider {
+    	margin: 5px;
+    	height: 1px;
+    	background: #ccc;
+}
+
+.dashboardPageContainer .contentMain {
+	float: right;
+	width: 75%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 100%;
+	overflow: auto;
+	padding: 10px;
+}
+
+.dashboardPageContainer .contentMain .projectList {
+ 	overflow:auto;
+	margin:0;
+	padding:0;
+}
+
+.dashboardPageContainer .contentMain .projectList .noProjects {
+	text-align: center;
+	padding: 5px 8px;
+	font-size: 14px;
+	margin-top: 50px;
+}
+.dashboardPageContainer .contentMain .projectList .newProject {
+	text-align: center;
+	padding: 5px 8px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.dashboardPageContainer .contentMain .projectList .projectBox {
+	margin: 0px;
+	float: left;
+	padding: 10px;
+	list-style-type:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.dashboardPageContainer .contentMain .projectList .projectBox .projectBoxContainer {
+	width: 250px;
+	background: #FFF;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border-left: 3px solid #777;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer a {
+	display: block;
+	overflow: auto;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxHeader {
+	line-height: 32px;
+	overflow: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox {
+	float:left;
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox.noIcon {
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox img {
+	height: inherit;
+	width: inherit;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .projectTitle {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	text-transform: capitalize;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxHeader:hover .projectTitle {
+	color: #C00403;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .pinfo {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 10px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .pinfo .ico {
+	float: left;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/developer/icons/dashboard_icons.svg') no-repeat center;
+	background-size: cover;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .pinfo.team .ico {
+	background-position: 0px 0px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .pinfo.ptype .ico {
+	background-position: 0px -16px;
+}
+
+.dashboardPageContainer .projectBox .projectBoxContainer .openProject {
+	float: right;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .openProject a {
+	color: green;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .projectDesc {
+	clear: both;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions {
+	overflow: auto;
+	clear: both;
+	padding: 5px;
+	margin-top: 30px;
+	background: #F8F9FB;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba {
+	display: inline-block;
+	float: right;
+	padding: 5px 0px;
+	width: 50%;
+	text-align: center;
+	line-height: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+	font-size: 10px;
+	color: #555;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba a:hover {
+	color: #C00403;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba a {
+	color: #555;
+}
+.dashboardPageContainer .teamChooser {
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 10%;
+	color: #555;
+}
+.dashboardPageContainer .teamChooser .htitle {
+	font-family: "Raleway","Helvetica Neue",Helvetica,"Myriad Pro","Lucida Grande",sans-serif;
+	font-weight: 100;
+}
+.dashboardPageContainer .teamChooser .teams .htitle {
+	text-align: center;
+}
+.dashboardPageContainer .teamChooser .teams h2.htitle {
+	font-size: 22px;
+}
+.dashboardPageContainer .teamChooser .teams h3.htitle {
+	font-size: 16px;
+}
+.dashboardPageContainer .teamChooser .teams {
+	padding: 10px;
+	border-bottom: 1px solid #555;
+}
+.dashboardPageContainer .teamChooser .teams .tn {
+	text-align: center;
+	font-weight: normal;
+	margin: 20px 0px;
+	cursor: pointer;
+}
+.dashboardPageContainer .teamChooser .teams .tn:hover {
+	color: #C00403;
+}
+.dashboardPageContainer .teamChooser .create_new {
+	text-align: right;
+}
+.dashboardPageContainer .teamChooser .create_new a {
+	color: #555;
+	display: inline-block;
+}
+.dashboardPageContainer .teamChooser .create_new .htitle {
+	font-size: 16px;
+}

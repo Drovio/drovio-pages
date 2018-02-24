@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v1116e3a6093c373c7253b93ef808e532"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="INU" object="Developer"></dependency><dependency library="UI" object="Core"></dependency><dependency library="UI" object="Modules"></dependency><dependency library="UI" object="Presentation"></dependency></dependencies><inner><module id="srcManager">263</module><module id="viewManager">266</module><module id="libManager">265</module><module id="appSettings">172</module></inner></view>

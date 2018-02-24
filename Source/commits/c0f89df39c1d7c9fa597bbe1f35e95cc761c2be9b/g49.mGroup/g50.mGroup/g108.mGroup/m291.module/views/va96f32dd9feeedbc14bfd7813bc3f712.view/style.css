@@ -1,0 +1,22 @@
+.classChangelog .vInfo {
+	float: right;
+}
+
+.classChangelog .br {
+	line-height: 20px;
+	color: #777;
+	overflow: auto;
+	margin: 5px 0px;
+}
+
+.classChangelog .br span {
+	margin: 0px 3px;
+	float: right;
+}
+
+.classChangelog .bxtl {
+	text-align: left;
+	width: 200px;
+	display: block;
+	float: right;
+}

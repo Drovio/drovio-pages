@@ -1,0 +1,31 @@
+.coreTester .c_console {
+	padding: 5px;
+}
+.coreTester .c_navbar {
+	background: #EFEFEF;
+	border-bottom: 1px solid #999;
+	height: 33px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	line-height: 32px;
+}
+.coreTester .c_navbar .menu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.coreTester .c_navbar .menu .mitem {
+	float: left;
+	line-height: 20px;
+	padding: 5px 10px;
+	font-size: 12px;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.coreTester .c_navbar .menu .mitem:hover,
+.coreTester .c_navbar .menu .mitem.selected {
+	border-bottom: 2px solid #C00403;
+}

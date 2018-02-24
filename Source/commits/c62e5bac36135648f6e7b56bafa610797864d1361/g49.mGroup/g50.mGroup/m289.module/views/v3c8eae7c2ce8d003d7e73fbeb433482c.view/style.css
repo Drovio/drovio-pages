@@ -1,0 +1,70 @@
+.startScreen {
+	width: 100%;
+	height: 100%;
+}
+.startScreen .bigTiles {
+	width: 600px;
+	margin: 30px auto;
+	overflow: auto;
+}
+.startScreen .bigTiles .bigTile {
+	display: table-cell;
+	padding: 30px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+	overflow: auto;
+	width: 200px;
+}
+.startScreen .bigTiles .bigTile a {
+	display: block;
+	color: #666;
+	overflow: auto;
+}
+.startScreen .bigTiles .bigTile a:hover {
+	color: #333;
+}
+.startScreen .bigTiles .bigTile .ico {
+	width: 150px;
+	height: 150px;
+	padding: 20px;
+	margin: 20px auto;
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: url('%{media}/developer/docCategories.svg') no-repeat center;
+	background-size: cover;
+	border: 1px solid #999;
+	border-radius: 50%;
+}
+.startScreen .bigTiles .bigTile a:hover .ico {
+	box-shadow: 0px 0px 8px #777;
+	-webkit-box-shadow: 0px 0px 8px #777;
+	-moz-box-shadow: 0px 0px 8px #777;
+}
+.startScreen .bigTiles .bigTile .title {
+	text-align: center;
+	margin: 10px 0px;
+	font-weight: normal;
+}
+.startScreen .bigTiles .bigTile.basics .ico {
+	background-position: 0px 0px;
+}
+.startScreen .bigTiles .bigTile.projects .ico {
+	background-position: 0px -150px;
+}
+.startScreen .bigTiles .bigTile.apps .ico {
+	background-position: 0px -300px;
+}
+.startScreen .bigTiles .bigTile.web .ico {
+	background-position: 0px -450px;
+}
+.startScreen .bigTiles .bigTile.tutorials .ico {
+	background-position: 0px -600px;
+}
+.startScreen .bigTiles .bigTile.sdk .ico {
+	background-position: 0px -750px;
+}

@@ -1,0 +1,176 @@
+@import url("http://cdn.drov.io/media/css/fonts/roboto.font.css");
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 100;
+	src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'), url(http://fonts.gstatic.com/s/robotoslab/v6/MEz38VLIFL-t46JUtkIEgNFPPhm6yPYYGACxOp9LMJ4.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJUo2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(http://fonts.gstatic.com/s/robotoslab/v6/y7lebkjgREBJK96VQi37Zo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+}
+@font-face {
+	font-family: 'Roboto Slab';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(http://fonts.gstatic.com/s/robotoslab/v6/dazS1PrQQuCxC3iOAJFEJYlIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+}
+.landingPage {
+	font-family: 'Roboto Slab', serif;
+}
+
+.landingPage .middleContainer {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.landingPage .navbar {
+	background-color: #454A54;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+	overflow: auto;
+	color: #cfd8dc;
+}
+
+.landingPage .navbar .middleContainer {
+	padding: 0px 15px;
+}
+
+.landingPage .navbar .navbar-logo {
+	float: left;
+}
+
+.landingPage .navbar .navbar-logo .navbar-brand {
+	padding: 26px 15px;
+	font-size: 18px;
+	line-height: 18px;
+	display: inline-block;
+}
+
+.landingPage .navbar a {
+	color: #cfd8dc;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.landingPage .navbar a:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.landingPage .navbar .navbar-menu {
+	float: right;
+}
+
+.landingPage .navbar .navbar-menu li {
+	float: left;
+}
+
+.landingPage .navbar .navbar-menu li a {
+	display: inline-block;
+	padding: 26px 15px;
+	font-size: 13px;
+}
+.landingPage .banner-home {
+	background: url('%{media}/frontend/back.jpg') no-repeat center;
+	background-size: cover;
+	overflow: auto;
+}
+
+.landingPage .banner-home .text-center {
+	text-align: center;
+	margin: 200px auto;
+	color: #FFF;
+	line-height: 1.1;
+}
+
+.landingPage .banner-home .text-center .banner__h1 {
+	font-size: 56px;
+	font-weight: 300;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	margin-bottom: 9px;
+}
+
+.landingPage .banner-home .text-center .banner__h2 {
+	font-size: 28px;
+	font-weight: 300;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+	margin-top: 18px;
+	margin-bottom: 9px;
+}
+
+.landingPage .banner-home .text-center .banner__intro {
+	margin: 24px 0 48px;
+	font-size: 18px;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.landingPage .banner-home .text-center .btn-signup {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 12px 24px;
+	font-size: 16px;
+	font-weight: 500;
+	border-color: rgba(0, 0, 0, 0.1);
+	background: #ff5252;
+	background-image: -webkit-linear-gradient(top, #ff6161 0%, #ff4343 100%);
+	background-image: -o-linear-gradient(top, #ff6161 0%, #ff4343 100%);
+	background-image: linear-gradient(to bottom, #ff6161 0%, #ff4343 100%);
+	background-repeat: repeat-x;
+	color: #FFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.landingPage .banner-home .text-center .btn-signup:hover {
+	border-color: rgba(0, 0, 0, 0.1);
+	background: #ff4343;
+	background-image: -webkit-linear-gradient(top, #ff5252 0%, #ff2e2e 100%);
+	background-image: -o-linear-gradient(top, #ff5252 0%, #ff2e2e 100%);
+	background-image: linear-gradient(to bottom, #ff5252 0%, #ff2e2e 100%);
+	background-repeat: repeat-x;
+	color: white;
+	outline: none;
+}
+
+.landingPage footer {
+	background-color: #454A54;
+	color: #cfd8dc;
+}
+
+.landingPage footer .footer_bottom {
+	padding: 30px 0px;
+}
+
+.landingPage footer .footer_bottom a {
+	color: #cfd8dc;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.landingPage footer .footer_bottom a:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.landingPage footer .footer__copyright {
+	font-size: 13px;
+}

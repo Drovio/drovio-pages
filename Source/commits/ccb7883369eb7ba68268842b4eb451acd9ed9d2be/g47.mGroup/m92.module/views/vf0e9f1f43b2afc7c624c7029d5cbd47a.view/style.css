@@ -1,0 +1,117 @@
+.appHolder{
+	display: -webkit-flex; /* Safari */  
+	display: flex;
+	flex-direction: column; 
+	-webkit-flex-direction: row;
+	justify-content: center;
+}
+
+.appHolder .row {
+	display: -webkit-flex; /* Safari */  
+	-webkit-flex-flow: row wrap; /* Safari 6.1+ */
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0px;
+	margin-bottom: 10px; 
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	
+}
+.appHolder .row:last-child {
+	margin-bottom: 0;
+}
+
+.appHolder .appTile { 
+	width: 270px;
+	margin: 5px;	
+	box-sizing: border-box;
+	cursor: pointer;
+	border: 1px solid #EEE;
+	border-radius: 5px;
+	height: 130px;
+	padding: 5px;
+}
+
+.appHolder .appTile:hover {
+	border-color: #CCC;
+}
+
+.appHolder .appTile .upper {
+	height: 85px;
+}
+
+.appHolder .appIcoWrapper {
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+}
+ 
+.appHolder .appTile .upper .appIco {
+	width: 80px;
+	height: 80px;
+}
+
+.appHolder .appTile .upper .appIco img {
+	width: inherit;
+	height: inherit;
+}
+
+.appHolder .appInfoWrapper {
+    width: 60%;
+height:100%;
+    float: left;
+    margin-right: 2%;
+    padding-left: 5%;
+}
+.appHolder .appTile .upper .appTitle {
+	display: block;
+	height: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+ 	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: 10px;
+	color: #555;
+}
+
+.appDevs {
+    padding-left: 15px;
+    height: 40px;
+}
+
+/*
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .middle {
+	margin-top: 5px;
+	height: 95px;
+}
+
+.appCenterUserHome > .appGrid .appHolderWrapper .appTile .middle .appDescription{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 100%;
+}
+*/
+
+.appHolder .appPrice {
+    height: 15px;
+    float: right;
+    padding-right: 15px;
+}
+
+
+.appHolder .appTile .lower{
+	height: 20px; 
+	margin: 10px 3px;
+}
+
+.appHolder .appTile .lower > .inner {
+	border-top: 1px solid lightgray;
+	padding: 5px;
+}
+
+.appHolder a.playBtn {
+	float: right;
+}

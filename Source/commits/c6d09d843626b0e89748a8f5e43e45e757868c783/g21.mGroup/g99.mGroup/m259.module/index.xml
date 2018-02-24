@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="259"><sql><query id="qbcf407e2cc46d247a6dd419d59e941ec" name="create_team"></query></sql><views><view id="va0dd0fad5a51c7f0c2f0a6c2a96d9c96" name="myRelationsPage"/><view id="vbd54d91bf12e9412b9ec239d46aac0f6" name="createTeam"/></views></module>

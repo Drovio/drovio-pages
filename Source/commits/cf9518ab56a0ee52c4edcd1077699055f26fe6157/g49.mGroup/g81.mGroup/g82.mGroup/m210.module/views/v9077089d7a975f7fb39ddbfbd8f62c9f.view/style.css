@@ -1,0 +1,122 @@
+.modulesConfigurator .configTabs {
+	height: 330px;
+	border: 1px solid #CCC;
+	border-top: none;
+}
+.modulesConfigurator .tabs {
+	float: left;
+	width: 15%;
+	list-style: none;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	border-right: 1px solid #CCC;
+	background: #EEE;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.modulesConfigurator .pages {
+	float: left;
+	width: 85%;
+}
+.modulesConfigurator .pages .page {
+	padding: 5px;
+	overflow: hidden;
+}
+.modulesConfigurator .tabs .navTab {
+	list-style: none;
+	vertical-align: middle;
+	margin: 0px;
+	height: 26px;
+	padding: 3px 2px;
+	cursor: pointer;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	border-bottom: 1px solid #CCC;
+}
+.modulesConfigurator .tabs .navTab:hover {
+	color: #C00403;
+}
+.modulesConfigurator .tabs .navTab.selected {
+	color: #C00403;
+	border-right: 3px solid #C00403;
+}
+.modulesConfigurator .tabs .navTab span {
+	display: block;
+	line-height: 20px;
+}
+.modulesConfigurator .switchRow {
+	width: 25%;
+	display: block;
+	overflow: auto;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.modulesConfigurator .testerPanel .moduleConfigurator {
+	padding: 5px;
+}
+.modulesConfigurator .testerPanel .moduleConfigurator h4 {
+	margin: 3px 5px;
+}
+.modulesConfigurator .testerPanel .modulesList {
+	height: 200px;
+}
+
+.modulesConfigurator .switchRow > span {
+	float: left;
+	min-width: 150px;
+	padding-right: 10px;
+}
+.modulesConfigurator .switchRow > .uiSwitchButton {
+	float: right;
+}
+
+.modulesConfigurator .resourceProfiler {
+	padding: 10px;
+}
+.modulesConfigurator .resourceProfiler .resourceListContainer {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	height: 290px;
+	overflow: auto;
+}
+.modulesConfigurator .resourceProfiler .resourceListContainer .cssResources {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+
+.modulesConfigurator .resourceProfiler .resourceListContainer .bootResource {
+	list-style: none;
+	padding: 3px;
+	margin: 0px;
+	line-height: 16px;
+}
+.modulesConfigurator .resourceProfiler .resourceListContainer .bootResource:nth-child(even) {
+	background-color: #EEE;
+}
+.modulesConfigurator .resourceProfiler .bootResource .rsrcIco {
+	width: 5%;
+	display: inline-block;
+	float: left;
+	height: 16px;
+}
+.modulesConfigurator .resourceProfiler .resourceListContainer .cssResources .bootResource .rsrcIco {
+	background: url('%resources%/developer/icons/moduleCSS.png') no-repeat center;
+}
+.modulesConfigurator .resourceProfiler .resourceListContainer .jsResources .bootResource .rsrcIco {
+	background: url('%resources%/developer/icons/moduleJS.png') no-repeat center;
+}
+.modulesConfigurator .resourceProfiler .bootResource .rsrcUrl {
+	width: 75%;
+	display: inline-block;
+}
+.modulesConfigurator .resourceProfiler .bootResource .rsrcReload, .bootResource .rsrcRemove {
+	width: 10%;
+	color: blue;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}

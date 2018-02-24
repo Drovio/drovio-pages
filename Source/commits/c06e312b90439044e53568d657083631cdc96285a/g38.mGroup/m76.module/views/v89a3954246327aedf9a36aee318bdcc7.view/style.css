@@ -1,0 +1,140 @@
+.helpCenter {
+	width: 100%;
+	height: 100%;
+}
+.helpCenter .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.helpCenter .header {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	background: url('%resources%/helpcenter/banner.jpg') no-repeat center;
+	background-size: cover;
+}
+.helpCenter .header > .middleContainer {
+	padding-top: 80px;
+}
+.helpCenter .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+
+
+.helpCenter .header .content {
+	padding: 0px 30px;
+	float: left;
+	width: 50%;
+}
+.helpCenter .header .content h1.title {
+	font-size: 42px;
+	font-weight: normal;
+	color: #C00403;
+	margin-bottom: 20px;
+}
+.helpCenter .header .content h2.subtitle {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.helpCenter .header .content .description {
+	line-height: 22px;
+	font-size: 14px;
+}
+.helpCenter .trending {
+	border-bottom: 1px solid #CCC;
+	padding: 50px 0px;
+	background: rgb(201, 233, 216);
+}
+.helpCenter .trending .categories {
+	overflow: auto;
+	font-family: "Raleway","Helvetica Neue",Helvetica,"Myriad Pro","Lucida Grande",sans-serif;
+	font-weight: 100;
+}
+.helpCenter .trending .categories > .title {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 32px;
+	font-weight: 100;
+}
+.helpCenter .trending .trendCategory {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.helpCenter .trending .trendCategory:hover {
+	color: #C00403;
+}
+.helpCenter .trending .trendCategory .trendImage {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.helpCenter .trending .trendCategory .trendImage {
+	background: url('%resources%/helpcenter/trendingCategoriesSprite.png') no-repeat center;
+}
+.helpCenter .trending .trendCategory.starting .trendImage {
+	background-position: 0px 0px;
+}
+.helpCenter .trending .trendCategory.security .trendImage {
+	background-position: 0px -75px;
+}
+.helpCenter .trending .trendCategory.social .trendImage {
+	background-position: 0px -150px;
+}
+.helpCenter .trending .trendCategory.international .trendImage {
+	background-position: 0px -225px;
+}
+.helpCenter .trending .trendCategory.new .trendImage {
+	background-position: 0px -300px;
+}
+.helpCenter .trending .trendCategory.business .trendImage {
+	background-position: 0px -375px;
+}
+.helpCenter .trending .trendCategory.apps .trendImage {
+	background-position: 0px -450px;
+}
+.helpCenter .trending .trendCategory.issues .trendImage {
+	background-position: 0px -525px;
+}
+.helpCenter .trending .more {
+	margin-top: 20px;
+}
+.helpCenter .trending .more a {
+	color: #999;
+}
+.helpCenter .trending .more a:hover {
+	color: #000;
+}
+.helpCenter .links {
+	margin-top: 50px;
+	text-align: center;
+	color: #000;
+	font-family: inherit;
+	font-size: 12px;
+}
+.helpCenter .links a {
+	color: #545454;
+}
+.helpCenter .links a:hover {
+	color: #000;
+}

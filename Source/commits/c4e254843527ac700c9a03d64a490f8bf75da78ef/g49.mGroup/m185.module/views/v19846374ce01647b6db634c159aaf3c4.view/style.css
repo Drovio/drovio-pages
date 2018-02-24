@@ -1,0 +1,154 @@
+.dashboardPageContainer .toolbar{
+	position:absolute;
+	padding: 10px;	
+	top:0px;	
+	width:100%;
+	height:50px;
+	border-bottom: 1px solid #CCC;
+	box-sizing:border-box;
+	background:#EFEFEF;
+	line-height:29px;
+}
+
+.dashboardPageContainer .toolbar .teamInfo{
+	float:left;
+	margin:0px;
+}
+
+.dashboardPageContainer .toolbar .newProject {
+	float:right;
+	margin:0px;
+	font-weight:normal;
+	font-size: 12px;
+	color:green;
+	cursor:pointer;
+}
+
+.dashboardPageContainer h2.team {
+	margin:0px;
+	font-weight:normal;
+	
+}
+
+.dashboardPageContainer .projectContainer {
+	position:absolute;
+	top: 50px;
+	bottom: 0px;
+	width:100%;
+}
+
+.dashboardPageContainer .projectContainer .sideBar{
+	float:left;
+	width:25%;
+	height:100%;
+	border-right: 1px solid #CCC;
+	box-sizing:border-box;
+	background:#F9F9F9;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .selectionList{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	padding-top: 5px;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent{
+	padding:5px;
+	cursor:pointer;
+}
+.dashboardPageContainer .projectContainer .sideBar .selectionList .listContent .count {
+	float: right;
+	padding: 0px 5px;
+}
+.dashboardPageContainer .listContent.selected {
+	background:#DEDEDE;
+}
+.dashboardPageContainer .listContent:not(.selected):hover {
+	background: #EFEFEF;
+}
+
+.dashboardPageContainer .projectContainer .sideBar .divider{
+    	margin: 5px;
+    	height: 1px;
+    	background: #ccc;
+}
+
+.dashboardPageContainer .contentMain{
+	float:right;
+	width:75%;
+	box-sizing:border-box;
+	height:100%;
+	overflow:auto;
+	background: #F9F9F9;
+}
+
+.dashboardPageContainer .contentMain .projectList{
+ 	overflow:auto;
+	margin:0;
+	padding:0;
+}
+
+.dashboardPageContainer .contentMain .projectList .projectBox{
+	margin:0px;
+	float:left;
+	width:50%;
+	padding:5px;
+	list-style-type:none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+.dashboardPageContainer .contentMain .projectList .projectBox .projectBoxContainer{
+	height:100px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	background: #FFF;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0px 0px 3px #CCC;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxHeader {
+	line-height: 32px;
+	overflow: auto;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .imageBox {
+	float:left;
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+	height:32px;
+	width:32px;
+	margin-right: 10px;
+}
+
+.dashboardPageContainer .projectBox .projectBoxContainer .projectTitle{
+	float: left;
+	margin: 0px;
+} 
+
+.dashboardPageContainer .projectBox .projectBoxContainer .openProject {
+	float: right;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .openProject a {
+	color: green;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .projectDesc {
+	clear: both;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions {
+	overflow: auto;
+	clear: both;
+	padding: 5px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba {
+	float: right;
+	padding: 3px 5px;
+}
+.dashboardPageContainer .projectBox .projectBoxContainer .boxActions .ba a {
+	color: green;
+}

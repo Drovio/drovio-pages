@@ -1,0 +1,53 @@
+.projectMemberManager .addMember {
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.projectMemberManager .addMember .invitation {
+	width: 78%;
+	font-size: 12px;
+	padding: 4px 6px;
+	border-color: #999;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.projectMemberManager .addMember #inviteBtn {
+	width: 20%;
+	float: right;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0px;
+	padding-top: 4px;
+	padding-bottom: 3px;
+}
+.projectMemberManager .editMembers {
+	border-top: 1px solid #CCC;
+	padding: 10px;
+}
+.projectMemberManager .editMembers .memberRow {
+	overflow: auto;
+	padding: 5px 15px;
+}
+.projectMemberManager .editMembers .memberRow .removeCheck {
+	float: left;
+	width: 10%;
+	text-align: center;
+	margin: 0px;
+}
+.projectMemberManager .editMembers .memberRow .memberName {
+	float: left;
+	width: 90%;
+	color: #656565;
+	margin: 0px;
+	line-height: 12px;
+}
+.projectMemberManager .editMembers #applyBtn {
+	float: right;
+}

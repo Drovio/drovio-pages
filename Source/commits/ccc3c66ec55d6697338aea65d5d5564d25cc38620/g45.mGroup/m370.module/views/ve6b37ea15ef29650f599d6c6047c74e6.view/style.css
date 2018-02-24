@@ -1,0 +1,126 @@
+.teamMembers .teamList, .teamMembers .teamInvitations {
+	padding: 20px 10px;
+	overflow: auto;
+}
+
+.teamMembers .hd {
+	color: #555;
+	font-weight: normal;
+}
+.teamMembers .add_new_member .header {
+	overflow: auto;
+}
+
+.teamMembers .add_new_member h3 {
+	float: left;
+}
+
+.teamMembers .add_new_member .searchFormContainer {
+	float: right;
+}
+
+.teamMembers .add_new_member #btn_search {
+	float: right;
+	margin: 5px;
+}
+
+.teamMembers .add_new_member .searchFormContainer .tmsl {
+	float: right;
+	margin: 5px;
+	margin-top: 7px;
+}
+
+.teamMembers .add_new_member .searchFormContainer .tminp {
+	float: right;
+	width: 300px;
+	padding: 4px 6px;
+	margin: 5px;
+	border-color: #999;
+}
+
+.teamMembers .add_new_member .searchResultsContainer {
+	padding: 5px;
+	clear: both;
+}
+.teamMembers .teamList .tmember {
+	float: left;
+	width: 25%;
+	overflow: auto;
+	padding: 20px;
+}
+
+.teamMembers .teamList .tmember .tmico {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+
+.teamMembers .teamList .tmember .tmico:empty {
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	background: url('%{media}/global/profile.svg') no-repeat center;
+	background-size: cover;
+}
+
+.teamMembers .teamList .tmember .ico img {
+	width: inherit;
+	height: inherit;
+}
+
+.teamMembers .teamList .tmember .tminfo {
+	float: left;
+	overflow: auto;
+}
+
+.teamMembers .teamList .tmember .tmname {
+	color: #555459;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.teamMembers .teamList .tmember .tmrole {
+	color: #999;
+}
+.teamMembers .teamInvitations .ivrow {
+	overflow: auto;
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+}
+
+.teamMembers .teamInvitations .ivrow:last-child {
+	border-bottom: none;
+}
+
+.teamMembers .teamInvitations .ivrow:hover {
+	background: #EFEFEF;
+}
+
+.teamMembers .teamInvitations .ivrow .iv {
+	float: left;
+}
+
+.teamMembers .teamInvitations .ivrow .iv.ivn {
+	width: 50%;
+	line-height: 18px;
+}
+
+.teamMembers .teamInvitations .ivrow .iv.action {
+	width: 25%;
+	text-align: right;
+}
+
+.teamMembers .teamInvitations .ivrow .act_button {
+	background: none;
+	border: none;
+	color: rgb(31, 93, 144);
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}

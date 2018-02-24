@@ -1,0 +1,33 @@
+.classChangelog .informationList {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+}
+
+.classChangelog .informationList .infoItem {
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+	overflow: auto;
+}
+
+.classChangelog .informationList .infoItem:last-child {
+	border-bottom: none;
+}
+
+.classChangelog .informationList .infoItem .infoName {
+	float: left;
+	width: 30%;
+	color: #5E6570;
+}
+
+.classChangelog .informationList .infoItem .infoValue {
+	float: left;
+	width: 70%;
+	color: #5E6570;
+	white-space: pre-wrap;
+}
+
+.classChangelog .informationList .infoItem .infoValue a {
+	color: #ff5252;
+}

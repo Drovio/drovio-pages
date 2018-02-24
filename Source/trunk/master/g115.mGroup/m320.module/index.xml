@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="320"><sql><query id="q2bd736fd47d11b8e152b9b5657864ee1" name="get_open_developers"></query></sql><views><view id="vc9c31adb1eb5a15e036effce0243043b" name="OpenDevelopersPage"/></views></module>

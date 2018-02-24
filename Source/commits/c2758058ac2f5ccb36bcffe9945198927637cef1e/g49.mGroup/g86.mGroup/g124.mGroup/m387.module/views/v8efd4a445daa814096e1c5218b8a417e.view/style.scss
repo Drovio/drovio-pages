@@ -1,0 +1,57 @@
+.tplExplorer {
+	& {
+		height: 100%;
+		overflow: auto;
+	}
+	#tplEplorerTree {
+		height: 100%;
+		overflow: auto;
+	}
+	.tplNavTool {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		opacity: 0.7;
+		cursor: pointer;
+		background-image:url('%resources%/global/devIcons.svg');
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+	.tplNavTool:hover {
+		opacity: 1.0;
+	}
+	.tplNavTool.refresh {
+		background-position: 0px -48px;
+	}
+	.tplNavTool.create_new {
+		background-position: 0px -64px;
+	}
+	
+	
+	.contentIcon {
+		width:16px;
+		height:16px;
+		background-size: 16px;
+		background-repeat: no-repeat;
+		display:inline-block;
+		margin-right:3px;
+		vertical-align:-4px;
+		background-image: url('%resources%/developer/icons/fileThumbs.svg');
+	}
+	.contentIcon.libIco {
+		background-position:0px 0px;
+	}
+	.contentIcon.pkgIco {
+		background-position:0px -32px;
+	}
+	.open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+		background-position:0px -16px;
+	}
+	.contentIcon.fldIco {
+		background-position:0px -48px;
+	}
+	.contentIcon.flIco {
+		background-position:0px -64px;
+		background-size: cover;
+	}
+}

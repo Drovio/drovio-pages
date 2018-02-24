@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="92"><sql><query id="qfa9dc32eaa5afe719402c782d1fc0180" name="get_appcenter_apps"></query></sql><views><view id="vd88478237922613c2f31ba7ada26dfff" name="appCenterHomePage"/><view id="v9fcf82a0611175146ab0c6321050bcba" name="appCenterFooter"/></views></module>

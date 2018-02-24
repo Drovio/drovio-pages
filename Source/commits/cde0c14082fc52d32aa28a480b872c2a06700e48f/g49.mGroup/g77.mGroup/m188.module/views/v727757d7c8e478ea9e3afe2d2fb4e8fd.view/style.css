@@ -1,0 +1,79 @@
+.vcsCommitsContainer {
+	height: 100%;
+}
+.vcsCommits {
+	position: relative;
+	height: 100%;
+}
+.vcsCommits .commitsInnerContainer {
+	padding: 5px;
+	position: absolute;
+	top: 0px;
+	bottom: 25px;
+	left: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.vcsCommits .commitGroupContainer {
+	border: 1px solid rgba(166, 166, 166, 0.8);
+	margin-bottom: 15px;
+}
+.vcsCommits .commitGroupContainer:last-child {
+	margin-bottom: 0px;
+}
+.vcsCommits .commitGroupContainer .commitGroupHeader {
+	padding: 5px 10px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.3);
+	background-color: #EEE;
+}
+.vcsCommits .commitGroupContainer .commitList {
+	padding: 3px;
+}
+.vcsCommits .commitInfo .cDesc {
+	white-space: pre-wrap;
+	padding: 0px 20px;
+}
+.vcsCommits .commitGroupContainer .commitList .cAuthor {
+	font-weight: bold;
+}
+.vcsCommits .commitGroupContainer .commitList .cDate {
+	color: #999;
+	font-weight: normal;
+}
+.vcsCommits .controls {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 5px;
+	border-top: 1px solid rgba(166, 166, 166, 0.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 25px;
+	line-height: 14px;
+	overflow: auto;
+}
+.vcsCommits .controls .pagination {
+	float: left;
+}
+.vcsCommits .controls .pagination .navBtn {
+	width: 75px;
+	text-align: center;
+	margin: 0px 5px;
+	color: #999;
+}
+.vcsCommits .controls .pagination .navBtn.active {
+	color: #000;
+	cursor: pointer;
+}
+.vcsCommits .controls .pagination .navBtn.active:hover {
+	color: #C00403;
+}
+.vcsCommits .controls .pagesInfo {
+	float: right;
+	color: #999;
+}

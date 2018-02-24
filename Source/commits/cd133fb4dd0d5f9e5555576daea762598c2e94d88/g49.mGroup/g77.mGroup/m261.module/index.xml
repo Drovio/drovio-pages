@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="261"><sql><query id="qd7dbb710eb48f43fc06f4f34df939af2" name="update_project_on_off"/><query id="q2ba66678a047fe7e35f7fa8305f7b5ea" name="publish_red_project"/></sql><views><view id="va3f8d69a3738cf35591c5fdcc7d1d729" name="ProjectPublisher"/><view id="v0dc6b958cc0b1ed249914e9eb9b22472" name="setProjectStatus"/><view id="v1a8f09c7302b5fce0962e78b790dbd06" name="repositoryRelease"/><view id="vf79689886ec3706047cc39be02360156" name="projectRelease"></view></views></module>

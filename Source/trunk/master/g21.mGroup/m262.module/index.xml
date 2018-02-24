@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="262"><sql><query id="q49af52e7df8910ade93dd5a050929c97" name="get_reset_account"/></sql><views><view id="v25f6f86c37933deb4abd9b051bd84e30" name="ResetPasswordPage"/></views></module>

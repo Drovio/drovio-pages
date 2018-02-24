@@ -1,0 +1,243 @@
+.vcsCommitsContainer {
+	height: 100%;
+}
+.vcsCommits {
+	position: relative;
+	height: 100%;
+}
+
+.vcsCommits .commitsInnerContainer {
+	position: absolute;
+	top: 0px;
+	bottom: 37px;
+	left: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+	padding: 10px 20px;
+}
+.vcsCommits .commitGroupContainer {
+	overflow: auto;
+	border-left: 2px solid #DDD;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.vcsCommits .commitGroupContainer .commitGroupHeader {
+	margin-bottom: 15px;
+	font-size: 12px;
+	color: #777;
+}
+
+.vcsCommits .commitGroupContainer .commitList {
+	border: 1px solid #DDD;
+}
+.vcsCommits .commitGroupContainer .cViewer {
+	overflow: auto;
+	border-bottom: 1px solid #EEE;
+	background: #FFF;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cvHeader {
+	overflow: auto;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.vcsCommits .commitGroupContainer .cViewer:last-child {
+	border-bottom: none;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cInfo {
+	overflow: auto;
+	float: left;
+	max-width: 70%;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cvsum {
+	margin: 0px;
+	padding: 5px 0px;
+	color: #555;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cvHeader:hover .cvsum {
+	color: #C00403;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .authImg {
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	color: #FFF;
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	opacity: 0.7;
+	background: #CCC;
+	font-size: 18px;
+	text-align: center;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .authImg:empty {
+	background: url('/Library/Media/c/global/profile.svg') no-repeat center;
+	background-size: cover;
+	background: #FFF;
+}
+
+.vcsCommits .commitGroupContainer .cViewer:hover .authImg {
+	opacity: 1;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cID {
+	float: right;
+	color: #777;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cTagContainer {
+	float: right;
+	clear: right;
+	margin-top: 8px;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cTagContainer .cTag {
+	float: left;
+	margin-right: 10px;
+	padding: 3px 5px;
+	background: #EEE;
+	border: 1px solid #DDD;
+	color: #555;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cTagContainer .cTag:last-child {
+	margin: 0px;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cvAuthor {
+	color: #555;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cDate {
+	color: #999;
+	font-weight: normal;
+}
+
+.vcsCommits .commitGroupContainer .cViewer .cDetails {
+	display: none;
+	overflow: auto;
+	padding: 5px;
+	background: #F5F5F5;
+}
+.vcsCommits .commitGroupContainer .cViewer.open .cvHeader {
+	border-bottom: 1px solid #EEE;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails {
+	display: block;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .crow {
+	padding: 10px;
+	border-top: 1px solid #DDD;
+	color: #555;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .crow.cid {
+	font-weight: bold;
+	border-top: none;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .crow.cDesc {
+	white-space: pre-wrap;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .commitItems {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	border-top: 1px solid #999;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .commitItems .citem {
+	overflow: auto;
+	padding: 5px;
+	border-bottom: 1px solid #EEE;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .commitItems .citem:last-child {
+	border-bottom: none;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .commitItems .citem .ipath {
+	float: left;
+}
+
+.vcsCommits .commitGroupContainer .cViewer.open .cDetails .commitItems .citem .iid {
+	float: right;
+}
+.vcsCommits .controls {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 5px;
+	background: rgba(255, 255, 255, 0.9);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 37px;
+	line-height: 14px;
+	overflow: auto;
+	color: #555;
+	border-top: 1px solid #CCC;
+}
+
+.vcsCommits .controls .navBtn {
+	float: left;
+	width: 75px;
+	text-align: center;
+	margin: 0px 5px;
+	padding: 5px 8px;
+	color: #999;
+	border: 1px solid #999;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	cursor: default;
+	float: left;
+}
+
+.vcsCommits .controls .navBtn.older {
+	float: right;
+}
+
+.vcsCommits .controls .navBtn.active {
+	color: #5E6570;
+	cursor: pointer;
+	border-color: #5E6570;
+}
+
+.vcsCommits .controls .navBtn.active:hover {
+	color: #FFF;
+	background: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.vcsCommits .controls .pagesInfo {
+	color: #999;
+	padding: 6px 0px;
+	text-align: center;
+}

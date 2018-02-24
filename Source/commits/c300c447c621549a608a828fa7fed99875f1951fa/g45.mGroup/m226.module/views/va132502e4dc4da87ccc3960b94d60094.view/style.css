@@ -1,0 +1,145 @@
+.bizDashboard {
+	background: #FFF;
+	/* font-family: "Lato", "Open Sans Condensed"; */
+}
+.bizDashboard .activeApplications {
+	position: absolute;
+	top: -100px;
+	left: 0px;
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.bizDashboard .slideContainer, 
+.bizDashboard .slideContainer .slides {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	/* background: rgba(128, 14, 1, 0.8); */
+	background: rgba(0, 64, 81, 0.8);
+	overflow: hidden;
+}
+.bizDashboard .slideContainer .slides .slide {
+	/* position: absolute; */
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 75px 150px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	clear: both;
+}
+.bizDashboard .slideContainer .slide .grid {
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.bizDashboard .slideContainer .slide .grid .gb {
+	float: left;
+	position: relative;
+	padding: 3px;
+	width: 12.5%;
+	height: 75px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.bizDashboard .slideContainer .slide .grid .gb .app {
+	height: 100%;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	border: 1px solid #FFF;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+.bizDashboard .slideContainer .navBar {
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	width: 50px;
+	padding: 0px 15px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.bizDashboard .slideContainer .navBar .navBalls {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+.bizDashboard .slideContainer .navBar .navBall {
+	width: 10px;
+	height: 10px;
+	background: #CCC;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: 10px auto;
+	display: block;
+	opacity: 0.4;
+	cursor: pointer;
+	transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+}
+.bizDashboard .slideContainer .navBar .navBall:hover,
+.bizDashboard .slideContainer .navBar .navBall.active {
+	/*width: 12px;
+	height: 12px;
+	margin: 8px auto;*/
+	opacity: 1;
+}
+.bizDashboard .slideContainer .navBar .navBall.active {
+	transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+}
+.bizDashboard .dashbTitle {
+	position: absolute;
+	padding: 25px 30px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.bizDashboard .dashbTitle .title {
+	margin: 0px;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	color: #CCC;
+	text-shadow: 1px 1px 2px #333;
+}
+
+
+
+
+
+.bizDashboard .footerMenu {
+	position: absolute;
+	bottom: 0px;
+	right: 50px;
+	color: #FFF;
+	padding: 25px 30px;
+	font-size: 12px;
+}
+.bizDashboard .footerMenu .faded {
+	color: #CCC;
+}
+.bizDashboard .footerMenu a {
+	color: #CCC;
+}

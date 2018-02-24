@@ -1,0 +1,12 @@
+.webCoreDeveloper,
+.webCoreExplorer {
+	height: 100%;
+	width: 100%;
+}
+.webCoreExplorer {
+	background: #EAEAEA;
+}
+.wc_settings .navIco {
+	background-image: url('%{media}/developer/icons/toolbarIcons.svg');
+	background-position: 0px -150px;
+}

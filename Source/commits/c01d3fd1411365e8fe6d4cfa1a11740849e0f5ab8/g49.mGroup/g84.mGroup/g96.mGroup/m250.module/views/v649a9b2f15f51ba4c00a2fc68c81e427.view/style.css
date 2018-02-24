@@ -1,0 +1,31 @@
+.uiPreview .objectContainer {
+	position: relative;
+	overflow: auto;
+	padding: 5px;
+	margin: 10px 5px;
+	border-bottom: 1px solid #EEE;
+}
+.uiPreview .objectContainer:last-child {
+	border: none;
+}
+.uiPreview .objectContainer > .title {
+	color: #545454;
+	margin: 0px;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.uiPreview .objectContainer > .objModel {
+	position: relative;
+	overflow: auto;
+	width: 70%;
+	float: right;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-left: 1px solid #CCC;
+	min-height: 50px;
+}

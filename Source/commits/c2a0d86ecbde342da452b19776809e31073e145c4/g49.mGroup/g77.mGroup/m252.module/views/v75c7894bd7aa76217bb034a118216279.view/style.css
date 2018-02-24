@@ -1,0 +1,41 @@
+.locOverview .stats {
+	overflow: auto;
+}
+.locOverview .otile {
+	padding: 5px;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.locOverview .otile.perc {
+	width: 25%;
+}
+.locOverview .otile.lit {
+	width: 75%;
+}
+.locOverview .tile {
+	border: 1px solid #CCC;
+	box-shadow: 0 0px 5px #CCC;
+	-webkit-box-shadow: 0 0px 5px #CCC;
+	-moz-box-shadow: 0 0px 5px #CCC;
+	margin: 5px;
+	position: relative;
+}
+.locOverview .tile .title {
+	line-height: 75px;
+	margin: 0px;
+	padding: 10px 30px;
+	font-size: 28px;
+	font-weight: normal;
+}
+.locOverview .tile .sub {
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	font-size: 11px;
+	color: #000;
+}
+.locOverview .localeList .lct {
+	overflow: auto;
+}

@@ -1,0 +1,91 @@
+.pageExplorer .headbar {
+	overflow: auto;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+	padding: 0px 10px;
+	height: 50px;
+	box-sizing: border-box;
+}
+.pageExplorer .headbar #userGroupSelector {
+	float: right;
+	height: 29px;
+	padding: 10px 0px;
+}
+.pageExplorer .pExplorerContainer {
+	padding-top: 50px;
+	margin-top: -50px;
+	box-sizing: border-box;
+	height: 100%;
+}
+.pageExplorer .pExplorer {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.pageExplorer .pExplorer .legend {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	background-color: #BBB;
+	border: 1px solid #777;
+	padding: 10px;
+	width: 200px;
+	box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+}
+.pageExplorer .pExplorer .columnContainer {
+	height: 100%;
+	overflow: auto;
+}
+.pageExplorer .pExplorer .exColumn {
+	width: 150px;
+	border-right: 1px solid rgba(166, 166, 166, 0.4);
+	float: left;
+}
+.pageExplorer .pExplorer .exColItem {
+	width: 100%;
+	padding: 5px 10px;
+	border: 1px solid rgba(166, 166, 166, 0.2);
+	box-sizing: border-box;
+	height: 25px;
+}
+.pageExplorer .pExplorer .exColItem:empty {
+	border: none;
+}
+.pageExplorer .pExplorer .exColItem.domain {
+	background-color: #888;
+	font-weight: bold;
+}
+.pageExplorer .pExplorer .exColItem.folder {
+	background-color: #DDD;
+	font-weight: bold;
+}
+.pageExplorer .pExplorer .exColItem.page {
+	border-color: #DDD;
+	cursor: pointer;
+}
+.pageExplorer .pExplorer .exColItem.open {
+	background-color: green;
+}
+.pageExplorer .pExplorer .exColItem.public {
+	background-color: yellow;
+}
+.pageExplorer .pExplorer .exColItem.protected {
+	background-color: rgb(192, 4, 3);
+	color: #FFF;
+}
+.pageExplorer .pExplorer .exColItem.uc {
+	background-color: orange;
+}
+.pageExplorer .pExplorer .exColItem.off {
+	background-color: #000;
+	color: #FFF;
+}
+
+.pageExplorer .pExplorer .exColItem.groupOn {
+	background-color: green;
+	color: #FFF;
+}
+.pageExplorer .pExplorer .exColItem.groupOff {
+	background-color: rgb(192, 4, 3);
+	color: #FFF;
+}

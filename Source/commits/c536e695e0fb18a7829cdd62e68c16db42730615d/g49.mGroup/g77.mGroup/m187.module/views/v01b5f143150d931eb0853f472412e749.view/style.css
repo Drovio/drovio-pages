@@ -1,0 +1,23 @@
+.vcs .navIco {
+	background-image:url('%{media}/developer/icons/toolbarIcons.svg');
+	background-position:0px -210px;
+}
+.project .navIco {
+	background-image: url('%{media}/developer/icons/toolbarIcons.svg');
+	background-position: 0px -180px;
+}
+.literals .navIco {
+	background-image:url('%{media}/developer/icons/toolbarIcons.svg');
+	background-position:0px -240px;
+}
+.projectDesignerPage #projectDesigner {
+	height: 100%;
+	width: 100%;
+}
+.projectDesignerPage #projectDesigner:empty {
+	background: #FFF url('%{media}/global/splash.png') no-repeat center;
+	background-size: 250px;
+}
+#projectHintsContainer {
+	display: none !important;
+}

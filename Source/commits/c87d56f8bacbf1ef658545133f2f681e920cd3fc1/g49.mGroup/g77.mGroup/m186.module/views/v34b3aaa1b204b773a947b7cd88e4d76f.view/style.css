@@ -1,0 +1,55 @@
+.projectStatusContent,
+.projectStatusContent .projectStatus {
+	overflow: auto;
+}
+.projectStatusContent .projectStatus .statusIcon {
+	float: left;
+	width: 19px;
+	height: 19px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg') no-repeat center;
+	background-size: 19px;
+	margin-right: 10px;
+}
+.projectStatusContent .projectStatus .ddico {
+	width: 19px;
+	height: 19px;
+	float: right;
+	opacity: 0;
+	background: url('/Library/Media/c/icons/custom/list_arrow.svg') no-repeat center;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+
+
+.projectStatusContent .projectStatus.st1 .statusIcon {
+	background-position: 0px -57px;
+}
+.projectStatusContent .projectStatus.st2 .statusIcon {
+	background-position: 0px -38px;
+}
+.projectStatusContent .projectStatus.st3 .statusIcon,
+.projectStatusContent .projectStatus.st4 .statusIcon {
+	background-position: 0px 0px;
+}
+.projectStatusContent .projectStatus.st5 .statusIcon {
+	background-position: 0px -19px;
+}
+.projectStatusContent .projectStatus .statusTitle {
+	line-height: 19px;
+	margin: 0px;
+	float: left;
+}
+.projectStatusContent .projectStatus.st1 .statusTitle {
+	color: #e8732a;
+}
+.projectStatusContent .projectStatus.st2 .statusTitle {
+	color: #0f4976;
+}
+.projectStatusContent .projectStatus.st3 .statusTitle,
+.projectStatusContent .projectStatus.st4 .statusTitle {
+	color: #3EAC47;
+}
+.projectStatusContent .projectStatus.st5 .statusTitle {
+	color: #76121b;
+}

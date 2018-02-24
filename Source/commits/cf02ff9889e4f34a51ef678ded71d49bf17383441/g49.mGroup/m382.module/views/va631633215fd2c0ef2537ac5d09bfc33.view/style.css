@@ -1,0 +1,110 @@
+.developerPlanDialog {
+	width: 600px;
+	background: #FFF;
+	border: 1px solid #555459;
+	overflow: auto;
+}
+.developerPlanDialog .pheader {
+	padding: 20px;
+	overflow: auto;
+}
+
+.developerPlanDialog .pheader.free {
+	background-color: #43B549;
+}
+
+.developerPlanDialog .pheader.basic {
+	background-color: #3CB0F7;
+}
+
+.developerPlanDialog .pheader.premium {
+	background-color: #ed5e54;
+}
+
+.developerPlanDialog .pheader.enterprise {
+	background-color: #886389;
+}
+
+.developerPlanDialog .pheader .logo {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 20px;
+	background: url('%{media}/developer/planIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+}
+
+.developerPlanDialog .pheader.free .logo {
+	background-position: 0px -40px;
+}
+
+.developerPlanDialog .pheader .title {
+	font-size: 18px;
+	color: #FFF;
+	line-height: 40px;
+}
+
+.developerPlanDialog .pheader .close_button {
+	width: 24px;
+	height: 24px;
+	margin: 8px 0px;
+	float: right;
+	cursor: pointer;
+	background: url('%{media}/global/closeX.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerPlanDialog .pheader .close_button:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerPlanDialog .pbody {
+	padding: 20px;
+	color: #5E6570;
+}
+
+.developerPlanDialog .pbody .title {
+	font-size: 15px;
+	margin: 10px 0px;
+}
+
+.developerPlanDialog .pbody .description {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.developerPlanDialog .features {
+	clear: both;
+	padding: 10px 20px;
+	overflow: auto;
+	border-top: 1px solid #CCC;
+	font-size: 10px;
+}
+
+.developerPlanDialog .features .ft {
+	margin: 5px 10px;
+	width: 120px;
+	padding: 8px 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #5E6570;
+	border: 1px solid #5E6570;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	float: left;
+	text-align: center;
+}

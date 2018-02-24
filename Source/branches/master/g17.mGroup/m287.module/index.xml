@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="287"><sql><query id="q569ed6d5c81476985466f6dc68a51ea6" name="get_web_projects"/><query id="qa04f935fdd67b79d89f43d93e2410de1" name="get_my_projects"/><query id="qaa63fca678dd826dd9184b8e45c640f8" name="add_account_to_project"/></sql><views><view id="vb8ac0f934b31a40966bb20fa8df03fb8" name="WebEngineDashboard"/><view id="v6b5945a72c97fbec37b04c2b840950b9" name="projectWizard"/></views></module>

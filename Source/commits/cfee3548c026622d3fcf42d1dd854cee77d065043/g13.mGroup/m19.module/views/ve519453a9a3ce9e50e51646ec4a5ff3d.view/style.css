@@ -1,0 +1,67 @@
+/*____________________ deliverynet ____________________*/
+#deliverynet {
+	display:block;
+	position:relative;
+}
+#deliverynet p {
+	margin:0;
+	padding:0;
+}
+#deliverynet .mainHead {
+	height: 520px;
+	margin-bottom: 0px;
+	background: url(/Library/Media/images/pages/deliverynet/homePage_banner_big2.png) center;
+	overflow: auto;
+	padding-bottom:30px;
+}
+#deliverynet .mainHeadContent {
+	margin: 0 auto;
+	width: 980px;
+	padding-top: 30px;
+}
+#deliverynet .mainBody {
+	border-top: 3px solid #CCC;
+	overflow:auto;
+	/*background-color: rgb(205,66,85);*/
+	background-color: #252525;
+}
+#deliverynet .mainBodyContent {
+	margin: 0 auto;
+	width: 980px;
+	padding: 20px 10px 25px;
+	background-color:#252525;
+	border:1px solid #252525;
+	border-radius: 4px;
+}
+
+.deliveryNetQuotesWrapper {
+	margin:70px auto;
+	text-align:center;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow:0 0 15px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.3);
+	font-style:italic;
+}
+h1.deliveryNetQuotesWrapper {
+	font-size: 24px;
+}
+h2.deliveryNetQuotesWrapper {
+	margin-top:0;
+}
+h3.oepningDate {
+	margin:10px 0px;
+	font-size:1.7em;
+}
+.dlvBanner {
+	width:300px;
+	height:300px;
+	background:url(/Library/Media/images/pages/deliverynet/deliveryNetSprite.png) no-repeat;
+}
+.pin {
+	background-position:0px 0px;
+}
+.search {
+	background-position:-300px 0px;
+}
+.gear {
+	background-position:-600px 0px;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="252"><sql><query id="q709a720aefe4c56293a27fb8e857c5c8" name="total_literal_count"/><query id="q4c38bff8e08b9e1b47662327cf090a6a" name="locale_percentage"/></sql><views><view id="v925716a87280f8500916f42ea36df51d" name="ProjectLocalizationPage"/><view id="v75c7894bd7aa76217bb034a118216279" name="locOverview"/><view id="v902e632739189d9776213775ad41c56a" name="locTranslations"/></views></module>

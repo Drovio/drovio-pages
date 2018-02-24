@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="249"><sql/><views><view id="vd61c9e02ffe5734ac4073fde89d56605" name="pageManager"/><view id="v3648c9388e9ddf559e5c98737f0f57f4" name="createDomain"/><view id="v1179e9e9eb853c47d851919b63874cde" name="createFolder"/><view id="v77d449669e28b87d8440e93ed871b594" name="createPage"/><view id="v77cdeb3c967e2536820facbc992d6b3f" name="deleteFolder"/><view id="v24435857272d8b880e90c542ca6572e9" name="editPage"></view></views></module>

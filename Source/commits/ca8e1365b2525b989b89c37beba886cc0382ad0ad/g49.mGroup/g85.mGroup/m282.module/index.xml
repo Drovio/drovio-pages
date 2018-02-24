@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="282"><sql><query id="q836a391565cb1e7c7744fd81e994da88" name="get_developer_modules"/><query id="qe69ce1f532555cc8e86a3b24e47bad6e" name="get_tester_modules"/></sql><views><view id="vc7c6dfdfff1b7e6bb9a7d53911a5425a" name="modulesConfigurator"/><view id="v35570ec8028127d29a7bcd225493a059" name="debugger"/><view id="vb5b8c798627aeaa0c8b0f99261fa67b9" name="logger"/><view id="v69335d4e2d30826d72f6f289d0680b6b" name="mdlTesting"/></views></module>

@@ -1,0 +1,127 @@
+.sdkManual {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(239, 242, 242);
+	overflow: auto;
+	position: relative;
+}
+
+.sdkManual .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0px auto;
+	overflow: auto;
+}
+.sdkManual .sidebar {
+	width: 20%;
+	float: left;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.sdkManual .sidebar .sdkIcon {
+	width: 150px;
+	height: 150px;
+	padding: 25px;
+	margin: 0 30px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: url('%{media}/developer/docs/sdkObject.svg') no-repeat center;
+	background-size: 100px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.sdkManual .sidebar .navitem {
+	display: block;
+	border: 1px solid #5E6570;
+	color: #5E6570;
+	padding: 6px 15px;
+	line-height: 16px;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 5px auto;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.sdkManual .sidebar .navitem.active {
+	border-color: #3CB0F7;
+	color: #3CB0F7;
+}
+
+.sdkManual .sidebar .navitem:hover, .sdkManual .sidebar .navitem.selected {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.sdkManual .sidebar .navitem.active:hover {
+	background-color: #3CB0F7;
+}
+
+.sdkManual .sidebar .pnavigation {
+	list-style-type: none;
+	margin: 30px 0px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+.sdkManual .sidebar .navitem .ico {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url('%{media}/profile/actionIcons.svg') no-repeat center;
+	background-size: cover;
+}
+
+.sdkManual .sidebar .navitem.about .ico {
+	background-position: 0px -48px;
+}
+.sdkManual .mainbody {
+	width: 80%;
+	float: right;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	color: #555;
+}
+
+.sdkManual .mainbody .className {
+	font-size: 28px;
+	line-height: 42px;
+	color: #5E6570;
+	margin-top: 30px;
+	padding: 0px 10px;
+	font-weight: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.sdkManual .mainbody .sectionbody {
+	border: 1px solid #E8E8E8;
+	background: #FFF;
+	padding: 10px;
+	min-height: 300px;
+	margin: 20px 0px;
+}

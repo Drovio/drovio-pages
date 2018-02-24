@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="350"><sql><query id="q110a63bd2dd7ad48420faa28d25a8f5a" name="get_team_projects"></query></sql><views><view id="v7991238241899eef3cd9de4b6b0dc5da" name="ProjectBundleEditor"/><view id="v7e5b03812d62c88e8492564005507ac0" name="createBundle"/></views></module>

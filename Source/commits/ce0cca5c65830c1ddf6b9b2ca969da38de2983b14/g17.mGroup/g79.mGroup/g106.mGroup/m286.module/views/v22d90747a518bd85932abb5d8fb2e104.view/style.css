@@ -1,0 +1,33 @@
+.viewDependencies {
+	height:88%;
+}
+.viewInnerModules {
+	max-height:90%;
+}
+.pageHeadersContainer,
+.pageHeadersContainer .pageHeaders {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #FFF;
+}
+.pageHeaders .headersSideMenu {
+	height: 100%;
+	width:25%;
+	float:left;
+	background-color: rgba(166, 166, 166, 0.05);
+}
+.pageHeaders .headersViewer {
+	height: 100%;
+	width: 75%;
+	background-color: #FFF;
+	float: left;
+	border-left: 1px solid rgba(166, 166, 166, 0.5);
+	padding:3px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}

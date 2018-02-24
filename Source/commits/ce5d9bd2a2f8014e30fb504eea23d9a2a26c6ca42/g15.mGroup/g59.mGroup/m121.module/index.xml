@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="121"><sql/><views><view id="vd6cf7cefe55cf0fbdd8d433ef258a9ee" name="webCoreHomePage"/><view id="vabc4d3c184ce46246cdf5e95e3b438a0" name="packageViewer"/><view id="vd4ae75df2262ad85a20e30304c1ebb19" name="createLibrary"/><view id="ve3704fbd0e6348186dad7b75e8e7ebb9" name="createNamespace"/><view id="v0d8fe716bbc7e22c6a97aef1499a4e18" name="createObject"/><view id="vd5d9366021c110cd4d0e189541e8605c" name="createPackage"/><view id="v11b8e6d8a2767cc5dc83576e068bd577" name="commitManager"/></views></module>

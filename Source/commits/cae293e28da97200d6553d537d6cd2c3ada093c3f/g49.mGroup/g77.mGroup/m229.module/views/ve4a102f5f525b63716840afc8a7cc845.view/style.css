@@ -1,0 +1,70 @@
+.projectIssuesPage {
+}
+
+.projectIssuesPage .clickable {
+	cursor: pointer;
+}
+
+.mContent {
+	margin: 0;
+    	width: 100%;
+	min-width:1000px;
+}
+
+.cLeft {
+    float: left;
+    height: 100%;
+    width: 200px;
+}
+
+.cMiddle { 
+	display: block;
+	float: left;
+	height: 100%;
+	width: 730px;
+}
+
+.cRight {
+	display: block;
+	height: 100%;
+	margin-left: 930px;
+}
+.nav {
+	font-size: 125%;
+}
+
+ .navBar {       box-sizing: border-box;    overflow: auto;}
+
+.navBar > .navTile {
+  border-bottom: 3px solid rgba(192, 4, 3, 0);
+  box-sizing: border-box;
+  color: #999999;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  padding: 5px;
+  text-align: center;
+}
+
+	
+.nav li {
+	background: none repeat scroll 0 0 #c5c5c5;
+	display: block;
+	float: left;
+	margin-right: 7px;
+}
+/*
+.navBar > .navTile.selected {
+	background: none repeat scroll 0 0 #c00403;
+}
+*/
+
+.reportNew {
+}
+
+
+
+.cMiddle .inner {    height: auto;    overflow-y: hidden;    }
+
+.bugList{    height: inherit;    overflow-y: auto; 
+overflow-x: hidden;}

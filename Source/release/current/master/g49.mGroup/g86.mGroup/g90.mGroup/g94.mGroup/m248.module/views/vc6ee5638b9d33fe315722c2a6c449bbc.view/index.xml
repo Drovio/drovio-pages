@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vc6ee5638b9d33fe315722c2a6c449bbc"><dependencies><dependency library="API" object="Geoloc"></dependency><dependency library="DEV" object="WebEngine"></dependency><dependency library="UI" object="Developer"></dependency><dependency library="UI" object="Presentation"></dependency></dependencies><inner/></view>

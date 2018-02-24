@@ -1,0 +1,125 @@
+.roadmapList .rd_list {
+	overflow: auto;
+	margin: 20px 0px;
+	padding: 10px 5px;
+}
+.roadmapList .rd_list .ritem {
+	overflow: auto;
+	margin-bottom: 35px;
+}
+
+.roadmapList .rd_list .ritem .ricon {
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	border: 3px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.roadmapList .rd_list .ritem .rhash {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.3em;
+	line-height: 32px;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.roadmapList .rd_list .ritem .rhash:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.roadmapList .rd_list .ritem .rdate {
+	float: right;
+	line-height: 32px;
+	color: #777;
+}
+
+.roadmapList .rd_list .ritem .rtitle {
+	font-size: 1.3em;
+	line-height: 32px;
+	color: #5E6570;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.roadmapList .rd_list .ritem.edit .rtitle {
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.roadmapList .rd_list .ritem.edit .rtitle:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.roadmapList .rd_list .ritem .rdesc {
+	clear: both;
+	color: #777;
+	font-size: 1.1em;
+	margin-top: 10px;
+	padding: 0px 10px;
+	line-height: 1.6em;
+	white-space: pre-wrap;
+}
+
+.roadmapList .rd_list .ritem .rdesc a {
+	color: #ff5252;
+}
+
+.roadmapList .rd_list .ritem:last-child {
+	margin-bottom: 0px;
+}
+.roadmapList .rd_list.expected .ritem {
+	opacity: 0.8;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.roadmapList .rd_list.expected .ritem:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.roadmapList .rd_list.delivered {
+	border-top: 1px solid #42B549;
+}
+.roadmapList .rd_list.delivered .ritem .ricon {
+	background: url('%{media}/developer/icons/green_tick.svg') no-repeat center;
+	background-size: cover;
+	border-color: #42B549;
+}
+
+.roadmapList .rd_list.delivered .ritem .rhash, .roadmapList .rd_list.delivered .ritem .rtitle {
+	color: #42B549;
+}
+
+.roadmapList .rd_list.delivered .ritem .rhash:hover {
+	color: #ff5252;
+}
+
+.roadmapList .rd_list.delivered .ritem .rdesc {
+	color: #5E6570;
+}
+
+.roadmapList .rd_list.delivered:empty {
+	display: none;
+}

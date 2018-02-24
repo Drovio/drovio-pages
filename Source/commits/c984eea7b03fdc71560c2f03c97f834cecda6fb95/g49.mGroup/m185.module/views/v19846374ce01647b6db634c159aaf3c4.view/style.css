@@ -1,0 +1,104 @@
+.dashboardPage .projectContainer {
+	padding: 5px;
+}
+.dashboardPage h3.title {
+	color: #C00403;
+}
+.dashboardPage .projectContainer .newProject {
+	float: right;
+	color: green;
+	cursor: pointer;
+}
+.dashboardPage .projectContainer .projectList {
+	overflow: auto;
+	min-height: 100px;
+	max-height: 300px;
+}
+.dashboardPage .projectContainer .projectList .noProjects {
+	color: #999;
+	margin: 0;
+}
+.dashboardPage .projectContainer .projectList .newProject {
+	float: left;
+}
+.dashboardPage .projectContainer .projectRow {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+	padding: 3px 5px;
+}
+.dashboardPage .projectContainer .projectRow:hover .projectTitle a {
+	color: #C00403;
+}
+.dashboardPage .projectContainer .projectRow:last-child {
+	border: none;
+}
+.dashboardPage .projectContainer .projectRow .projectControls {
+	float: right;
+	height: 18px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.dashboardPage .projectContainer .boxCtrl.edit {
+	background-position: -36px 0px;
+}
+.dashboardPage .projectContainer .boxCtrl.vcs {
+	background-position: -18px 0px;
+}
+.dashboardPage .projectContainer .boxCtrl {
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	margin: 0px 5px;
+	background: url('%resources%/developer/projects/projectShortcuts.svg') no-repeat center;
+	opacity: 0.5;
+}
+.dashboardPage .projectContainer .boxCtrl:hover {
+	opacity: 1;
+}
+.dashboardPage .projectContainer .projectRow .projectTitle {
+	margin: 0px;
+	float: left;
+	font-size: 12px;
+	line-height: 18px;
+}
+.dashboardPage .projectContainer .projectRow .projectTitle a {
+	color: #555;
+}
+.dashboardPage .projectContainer .projectRow .projectTitle a:hover {
+	color: #C00403;
+}
+.dashboardPage .projectContainer .projectRow .projectDesc {
+	color: #999;
+	margin: 0px;
+	margin-left: 10px;
+	line-height: 18px;
+	clear: both;
+}
+.dashboardPage .dashboardConnect {
+	overflow: auto;
+	margin-top: 20px;
+	border-top: 1px solid rgba(166, 166, 166, 0.5);
+}
+.dashboardPage .dashboardConnect .dc {
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.dashboardPage .dashboardConnect .dc.developerNews {
+	width: 60%;
+}
+.dashboardPage .dashboardConnect .dc.quickLinks {
+	width: 40%;
+}
+.dashboardPage .dc h4 a {
+	color: #777;
+}
+.dashboardPage .dc h4 a:hover {
+	color: #000;
+}

@@ -1,0 +1,25 @@
+.literalEditorContainer {
+	height: 100%;
+	overflow: auto;
+}
+.literalEditor {
+	width: 900px;
+	height: 500px;
+	overflow: auto;
+}
+.literalEditor .scopeExplorer {
+	height: 100%;
+	width: 30%;
+	float: left;
+	border-right: 1px solid #CCC;
+	background: #FEFEFE;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.literalEditor .literalsContent {
+	height: 100%;
+	width: 70%;
+	float: right;
+}

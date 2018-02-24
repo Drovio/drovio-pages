@@ -1,0 +1,8 @@
+.vcs .navIco {
+	background-image:url('%resources%/developer/icons/toolbarIcons.svg');
+	background-position:0px -266px;
+}
+.literals .navIco {
+	background-image:url('%resources%/developer/icons/toolbarIcons.svg');
+	background-position:0px -380px;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="379"><sql><query id="q3e0f02e39ec4a517beb12d93a752245d" name="get_account_info"/><query id="q8c26bba4535bbe4138aebd5e0a808119" name="get_account_projects"></query></sql><views><view id="v9052d511289be5c2939ed507f14e18d3" name="AccountPublicProjects"/></views></module>

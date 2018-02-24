@@ -1,0 +1,45 @@
+.distroListContainer {
+	height: 100%;
+}
+.distroListContainer ul.distros {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	overflow: auto;
+}
+.distroListContainer ul.distros .dst {
+	padding: 5px 8px;
+	line-height: 14px;
+	cursor: pointer;
+	border-right: 3px solid transparent;
+}
+.distroListContainer ul.distros .dst:hover {
+	border-right: 3px solid #CCC;
+}
+.distroListContainer ul.distros .dst.selected {
+	border-right: 3px solid #C00403;
+}
+
+.distroListContainer .dstTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image: url('%resources%/global/devIcons.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.distroListContainer .dstTool:hover {
+	opacity: 1.0;
+}
+.distroListContainer .dstTool.refresh {
+	background-position: 0px -48px;
+}
+.distroListContainer .dstTool.create_new {
+	background-position: 0px -64px;
+}

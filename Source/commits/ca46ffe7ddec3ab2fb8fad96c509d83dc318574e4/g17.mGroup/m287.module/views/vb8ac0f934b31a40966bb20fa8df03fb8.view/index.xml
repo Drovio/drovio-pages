@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vb8ac0f934b31a40966bb20fa8df03fb8"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="API" object="Model"></dependency><dependency library="API" object="Profile"></dependency><dependency library="DEV" object="Websites"></dependency><dependency library="ESS" object="Environment"></dependency><dependency library="SYS" object="Comm"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="accountInfo">154</module></inner></view>

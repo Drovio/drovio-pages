@@ -1,0 +1,47 @@
+.databaseManager button.save {
+	border: none;
+	background-color: transparent;
+}
+.queryData {
+	height: 100%;
+}
+.queryControlToolbar {
+	width:100%;
+	border-bottom: 1px dashed #A6A6A6;
+	position:relative;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+.queryControlToolbar .toolbarTool {
+	width:48px;
+	height:16px;
+	padding:4px;
+	cursor: pointer;
+	display: inline-block;
+}
+.dbQueriesViewerTree {
+	height: 100%;
+	overflow: auto;
+}
+.testControls {
+	float: right;
+}
+.testingPool {
+	height: 100%;
+}
+.testingPool .testResult {
+	height: 100%;
+}
+.databaseResult {
+	height: 100%;
+}
+.databaseResult .resultTitle {
+	float: left;
+	padding: 0px 10px;
+}
+.databaseResult .resultContainer {
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	padding-top: 50px;
+}

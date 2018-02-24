@@ -1,0 +1,40 @@
+.registrationBar {
+	padding: 5px 20px;
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 1px solid rgba(166, 166, 166, 0.3);
+	text-align: right;
+	overflow: auto;
+}
+.registrationBar .regContainer {
+	float: right;
+}
+.registrationBar h4 {
+	float: left;
+	font-weight: normal;
+}
+.registrationBar .regBtn {
+	float: left;
+	margin: 14px;
+	font-weight: bold;
+	color: rgb(192, 4, 3);
+	font-size: 13px;
+}
+
+.loginPage .globalContainer {
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	border-top: none;
+	padding: 10px;
+	overflow: auto;
+}
+.loginPage .globalContainer .innerContainer {
+	width: 500px;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.loginPage h4.forgot a {
+	color: rgb(192, 4, 3);
+	margin-left: 5px;
+}

@@ -1,0 +1,77 @@
+.modulesPrivileges .membersListWrapper {
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	width: 200px;
+}
+
+.modulesPrivileges .membersListWrapper > .inner {
+	padding: 0px 10px;
+}
+
+.modulesPrivileges .privilegesListWrapper{
+	height: 100%;
+	left: 200px;
+	overflow: auto;
+	position: absolute;
+ 	right: 0;
+	top: 0;
+}
+
+.modulesPrivileges .privilegesListWrapper > .inner {
+	padding: 0px 10px;
+}
+
+/* menu */
+.modulesPrivileges .membersList ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.modulesPrivileges .membersList ul > li.selected {
+	background-color:rgba(166, 166, 166, 0.3);
+}
+
+.modulesPrivileges .membersList ul > li:hover {
+	background-color:rgba(166, 166, 166, 0.3);
+}
+ 
+.modulesPrivileges .membersList ul > li > div {
+	cursor: pointer;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	height: 19px;
+	line-height: 19px;
+	position: relative;}
+
+/* */
+
+.modulesPrivileges .devPrivilegesFormContents {
+	height: 400px;
+	overflow: auto;
+}
+
+
+
+/* For old style form headers backwords compability */
+
+.modulesPrivileges .lhd {
+	margin:0px;
+	padding:0px;
+	border-bottom:1px solid rgba(166, 166, 166, 0.5);
+	margin-bottom:10px;
+	margin-top:15px;
+	text-indent:5px;
+	font-weight:bold;
+}
+.modulesPrivileges .hd2 {
+	font-size:13px;
+	color:rgb(100, 100, 100);
+}

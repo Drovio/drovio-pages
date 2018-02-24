@@ -1,0 +1,62 @@
+.sdkManualReferencePage .docViewerWrapper{
+	/*padding: 5px;*/
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+	height:100%; 
+}
+.sdkManualReferencePage #docViewer {
+	height:100%; 
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box; 
+	overflow: auto;
+}
+.docViewerWrapper #documentViewerContainer{
+	height:100%; 
+	-moz-box-sizing:border-box;
+	box-sizing:border-box; 
+}
+.sdkManualReferencePage .docViewerWrapper, .sdkManualReferencePage .classNavigator {
+	overflow: auto;
+	height: 100%;
+}
+.sdkManualReferencePage .classNavigator {
+	border-right: 1px solid rgba(166, 166, 166, 1);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: rgba(166, 166, 166, 0.2);
+}
+.sdkManualReferencePage .pageTitle {
+	border-bottom: 1px solid #000;
+}
+
+
+
+.sdkManualReferencePage .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%resources%/developer/icons/fileThumbs.svg');
+}
+.sdkManualReferencePage .contentIcon.libIco {
+	background-position:0px 0px;
+}
+.sdkManualReferencePage .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+.sdkManualReferencePage .open > :not(ul):not(.subTreeView) .contentIcon.pkgIco {
+	background-position:0px -16px;
+}
+.sdkManualReferencePage .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+.sdkManualReferencePage .contentIcon.flIco {
+	background-position:0px -64px;
+}
+	background-size: cover;
+}

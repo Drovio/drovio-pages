@@ -1,0 +1,15 @@
+.myHomePage .pageHeader {
+	font-weight: normal;
+}
+.myHomePage .pageHeader .ident {
+	font-weight: bold;
+}
+.myHomePage .pContainer {
+	margin-top: 50px;
+}
+.myHomePage .pContainer .promo {
+	font-weight: normal;
+}
+.myHomePage .pContainer .promo a {
+	color: rgb(192, 4, 3);
+}

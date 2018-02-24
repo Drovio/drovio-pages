@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="244"><sql><query id="q18b0c32da1089a6d70c1bd9afd25a680" name="publish_red_project"/><query id="q614cff2c27f85ed1b02ca7e9b7d937a6" name="revoke_project"/></sql><views><view id="v9514df1fbd37419b90bda744be0b62f5" name="ProjectReleaseLogPage"/><view id="v7d90320976d3182c83b71f2d2f108862" name="revokeRelease"/><view id="v33171b82767264c0f009b1ae8b4979ea" name="removeRelease"/></views></module>

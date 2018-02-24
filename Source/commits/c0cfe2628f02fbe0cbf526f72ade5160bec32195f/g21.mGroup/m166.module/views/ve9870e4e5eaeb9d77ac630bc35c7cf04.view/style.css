@@ -1,0 +1,39 @@
+.myRelationsPage h2,
+.myRelationsPage h3 {
+	font-weight: normal;
+}
+.myRelationsPage section {
+	padding: 15px 0px;
+}
+.myRelationsPage .teamEditor .header {
+	overflow: auto;
+	border-bottom: 1px solid #EFEFEF;
+	padding: 5px 10px;
+}
+.myRelationsPage .teamEditor .header .teamName {
+	float: left;
+}
+.myRelationsPage .teamEditor .header .manage {
+	float: right;
+	color: #999;
+	cursor: pointer;
+}
+.myRelationsPage .team_list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.myRelationsPage .team_list li {
+	padding: 5px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.myRelationsPage .team_list li:last-child {
+	border-bottom: none;
+}
+
+
+
+
+.myRelationsPage .createTeam {
+	border-top: 1px solid #CCC;
+}

@@ -1,0 +1,160 @@
+.coreConfigurator {
+	& {
+		height: 100%;
+	}
+	.configTabs {
+		height: 100%;
+	}
+	.tabs {
+		& {
+			float: left;
+			width: 20%;
+			list-style: none;
+			display: block;
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			border-right: 1px solid #CCC;
+			background: #EEE;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+		.navTab {
+			list-style: none;
+			vertical-align: middle;
+			margin: 0px;
+			padding: 5px 8px;
+			cursor: pointer;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			color: #5E6570;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.navTab:hover,
+		.navTab.selected {
+			color: #FFF;
+			background: #5E6570;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.navTab span {
+			display: block;
+			line-height: 20px;
+		}
+	}
+	.pages {
+		& {
+			float: left;
+			width: 80%;
+			height: 100%;
+		}
+		.page {
+			padding: 5px;
+			overflow: auto;
+			height: 100%;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+		}
+		.switchRow {
+			width: 50%;
+			display: block;
+			overflow: auto;
+			padding: 5px 10px;
+			box-sizing: border-box;
+			-moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+		}
+		.switchRow.ajax,
+		.switchRow.logger,
+		.switchRow.sql {
+			float: left;
+		}
+		.testerPanel .packageConfigurator {
+			padding: 5px;
+		}
+		.testerPanel .packageConfigurator h4 {
+			margin: 3px 5px;
+		}
+		.testerPanel .packageList {
+			height: 200px;
+		}
+		
+		.switchRow > span {
+			float: left;
+			min-width: 150px;
+			padding-right: 10px;
+		}
+		.switchRow > .uiSwitchButtonForm {
+			float: right;
+		}
+		.switchRow .inps_tester {
+			float: right;
+		}
+		.packageConfigurator {
+			clear: both;
+		}
+		#logViewer {
+			height: 280px;
+			overflow: auto;
+		}
+	}
+	
+	.resourceProfiler {
+		& {
+			padding: 10px;
+		}
+		.resourceListContainer {
+			border: 1px solid rgba(166, 166, 166, 0.5);
+			height: 290px;
+			overflow: auto;
+		}
+		.resourceListContainer .cssResources {
+			border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+		}
+		
+		.resourceListContainer .bootResource {
+			list-style: none;
+			padding: 3px;
+			margin: 0px;
+			line-height: 16px;
+		}
+		.resourceListContainer .bootResource:nth-child(even) {
+			background-color: #EEE;
+		}
+		.bootResource .rsrcIco {
+			display: inline-block;
+			float: left;
+			height: 16px;
+			width: 16px;
+			background: url('%resources%/developer/icons/fileThumbs.svg') no-repeat;
+			background-size: 16px;
+			margin: 0px 10px;
+		}
+		.resourceListContainer .cssResources .bootResource .rsrcIco {
+			background-position: 0px -80px;
+		}
+		.resourceListContainer .jsResources .bootResource .rsrcIco {
+			background-position: 0px -64px;
+		}
+		.bootResource .rsrcUrl {
+			width: 70%;
+			display: inline-block;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+		.bootResource .rsrcReload,
+		.bootResource .rsrcRemove {
+			width: 10%;
+			color: blue;
+			cursor: pointer;
+			text-align: center;
+			display: inline-block;
+		}
+	}
+}

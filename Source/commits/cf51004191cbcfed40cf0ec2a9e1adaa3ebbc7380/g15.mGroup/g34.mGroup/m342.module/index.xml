@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="342"><sql><query id="q93df64ad6f138ac6f8117edd9a3e9d97" name="get_all_accounts"/><query id="q5e3910dd6e5a1eba640a0d900a650afa" name="get_account_groups"/><query id="qdba54db8fbbb626b93b60f2901014aa0" name="get_account_to_group"/></sql><views><view id="va49ffed0713a6939a7528c06502365ce" name="accountsToGroups"/><view id="vbca41ca916a410fea814f4871b6464e4" name="accGroupEditor"/></views></module>

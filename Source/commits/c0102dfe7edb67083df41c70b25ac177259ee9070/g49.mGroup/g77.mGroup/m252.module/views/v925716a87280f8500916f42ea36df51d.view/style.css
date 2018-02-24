@@ -1,0 +1,42 @@
+.projectLocalizationPage {
+	height: 100%;
+}
+.projectLocalizationPage .projectLocalization {
+	height: 100%;
+}
+.projectLocalization .navBar {
+	border-bottom: 1px solid #CCC;
+	background: #EFEFEF;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 32px;
+}
+.projectLocalization .navBar .navMenu {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.projectLocalization .navBar .navMenu li {
+	display: table-cell;
+	padding: 5px 8px;
+	line-height: 20px;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+}
+.projectLocalization .navBar .navMenu li:hover,
+.projectLocalization .navBar .navMenu li.selected {
+	border-bottom: 2px solid #C00403;
+}
+.projectLocalizationPage .navContent {
+	position: absolute;
+	top: 32px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+.projectLocalizationPage .navContent .navPage {
+	height: 100%;
+	overflow: auto;
+}

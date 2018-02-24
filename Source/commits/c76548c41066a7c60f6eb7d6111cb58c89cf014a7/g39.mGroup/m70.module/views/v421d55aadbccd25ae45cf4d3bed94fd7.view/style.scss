@@ -1,0 +1,164 @@
+.frontendPage {
+	width: 100%;
+	height: 100%;
+}
+.frontendPage .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.frontendPage .main {
+	min-height: 600px;
+	background: rgba(192, 4, 3, 0.6) url('%{media}/frontend/fpattern.svg');
+	position: relative;
+}
+.frontendPage .main > .middleContainer {
+	padding-top: 120px;
+}
+
+.frontendPage .main > .middleContainer .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+}
+.frontendPage .main > .middleContainer .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+	max-width: 800px;
+	margin: 40px auto;
+}
+.frontendPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.frontendPage .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.frontendPage .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.frontendPage .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.frontendPage .navBar li a:hover {
+	color: #FFF;
+}
+.frontendPage .snav {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 5px;
+	padding: 20px 0px;
+	overflow: auto;
+}
+.frontendPage .snav .navitem {
+	float: left;
+	opacity: 0.3;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	width: 25%;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 30px 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.frontendPage .snav .navitem:hover,
+.frontendPage .snav .navitem.active {
+	opacity: 1;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+}
+.frontendPage .snav .navitem .ico {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+.frontendPage .snav .navitem .title {
+	font-size: 14px;
+	text-align: center;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.frontendPage .snav .navitem.apps .ico {
+	background: url('%{media}/developer/features/apps.png') no-repeat center;
+	background-size: contain;
+}
+.frontendPage .snav .navitem.market .ico {
+	background: url('%{media}/developer/features/app_center.png') no-repeat center;
+	background-size: contain;
+}
+.frontendPage .snav .navitem.api .ico {
+	background: url('%{media}/developer/features/api.png') no-repeat center;
+	background-size: contain;
+}
+.frontendPage .snav .navitem.mvc .ico {
+	background: url('%{media}/developer/features/mvc.png') no-repeat center;
+	background-size: contain;
+}
+.frontendPage .content {
+	position: relative;
+	height: 250px;
+}
+.frontendPage .content .desc {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	z-index: 1;
+	padding-top: 50px;
+	text-align: center;
+}
+.frontendPage .content .desc .text {
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFF;
+}
+.frontendPage .content .desc.active {
+	opacity: 1;
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	z-index: 2;
+}
+.frontendPage .content .desc .more {
+	display: inline-block;
+	color: #FFF;
+	padding: 5px 8px;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	cursor: pointer;
+	font-size: 12px;
+	margin: 0px auto;
+	margin-top: 40px;
+}
+.frontendPage .content .desc .more:hover {
+	background: #FFF;
+	color: #000;
+}

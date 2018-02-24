@@ -1,0 +1,158 @@
+/*____________________ ebuilderPublicHomePromoBanner Style ____________________*/
+#ebuilderPublicHomePromoBanner {
+	display:block;
+	position:relative;
+}
+#ebuilderPublicHomePromoBanner p {
+	margin:0;
+	padding:0;
+}
+#ebuilderPublicHomePromoBanner_main {
+	padding: 0;
+	margin: 0;
+	clear: both;
+	overflow: auto;
+	min-width:1000px;
+}
+/*__HEAD__*/
+#ebuilderPublicHomePromoBanner_mainHead {
+	height: 380px;
+	margin-bottom: 0px;
+	background: url(/Library/Media/images/pages/ebuilder/bg.png) center;
+	overflow: hidden;
+}
+#ebuilderPublicHomePromoBanner_mainHeadContent {
+	margin: 0 auto;
+	width: 950px;
+	padding-top: 10px;
+}
+#ebuilderPublicHomePromoBanner_mainHeadLogo {
+	margin: 5px 0 5px 0;
+	height: 50px;
+	overflow: hidden;
+}
+#ebuilderPublicHomePromoBanner_mainHeadLeft {
+	margin: 5px 0 5px 0;
+	display: inline;
+	float: left;
+	width: 600px;
+	height: 300px;
+	overflow: hidden;
+	background: url(/Library/Media/images/pages/ebuilder/eBuilderCloudBanner.png) center no-repeat;
+}
+#ebuilderPublicHomePromoBanner_mainHeadRight {
+	margin: 5px 0 5px 0;
+	display: inline;
+    float: left;
+    width: 350px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+/*__CONTENT__*/
+#ebuilderPublicHomePromoBanner_mainBody {
+	border-top: 3px solid #CCC;
+	overflow:auto;
+	background: url(/Library/Media/images/pages/ebuilder/metalicBack.png) center repeat;
+
+}
+#ebuilderPublicHomePromoBanner_mainBodyContent {
+	margin: 0 auto;
+	width: 980px;
+	padding: 20px 10px 25px;
+}
+#ebuilderPublicHomePromoBanner_quoteContent {
+	margin: 0 auto;
+	width: 980px;
+	padding: 20px 10px 25px;
+}
+
+
+
+/*____________________ ebuilder.frontend ____________________*/
+.ebuilderTitle {
+	margin: auto;
+	text-align:center;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow:0 0 15px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.3);
+	font-style:italic;
+}
+h1.ebuilderTitle {
+	font-size: 22px;
+}
+h2.ebuilderTitle {
+	margin:0px;
+	color: rgb(96, 0, 13);
+}
+
+p.headWhite {
+	text-align:justify;
+	font-size:12px;
+	color:#FFF;
+}
+.headMainText {
+	margin: 10px 5px 10px 5px;
+}
+.headTitle {
+}
+.headSubtitle {
+	 bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 100%;
+}
+.offerText {
+	margin: 5px 0px 20px 0px;
+	text-align:justify;
+	color: rgb(96, 0, 13);
+	text-shadow:0 0 15px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bolder;
+	font-size:18px;
+	font-style:italic;
+}
+/**/
+.gridCellContentWrapper > .title {
+    font-size: 18px;
+    padding: 0 0  10px 2px;
+	color: #C00403;
+}
+.featureWrapper{
+    margin: 5px 0 5px 0;
+	width: 980px;
+	min-height: 100px;
+}
+.featureWrapper > .featureContentWrapper{
+	display: inline;
+	overflow:hidden;
+	width: 800px;
+}
+.featureWrapper > .imageWrapper {
+	display: inline;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+}
+.imageWrapper > img {
+	margin: auto;
+	display: block;
+    position: relative;
+}
+.featureContentWrapper > .title {
+    border-bottom: 1px solid #BBBBBB;
+    color: #353535;
+    font-size: 16px;
+    padding: 2px;
+}
+.featureContentWrapper > .content {
+    padding: 5px 0 5px 0;
+}
+.linkWrapper {
+	
+    float: right;
+    font-size: 13pt;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.linkWrapper a span{
+color: #60000D;
+}

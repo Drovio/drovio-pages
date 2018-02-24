@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="113"><sql/><views><view id="v034eee8c3a3d38a8d2257c38efb7dc9c" name="publisherPage"/><view id="va3b7181c8598a76da8d68724e33202cb" name="backupTabPage"/><view id="v872e80f27c9339dcc700e07243bda107" name="publishTabPage"/><view id="v7c5f04eb483ea98ce00ca01d1353c2b8" name="EMPTY_VIEW"/><view id="v52f9be2ded11757271c578a5174ebe96" name="checkDbSchema"/><view id="ve00f60f5b633928b208579fc3b5dd870" name="syncDbData"/><view id="v1e77925cd5695099975fe2f22555d91f" name="createReleasePackage"/></views></module>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="254"><sql><query id="q7d464e5a96d5f9766112d294309dd2bf" name="delete_project"/><query id="q3fa638e9842470c952c980e35ec952b4" name="remove_project_keys"></query></sql><views><view id="v30fad7381ea9e8c9e87d22275ea2134d" name="ProjectSettingsPage"/><view id="v4badb69a9c01aff66787745b1bb59c68" name="updateSettings"/><view id="v55549b67df4c67597d5c9024c7e9c6f8" name="backupProject"/><view id="v05d531445425dba9f06adcd9f7c78616" name="deleteProject"/></views></module>

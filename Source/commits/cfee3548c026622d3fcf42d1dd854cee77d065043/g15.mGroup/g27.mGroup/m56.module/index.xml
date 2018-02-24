@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="56"><sql/><views><view id="v04c03bb30c4dc0d748d7aa71f6e6df2b" name="SDKHomePage"/><view id="ve60fba06a8af49ed19dbfc2fd91ee15e" name="packageViewer"/><view id="v3bb08256221d5dadca90c338e68dbdaf" name="createLibrary"/><view id="v76446ba5280bae5862a33f9132928b4a" name="createPackage"/><view id="v7a02815173b594e7b92d84cce01e62fa" name="createNamespace"/><view id="vbc5263e0a1c1e9a3a828bf494494d6a4" name="createObject"/><view id="ve3d94d8ef24017d6d116da0a521edc61" name="vcsControl"></view></views></module>

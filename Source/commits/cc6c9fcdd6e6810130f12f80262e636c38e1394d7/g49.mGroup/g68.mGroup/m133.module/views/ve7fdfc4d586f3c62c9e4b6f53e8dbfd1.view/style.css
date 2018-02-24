@@ -1,0 +1,146 @@
+.devAppPage h1, .devAppPage h2, .devAppPage h3 {
+	color: #565656;
+}
+.devAppPage .pageHeader {
+	margin: 0px -10px;
+	margin-top: -10px;
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.devAppPage .pageHeader .h1 {
+	margin: 0px;
+	padding: 10px 0px;
+}
+.devAppPage .newAppButton {
+	float: right;
+	display: inline-block;
+	padding: 5px;
+	cursor: pointer;
+	margin: 15px 0px;
+	font-size: 12px;
+	font-weight: bold;
+	color: green;
+	line-height: 19px;
+}
+.devAppPage .newAppButton .ico {
+	float: left;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+	background: url(/Library/Media/images/icons/19x19/add_ico.svg) no-repeat center;
+}
+
+.devAppPage .appContainer {
+	float: left;
+	width: 50%;
+}
+.devAppPage .supportContainer {
+	float: right;
+	width: 40%;
+}
+.devAppPage .appContainer h3, .devAppPage .supportContainer h3, .devAppPage .supportContainer h3 a {
+	color: rgb(192, 4, 3);
+}
+.devAppPage .devApp {
+	width: 100%;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 5px 0px;
+	overflow: auto;
+}
+.devAppPage .devApp .appIco {
+	float: left;
+	padding: 3px;
+	border: 1px solid rgba(166, 166, 166, 0.2);
+	border-radius: 5px;
+	width: 80px;
+	height: 80px;
+	margin-right: 5px;
+	background: url(/Library/Media/images/logos/RB_favicon.svg) no-repeat center;
+	background-size:60px 60px;
+}
+.devAppPage .devApp .appControls {
+	float: right;
+	height: 88px;
+	padding: 27px 0px;
+	box-sizing: border-box;
+}
+.devAppPage .devApp .appControls .appCtrl {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin: 5px;
+	background: url(/Library/Media/images/pages/developer/AppTileIcons.svg) no-repeat center;
+}
+.devAppPage .devApp .appControls .appCtrl.edit {
+	background-position: -48px 0px;
+}
+.devAppPage .devApp .appControls .appCtrl.vcs {
+	background-position: -24px 0px;
+}
+.devAppPage .devApp .appControls .appCtrl.play {
+	background-position: 0px 0px;
+}
+
+.devAppPage .devApp .appTitle {
+	color: rgb(192, 4, 3);
+}
+
+#newAppDialog .basicContainer {
+	width: 500px;
+	overflow: auto;
+}
+#newAppDialog .appIco {
+	float: left;
+	padding: 3px;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	width: 128px;
+	height: 128px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	background: url(/Library/Media/images/logos/RB_favicon.svg) no-repeat center;
+	background-size:80px 80px;
+}
+#newAppDialog .appInput {
+	padding: 5px;
+	border-color: rgba(166, 166, 166, 0.7);
+	font-size: 14px;
+	width: 347px;
+	margin-bottom: 5px;
+}
+#newAppDialog .chHolder {
+	width: 100px;
+	padding: 3px;
+	display: inline-block;
+}
+#newAppDialog .chHolder .appCheck {
+	margin: 5px;
+}
+#newAppDialog .chHolder .appLabel {
+	margin: 5px 0px;
+	display: inline-block;
+}
+#newAppDialog .appNotes {
+	color: #656565;
+	font-style: italic;
+}
+#newAppDialog .appTextarea {
+	width: 488px;
+	padding: 5px;
+	margin-top: 5px;
+	resize: vertical;
+	min-height: 50px;
+	max-height: 80px;
+	border-color: rgba(166, 166, 166, 0.7);
+}
+#newAppDialog #newAppCaptcha {
+	float: left;
+}
+#newAppDialog .appInput.captcha {
+	float: left;
+	margin: 6px 0px;
+	width: 388px;
+}

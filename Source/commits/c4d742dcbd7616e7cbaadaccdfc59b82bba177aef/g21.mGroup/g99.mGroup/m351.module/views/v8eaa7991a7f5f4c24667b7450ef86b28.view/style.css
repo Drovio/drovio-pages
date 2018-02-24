@@ -1,0 +1,106 @@
+.teamProfile {
+	position: relative;
+	height: 100%;
+	overflow: auto;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.teamProfile .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.teamProfile .teamInfoContainer {
+	overflow: auto;
+	background: rgb(239, 242, 242);
+	border-bottom: 1px solid #999;
+	padding-top: 20px;
+}
+.teamProfile .teamInfoContainer .logoBox {
+	float: left;
+	width: 200px;
+	text-align: center;
+	margin: 0px 50px;
+	margin-bottom: 30px;
+}
+.teamProfile .teamInfoContainer .logoBox .logo {
+	width: 100px;
+	height: 100px;
+	padding: 50px;
+	margin-bottom: 25px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.teamProfile .teamInfoContainer .logoBox .logo:empty {
+	background: url('%{media}/my/defaultTeamIco.svg') no-repeat center;
+	background-size: 100px;
+}
+.teamProfile .teamInfoContainer .logoBox .logo img {
+	height: inherit;
+	width: inherit;
+}
+.teamProfile .teamInfoContainer .logoBox .leaveTeam {
+	background: linear-gradient(#BBE2B1, #B1DAA1);
+	background: -webkit-linear-gradient(#BBE2B1, #B1DAA1);
+	background: -moz-linear-gradient(#BBE2B1, #B1DAA1);
+	border: 1px solid #43B549;
+	color: #545454;
+	padding: 10px 15px;
+	line-height: 16px;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	font-size: 12px;
+	margin: 0px auto;
+}
+.teamProfile .teamInfoContainer .teamName {
+	font-size: 28px;
+	line-height: 42px;
+	color: #555;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.teamProfile .teamInfoContainer .teamNavigation {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+.teamProfile .teamInfoContainer .teamNavigation .navitem {
+	float: left;
+	padding: 10px 15px;
+	font-size: 12px;
+	min-width: 100px;
+	cursor: pointer;
+	color: #777;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+.teamProfile .teamInfoContainer .teamNavigation .navitem:hover {
+	border: 1px solid #CCC;
+	background: rgba(255, 255, 255, 0.3);
+	border-bottom: none;
+	color: #555;
+}
+.teamProfile .teamInfoContainer .teamNavigation .navitem.selected {
+	border: 1px solid #CCC;
+	background: #FFF;
+	border-bottom: none;
+	color: #555;
+}

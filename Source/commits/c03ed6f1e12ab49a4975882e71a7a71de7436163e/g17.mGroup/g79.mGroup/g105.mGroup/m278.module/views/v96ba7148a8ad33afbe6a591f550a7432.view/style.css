@@ -1,0 +1,25 @@
+.createNewDialog .newDialog {
+	height: 300px;
+	overflow: auto;
+	width: 600px;
+}
+.createNewDialog .newDialog .sidebar {
+	float: left;
+	width: 150px;
+	height: 100%;
+	background: #EEE;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.createNewDialog .newDialog .main {
+	float: left;
+	width: 450px;
+	height: 100%;
+	overflow: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

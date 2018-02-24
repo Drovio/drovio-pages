@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="125"><sql/><views><view id="vda477e2c535ad8cc6e0864c43ac17d94" name="adminAppcenterHomePage"/><view id="ve10922757a0a75bad1ea6ef7b31290ab" name="packageViewer"/><view id="v383f6b97978f2a8663d22f9852d82435" name="createPackage"/><view id="vd16556593971a4e3966eaa6d188c1d60" name="createNamespace"/><view id="va649c3ea5b8ecbc46c8b200b0daf859a" name="createObject"/><view id="v98d0a6eccad78578988407565625f67e" name="createLibrary"/><view id="v1b572beb858fbc1c3a6b581bc2f81e87" name="commitManager"></view></views></module>

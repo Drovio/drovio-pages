@@ -1,0 +1,30 @@
+.classInfo .hd {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.classInfo .classDescription {
+	white-space: pre-wrap;
+	font-size: 1.1em;
+	line-height: 22px;
+}
+
+.classInfo .inheritance .inhr {
+	font-size: 1.1em;
+	clear: both;
+	color: #777;
+}
+
+.classInfo .inheritance .inhr:last-child {
+	color: #555;
+}
+
+.classInfo .inheritance .inhr .rarr, .classInfo .inheritance .inhr a {
+	display: inline-block;
+	color: #555;
+}
+
+.classInfo .inheritance .inhr a:hover {
+	color: #ff5252;
+	text-decoration: underline !important;
+}

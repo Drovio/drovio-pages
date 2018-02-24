@@ -1,0 +1,12 @@
+.frameResults { 
+	border-style: solid; border-width: 1px;
+}
+
+.inserted {  
+	font-weight: bold; 
+	color: green; 
+} 
+.deleted { 
+	text-decoration: line-through;
+	color:red
+}

@@ -1,0 +1,427 @@
+.developerDashboard {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.developerDashboard {
+	> .sidebar {
+		position: absolute;
+		top: 66px;
+		bottom: 0px;
+		left: 0px;
+		width: 0px;
+		border-right: 1px solid #E8E8E8;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		transition: width 0.3s;
+		-moz-transition: width 0.3s;
+		-webkit-transition: width 0.3s;
+		overflow: auto;
+		background: #FFF;
+	}
+	> .mainContainer {
+		position: absolute;
+		top: 66px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		background: #F1F1F1;
+		overflow: auto;
+		border-top: 1px solid #E8E8E8;
+		transition: left 0.3s;
+		-moz-transition: left 0.3s;
+		-webkit-transition: left 0.3s;
+		padding: 10px;
+	}
+	> .navBar {
+		background: #FFF;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		line-height: 40px;
+		padding: 10px 0px;
+		z-index: 3;
+	}
+}
+.developerDashboard.sidebarContainer.openSidebar {
+	> .sidebar {
+		width: 300px;
+		transition: width 0.3s;
+		-moz-transition: width 0.3s;
+		-webkit-transition: width 0.3s;
+	}
+	> .mainContainer {
+		left: 300px;
+		transition: left 0.3s;
+		-moz-transition: left 0.3s;
+		-webkit-transition: left 0.3s;
+	}
+}
+
+
+.developerDashboard .sidebar {
+	.selectionList {
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		padding-top: 10px;
+	}
+	.selectionList {
+		.listContent {
+			line-height: 16px;
+			padding: 10px 5px;
+			cursor: pointer;
+			border-right: 3px solid transparent;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			color: #5E6570;
+		}
+		.listContent .count {
+			float: right;
+			padding: 0px 5px;
+		}
+		.listContent .create,
+		.listContent .edit {
+			float: right;
+			width: 16px;
+			height: 16px;
+			background: url('%{media}/global/devIcons.svg') no-repeat center;
+			background-size: cover;
+			cursor: pointer;
+			opacity: 0.6;
+		}
+		.listContent .create {
+			background-position: 0px -64px;
+		}
+		.listContent .edit {
+			background-position: 0px -16px;
+		}
+		.listContent .create:hover,
+		.listContent .edit:hover {
+			opacity: 1;
+		}
+		.listContent:hover,
+		.listContent.selected {
+			background: #5E6570;
+			color: #FFF;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.listContent.new_bundle {
+			font-weight: bold;
+		}
+	}
+	.divider {
+	    	margin: 5px;
+	    	height: 1px;
+	    	background: #ccc;
+	}
+}
+
+.navBar .sideNav,
+.navBar .searchContainer {
+	float: left;
+}
+.navBar {
+	.bar {
+		overflow: auto;
+	}
+	.sideNav {
+		width: 300px;
+		overflow: auto;
+		padding: 13px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.sideNav {
+		.icon {
+			float: left;
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/developer/projects/iconSprite.svg') no-repeat center;
+			background-size: 20px;
+			background-position: 0px 0px;
+			overflow: hidden;
+			cursor: pointer;
+			opacity: 0.6;
+			margin-right: 10px;
+		}
+		.icon:hover {
+			opacity: 1;
+		}
+		.title {
+			float: left;
+			line-height: 20px;
+			margin: 0px;
+			color: rgb(31, 93, 144);
+			font-weight: normal;
+		}
+		.edit {
+			float: right;
+			margin-left: 10px;
+			cursor: pointer;
+			color: #555;
+			line-height: 20px;
+			font-size: 12px;
+		}
+		.edit:hover {
+			color: #C00403;
+		}
+	}
+	.searchContainer {
+		overflow: auto;
+		padding: 8px;
+	}
+	.searchContainer {
+		.searchInnerContainer {
+			background: #FFF;
+			overflow: auto;
+			border: 1px solid #CCC;
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+		}
+		.searchIcoContainer {
+			float: right;
+			width: 20px;
+			height: 20px;
+			padding: 4px;
+			cursor: pointer;
+		}
+		.searchIco {
+			width: 20px;
+			height: 20px;
+			background: url('%{media}/developer/projects/iconSprite.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -20px;
+			overflow: hidden;
+		}
+		.searchInput {
+			float: left;
+			line-height: 16px;
+			font-size: 12px;
+			padding: 6px;
+			border: none;
+			width: 450px;
+			outline: none;
+			color: #555;
+		}
+	}
+	.wbutton {
+		float: left;
+		margin: 8px 0px;
+		width: 150px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		background-color: #43B549;
+		border: 1px solid #43B549;
+		color: #FFF;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		cursor: pointer;
+		padding: 5px 10px;
+		line-height: 18px;
+		font-size: 12px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton:hover {
+		background: transparent;
+		color: #43B549;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.wbutton .ico {
+		float: left;
+		width: 18px;
+		height: 18px;
+		margin-right: 10px;
+		background: url('%{media}/global/devIcons_w.svg') no-repeat center;
+		background-size: cover;
+		background-position: 0px -72px;
+	}
+}
+.sidebarContainer.openSidebar .navBar .sideNav .icon {
+	opacity: 1;
+}
+
+
+
+
+
+
+.developerDashboard .contentMain {
+	.projectList {
+	 	overflow:auto;
+		margin:0;
+		padding:0;
+	}
+	.projectList {
+		.noProjects {
+			text-align: center;
+			padding: 5px 8px;
+			font-size: 14px;
+			margin-top: 50px;
+		}
+		.newProject {
+			text-align: center;
+			padding: 5px 8px;
+			font-size: 12px;
+			font-weight: bold;
+			margin-top: 30px;
+			cursor: pointer;
+		}
+	}
+}
+.developerDashboard .contentMain .projectList .projectBox {
+	margin: 0px;
+	float: left;
+	padding: 10px;
+	list-style-type:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer {
+	width: 250px;
+	background: #FFF;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border-left: 3px solid #777;
+}
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer {
+	a {
+		display: block;
+		overflow: auto;
+	}
+	.boxHeader {
+		line-height: 32px;
+		overflow: auto;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+	.imageBox {
+		float:left;
+		height: 32px;
+		width: 32px;
+		margin-right: 10px;
+		overflow: hidden;
+	}
+	.imageBox.noIcon {
+		background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat center;
+		background-size: cover;
+	}
+	.imageBox img {
+		height: inherit;
+		width: inherit;
+	}
+	.projectTitle {
+		margin: 0px;
+		font-size: 14px;
+		font-weight: normal;
+		color: #555;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.boxHeader:hover .projectTitle {
+		color: #C00403;
+	}
+	.pinfo {
+		margin: 0px;
+		font-size: 12px;
+		line-height: 16px;
+		font-weight: normal;
+		color: #777;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		padding: 5px 10px;
+	}
+	.pinfo .ico {
+		float: left;
+		margin-right: 10px;
+		width: 16px;
+		height: 16px;
+		background: url('%{media}/developer/icons/dashboard_icons.svg') no-repeat center;
+		background-size: cover;
+	}
+	.pinfo.team .ico {
+		background-position: 0px 0px;
+	}
+	.pinfo.ptype .ico {
+		background-position: 0px -16px;
+	}
+	.openProject {
+		float: right;
+	}
+	.openProject a {
+		color: green;
+	}
+	.projectDesc {
+		clear: both;
+		text-overflow: ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+	}
+	.boxActions {
+		overflow: auto;
+		clear: both;
+		padding: 5px;
+		margin-top: 30px;
+		background: #F8F9FB;
+	}
+	.boxActions .ba {
+		display: inline-block;
+		float: right;
+		padding: 5px 0px;
+		width: 50%;
+		text-align: center;
+		line-height: 16px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		cursor: pointer;
+		font-size: 10px;
+		color: #555;
+	}
+	.boxActions .ba a:hover {
+		color: #C00403;
+	}
+	.boxActions .ba a {
+		color: #555;
+	}
+}
+.developerDashboard .contentMain .projectList .projectBox.new .projectBoxContainer {
+	border-left: 3px solid #5FA344;
+}
+.developerDashboard .contentMain .projectList .projectBox.new .projectBoxContainer {
+	.boxActions .ba a:hover {
+		color: #5FA344;
+	}
+	.imageBox {
+		background: url('%{media}/developer/icons/button_add.svg') no-repeat;
+		background-position: 0px 0px;
+		background-size: cover;
+	}
+	.projectTitle {
+		cursor: pointer;
+	}
+}
+#teamChooserContainer {
+	display: none;
+}

@@ -1,0 +1,565 @@
+.developerDashboard {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+.developerDashboard > .sidebar {
+	position: absolute;
+	top: 66px;
+	bottom: 0px;
+	left: 0px;
+	width: 0px;
+	border-right: 1px solid #E8E8E8;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+	overflow: auto;
+	background: #FFF;
+}
+
+.developerDashboard > .mainContainer {
+	position: absolute;
+	top: 66px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: #F1F1F1;
+	overflow: auto;
+	border-top: 1px solid #E8E8E8;
+	transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+	padding: 10px;
+}
+
+.developerDashboard > .navBar {
+	background: #FFF;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.developerDashboard.sidebarContainer.openSidebar > .sidebar {
+	width: 300px;
+	transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	-webkit-transition: width 0.3s;
+}
+
+.developerDashboard.sidebarContainer.openSidebar > .mainContainer {
+	left: 300px;
+	transition: left 0.3s;
+	-moz-transition: left 0.3s;
+	-webkit-transition: left 0.3s;
+}
+.developerDashboard .sidebar .selectionList {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	padding-top: 10px;
+}
+.developerDashboard .sidebar .selectionList .listContent {
+	line-height: 16px;
+	padding: 10px 5px;
+	cursor: pointer;
+	border-right: 3px solid transparent;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	color: #5E6570;
+	font-size: 1em;
+}
+
+.developerDashboard .sidebar .selectionList .listContent .count {
+	float: right;
+	padding: 0px 5px;
+}
+
+.developerDashboard .sidebar .selectionList .listContent .create, .developerDashboard .sidebar .selectionList .listContent .edit {
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/global/devIcons.svg') no-repeat center;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+.developerDashboard .sidebar .selectionList .listContent:hover .create, .developerDashboard .sidebar .selectionList .listContent.selected .create, .developerDashboard .sidebar .selectionList .listContent:hover .edit, .developerDashboard .sidebar .selectionList .listContent.selected .edit {
+	background: url('%{media}/global/devIcons_w.svg') no-repeat;
+	background-size: cover;
+}
+
+.developerDashboard .sidebar .selectionList .listContent:hover .create, .developerDashboard .sidebar .selectionList .listContent.selected .create, .developerDashboard .sidebar .selectionList .listContent .create {
+	background-position: 0px -64px;
+}
+
+.developerDashboard .sidebar .selectionList .listContent:hover .edit, .developerDashboard .sidebar .selectionList .listContent.selected .edit, .developerDashboard .sidebar .selectionList .listContent .edit {
+	background-position: 0px -16px;
+}
+
+.developerDashboard .sidebar .selectionList .listContent .create:hover, .developerDashboard .sidebar .selectionList .listContent .edit:hover {
+	opacity: 1;
+}
+
+.developerDashboard .sidebar .selectionList .listContent:hover, .developerDashboard .sidebar .selectionList .listContent.selected {
+	background: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .sidebar .selectionList .listContent.new_bundle {
+	font-weight: bold;
+}
+
+.developerDashboard .sidebar .divider {
+    	margin: 5px;
+    	height: 1px;
+    	background: #ccc;
+}
+
+.navBar .sideNav,
+.navBar .searchContainer {
+	float: left;
+}
+.navBar .bar {
+	overflow: auto;
+}
+
+.navBar .sideNav {
+	width: 300px;
+	overflow: auto;
+	padding: 13px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.navBar .sideNav .icon {
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/developer/projects/iconSprite.svg') no-repeat center;
+	background-size: 20px;
+	background-position: 0px 0px;
+	overflow: hidden;
+	cursor: pointer;
+	opacity: 0.6;
+	margin-right: 10px;
+}
+
+.navBar .sideNav .icon:hover {
+	opacity: 1;
+}
+
+.navBar .sideNav .title {
+	float: left;
+	line-height: 20px;
+	margin: 0px;
+	color: #5E6570;
+	font-weight: normal;
+}
+
+.navBar .sideNav .edit {
+	line-height: 20px;
+	float: right;
+	cursor: pointer;
+}
+.navBar .searchContainer {
+	background: #FFF;
+	overflow: auto;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 8px;
+}
+
+.navBar .searchContainer .searchIco {
+	float: right;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/developer/projects/iconSprite.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -20px;
+	overflow: hidden;
+	margin: 4px;
+}
+
+.navBar .searchContainer .searchInput {
+	float: left;
+	line-height: 16px;
+	font-size: 12px;
+	padding: 6px;
+	border: none;
+	width: 120px;
+	outline: none;
+	color: #555;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navBar .searchContainer .searchInput:focus {
+	width: 300px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navBar .wbutton {
+	float: left;
+	margin: 8px 0px;
+	width: 150px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #43B549;
+	border: 1px solid #43B549;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 5px 10px;
+	line-height: 18px;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navBar .wbutton:hover {
+	background: #5E6570;
+	border-color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navBar .wbutton .ico {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	background: url('%{media}/global/devIcons_w.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -72px;
+}
+
+.navBar .plan {
+	float: right;
+	margin: 8px 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: 1px solid transparent;
+	color: #FFF;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: default;
+	padding: 5px 10px;
+	line-height: 18px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.navBar .plan.free {
+	background: #43B549;
+	border-color: #43B549;
+}
+
+.navBar .plan.basic {
+	background: #3CB0F7;
+	border-color: #3CB0F7;
+}
+
+.navBar .plan.premium {
+	background: #ed5e54;
+	border-color: #ed5e54;
+}
+
+.navBar .plan.enterprise {
+	background: #886389;
+	border-color: #886389;
+}
+
+.navBar .plan.editable {
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navBar .plan.editable:hover {
+	background: #5E6570;
+	border-color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.navBar .plan .ico {
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	background: url('%{media}/developer/planIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px 0px;
+}
+
+.navBar .plan.free .ico {
+	background-position: 0px -18px;
+}
+
+.sidebarContainer.openSidebar .navBar .sideNav .icon {
+	opacity: 1;
+}
+.developerDashboard .contentMain .projectList {
+ 	overflow:auto;
+	margin:0;
+	padding:0;
+}
+.developerDashboard .contentMain .projectList .noProjects {
+	text-align: center;
+	padding: 5px 8px;
+	font-size: 14px;
+	margin-top: 50px;
+}
+
+.developerDashboard .contentMain .projectList .newProject {
+	text-align: center;
+	padding: 5px 8px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.developerDashboard .contentMain .projectList .projectBox {
+	margin: 0px;
+	float: left;
+	padding: 10px;
+	list-style-type:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer {
+	width: 250px;
+	background: #FFF;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	border-left: 3px solid #777;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer:hover {
+	border-color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer a {
+	display: block;
+	overflow: auto;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxHeader {
+	line-height: 32px;
+	overflow: auto;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .imageBox {
+	float:left;
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .imageBox.noIcon {
+	background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .imageBox img {
+	height: inherit;
+	width: inherit;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .projectTitle {
+	margin: 0px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #5E6570;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxHeader:hover .projectTitle {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .pinfo {
+	margin: 0px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #777;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 5px 10px;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .pinfo .ico {
+	float: left;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/developer/icons/dashboard_icons.svg') no-repeat center;
+	background-size: cover;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .pinfo.team .ico {
+	background-position: 0px 0px;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .pinfo.ptype .ico {
+	background-position: 0px -16px;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .pinfo.prole .ico {
+	background-position: 0px -32px;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .openProject {
+	float: right;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .openProject a {
+	color: green;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .projectDesc {
+	clear: both;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxActions {
+	overflow: hidden;
+	clear: both;
+	padding: 5px;
+	margin-top: 30px;
+	background: #F8F9FB;
+	height: 26px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer:hover .boxActions {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxActions .ba {
+	display: inline-block;
+	float: left;
+	padding: 5px 0px;
+	width: 50%;
+	text-align: center;
+	line-height: 16px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxActions .ba a {
+	color: #5E6570;
+	overflow: hidden;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer:hover .boxActions .ba a {
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxActions .ba a:hover {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerDashboard .contentMain .projectList .projectBox .projectBoxContainer .boxActions .ba a .slico {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin: 0px 5px;
+	background: url('%{media}/developer/projects/link.svg') no-repeat center;
+	background-size: cover;
+}
+
+.developerDashboard .contentMain .projectList .projectBox.new .projectBoxContainer {
+	border-left: 3px solid #5FA344;
+}
+.developerDashboard .contentMain .projectList .projectBox.new .projectBoxContainer .boxActions .ba a:hover {
+	color: #5FA344;
+}
+
+.developerDashboard .contentMain .projectList .projectBox.new .projectBoxContainer .imageBox {
+	background: url('%{media}/developer/icons/button_add.svg') no-repeat;
+	background-position: 0px 0px;
+	background-size: cover;
+}
+
+.developerDashboard .contentMain .projectList .projectBox.new .projectBoxContainer .projectTitle {
+	cursor: pointer;
+}
+
+#teamChooserContainer {
+	display: none;
+}

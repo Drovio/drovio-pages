@@ -1,0 +1,47 @@
+.apiKeyDialogContainer {
+	& {
+		min-width: 600px;
+		padding: 20px;
+		background: #FFF;
+		border: 1px solid #555459;
+		overflow: auto;
+	}
+	h2.hd {
+		font-size: 13px;
+		color: #5E6570;
+	}
+	.header {
+		& {
+			color: #5E6570;
+			margin: 10px;
+			overflow: auto;
+		}
+		h2.hd {
+			line-height: 40px;
+			font-size: 1.2em;
+		}
+		.close_button {
+			width: 20px;
+			height: 20px;
+			margin: 10px 0px;
+			float: right;
+			cursor: pointer;
+			background: url('%{media}/global/closeX.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -20px;
+			opacity: 0.5;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.close_button:hover {
+			opacity: 1;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+	}
+	.basicKeyInfo {
+		padding: 10px;
+	}
+}

@@ -1,0 +1,75 @@
+.registrationBar {
+	padding: 5px 20px;
+	background-color: rgba(166, 166, 166, 0.1);
+	border-bottom: 1px solid rgba(166, 166, 166, 0.3);
+	text-align: right;
+	overflow: auto;
+}
+.registrationBar .regContainer {
+	float: right;
+}
+.registrationBar h4 {
+	float: left;
+	font-weight: normal;
+}
+.registrationBar .regBtn {
+	float: left;
+	margin: 14px;
+	font-weight: bold;
+	color: rgb(192, 4, 3);
+	font-size: 13px;
+}
+.devCenterPage .globalContainer {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+	padding-bottom: 30px;
+	overflow: auto;
+	clear: both;
+}
+.devCenterPage .globalContainer .infoContainer {
+	overflow: auto;
+	float: left;
+	max-width: 50%;
+}
+.devCenterPage .globalContainer .infoContainer.cntr {
+	float: none;
+	margin: 0 auto;
+}
+.devCenterPage .logoContainer {
+	background: url(/Library/Media/images/pages/developer/DevCenter.png) no-repeat 0px 0px;
+	width: 500px;
+	height: 100px;
+	margin: 0 auto;
+}
+.devCenterPage .connectContainer {
+	padding: 5px;
+	float: right;
+	max-width: 50%;
+	background: rgba(166, 166, 166, 0.1);
+	border: 1px solid rgba(166, 166, 166, 0.3);
+}
+.devCenterPage h1.infoTitle {
+	font-size: 16px;
+	text-align: center;
+}
+.devCenterPage h3.boxTitle {
+	color: rgba(166, 166, 166, 1);
+	border-bottom: 1px solid rgb(200, 200, 200);
+}
+.devCenterPage a.forgotP {
+	color: rgb(192, 4, 3);
+	font-weight: bold;
+}
+.devCenterPage .devPrograms {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.devCenterPage .devPrograms li {
+	padding: 10px 0px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.devCenterPage .devPrograms a {
+	color: rgb(192, 4, 3);
+}

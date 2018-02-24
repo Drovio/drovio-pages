@@ -1,0 +1,12 @@
+.projectSettings{
+	padding:10px;
+}
+
+.projectSettings .settingsContainer .header{
+	margin:10px 0px;
+	font-size:12px;
+	font-weight: bold;
+	color:#989898;
+	border-bottom:1px solid #ccc;
+	text-indent:5px;
+}

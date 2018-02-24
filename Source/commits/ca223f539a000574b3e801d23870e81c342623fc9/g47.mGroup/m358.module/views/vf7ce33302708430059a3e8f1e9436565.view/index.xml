@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vf7ce33302708430059a3e8f1e9436565"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="API" object="Model"></dependency><dependency library="DEV" object="Projects"></dependency><dependency library="ESS" object="Environment"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="applicationPlayer">169</module><module id="appCenter">92</module></inner></view>

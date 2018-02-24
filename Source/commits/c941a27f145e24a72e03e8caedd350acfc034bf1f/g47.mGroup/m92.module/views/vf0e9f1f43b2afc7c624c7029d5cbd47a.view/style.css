@@ -1,0 +1,107 @@
+.featuredApps {
+	overflow: auto;
+}
+
+.featuredApps .middleContainer {
+	margin: 10px 20px;
+	overflow: auto;
+}
+
+.featuredApps .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.featuredApps .whiteBox {
+	clear: both;
+	overflow: auto;
+}
+
+.featuredApps .appTile {
+	float: left;
+	width: 270px;
+	margin: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.featuredApps .appTile:hover {
+	border-color: #999;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.featuredApps .appTile .bmain {
+	display: block;
+	overflow: auto;
+	cursor: pointer;
+	padding: 10px;
+}
+.featuredApps .appTile .bmain .appIcon {
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+}
+
+.featuredApps .appTile .bmain .appIcon img {
+	width: inherit;
+	height: inherit;
+}
+
+.featuredApps .appTile .bmain .appInfo .appTitle {
+	display: block;
+	height: 20px;
+	font-weight: normal;
+	font-size: 14px;
+	cursor: pointer;
+ 	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 10px;
+	color: #5E6570;
+}
+
+.featuredApps .appTile .appControls {
+	margin-bottom: 10px;
+	overflow: auto;
+}
+
+.featuredApps .appTile .appControls a.playBtn {
+	display: block;
+	width: 80%;
+	margin: 0px 10%;
+	border: 1px solid #3CB0F7;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 5px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	color: #3CB0F7;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+}
+
+.featuredApps .appTile .appControls a.playBtn:hover {
+	background: #3CB0F7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	color: #FFF;
+}

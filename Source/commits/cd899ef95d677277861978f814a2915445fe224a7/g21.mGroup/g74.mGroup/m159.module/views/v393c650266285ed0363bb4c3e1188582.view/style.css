@@ -1,0 +1,54 @@
+.mySettings {
+	min-width: 700px;
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.mySettings .pageSidebar {
+	width: 20%;
+	background-color: inherit;
+	float: left;
+}
+.mySettings .settingsContainer {
+	width: 80%;
+	padding: 10px;
+	min-height: 400px;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	float: right;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#settingsMenu {
+	margin-top: 15px;
+}
+.mySettingsPage .side_header {
+	color: #777;
+	padding: 5px;
+	margin-top: 10px;
+	border-bottom: 1px solid #CCC;
+}
+.mySettingsPage .side_menu {
+	list-style-type: none;
+	margin: 0px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+.mySettingsPage .side_menu .menu_item {
+	padding: 10px;
+	border-right: 3px solid transparent;
+	color: #555;
+	cursor: pointer;
+	display: block;
+}
+.mySettingsPage .side_menu .menu_item:hover {
+	background: #FAFAFA;
+	border-right: 3px solid #CCC;
+}
+.mySettingsPage .side_menu .menu_item.selected {
+	background: #EEE;
+	border-right: 3px solid #C00403;
+}

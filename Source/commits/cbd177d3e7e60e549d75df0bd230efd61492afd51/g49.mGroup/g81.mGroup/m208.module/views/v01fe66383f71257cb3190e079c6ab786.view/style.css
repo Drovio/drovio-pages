@@ -1,0 +1,127 @@
+.devControlPanel {
+	max-height: 400px;
+}
+.devControlPanel .devPanel {
+	overflow: auto;
+}
+.devControlPanel .devPanel .feedback {
+	float: right;
+}
+.devControlPanel .devPanel .feedback .title {
+	margin: 0px;
+	padding: 8px 5px;
+	margin-right: 20px;
+	cursor: pointer;
+	color: #999;
+}
+.devControlPanel .devPanel .feedback .title:hover {
+	color: #C00403;
+}
+.devControlPanel .devSection {
+	min-height: 200px;
+	max-height: 400px;
+}
+.devControlPanel .devSection .title {
+	margin: 0px;
+	padding: 8px 5px;
+}
+.devControlPanel .projects .projectList {
+	overflow: auto;
+	clear: both;
+	height: 350px;
+	border: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.devControlPanel .projects .projectList .hpanel {
+	height: 100%;
+	overflow: auto;
+	float: left;
+	position: relative;
+}
+.devControlPanel .projects .projectList .hpanel.list {
+	width: 35%;
+	border-right: 1px solid #CCC;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.devControlPanel .projects .projectList .hpanel.configurators {
+	width: 65%;
+}
+.devControlPanel .projects .projectRow {
+	padding: 3px;
+	clear: both;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	cursor: pointer;
+}
+.devControlPanel .projects .projectRow.selected {
+	background: #EEE;
+}
+.devControlPanel .projects .projectRow .pTitle {
+	overflow: auto;
+}
+.devControlPanel .projects .projectRow .pTitle .icon {
+	float: left;
+	margin: 3px;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	opacity: 0.8;
+}
+.devControlPanel .projects .projectRow.selected .pTitle .icon {
+	opacity: 1;
+}
+.devControlPanel .projects .projectRow .pTitle .icon.noIcon {
+	background: url('%{media}/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+.devControlPanel .projects .projectRow .pTitle .icon img {
+	height: inherit;
+	width: inherit;
+}
+.devControlPanel .projects .projectRow .pTitle .pointer {
+	float: right;
+	margin: 3px;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/global/pointer.svg') center no-repeat;
+	vertical-align: middle;
+	transform-origin:50% 50%;
+	transition: transform 100ms;
+	-moz-transition: -moz-transform 100ms;
+	-moz-transform-origin:50% 50%;
+	-webkit-transition: -webkit-transform 100ms;
+	-webkit-transform-origin:50% 50% 0;
+	-o-transition: -o-transform 100ms;
+	-o-transform-origin:50% 50%;
+	opacity: 0;
+}
+.devControlPanel .projects .projectRow:hover .pTitle .pointer {
+	opacity: 0.5;
+}
+.devControlPanel .projects .projectRow.selected .pTitle .pointer {
+	opacity: 1;
+}
+.devControlPanel .projects .projectRow .pTitle .title {
+	margin: 0px;
+	padding: 3px;
+	line-height: 16px;
+	float: left;
+	color: #656565;
+}
+.devControlPanel .projects .projectRow.selected .pTitle .title,
+.devControlPanel .projects .projectRow:hover .pTitle .title {
+	color: #C00403;
+}
+.devControlPanel .projects .projectList .hpanel.configurators .configLoader:empty {
+	background: #FFF url('%{media}/global/splash.png') no-repeat center;
+	background-size: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}

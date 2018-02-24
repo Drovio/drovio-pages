@@ -1,0 +1,163 @@
+.accountInfo {
+	& {
+		min-width: 200px;
+		padding: 10px;
+		overflow: auto;
+	}
+	.profileSide {
+		& {
+			width: 140px;
+			float: left;
+		}
+		.profileImage {
+			display: block;
+			width: 140px;
+			height: 140px;
+			opacity: 0.8;
+			cursor: pointer;
+		}
+		.profileImage:empty {
+			background: url('%{media}/global/profile.svg') no-repeat center;
+			background-size: 140px;
+		}
+		.profileImage:hover {
+			opacity: 1;
+		}
+		.profileImage img {
+			width: inherit;
+			height: inherit;
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+		}
+		.shortcuts {
+			width: 140px;
+			overflow: auto;
+			margin-top: 20px;
+			padding: 0px 10px;
+		}
+		.shortcuts .scitem {
+			display: block;
+			width: 24px;
+			height: 24px;
+			margin: 0px 12px;
+			cursor: pointer;
+			float: left;
+			opacity: 0.7;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.shortcuts .scitem:first-child {
+			margin-left: 0px;
+		}
+		.shortcuts .scitem:last-child {
+			margin-right: 0px;
+		}
+		.shortcuts a.scitem {
+			background: url('%{media}/profile/tlbIcons.svg') no-repeat center;
+			background-size: cover;
+		}
+		.shortcuts a.scitem.profile {
+			background-position: 0px 0px;
+		}
+		.shortcuts a.scitem.settings {
+			background-position: 0px -24px;
+		}
+		.shortcuts .scitem.logout .logoutButton {
+			display: block;
+			width: 24px;
+			height: 24px;
+			cursor: pointer;
+			background: url('%{media}/profile/tlbIcons.svg') no-repeat center;
+			background-size: cover;
+			background-position: 0px -48px;
+			border: none;
+			padding: 0px;
+			margin: 0px;
+			outline: none;
+		}
+		.shortcuts .scitem:hover {
+			opacity: 1;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+	}
+	.profileMenu {
+		& {
+			list-style-type: none;
+			padding: 0px;
+			margin: 0px;
+			float: right;
+			padding-left: 20px;
+			min-width: 180px;
+		}
+		.title {
+			margin: 0px;
+			font-size: 11px;
+			font-weight: normal;
+			color: #999;
+			padding: 3px 0px;
+		}
+		.mitem {
+			padding: 3px 8px;
+			display: block;
+			cursor: pointer;
+			color: #555459;
+			font-size: 12px;
+		}
+		.mitem:hover {
+			background: #EFEFEF;
+		}
+		.mitem.selected {
+			background: #EFEFEF;
+			font-weight: bold;
+		}
+		.mitem.default {
+			border-left: 3px solid #999;
+			padding-left: 5px;
+		}
+		.mitem a {
+			display: block;
+			color: #555459;
+		}
+		.mseparator {
+			height: 1px;
+			background-color: #CCC;
+			margin: 5px 0px;
+		}
+		.teams .list {
+			max-height: 150px;
+			overflow: auto;
+		}
+	}
+	.accountInfo .logoutButton {
+		background: none;
+		border: none;
+		cursor: pointer;
+		padding: 0;
+		margin: 0;
+		font-size: 11px;
+		width: 98%;
+		text-align: left;
+		font-size: 12px;
+		color: #555459;
+	}
+}
+@media screen and (max-width: 500px) {
+	.accountInfo {
+		.profileSide {
+			width: 140px;
+			float: none;
+			margin: 0 auto;
+		}
+		.profileMenu {
+			float: none;
+			clear: both;
+			padding: 0px;
+			margin: 0 auto;
+			margin-top: 15px;
+		}
+	}
+}

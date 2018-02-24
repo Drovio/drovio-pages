@@ -1,0 +1,7 @@
+.contentGridListContainer {
+	height: 200px;
+}
+
+.contentGridListContainer.big {
+	height: 500px;
+}

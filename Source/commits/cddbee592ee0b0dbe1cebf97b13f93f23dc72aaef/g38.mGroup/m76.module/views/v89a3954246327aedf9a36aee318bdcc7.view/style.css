@@ -1,0 +1,102 @@
+.helpCenter .header {
+	height: 300px;
+	border-bottom: 1px solid #CCC;
+}
+.helpCenter .header .content {
+	padding: 0px 30px;
+}
+.helpCenter .header h1.title {
+	font-size: 42px;
+	font-weight: normal;
+	color: #C00403;
+	margin-bottom: 20px;
+}
+.helpCenter .header h2.subtitle {
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+.helpCenter .header .description {
+	line-height: 18px;
+	font-size: 13px;
+}
+.helpCenter .logoImg {
+	float: right;
+	width: 250px;
+	height: 250px;
+	margin: 0px 50px;
+	background: url('%resources%/helpcenter/help_logo_300.png') no-repeat center;
+	background-size: 200px 200px;
+}
+.helpCenter h2.title {
+	color: blue;
+}
+.helpCenter .trending {
+	border-bottom: 1px solid #CCC;
+}
+.helpCenter .trending .categories {
+	overflow: auto;
+}
+.helpCenter .trending .trendCategory {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.helpCenter .trending .trendCategory:hover {
+	color: #C00403;
+}
+.helpCenter .trending .trendCategory .trendImage {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	background: #EEE;
+}
+.helpCenter .trending .trendCategory .trendImage {
+	background: url('%resources%/helpcenter/trendingCategoriesSprite.png') no-repeat center;
+}
+.helpCenter .trending .trendCategory .trendImage.starting {
+	background-position: 0px 0px;
+}
+.helpCenter .trending .trendCategory .trendImage.security {
+	background-position: 0px -75px;
+}
+.helpCenter .trending .trendCategory .trendImage.social {
+	background-position: 0px -150px;
+}
+.helpCenter .trending .trendCategory .trendImage.international {
+	background-position: 0px -225px;
+}
+.helpCenter .trending .trendCategory .trendImage.new {
+	background-position: 0px -300px;
+}
+.helpCenter .trending .trendCategory .trendImage.business {
+	background-position: 0px -375px;
+}
+.helpCenter .trending .trendCategory .trendImage.apps {
+	background-position: 0px -450px;
+}
+.helpCenter .trending .trendCategory .trendImage.issues {
+	background-position: 0px -525px;
+}
+.helpCenter .trending .more {
+	margin-top: 20px;
+}
+.helpCenter .trending .more a {
+	color: #999;
+}
+.helpCenter .trending .more a:hover {
+	color: #000;
+}
+.helpCenter .links {
+	padding: 0px 20px;
+}
+.helpCenter .links a {
+	color: #545454;
+}
+.helpCenter .links a:hover {
+	color: #000;
+}

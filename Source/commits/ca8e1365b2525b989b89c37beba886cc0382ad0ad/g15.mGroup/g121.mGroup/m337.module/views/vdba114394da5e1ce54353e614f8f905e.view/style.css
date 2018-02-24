@@ -1,0 +1,90 @@
+.folderViewContainer, 
+.folderView {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.folderView .toolbar {
+	border-bottom: 1px solid #CCC;
+	width: 100%;
+	line-height: 31px;
+	padding: 5px;
+	font-size: 14px;
+	color: #555;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow: auto;
+}
+.folderView .toolbar .path {
+	float: left;
+}
+.folderView .toolbar .controls {
+	float: right;
+}
+.folderView .toolbar .controls .ctrl {
+	float: left;
+	font-size: 12px;
+	margin: 0px 10px;
+	cursor: pointer;
+}
+.folderView .toolbar .controls .ctrl:hover {
+	color: #C00403;
+}
+.folderView .fpool {
+	position: absolute;
+	top: 42px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+}
+.folderView .fpool .tileContainer {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	cursor: pointer;
+}
+.folderView .fpool .tile {
+	display: block;
+	height: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	overflow: hidden;
+}
+.folderView .fpool .tileContainer:hover .tile {
+	background: #EEE;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.folderView .fpool .tileContainer:hover .title {
+	color: #C00403;
+}
+.folderView .fpool .tile .ico {
+	width: 30px;
+	height: 30px;
+	margin: 10px auto;
+	background: url('%{media}/global/fileThumbs.svg') no-repeat center;
+	background-size: cover;
+}
+.folderView .fpool .tile.folder .ico {
+	background-position: 0px -90px;
+}
+.folderView .fpool .tile.page .ico {
+	background-position: 0px -150px;
+}
+.folderView .fpool .tile .title {
+	text-align: center;
+	color: #555;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}

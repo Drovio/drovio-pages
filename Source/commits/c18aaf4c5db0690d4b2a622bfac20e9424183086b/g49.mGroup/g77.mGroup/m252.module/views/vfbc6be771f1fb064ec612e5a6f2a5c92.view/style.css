@@ -1,0 +1,67 @@
+.translationContent {
+	padding: 5px;
+}
+.translationContent .header {
+	color: #777;
+	font-weight: normal;
+	border-bottom: 1px solid #CCC;
+	padding: 3px 5px;
+}
+
+
+.translationContent .tRow {
+	clear: both;
+}
+.translationContent .tRow .tHead {
+	border-bottom: 1px solid #CCC;
+	color: #545454;
+	line-height: 24px;
+	padding: 0px 5px;
+	overflow: auto;
+}
+.translationContent .tRow .tHead .ltVal {
+	float: left;
+}
+.translationContent .tRow .tHead .rgt {
+	float: right;
+	overflow: auto;
+}
+.translationContent .tRow .tHead .trimg {
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+.translationContent .tRow .tHead .rgt .ico {
+	float: right;
+	width: 24px;
+	height: 24px;
+	background: url('%resources%/developer/projects/sectionSprite.svg') no-repeat;
+	background-size: cover;
+	background-position: 0px -312px;
+	opacity: 0.7;
+	display: none;
+}
+.translationContent .tRow .tHead .rgt .status {
+	float: right;
+	cursor: pointer;
+	display: block;
+	color: #999;
+}
+.translationContent .tRow.locked .rgt .ico {
+	display: block;
+}
+.translationContent .tRow .tContent {
+	display: none;
+	padding: 5px;
+}
+.translationContent .tRow.open .tContent {
+	display: block
+}
+.translationContent .tRow.open {
+	border: 1px solid #999;
+	border-left: 2px solid #999;
+}
+.translationContent .tRow.open .tHead {
+	background-color: #EFEFEF;
+}

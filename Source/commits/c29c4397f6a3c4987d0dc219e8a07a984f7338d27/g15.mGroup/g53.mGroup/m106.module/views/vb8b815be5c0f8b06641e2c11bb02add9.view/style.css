@@ -1,0 +1,81 @@
+.debuggerControlPanel {
+	height: 400px;
+}
+#testerController {
+	overflow: auto;
+}
+.cPanel {
+	float: left;
+}
+#testerController > #testerConfig {
+	clear: both;
+	width: 50%;
+	padding: 5px;
+}
+#packageList {
+	height: 200px;
+}
+.debuggerControlPanel .switchRow {
+	width: auto;
+	display: block;
+	overflow: auto;
+	padding: 5px;
+	min-width: 200px;
+}
+.switchRow > span {
+	float: left;
+	min-width: 150px;
+	padding-right: 10px;
+}
+.switchRow > .uiSwitchButton {
+	float: right;
+}
+
+#loggerDataContainer {
+	clear: both;
+	width: 50%;
+	padding: 5px;
+	overflow: auto;
+}
+#resourceProfiler {
+	padding: 10px;
+}
+#resourceProfiler .resourceListContainer {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+}
+#resourceProfiler .resourceListContainer .cssResources {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+
+#resourceProfiler .resourceListContainer .bootResource {
+	list-style: none;
+	padding: 3px;
+	margin: 0px;
+	line-height: 16px;
+}
+#resourceProfiler .resourceListContainer .bootResource:nth-child(even) {
+	background-color: #EEE;
+}
+.bootResource .rsrcIco {
+	width: 5%;
+	display: inline-block;
+	float: left;
+	height: 16px;
+}
+#resourceProfiler .resourceListContainer .cssResources .bootResource .rsrcIco {
+	background: url('/Library/Media/images/icons/16x16/moduleCSS.png') no-repeat center;
+}
+#resourceProfiler .resourceListContainer .jsResources .bootResource .rsrcIco {
+	background: url('/Library/Media/images/icons/16x16/moduleJS.png') no-repeat center;
+}
+.bootResource .rsrcUrl {
+	width: 75%;
+	display: inline-block;
+}
+.bootResource .rsrcReload, .bootResource .rsrcRemove {
+	width: 10%;
+	color: blue;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}

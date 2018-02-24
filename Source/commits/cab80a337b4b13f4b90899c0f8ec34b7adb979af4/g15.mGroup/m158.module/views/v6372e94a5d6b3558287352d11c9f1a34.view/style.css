@@ -1,0 +1,49 @@
+.developerHomePage .projectBox {
+	width: 100%;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	padding: 5px;
+	box-sizing: border-box;
+	margin: 5px 0px;
+	overflow: auto;
+}
+.developerHomePage .projectBox .boxControls {
+	float: right;
+	height: 34px;
+	box-sizing: border-box;
+}
+.developerHomePage .boxCtrl.edit {
+	background-position: -48px 0px;
+}
+.developerHomePage .boxCtrl.vcs {
+	background-position: -24px 0px;
+}
+.developerHomePage .boxCtrl.play {
+	background-position: 0px 0px;
+}
+.developerHomePage .boxCtrl {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	margin: 5px;
+	background: url(/Library/Media/images/pages/developer/AppTileIcons.svg) no-repeat center;
+}
+
+.developerHomePage .projectBox .boxTitle {
+	color: rgb(192, 4, 3);
+}
+.developerHomePage .projectBox .subBox {
+	width: 100%;
+	border-top: 1px solid rgba(166, 166, 166, 0.3);
+	padding: 5px 25px;
+	box-sizing: border-box;
+	margin: 5px auto;
+	overflow: auto;
+}
+.developerHomePage .subBox .subControls {
+	float: right;
+	height: 34px;
+	box-sizing: border-box;
+}
+a.extra {
+	color: rgb(100, 100, 100);
+}

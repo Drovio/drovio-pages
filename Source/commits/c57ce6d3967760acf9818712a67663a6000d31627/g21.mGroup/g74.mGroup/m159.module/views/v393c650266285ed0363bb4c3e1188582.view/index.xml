@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v393c650266285ed0363bb4c3e1188582"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="ESS" object="Protocol"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="generalSettings">160</module><module id="securitySettings">161</module><module id="keySettings">317</module><module id="managedAccounts">328</module><module id="personalSettings">160</module><module id="accountSettings">329</module></inner></view>

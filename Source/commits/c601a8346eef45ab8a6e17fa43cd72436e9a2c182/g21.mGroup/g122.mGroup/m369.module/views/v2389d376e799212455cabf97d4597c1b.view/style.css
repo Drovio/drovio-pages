@@ -1,0 +1,53 @@
+.myInvitationsContainer {
+	padding: 20px 10px;
+}
+.myInvitations h2.hd {
+	font-size:14px;
+	text-align:center;
+	color:#555;
+	margin-top:50px;
+	font-weight:normal;
+}
+
+.myInvitations .ivrow {
+	overflow: auto;
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+}
+
+.myInvitations .ivrow:last-child {
+	border-bottom: none;
+}
+
+.myInvitations .ivrow:hover {
+	background: #EFEFEF;
+}
+
+.myInvitations .ivrow .iv {
+	float: left;
+}
+
+.myInvitations .ivrow .iv.ivn {
+	width: 50%;
+	line-height: 18px;
+}
+
+.myInvitations .ivrow .iv.action {
+	width: 25%;
+	text-align: right;
+}
+
+.myInvitations .ivrow .act_button {
+	background: none;
+	border: none;
+	color: rgb(31, 93, 144);
+	outline: none;
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.myInvitations b {
+	font-weight: bold;
+}

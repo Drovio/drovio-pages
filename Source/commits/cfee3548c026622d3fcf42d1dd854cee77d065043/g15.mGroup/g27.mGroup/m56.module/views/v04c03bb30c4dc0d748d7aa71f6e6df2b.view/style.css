@@ -1,0 +1,39 @@
+.sdkLibraryManager .sdkObjectViewer {
+	height: 100%;
+}
+
+.sdkLibraryManager .sdkObjectViewer .deprecatedObject {
+	color:rgba(0, 0, 0, 0.2);
+}
+
+.sdkLibraryManager .sdkObjectViewer .undocumentedObject {
+	font-weight: bold;
+}
+
+.sdkLibraryManager .sdkObjectViewer .updatedObject {
+	font-style:italic;
+}
+
+.sdkLibraryManager .sdkObjectViewer .sdkLegend {
+	position: absolute;
+	top: 40px;
+	right: 31px;
+	background: rgba(255, 255, 255, 0.45);
+	opacity:0;
+	transition: opacity 350ms 500ms;
+	-webkit-transition: opacity 350ms 500ms;
+	padding:3px;
+	pointer-events: none;
+	box-shadow: 0px 0px 1px #999;
+}
+
+.sdkLibraryManager .sdkObjectViewer .sdkLegend .legendEntry {
+	display:block;
+	padding:3px;
+}
+
+.sdkLibraryManager .sdkObjectViewer:hover .sdkLegend {
+	opacity:1;
+	-webkit-transition: opacity 350ms;
+	transition: opacity 350ms;
+}

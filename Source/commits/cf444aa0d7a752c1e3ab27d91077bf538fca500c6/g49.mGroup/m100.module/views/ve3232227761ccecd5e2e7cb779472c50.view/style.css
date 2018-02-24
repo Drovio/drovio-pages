@@ -1,0 +1,288 @@
+.developerPage {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(239, 242, 242);
+}
+.developerPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.developerPage section.main {
+	width: 100%;
+	height: 800px;
+	position: relative;
+	color: #FFF;
+}
+.developerPage section.main .dev .middleContainer {
+	padding-top: 80px;
+}
+.developerPage section.main .dev {
+	height: 100%;
+	background: rgba(31, 92, 143, 0.7) url('%resources%/frontend/fpattern2.svg');
+}
+.developerPage section.main .dev .fRight {
+	width: 70%;
+	float: right;
+	overflow: auto;
+}
+
+.developerPage section.main .dev .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.developerPage section.main .dev .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+}
+.developerPage section.main .dev .slideshow {
+	width: 1000px;
+	margin: 0px auto;
+	margin-top: 50px;
+	height: 450px;
+}
+.developerPage section.main .dev .slideshow .arrow {
+	width: 150px;
+	height: 100px;
+	margin-top: 175px;
+	float: left;
+	cursor: pointer;
+	opacity: 0.7;
+}
+.developerPage section.main .dev .slideshow .arrow:hover {
+	opacity: 1;
+}
+.developerPage section.main .dev .slideshow .arrow.lft {
+	background: url('%resources%/developer/slides/arrow.svg') no-repeat center;
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	background-size: contain;
+}
+.developerPage section.main .dev .slideshow .arrow.rgt {
+	background: url('%resources%/developer/slides/arrow.svg') no-repeat center;
+	background-size: contain;
+}
+.developerPage section.main .dev .slideshow .slideContainer {
+	width: 700px;
+	height: 100%;
+	margin: 0 auto;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	float: left;
+	position: relative;
+}
+.developerPage section.main .dev .slideshow .slide {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 0;
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	box-shadow: 0px 0px 15px #555;
+	-webkit-box-shadow: 0px 0px 15px #555;
+	-moz-box-shadow: 0px 0px 15px #555;
+	
+}
+.developerPage section.main .dev .slideshow .slide .hd {	font-size: 24px;
+	text-align: right;
+	color: #555;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+.developerPage section.main .dev .slideshow .slide.active {
+	z-index: 1;
+	opacity: 1;
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+}
+.developerPage section.main .dev .slideshow .slide.sl1 {
+	width: inherit;
+	height: inherit;
+	background: url('%resources%/developer/slides/screen1.png') no-repeat center;
+	background-size: cover;
+}
+.developerPage section.main .dev .slideshow .slide.sl2 {
+	width: inherit;
+	height: inherit;
+	background: url('%resources%/developer/slides/screen2.png') no-repeat center;
+	background-size: cover;
+}
+.developerPage section.main .dev .slideshow .slide.sl3 {
+	width: inherit;
+	height: inherit;
+	background: url('%resources%/developer/slides/screen3.png') no-repeat center;
+	background-size: cover;
+}
+.developerPage section.main .dev .slideshow .slide.sl4 {
+	width: inherit;
+	height: inherit;
+	background: url('%resources%/developer/slides/screen4.png') no-repeat center;
+	background-size: cover;
+}
+.developerPage section.main .dev .slideshow .bullets {
+	clear: both;
+	width: 100px;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+.developerPage section.main .dev .slideshow .bullets .bull {
+	width: 10px;
+	height: 10px;
+	background: #FFF;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: 10px auto;
+	display: inline-block;
+	opacity: 0.4;
+	cursor: pointer;
+	transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+}
+.developerPage section.main .dev .slideshow .bullets .bull:hover,
+.developerPage section.main .dev .slideshow .bullets .bull.active {
+	opacity: 1;
+}
+.developerPage section.main .dev .slideshow .bullets .bull.active {
+	transition: opacity .3s ease-out;
+	-webkit-transition: opacity .3s ease-out;
+	-moz-transition: opacity .3s ease-out;
+}
+.developerPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.developerPage .navBar .navigation a {
+	color: #FFF !important;
+}
+.developerPage section.banner {
+	width: 100%;
+	position: relative;
+	padding: 50px 0px;
+}
+.developerPage section.banner .title {
+	font-weight: 100;
+}
+.developerPage section.banner h1.title {
+	font-size: 28px;
+	text-align: center;
+}
+.developerPage section.banner .imageContainer {
+	width: 250px;
+	height: 250px;
+	margin: 30px;
+	border: 1px solid #555;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	box-shadow: 0px 0px 10px #999;
+	-webkit-box-shadow: 0px 0px 10px #999;
+	-moz-box-shadow: 0px 0px 10px #999;
+}
+.developerPage section.banner .ban_desc {
+	overflow: auto;
+	padding: 50px 40px;
+	color: #C00403;
+}
+.developerPage section.banner .desc {
+	font-weight: 100;
+	font-size: 16px;
+	line-height: 30px;
+	color: #707070;
+}
+.developerPage section.banner.apps .imageContainer {
+	background: #FFF url('%resources%/developer/features/apps.png') no-repeat center;
+	background-size: contain;
+}
+.developerPage section.banner.websites .imageContainer {
+	background: #FFF url('%resources%/developer/features/websites.png') no-repeat center;
+	background-size: contain;
+}
+.developerPage section.banner.webcomp .imageContainer {
+	background: #FFF url('%resources%/developer/features/web_components.png') no-repeat center;
+	background-size: contain;
+}
+.developerPage section.banner.translator .imageContainer {
+	background: #FFF url('%resources%/developer/features/translator.png') no-repeat center;
+	background-size: contain;
+}
+.developerPage section.banner.lft .imageContainer {
+	float: left;
+}
+.developerPage section.banner.rgt .imageContainer {
+	float: right;
+}
+
+.developerPage section.ftr .features .fgrid {
+	width: 999px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.developerPage section.ftr .features .fgrid .gridrow {
+	overflow: auto;
+}
+.developerPage section.ftr .features .fItem {
+	float: left;
+	width: 333px;
+	height: 250px;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding: 10px;
+	overflow: auto;
+}
+.developerPage section.ftr .features .fItem .ico {
+	width: 75px;
+	height: 75px;
+	background: #FFF url('%resources%/developer/featureSprite_75.png');
+	background-size: cover;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	opacity: 0.7;
+	margin: 10px auto;
+}
+.developerPage section.ftr .features .fItem.values .ico {
+	background-position: 0px 0px;
+}
+.developerPage section.ftr .features .fItem.web .ico {
+	background-position: 0px -75px;
+}
+.developerPage section.ftr .features .fItem.projdev .ico {
+	background-position: 0px -150px;
+}
+.developerPage section.ftr .features .fItem.space .ico {
+	background-position: 0px -225px;
+}
+.developerPage section.ftr .features .fItem.apps .ico {
+	background-position: 0px -300px;
+}
+.developerPage section.ftr .features .fItem.projft .ico {
+	background-position: 0px -376px;
+}
+.developerPage section.ftr .features .fItem .sub {
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 18px;
+}

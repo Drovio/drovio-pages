@@ -1,0 +1,157 @@
+.teamProfile {
+	& {
+		width: 100%;
+		height: 100%;
+		background-color: rgb(239, 242, 242);
+		overflow: auto;
+	}
+	.middleContainer {
+		min-width: 700px;
+		max-width: 1200px;
+		padding: 0px 50px;
+		margin: 10px auto;
+		overflow: auto;
+	}
+	.sidebar {
+		& {
+			width: 20%;
+			float: left;
+			height: 100%;
+			padding: 10px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.profileImage {
+			width: 150px;
+			height: 150px;
+			margin: 0 30px;
+		}
+		.profileImage:empty {
+			background: url('%{media}/global/profile.svg') no-repeat center;
+			background-size: 150px;
+		}
+		.profileImage img {
+			border-radius: 50%;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			width: inherit;
+			height: inherit;
+		}
+		.navitem {
+			display: block;
+			border: 1px solid #5E6570;
+			color: #5E6570;
+			padding: 6px 15px;
+			line-height: 16px;
+			cursor: pointer;
+			width: auto;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			margin: 5px auto;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.navitem:hover,
+		.navitem.selected {
+			background-color: #5E6570;
+			color: #FFF;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.pnavigation {
+			list-style-type: none;
+			margin: 30px 0px;
+			padding: 0px;
+			clear: both;
+			width: 100%;
+			overflow: auto;
+		}
+		.navitem .ico {
+			float: left;
+			width: 16px;
+			height: 16px;
+			margin-right: 10px;
+			background: url('%{media}/profile/actionIcons.svg') no-repeat center;
+			background-size: 32px 80px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.navitem.info .ico {
+			background-position: 0px -48px;
+		}
+		.navitem.projects .ico {
+			background-position: 0px -64px;
+		}
+		.navitem.pr_image_editor .ico {
+			background-position: 0px 0px;
+		}
+		.navitem:hover .ico,
+		.navitem.selected .ico {
+			background-position-x: -16px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+	}
+	.mainbody {
+		& {
+			width: 80%;
+			float: right;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+		}
+		.wbutton {
+			float: right;
+			margin: 10px;
+			margin-top: 30px;
+			width: 150px;
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			border: 1px solid #3CB0F7;
+			color: #3CB0F7;
+			border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			cursor: pointer;
+			padding: 5px 10px;
+			line-height: 18px;
+			text-align: center;
+			font-size: 12px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.wbutton:hover {
+			background-color: #3CB0F7;
+			color: #FFF;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.teamName {
+			font-size: 28px;
+			line-height: 42px;
+			color: #555;
+			margin-top: 30px;
+			padding: 0px 10px;
+			font-weight: normal;
+		}
+		.sectionbody {
+			border: 1px solid #E8E8E8;
+			background: #FFF;
+			padding: 10px;
+			min-height: 300px;
+			margin: 20px 0px;
+		}
+	}
+	.pbody {
+	
+	}
+}

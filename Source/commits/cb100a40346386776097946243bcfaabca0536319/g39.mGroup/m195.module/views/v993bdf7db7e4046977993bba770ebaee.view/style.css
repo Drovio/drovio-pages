@@ -1,0 +1,44 @@
+.internationalPage {
+	width: 100%;
+	height: 100%;
+}
+.internationalPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.internationalPage .presentation {
+	position: relative;
+}
+.internationalPage .presentation .content {
+	height: 600px;
+	background: url('%resources%/frontend/international/world_map.png') no-repeat center;
+	background-size: cover;
+}
+.internationalPage .mainContainer .logoSide {
+	margin: 25px 0px;
+	margin-left: 10px;
+	height: 100px;
+	float: left;
+}
+.internationalPage .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+.internationalPage .mainContainer h2.subTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.internationalPage .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}

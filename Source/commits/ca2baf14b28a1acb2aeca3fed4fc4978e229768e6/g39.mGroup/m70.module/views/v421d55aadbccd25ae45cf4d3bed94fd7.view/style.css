@@ -1,0 +1,273 @@
+.frontendPage {
+	width: 100%;
+	height: 100%;
+}
+.frontendPage .section {
+	padding: 20px 0px;
+}
+.frontendPage .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.frontendPage .section.mainContainer {
+}
+.frontendPage .mainContainer .imageLogo {
+	margin: 25px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	background: url('%resources%/logos/logo_100.png') center no-repeat;
+}
+.frontendPage .mainContainer .logoSide {
+	margin: 25px 0px;
+	margin-left: 10px;
+	height: 100px;
+	float: left;
+}
+.frontendPage .mainContainer .logoSide.center {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+.frontendPage .mainContainer .textLogo {
+	background: url('%resources%/logos/RB_logo_big.svg') no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+}
+.frontendPage .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+.frontendPage .mainContainer h2.subTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+.frontendPage .headLinks {
+	clear: both;
+	overflow: auto;
+	padding-top: 50px;
+}
+.frontendPage .headLinks .panel {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.frontendPage .socialBar {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	overflow: auto;
+}
+.frontendPage .socialBar .socialButtons {
+	height: 30px;
+	float: left;
+}
+.frontendPage .socialBar .socialButtons .socialBtn {
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+	background-color: #DDD;
+	background-size: 30px 30px;
+	background-position: center;
+	border: #545454;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.frontendPage .socialBar .socialButtons .socialBtn.socialFb {
+	background-image: url('/Library/Media/c/social/facebook/fb_logo_blue_50.png');
+}
+.frontendPage .socialBar .socialButtons .socialBtn.socialGp {
+	background-image: url('/Library/Media/c/social/googleplus/gp_logo_64.png');
+}
+.frontendPage .socialBar .socialButtons .socialBtn.socialTt {
+	background-image: url('/Library/Media/c/social/twitter/tt_logo_50.png');
+}
+.frontendPage .socialBar .socialText {
+	float: left;
+	color: #999;
+	font-weight: normal;
+	margin: 0px;
+	line-height: 30px;
+}
+.frontendPage .engines {
+	border-bottom: 1px solid #e7e9eb;
+}
+.frontendPage .engines .title {
+	text-align: center;
+	font-size: 32px;
+	color: #656565;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.frontendPage .engines .subtitle {
+	font-size: 20px;
+	font-weight: normal;
+	color: #777;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.frontendPage .engines .middleContainer {
+	height: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	position: relative;
+	padding-bottom: 60px;
+}
+.frontendPage .engines .engineBox {
+	width: 260px;
+	float: left;
+	text-align: center;
+	margin: 20px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .engines .engineBox .boxImage {
+	height: 100px;
+	background-size: 75px 75px;
+}
+.frontendPage .engines .engineBox .boxTitle {
+	color: #545454;
+}
+.frontendPage .engines .engineBox .boxSub {
+	font-size: 12px;
+	color: #777;
+}
+.frontendPage .engines .engineBox:hover .boxTitle {
+	color: #C00403;
+}
+.frontendPage .engines .engineBox.app .boxImage {
+	background: url('%resources%/appcenter/app_logo_100.png') no-repeat center;
+}
+.frontendPage .engines .engineBox.web .boxImage {
+	background: url('%resources%/webengine/web_logo_100.png') no-repeat center;
+}
+.frontendPage .engines .engineBox.boss .boxImage {
+	background: url('%resources%/boss/boss_logo_100.png') no-repeat center;
+}
+.frontendPage .developer .middleContainer {
+	padding: 10px 0px;
+}
+.frontendPage .developer .devLogo {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	border: 1px solid #999;
+	float: left;
+	margin-right: 20px;
+}
+.frontendPage .developers {
+	background: #e8eef8;
+	border-bottom: 1px solid #e7e9eb;
+	padding: 50px 0px;
+}
+.frontendPage .developers .half {
+	width: 50%;
+	float: left;
+}
+.frontendPage .developers .half .logo {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-right: 20px;
+}
+.frontendPage .developers .half.developer .logo {
+	background: url('%resources%/frontend/devPrograms.png') no-repeat center;
+}
+.frontendPage .developers .half.support .logo {
+	background: url('%resources%/frontend/devSupport.png') no-repeat center;
+}
+.frontendPage .international .middleContainer {
+	padding: 10px 0px;
+	text-align: center;
+}
+.frontendPage .international .intLogo {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	background: url('%resources%/frontend/international.png') no-repeat center;
+	background-size: 75px 75px;
+	margin-bottom: 30px;
+}
+.frontendPage .programs {
+	height: 100px;
+}
+.frontendPage .programs .middleContainer {
+	height: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .programs .dev {
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .footLinks {
+	background-color: #EFEFEF;
+	border-top: 1px solid #e7e9eb;
+	border-bottom: 1px solid #e7e9eb;
+	color: #656565;
+}
+.frontendPage .footLinks .rb {
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.frontendPage .footLinks .rb .logo {
+	width: 20px;
+	height: 20px;
+	background: url('%resources%/logos/logo_100.png') center no-repeat;
+	background-size: 20px;
+	float: right;
+	margin: 15px;
+	margin-right: 5px;
+}
+.frontendPage .footLinks .rb .text {
+	float: right;
+	color: #C00403;
+	line-height: 20px;
+	margin: 15px 0px;
+	font-weight: normal;
+}
+.frontendPage .footLinks .rb .copyright {
+	clear: both;
+}
+.frontendPage .footLinks .linkCol {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.frontendPage .footLinks .linkCol .colHeader {
+	margin-bottom: 25px;
+}
+.frontendPage .footLinks .linkCol .listItem {
+	font-weight: normal;
+}
+.frontendPage .footLinks .linkCol .listItem a {
+	color: #656565;
+	display: block;
+}

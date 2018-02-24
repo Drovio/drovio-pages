@@ -1,0 +1,31 @@
+.developerNav .devDashboard {
+	line-height: 20px;
+	text-align: right;
+}
+.developerNav .navMenu {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.developerNav .navMenu .navMenuItem {
+	width: 200px;
+	line-height: 20px;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+.developerNav .navMenu .navMenuItem:last-child {
+	border-bottom: none;
+}
+.developerNav .navMenu .navMenuItem a {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	padding: 5px 3px;
+	display: block;
+}
+.developerNav .navMenu .navMenuItem a:hover {
+	color: rgb(192, 4, 3);
+}
+.developerNav .navMenu .navMenuItem.team {
+	line-height: 14px;
+	color: #777;
+	padding: 2px 3px;
+}

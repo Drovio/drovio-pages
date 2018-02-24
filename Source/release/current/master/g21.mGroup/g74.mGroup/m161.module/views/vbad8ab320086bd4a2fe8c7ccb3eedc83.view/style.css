@@ -1,0 +1,53 @@
+#sessionList {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+.accountSession {
+	overflow: auto;
+	padding: 10px 5px;
+	border-bottom: 1px solid #CCC;
+	border-left: 5px solid transparent;
+}
+.accountSession.active {
+	border-left: 5px solid #CCC;
+	background: #FAFAFA;
+}
+.accountSession:last-child {
+	border-bottom: none;
+}
+.accountSession .endActivity {
+	float: right;
+	color: blue;
+	margin-top: 50px;
+}
+.accountSession .hiddenInput {
+	display: none;
+}
+.accountSession .endActivityAction:hover {
+	text-decoration: underline;
+}
+.accountSession .dataRow {
+	overflow: auto;
+	float: left;
+	padding: 4px 0px;
+	clear: left;
+}
+.accountSession .dataRow .label {
+	width: 150px;
+	float: left;
+	text-align: right;
+	font-weight: bold;
+	color: #555;
+}
+.accountSession .dataRow .content {
+	margin-left: 10px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	max-width: 450px;
+}
+#currentSession .accountSession {
+	border: none;
+}

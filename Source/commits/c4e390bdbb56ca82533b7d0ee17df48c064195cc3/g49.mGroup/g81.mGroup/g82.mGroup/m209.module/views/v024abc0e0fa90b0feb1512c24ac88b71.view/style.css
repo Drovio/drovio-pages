@@ -1,0 +1,81 @@
+.coreConfigurator {
+	height: 330px;
+}
+.coreConfigurator .switchRow {
+	width: 50%;
+	display: block;
+	overflow: auto;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.coreConfigurator .switchRow.logger {
+	float: left;
+}
+.coreConfigurator .testerPanel .packageConfigurator {
+	padding: 5px;
+}
+.coreConfigurator .testerPanel .packageConfigurator h4 {
+	margin: 3px 5px;
+}
+.coreConfigurator .testerPanel .packageList {
+	height: 200px;
+}
+
+.coreConfigurator .switchRow > span {
+	float: left;
+	min-width: 150px;
+	padding-right: 10px;
+}
+.coreConfigurator .switchRow > .uiSwitchButton {
+	float: right;
+}
+.coreConfigurator #logViewer {
+	max-height: 250px;
+	overflow: auto;
+	margin: 5px 0px
+}
+
+.coreConfigurator #resourceProfiler {
+	padding: 10px;
+}
+.coreConfigurator #resourceProfiler .resourceListContainer {
+	border: 1px solid rgba(166, 166, 166, 0.5);
+}
+.coreConfigurator #resourceProfiler .resourceListContainer .cssResources {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+}
+
+.coreConfigurator #resourceProfiler .resourceListContainer .bootResource {
+	list-style: none;
+	padding: 3px;
+	margin: 0px;
+	line-height: 16px;
+}
+.coreConfigurator #resourceProfiler .resourceListContainer .bootResource:nth-child(even) {
+	background-color: #EEE;
+}
+.coreConfigurator #resourceProfiler .bootResource .rsrcIco {
+	width: 5%;
+	display: inline-block;
+	float: left;
+	height: 16px;
+}
+.coreConfigurator #resourceProfiler .resourceListContainer .cssResources .bootResource .rsrcIco {
+	background: url('/Library/Media/images/icons/16x16/moduleCSS.png') no-repeat center;
+}
+.coreConfigurator #resourceProfiler .resourceListContainer .jsResources .bootResource .rsrcIco {
+	background: url('/Library/Media/images/icons/16x16/moduleJS.png') no-repeat center;
+}
+.coreConfigurator #resourceProfiler .bootResource .rsrcUrl {
+	width: 75%;
+	display: inline-block;
+}
+.coreConfigurator #resourceProfiler .bootResource .rsrcReload, .bootResource .rsrcRemove {
+	width: 10%;
+	color: blue;
+	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+}

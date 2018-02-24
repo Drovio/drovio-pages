@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="v26034fa8ed6c015c42b8c3299db978b9"><dependencies><dependency library="API" object="Profile"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="loginPopup">319</module><module id="dashboard">185</module></inner></view>

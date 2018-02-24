@@ -1,0 +1,55 @@
+.websitePageObjectEditor {
+	& {
+		height: 100%;
+	}
+	.tabPageContent {
+		height: 100%;
+	}
+	.objTool {
+		display: inline-block;
+		width: 16px;
+		height: 16px;
+		opacity: 0.7;
+		cursor: pointer;
+		background-image:url('%resources%/global/devIcons.svg');
+		background-repeat:no-repeat;
+		background-size: cover;
+	}
+	.objTool:hover {
+		opacity: 1.0;
+	}
+	 button.objTool {
+		background-color: transparent;
+		border: medium none;
+		box-sizing: content-box;
+		padding: 0;
+		vertical-align: middle;
+	}
+	.objTool.save {
+		background-position: 0px 0px;
+	}
+	.objTool.settings {
+		background-position: 0px -16px;
+	}
+	.objTool.delete {
+		background-position: 0px -32px;
+	}
+	.objTool.literals {
+		background-image: url('/Library/Media/c/DEV/editorActionSprite.svg');
+		background-position: 0px -64px;
+	}
+	
+	.lhd {
+		margin:0px;
+		padding:0px;
+		border-bottom:1px solid rgba(166, 166, 166, 0.5);
+		margin-bottom:10px;
+		margin-top:15px;
+		text-indent:5px;
+		font-weight:bold;
+	}
+	.hd2 {
+		font-size:13px;
+		color:rgb(100, 100, 100);
+	}
+}

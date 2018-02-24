@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="vac56d06d77e9c40320a33e652ebaf57b"><dependencies><dependency library="API" object="Model"></dependency><dependency library="API" object="Profile"></dependency><dependency library="SYS" object="Comm"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="bossHome">88</module></inner></view>

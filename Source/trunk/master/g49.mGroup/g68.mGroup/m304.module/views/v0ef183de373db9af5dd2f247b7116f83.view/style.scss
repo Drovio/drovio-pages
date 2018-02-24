@@ -1,0 +1,55 @@
+.audienceSettings {
+	& {
+		padding: 5px;
+	}
+	
+	.srow {
+		overflow: auto;
+		padding: 5px;
+		border-bottom: 1px solid #CCC;
+	}
+	.srow .ico {
+		width: 40px;
+		height: 40px;
+		float: left;
+		margin-right: 10px;
+		background: url('%{media}/developer/docs/default_permission_icon.svg') no-repeat center;
+		background-size: cover;
+	}
+	.srow .switchContainer {
+		float: right;
+		margin: 10px;
+	}
+	.srow .stitle {
+		color: #5E6570;
+		font-size: 1.1em;
+		font-weight: bold;
+		margin: 0px;
+		margin-bottom: 5px;
+	}
+	.srow .sdesc {
+		color: #5E6570;
+		margin: 0px;
+	}
+	
+	.privateSettings {
+		.searchContainer {
+			margin-top: 20px;
+		}
+		.searchContainer #btn_search {
+			float: left;
+			margin: 0px 5px;
+		}
+		.searchContainer .tminp {
+			float: left;
+			width: 300px;
+			padding: 4px 6px;
+			margin-right: 5px;
+			border-color: #999;
+		}
+		.searchContainer .searchResultsContainer {
+			clear: both;
+			margin-top: 5px;
+		}
+	}
+}

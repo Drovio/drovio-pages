@@ -1,0 +1,69 @@
+.locOverviewContent,
+.locOverviewContent .locOverview {
+	height: 100%;
+}
+.locOverviewContent .locOverview {
+	background: #F5F5F5;
+}
+.locOverview .stats {
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+}
+.locOverview .lcViewer {
+	overflow: auto;
+	border: 1px solid #EEE;
+	background: #FFF;
+	padding: 10px;
+	line-height: 42px;
+	position: relative;
+}
+.locOverview .lcViewer .lcHeader {
+	float: left;
+}
+.locOverview .lcViewer .lcName {
+	margin: 0px;
+	color: #555;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	float: left;
+	font-weight: normal;
+}
+.locOverview .lcViewer .lcImg {
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	color: #FFF;
+	float: left;
+	margin-right: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	opacity: 0.7;
+	background: #EEE;
+	font-size: 18px;
+	text-align: center;
+}
+.locOverview .lcViewer:hover .lcImg {
+	opacity: 1;
+}
+.locOverview .lcViewer .lcImg img {
+	width: inherit;
+	height: inherit;
+}
+.locOverview .lcViewer .counters {
+	float: right;
+	color: #777;
+}
+.locOverview .lcViewer .bar {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 2px;
+	background: rgba(31, 92, 143, 0.7);
+}
+.locOverview .stats .lcViewer .bar {
+	height: 100%;
+	background: rgba(31, 92, 143, 0.1);
+}

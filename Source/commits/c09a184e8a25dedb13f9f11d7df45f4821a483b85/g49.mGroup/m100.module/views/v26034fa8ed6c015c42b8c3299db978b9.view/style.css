@@ -1,0 +1,138 @@
+.dev-navbarContainer .middleContainer {
+	max-width: 950px;
+}
+
+.dev-navbarContainer .toggle_menu {
+	display: none;
+	width: 32px;
+	height: 32px;
+	background: url('%{media}/global/menu.svg') no-repeat center;
+	background-size: cover;
+	cursor: pointer;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.dev-navbarContainer .toggle_menu:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.dev-navbarContainer .toggle_menu.sidebar {
+	float: left;
+	margin-left: 50px;
+}
+
+.dev-navbarContainer .toggle_menu.nav {
+	float: right;
+	margin-right: 50px;
+}
+
+.dev-navbarContainer .navMenu {
+	float: right;
+	margin: 50px 20px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: auto;
+}
+
+.dev-navbarContainer .navMenu li {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #5E6570;
+	cursor: pointer;
+}
+
+.dev-navbarContainer .navMenu li a {
+	color: #5E6570;
+	font-weight: 400;
+	display: block;
+	text-transform: uppercase;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	font-size: 1em;
+}
+
+.dev-navbarContainer .navMenu li:hover, .dev-navbarContainer .navMenu li a:hover, .dev-navbarContainer .navMenu li a.selected {
+	color: #ff5252;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.dev-navbarContainer .navMenu li.dark {
+	line-height: 38px;
+	border: 1px solid #5E6570;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.dev-navbarContainer .navMenu li.dark:hover {
+	background: #2C4762;
+	border-color: #2C4762;
+	color: #fff;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.dev-navbarContainer .navMenu li.dark:hover a {
+	color: #fff;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 750px) {
+	.dev-navbarContainer .toggle_sidebar.menu {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.dev-navbarContainer {
+		position: fixed;
+		top: 0px;
+		width: 100%;
+		z-index: 5;
+		border-bottom: 1px solid #CCC;
+		background: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	body.hasToolbar .dev-navbarContainer {
+		top: 50px;
+	}
+	.dev-navbarContainer .middleContainer {
+		margin: 10px auto;
+		overflow: auto;
+	}
+	.dev-navbarContainer .toggle_menu {
+		display: block;
+	}
+	.dev-navbarContainer .navMenu {
+		display: none;
+		float: none;
+		clear: both;
+		text-align: center;
+		margin: 0px 20px;
+	}
+	.dev-navbarContainer .navMenu li {
+		text-align: center;
+		float: none;
+	}
+}

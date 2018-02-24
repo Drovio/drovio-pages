@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view id="ve45f966848cbfb46a8a1fc05e3a9eab1"><dependencies><dependency library="API" object="Literals"></dependency><dependency library="UI" object="Developer"></dependency><dependency library="UI" object="Presentation"></dependency><dependency library="UI" object="Core"></dependency><dependency library="UI" object="Modules"></dependency></dependencies><inner><module id="sdkManager">234</module><module id="ajaxManager">236</module><module id="sqlManager">238</module></inner></view>

@@ -1,0 +1,50 @@
+.sdkMenuContainer .mhd {
+	border-top: 1px solid rgb(221, 221, 221);
+	padding: 6px 10px;
+	color: rgb(153, 153, 153);
+	text-shadow: white 1px 1px;
+	-webkit-text-shadow: white 1px 1px;
+	-moz-text-shadow: white 1px 1px;
+	margin-left: -30px;
+	font-size: 10px;
+	margin-bottom: 20px;
+}
+
+.sdkMenuContainer .sdk-title {
+	cursor: pointer;
+}
+.sdkMenuContainer .packageGroup .contentIcon {
+	width:16px;
+	height:16px;
+	background-size: 16px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:3px;
+	vertical-align:-4px;
+	background-image: url('%{media}/developer/icons/fileThumbs.svg');
+	background-size: cover;
+}
+
+.sdkMenuContainer .packageGroup .contentIcon.libIco {
+	background-position:0px 0px;
+}
+
+.sdkMenuContainer .packageGroup .contentIcon.pkgIco {
+	background-position:0px -32px;
+}
+
+.sdkMenuContainer .packageGroup .contentIcon.fldIco {
+	background-position:0px -48px;
+}
+
+.sdkMenuContainer .packageGroup .contentIcon.flIco {
+	background-position:0px -64px;
+}
+
+.sdkMenuContainer .packageGroup .package-menu {
+	display: none;
+}
+
+.sdkMenuContainer .packageGroup.open .pkgIco {
+	background-position:0px -16px;
+}

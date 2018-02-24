@@ -1,0 +1,34 @@
+.appGetterContainer .appGetter {
+	display: inline-block;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding: 3px 5px;
+	overflow: auto;
+}
+.appGetterContainer .appGetter.success {
+	border-color: green;
+}
+.appGetterContainer .appGetter.error {
+	border-color: #C00403;
+}
+.appGetterContainer .appGetter .ico {
+	display: inline-block;
+	float: left;
+	width: 19px;
+	height: 19px;
+	margin-right: 5px;
+	background: url('/Library/Media/c/UI/notifications/notification_icons.svg');
+	background-size: cover;
+}
+.appGetterContainer .appGetter.success .ico {
+	background-position: 0px 0px;
+}
+.appGetterContainer .appGetter.error .ico {
+	background-position: 0px -19px;
+}
+.appGetterContainer .appGetter .context {
+	float: left;
+	line-height: 19px;
+}

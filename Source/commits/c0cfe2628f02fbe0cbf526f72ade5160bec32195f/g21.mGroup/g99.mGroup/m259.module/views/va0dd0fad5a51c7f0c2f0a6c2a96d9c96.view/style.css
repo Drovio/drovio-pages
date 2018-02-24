@@ -1,0 +1,66 @@
+.myRelationsPage h2,
+.myRelationsPage h3 {
+	font-weight: normal;
+}
+.myRelationsPage section {
+	padding: 15px 0px;
+}
+.myRelationsPage .teamEditor .header {
+	overflow: auto;
+	border-bottom: 1px solid #EFEFEF;
+	padding: 5px 10px;
+}
+.myRelationsPage .teamEditor .header .teamName {
+	float: left;
+}
+.myRelationsPage .teamEditor .header .manage {
+	float: right;
+	color: #999;
+	cursor: pointer;
+}
+.myRelationsPage .teamEditor .members {
+	display: none;
+}
+.myRelationsPage .teamEditor.open .header {
+	border-bottom: 1px solid #CCC;
+}
+.myRelationsPage .teamEditor.open .manage {
+	color: #000;
+}
+.myRelationsPage .teamEditor.open .teamName {
+	font-weight: bold;
+}
+.myRelationsPage .teamEditor.open .members {
+	display: block;
+	padding: 5px;
+}
+.myRelationsPage .team_list {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.myRelationsPage .team_list li {
+	padding: 5px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.myRelationsPage .team_list li:last-child {
+	border-bottom: none;
+}
+.myRelationsPage .team_list .tmr {
+	overflow: auto;
+}
+.myRelationsPage .team_list .tmr .tn {
+	float: left;
+}
+.myRelationsPage .team_list .tmr .gn {
+	float: right;
+	display: inline-block;
+	color: #999;
+}
+
+
+
+
+.myRelationsPage .createTeam {
+	border-top: 1px solid #CCC;
+}

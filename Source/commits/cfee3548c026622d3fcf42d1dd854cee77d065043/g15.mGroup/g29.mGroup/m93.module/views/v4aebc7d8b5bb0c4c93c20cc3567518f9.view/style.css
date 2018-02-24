@@ -1,0 +1,25 @@
+.sidebarHeader {
+	margin-bottom: 5px;
+}
+#literalScopes {
+	height: 500px;
+	overflow: auto;
+}
+#literalViewer {
+	height: 500px;
+	overflow: auto;
+}
+.scopeHeader {
+	border-bottom: 1px solid rgba(166, 166, 166, 0.5);
+	margin-bottom: 5px;
+	padding: 5px 2px;
+	overflow: auto;
+}
+.scopeHeader .currentScope {
+	float: left;
+}
+.scopeHeader .newLiteral {
+	float: right;
+	font-weight: bold;
+	cursor: pointer;
+}

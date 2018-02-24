@@ -1,0 +1,13 @@
+.applicationTester #OneColumnFullscreen {
+	top: 0px;
+}
+.applicationTester #applicationContainer {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}

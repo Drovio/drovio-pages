@@ -1,0 +1,49 @@
+.footLinks {
+	background-color: #EFEFEF;
+	border-top: 1px solid #e7e9eb;
+	border-bottom: 1px solid #e7e9eb;
+	color: #656565;
+	padding: 40px 0px;
+}
+.footLinks .rb {
+	float: right;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+.footLinks .rb .logo {
+	width: 20px;
+	height: 20px;
+	background: url('%resources%/appcenter/app_logo_100.png') center no-repeat;
+	background-size: 20px;
+	float: right;
+	margin: 15px;
+	margin-right: 5px;
+}
+.footLinks .rb .text {
+	float: right;
+	color: #C00403;
+	line-height: 20px;
+	margin: 15px 0px;
+	font-weight: normal;
+}
+.footLinks .rb .copyright {
+	clear: both;
+}
+.footLinks .linkCol {
+	float: left;
+	width: 30%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.footLinks .linkCol .colHeader {
+	margin-bottom: 25px;
+}
+.footLinks .linkCol .listItem {
+	font-weight: normal;
+}
+.footLinks .linkCol .listItem a {
+	color: #656565;
+	display: block;
+}

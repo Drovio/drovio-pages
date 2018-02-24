@@ -1,0 +1,44 @@
+.devTools {
+	width: 100%;
+	height: 100%;
+}
+.devTools .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.devTools .head {
+	width: 100%;
+	padding: 25px 0px;
+	position: relative;
+}
+.devTools section {
+	border-bottom: 1px solid #CCC;
+}
+.devTools .head > .middleContainer {
+	padding-top: 50px;
+}
+.devTools .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 0px 0px 4px #555;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.devTools .head > .middleContainer > h1.title {
+	color: #C00403;
+}
+.devTools .head > .middleContainer > h3.sub {
+	color: #656565;
+	line-height: 20px;
+}
+.devTools .menu .menuItem a {
+	color: #545454;
+}
+.devTools .menu .menuItem:hover a {
+	color: #C00403;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="90"><sql><query id="q3976995b247a17a07d4fe318986e9bd7" name="get_all_accounts"></query></sql><views><view id="v1d88de4fab949f77eca02d9cdd98d64c" name="userGroups"/><view id="ve46ab27b9f0ea2f90726861a00dd1221" name="groupsInfo"/></views></module>

@@ -1,0 +1,66 @@
+.serverSettings .navSidebar {
+	border-right: 1px solid #ddd;
+	box-sizing: border-box;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: absolute;
+	top: 0;
+	width: 200px;
+}
+.serverSettings .navSidebar .sectionHeader {	
+	border-bottom: 1px solid #CCC;
+	padding: 3px 8px;
+	margin-top: 10px;
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+
+.serverSettings .navSidebar .menuItem {
+	cursor: pointer;
+	display: block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	line-height: 19px;
+	position: relative;
+	padding: 5px 10px;
+	color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.serverSettings .navSidebar .menuItem:hover, .serverSettings .navSidebar .menuItem.selected {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.serverSettings .serverEditorHolder {
+	height: 100%;
+	left: 200px;
+	overflow: auto;
+	position: absolute;
+ 	right: 0;
+	top: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.serverSettings .serverEditorHolder .header {
+	padding: 5px 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	text-indent: 5px;
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	text-indent: 10px;
+	border-bottom: 1px solid #999;
+	padding: 5px 0px;
+}

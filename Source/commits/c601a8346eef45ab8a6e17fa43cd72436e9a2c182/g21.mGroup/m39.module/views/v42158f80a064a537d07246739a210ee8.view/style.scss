@@ -1,0 +1,109 @@
+.accountProfile {
+	& {
+		width: 100%;
+		height: 100%;
+	}
+	.middleContainer {
+		min-width: 700px;
+		max-width: 1200px;
+		padding: 0px 50px;
+		margin: 0 auto;
+		overflow: auto;
+	}
+	.pheader {
+		overflow: auto;
+		background-color: rgb(239, 242, 242);
+		border-bottom: 1px solid #999;
+		position: relative;
+	}
+	.pheader .pinfo {
+		float: left;
+		width: 200px;
+		text-align: center;
+		margin: 30px 20px;
+		margin-bottom: 30px;
+	}
+	.pheader .pinfo .ico {
+		width: 150px;
+		height: 150px;
+		margin: 25px auto;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+	}
+	.pheader .pinfo .ico:empty {
+		background: url('%{media}/global/profile.svg') no-repeat center;
+		background-size: 150px;
+	}
+	.pheader .pinfo .ico img {
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		width: inherit;
+		height: inherit;
+	}
+	.pheader .pinfo .rbutton {
+		display: block;
+		border: 1px solid #CCC;
+		color: #545454;
+		padding: 10px 15px;
+		line-height: 16px;
+		cursor: pointer;
+		width: auto;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		font-size: 12px;
+		margin: 5px auto;
+	}
+	.pheader .pinfo .contact {
+		background: linear-gradient(#BBE2B1, #B1DAA1);
+		background: -webkit-linear-gradient(#BBE2B1, #B1DAA1);
+		background: -moz-linear-gradient(#BBE2B1, #B1DAA1);
+		border-color: #43B549;
+	}
+	.pheader .accTitle {
+		font-size: 28px;
+		line-height: 42px;
+		color: #555;
+		margin-top: 100px;
+		font-weight: normal;
+	}
+	.pheader .pnavigation {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		clear: both;
+		width: 100%;
+		overflow: auto;
+	}
+	.pheader .pnavigation .navitem {
+		float: left;
+		padding: 10px 15px;
+		font-size: 12px;
+		min-width: 100px;
+		cursor: pointer;
+		color: #777;
+		text-align: center;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		-webkit-border-top-left-radius: 5px;
+		-webkit-border-top-right-radius: 5px;
+		-moz-border-top-left-radius: 5px;
+		-moz-border-top-right-radius: 5px;
+		border: 1px solid transparent;
+		border-bottom: none;
+	}
+	.pheader .pnavigation .navitem:hover {
+		border: 1px solid #CCC;
+		background: rgba(255, 255, 255, 0.3);
+		border-bottom: none;
+		color: #555;
+	}
+	.pheader .pnavigation .navitem.selected {
+		border: 1px solid #CCC;
+		background: #FFF;
+		border-bottom: none;
+		color: #555;
+	}
+}

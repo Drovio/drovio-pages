@@ -1,0 +1,79 @@
+.appCenterSidebar {
+	padding: 15px 25px;
+}
+
+.appCenterSidebar .smenu {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.appCenterSidebar .smenu .mitem {
+	display: block;
+	padding: 2px 0px;
+	margin: 0px;
+	line-height: 24px;
+	overflow: auto;
+	cursor: pointer;
+}
+
+.appCenterSidebar .smenu .mitem:hover {
+	background-color: #555;
+}
+
+.appCenterSidebar .smenu .mitem:hover .title {
+	color: #FFF;
+}
+
+.appCenterSidebar .smenu .mitem.selected {
+	background-color: rgb(31, 93, 144);
+}
+
+.appCenterSidebar .smenu .mitem.selected .title {
+	color: #FFF;
+}
+
+.smenu .mitem .ico {
+	height: 24px;
+	width: 24px;
+	float: left;
+	margin: 0px 5px;
+}
+
+.smenu .mitem .title {
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: #555;
+}
+
+.appCenterSidebar .sseparator {
+	height: 1px;
+	background: #e2e2e2;
+	margin: 8px 0px;
+}
+
+.appCenterSidebar .loginContainer {
+	padding: 0px 25px;
+}
+
+.appCenterSidebar .login {
+	font-size: 13px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 36px;
+	border: 1px solid #555;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #555;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.appCenterSidebar .login:hover {
+	color: #FFF;
+	background: #555;
+}

@@ -1,0 +1,36 @@
+.myHome {
+	overflow: auto;
+}
+.myHome .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.myHome .head .middleContainer {
+	padding: 20px 0px;
+	border-bottom: 1px solid #CCC;
+}
+.myHome .head .photoContainer {
+	float: left;
+	padding: 3px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background: #FFF;
+}
+.myHome .head .photo {
+	width: 150px;
+	height: 150px;
+}
+.myHome .head .info {
+	float: left;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.myHome .head .info h1,
+.myHome .head .info h3 {
+	margin: 0px;
+	padding: 5px 3px;
+	font-weight: normal;
+}

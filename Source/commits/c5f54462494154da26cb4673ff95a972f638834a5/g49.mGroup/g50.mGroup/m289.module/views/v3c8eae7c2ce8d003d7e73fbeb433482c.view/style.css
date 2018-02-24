@@ -1,0 +1,78 @@
+.startScreen {
+	width: 100%;
+	height: 100%;
+}
+.startScreen .start {
+	text-align: center;
+	margin-top: 50px;
+}
+.startScreen .start .title {
+	font-size: 14px;
+	color: #545454;
+}
+.startScreen .start .start_here {
+	display: inline-block;
+	line-height: 32px;
+	padding: 0px 20px;
+	background: rgba(192, 4, 3, 0.8);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #FFF;
+}
+.startScreen .bigTiles .tileRow {
+	width: 600px;
+	margin: 50px auto;
+	overflow: auto;
+}
+.startScreen .bigTiles .bigTile {
+	display: table-cell;
+	padding: 10px 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	float: left;
+	overflow: auto;
+}
+.startScreen .bigTiles .bigTile a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+	color: #FFF;
+}
+.startScreen .bigTiles .bigTile.hlf {
+	width: 300px;
+}
+.startScreen .bigTiles .bigTile.trd {
+	width: 200px;
+}
+.startScreen .bigTiles .bigTile .ico {
+	width: 75px;
+	height: 75px;
+	padding: 20px;
+	margin: 0 auto;
+	display: block;
+}
+.startScreen .bigTiles .bigTile .title {
+	text-align: center;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+.startScreen .bigTiles .bigTile.basics a {
+	background: rgba(0, 64, 81, 0.7);
+}
+.startScreen .bigTiles .bigTile.projects a {
+	background: rgba(44, 0, 78, 0.7);
+}
+.startScreen .bigTiles .bigTile.apps a {
+	background: rgba(11, 77, 40, 0.7);
+}
+.startScreen .bigTiles .bigTile.web a {
+	background: rgba(252, 191, 47, 0.7);
+}
+.startScreen .bigTiles .bigTile.sdk a {
+	background: rgba(93, 0, 15, 0.7);
+}

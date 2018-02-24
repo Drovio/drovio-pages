@@ -1,0 +1,129 @@
+.developerNav {
+	overflow: auto;
+}
+
+.developerNav .sidebar {
+	width: 200px;
+	float: left;
+}
+.developerNav .teamList {
+	margin: 5px 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: auto;
+	border-bottom: 1px solid #CCC;
+	max-height: 350px;
+}
+
+.developerNav .teamList .titem {
+	line-height: 24px;
+	border-bottom: 2px solid transparent;
+	cursor: pointer;
+	padding: 3px 10px;
+	color: #555459;
+	font-size: 1em;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerNav .teamList .titem:hover, .developerNav .teamList .titem.selected {
+	background: #555459;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.developerNav .teamList .titem .ico {
+	width: 24px;
+	height: 24px;
+	float: left;
+	margin-right: 10px;
+}
+
+.developerNav .teamList .titem .ico img {
+	width: inherit;
+	height: inherit;
+}
+
+.developerNav .projectList {
+	float: left;
+	width: 600px;
+	height: 390px;
+	overflow: auto;
+	border-left: 1px solid #CCC;
+}
+.developerNav .projectList .pitem {
+	width: 120px;
+	min-height: 50px;
+	float: left;
+	text-align: center;
+	padding: 10px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.developerNav .projectList .pitem a {
+	display: block;
+}
+
+.developerNav .projectList .pitem a:hover {
+	color: #C00403;
+}
+
+.developerNav .projectList .pitem a .imageBox {
+	height: 32px;
+	width: 32px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.developerNav .projectList .pitem a .imageBox.noIcon {
+	background: url('%resources%/developer/projects/defaultProjectIco.png') no-repeat center;
+	background-size: cover;
+}
+
+.developerNav .projectList .pitem a .imageBox img {
+	height: 32px;
+	width: 32px;
+}
+
+.developerNav .devDashboard {
+	display: block;
+	padding: 3px 5px;
+	margin: 5px auto;
+	line-height: 24px;
+	color: #FFF;
+	background: #454A54;
+	transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	width: 80%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-spate: nowrap;
+}
+
+.developerNav .devDashboard:hover {
+	background-color: #5E6570;
+	transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+}
+
+.developerNav .devDashboard .ico {
+	display: block;
+	float: left;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+	background: url('%{media}/developer/icons/dashboard.svg');
+	background-size: cover;
+}

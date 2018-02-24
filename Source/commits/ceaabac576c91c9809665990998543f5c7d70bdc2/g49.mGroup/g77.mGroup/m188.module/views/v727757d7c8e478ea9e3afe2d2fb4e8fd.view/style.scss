@@ -1,0 +1,221 @@
+.vcsCommitsContainer {
+	height: 100%;
+}
+.vcsCommits {
+	& {
+		position: relative;
+		height: 100%;
+	}
+	.commitsInnerContainer {
+		position: absolute;
+		top: 0px;
+		bottom: 37px;
+		left: 0px;
+		width: 100%;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		overflow: auto;
+		padding: 10px 20px;
+	}
+	.commitGroupContainer {
+		& {
+			overflow: auto;
+			border-left: 2px solid #DDD;
+			padding-left: 20px;
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		.commitGroupHeader {
+			margin-bottom: 15px;
+			font-size: 12px;
+			color: #777;
+		}
+		.commitList {
+			border: 1px solid #DDD;
+		}
+		.cViewer {
+			& {
+				overflow: auto;
+				border-bottom: 1px solid #EEE;
+				background: #FFF;
+			}
+			.cvHeader {
+				overflow: auto;
+				padding: 10px;
+				cursor: pointer;
+			}
+			&:last-child {
+				border-bottom: none;
+			}
+			.cInfo {
+				overflow: auto;
+				float: left;
+				max-width: 70%;
+			}
+			.cvsum {
+				margin: 0px;
+				padding: 5px 0px;
+				color: #555;
+				font-size: 12px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			.cvHeader:hover .cvsum {
+				color: #C00403;
+			}
+			.authImg {
+				width: 42px;
+				height: 42px;
+				line-height: 42px;
+				color: #FFF;
+				float: left;
+				margin-right: 10px;
+				border-radius: 50%;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+				opacity: 0.7;
+				background: #CCC;
+				font-size: 18px;
+				text-align: center;
+			}
+			.authImg:empty {
+				background: url('/Library/Media/c/global/profile.svg') no-repeat center;
+				background-size: cover;
+				background: #FFF;
+			}
+			&:hover .authImg {
+				opacity: 1;
+			}
+			.cID {
+				float: right;
+				color: #777;
+			}
+			.cTagContainer {
+				float: right;
+				clear: right;
+				margin-top: 8px;
+			}
+			.cTagContainer .cTag {
+				float: left;
+				margin-right: 10px;
+				padding: 3px 5px;
+				background: #EEE;
+				border: 1px solid #DDD;
+				color: #555;
+			}
+			.cTagContainer .cTag:last-child {
+				margin: 0px;
+			}
+			.cvAuthor {
+				color: #555;
+			}
+			.cDate {
+				color: #999;
+				font-weight: normal;
+			}
+			.cDetails {
+				display: none;
+				overflow: auto;
+				padding: 5px;
+				background: #F5F5F5;
+			}
+			&.open {
+				.cvHeader {
+					border-bottom: 1px solid #EEE;
+				}
+				.cDetails {
+					display: block;
+				}
+				.cDetails .crow {
+					padding: 10px;
+					border-top: 1px solid #DDD;
+					color: #555;
+				}
+				.cDetails .crow.cid {
+					font-weight: bold;
+					border-top: none;
+				}
+				.cDetails .crow.cDesc {
+					white-space: pre-wrap;
+				}
+				.cDetails .commitItems {
+					list-style-type: none;
+					padding: 0px;
+					margin: 0px;
+					border-top: 1px solid #999;
+				}
+				.cDetails .commitItems .citem {
+					overflow: auto;
+					padding: 5px;
+					border-bottom: 1px solid #EEE;
+				}
+				.cDetails .commitItems .citem:last-child {
+					border-bottom: none;
+				}
+				.cDetails .commitItems .citem .ipath {
+					float: left;
+				}
+				.cDetails .commitItems .citem .iid {
+					float: right;
+				}
+			}
+		}
+	}
+	.controls {
+		& {
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			padding: 5px;
+			background: rgba(255, 255, 255, 0.9);
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			height: 37px;
+			line-height: 14px;
+			overflow: auto;
+			color: #555;
+			border-top: 1px solid #CCC;
+		}
+		.navBtn {
+			float: left;
+			width: 75px;
+			text-align: center;
+			margin: 0px 5px;
+			padding: 5px 8px;
+			color: #999;
+			border: 1px solid #999;
+			border-radius: 3px;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+			cursor: default;
+			float: left;
+		}
+		.navBtn.older {
+			float: right;
+		}
+		.navBtn.active {
+			color: #5E6570;
+			cursor: pointer;
+			border-color: #5E6570;
+		}
+		.navBtn.active:hover {
+			color: #FFF;
+			background: #5E6570;
+			transition: all .2s ease-in-out;
+			-webkit-transition: all .2s ease-in-out;
+			-moz-transition: all .2s ease-in-out;
+		}
+		.pagesInfo {
+			color: #999;
+			padding: 6px 0px;
+			text-align: center;
+		}
+	}
+}

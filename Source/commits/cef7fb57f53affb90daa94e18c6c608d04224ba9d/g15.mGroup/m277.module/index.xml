@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="277"><sql><query id="q96ad393c9493fddd679544ec759cbbe1" name="get_persons_count"/><query id="q6c00e31185492b82016321acb02b9a24" name="get_projects_count"></query></sql><views><view id="veade3bf822f1a619bba0a642bee8a02f" name="statisticsPage"/></views></module>

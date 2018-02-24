@@ -1,0 +1,9 @@
+.projectTesterPreviewPage {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#projectTesterPreview {
+	background: #FFF url('%{media}/global/splash.png') no-repeat center;
+	background-size: 250px;
+}

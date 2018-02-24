@@ -1,0 +1,75 @@
+.vcsReleases {
+	padding: 5px;
+}
+.vcsReleases .releaseBtn {
+	float: left;
+	padding: 5px 10px;
+	margin: 5px 0px;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	cursor: pointer;
+	color: green;
+}
+.vcsReleases .releaseBtn:hover {
+	background: green;
+	color: #FFF;
+}
+.vcsReleases .releasePackagesContainer {
+	clear: both;
+}
+.vcsReleases .releaseRow.packageRow {
+	cursor: pointer;
+}
+.vcsReleases .releaseRow {
+	padding: 5px;
+	border-bottom: 1px solid rgba(166, 166, 166, 1);
+}
+.vcsReleases .releaseRow:last-child {
+	border: none;
+}
+.vcsReleases .releaseRow .releaseDate {
+	float: right;
+	color: #999;
+}
+.vcsReleases .releaseRow .releaseTitle {
+	margin: 0px;
+	font-weight: normal;
+	color: #656565;
+}
+.vcsReleases .releaseRow .releaseTitle .historySpan {
+	color: #999;
+	font-size: 10px;
+	display: none;
+	font-weight: normal;
+}
+.vcsReleases .releaseRow.packageRow:hover .historySpan {
+	display: inline;
+}
+.vcsReleases .historySpan .showHistory {
+	display: inline;
+}
+.vcsReleases .historySpan .hideHistory {
+	display: none;
+}
+.vcsReleases .withHistory .packageRow:hover .hideHistory {
+	display: inline;
+}
+.vcsReleases .withHistory .historySpan .showHistory {
+	display: none;
+}
+.vcsReleases .releaseRow.packageRow .releaseTitle {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+}
+.vcsReleases .versionHistory {
+	display: none;
+}
+.vcsReleases .withHistory .versionHistory {
+	display: block;
+	max-height: 300px;
+	overflow: auto;
+}
+.vcsReleases .no_vh {
+	color: #656565;
+	font-weight: normal;
+}

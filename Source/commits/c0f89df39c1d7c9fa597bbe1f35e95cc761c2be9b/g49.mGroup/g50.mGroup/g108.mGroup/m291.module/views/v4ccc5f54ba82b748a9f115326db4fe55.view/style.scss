@@ -1,0 +1,44 @@
+.appPermissions .list {
+	& {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.pgi {
+		& {
+			margin: 15px 0px;
+			overflow: auto;
+		}
+		&:last-child {
+			margin-bottom: 0px;
+		}
+		.icon {
+			float: left;
+			width: 24px;
+			height: 24px;
+			margin-right: 10px;
+		}
+		.icon:empty {
+			background: url('%{media}/developer/docs/default_permission_icon.svg') no-repeat center;
+			background-size: contain;
+		}
+		.icon img {
+			width: inherit;
+			height: inherit;
+		}
+		.mf_info {
+			margin-left: 34px;
+		}
+		.title {
+			font-size: 12px;
+			font-weight: bold;
+			color: #555;
+		}
+		.desc {
+			font-size: 11px;
+			line-height: 16px;
+			color: #777;
+			white-space: pre-wrap;
+		}
+	}
+}

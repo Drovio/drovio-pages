@@ -1,0 +1,159 @@
+#wwwFrontend {
+	width: 100%;
+	height: 100%;
+}
+#wwwFrontend .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+#wwwFrontend .mainContainer {
+	height: 400px;
+}
+#wwwFrontend .mainContainer .middleContainer {
+	height: 400px;
+	position: relative;
+}
+
+#wwwFrontend .mainContainer .imageLogo {
+	margin-top: 25px;
+	margin-left: 25px;
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: none;
+}
+#wwwFrontend .mainContainer .logoSide {
+	margin-top: 25px;
+	margin-left: 25px;
+	float: left;
+}
+#wwwFrontend .mainContainer .logoSide.center {
+	float: none;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 130px;
+}
+#wwwFrontend .mainContainer .textLogo {
+	background: url(/Library/Media/images/logos/RB_logo_big.svg) no-repeat 0px 0px;
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+}
+#wwwFrontend .mainContainer .logoSide.center .textLogo {
+	float: none;
+	margin: 0 auto;
+}
+#wwwFrontend .mainContainer h2.subTitle {
+	clear: left;
+	margin: 0;
+	padding-top: 10px;
+	font-weight: normal;
+}
+#wwwFrontend .mainContainer .socialBar {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	overflow: auto;
+}
+#wwwFrontend .mainContainer .socialBar .socialButtons {
+	height: 30px;
+	float: left;
+}
+#wwwFrontend .mainContainer .socialBar .socialButtons .socialBtn {
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+	background-color: #DDD;
+	background-size: 30px 30px;
+	background-position: center;
+	border: #545454;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+#wwwFrontend .mainContainer .socialBar .socialButtons .socialBtn.socialFb {
+	background-image: url(/Library/Media/images/social/facebook/fb_logo_blue_50.png);
+}
+#wwwFrontend .mainContainer .socialBar .socialButtons .socialBtn.socialGp {
+	background-image: url(/Library/Media/images/social/googleplus/gp_logo_64.png);
+}
+#wwwFrontend .mainContainer .socialBar .socialButtons .socialBtn.socialTt {
+	background-image: url(/Library/Media/images/social/twitter/tt_logo_50.png);
+}
+#wwwFrontend .mainContainer .socialBar .socialText {
+	float: left;
+	color: #999;
+	font-weight: normal;
+	margin: 0px;
+	line-height: 30px;
+}
+#wwwFrontend .engines {
+	height: 200px;
+	background: #DDD;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #AAA;
+}
+#wwwFrontend .engines .middleContainer {
+	height: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#wwwFrontend .engines .engineBox {
+	width: 300px;
+	float: left;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#wwwFrontend .engines .engineBox .boxImage {
+	height: 100px;
+}
+#wwwFrontend .engines .engineBox.app .boxImage {
+	background: url(/Library/Media/images/pages/appCenter/appEngineLogo.png) no-repeat center;
+}
+#wwwFrontend .engines .engineBox.app .boxTitle a {
+	color: green;
+}
+#wwwFrontend .engines .engineBox.web .boxImage {
+	background: url(/Library/Media/images/pages/webEngine/webEngineLogo.png) no-repeat center;
+}
+#wwwFrontend .engines .engineBox.web .boxTitle a {
+	color: #c00403;
+}
+#wwwFrontend .engines .engineBox.boss .boxImage {
+	background: url(/Library/Media/images/pages/boss/bossEngineLogo.png) no-repeat center;
+}
+#wwwFrontend .engines .engineBox.boss .boxTitle a {
+	color: #004080;
+}
+#wwwFrontend .programs {
+	height: 100px;
+}
+#wwwFrontend .programs .middleContainer {
+	height: 100%;
+	padding: 0px 50px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#wwwFrontend .programs .dev {
+	width: 50%;
+	height: 100%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}

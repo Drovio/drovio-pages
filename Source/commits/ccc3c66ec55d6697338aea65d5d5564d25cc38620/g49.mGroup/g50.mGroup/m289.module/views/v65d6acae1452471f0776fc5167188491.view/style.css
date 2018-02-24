@@ -1,0 +1,156 @@
+.docViewer {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: auto;
+	background: #F1F1F1;
+}
+
+.docViewer .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.docViewer > .middleContainer {
+	padding-top: 65px;
+}
+.docViewer .sidebar {
+	width: 25%;
+	float: left;
+	padding: 20px 0px;
+}
+
+.docViewer .sidebar .sideMenu {
+	margin: 0px;
+	list-style-type: none;
+	padding: 0px;
+	overflow: auto;
+}
+
+.docViewer .sidebar .myDashboard {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	cursor: pointer;
+	padding: 10px 15px;
+	line-height: 18px;
+	text-align: center;
+	font-size: 12px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	background-color: #454A54;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .myDashboard:hover {
+	background-color: #3CB0F7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group .glist {
+	display: none;
+}
+
+.docViewer .sidebar .sideMenu .doc_group.open .glist {
+	display: block;
+}
+
+.docViewer .sidebar .sideMenu .navHeader {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 3px 5px;
+	font-size: 14px;
+	line-height: 18px;
+	color: #555;
+}
+
+.docViewer .sidebar .sideMenu .navHeader .ico {
+	display: none;
+	float: right;
+	width: 14px;
+	height: 14px;
+	margin: 2px;
+	cursor: pointer;
+	background: url('%{media}/global/pointer.svg') no-repeat center;
+	background-size: cover;
+	opacity: 0.5;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .doc_group.open .navHeader .ico {
+	display: block;
+}
+
+.docViewer .sidebar .sideMenu .navHeader:hover .ico {
+	display: block;
+}
+
+.docViewer .sidebar .sideMenu .navHeader .ico:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.docViewer .sidebar .sideMenu .navItem {
+	font-size: 12px;
+	cursor: pointer;
+	border-left: 3px solid transparent;
+	color: #555;
+}
+
+.docViewer .sidebar .sideMenu .navItem:hover, .docViewer .sidebar .sideMenu .navItem.selected {
+	background: #555;
+	color: #FFF;
+}
+
+.docViewer .sidebar .sideMenu .navItem a {
+	display: block;
+	padding: 5px 8px;
+}
+
+.docViewer .sidebar .sideMenu .navItem:hover a, .docViewer .sidebar .sideMenu .navItem.selected a {
+	color: #FFF;
+}
+
+.docViewer .docHolder {
+	width: 75%;
+	float: left;
+	padding: 20px 40px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background-color: #FFF;
+	border: 1px solid #E8E8E8;
+	margin: 20px 0px;
+}
+
+.docViewer .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}

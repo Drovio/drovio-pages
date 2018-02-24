@@ -1,0 +1,210 @@
+<?php
+//#section#[header]
+// Module Declaration
+$moduleID = 259;
+
+// Inner Module Codes
+$innerModules = array();
+$innerModules['accountInfo'] = 154;
+$innerModules['teamManager'] = 260;
+$innerModules['teamPage'] = 351;
+
+// Check Module Preloader Defined in RB Platform (prevent outside executions)
+if (!defined("_MDL_PRELOADER_") && !defined("_RB_PLATFORM_"))
+	throw new Exception("Module is not loaded properly!");
+
+// Use Platform classes
+use \API\Platform\importer;
+use \API\Platform\engine;
+
+// Increase module's loading depth
+importer::import("ESS", "Protocol", "loaders::ModuleLoader");
+use \ESS\Protocol\loaders\ModuleLoader;
+ModuleLoader::incLoadingDepth();
+
+// Import Initial Libraries
+importer::import("UI", "Html", "DOM");
+importer::import("UI", "Html", "HTML");
+importer::import("DEV", "Profiler", "logger");
+
+// Use
+use \UI\Html\DOM;
+use \UI\Html\HTML;
+use \DEV\Profiler\logger;
+
+// Code Variables
+$_ASCOP = $GLOBALS['_ASCOP'];
+
+// If Async Request Pre-Loader exists, Initialize DOM
+if (defined("_MDL_PRELOADER_") && ModuleLoader::getLoadingDepth() === 1)
+	DOM::initialize();
+
+// Import Packages
+importer::import("API", "Literals");
+importer::import("API", "Profile");
+importer::import("ESS", "Environment");
+importer::import("UI", "Forms");
+importer::import("UI", "Modules");
+//#section_end#
+//#section#[code]
+use \ESS\Environment\url;
+use \API\Literals\moduleLiteral;
+use \API\Profile\team;
+use \API\Profile\account;
+use \API\Security\accountKey;
+use \UI\Modules\MPage;
+use \UI\Forms\templates\simpleForm;
+
+$page = new MPage($moduleID);
+$actionFactory = $page->getActionFactory();
+
+$title = moduleLiteral::get($moduleID, "title", array(), FALSE);
+$page->build($title, "myRelationsPage", TRUE);
+
+// List all teams
+$currentTeamContainer = HTML::select(".myRelations .currentTeam")->item(0);
+$allTeamContainer = HTML::select(".myRelations .allTeams")->item(0);
+
+// List all teams
+$currentTeamID = team::getTeamID();
+$teams = team::getAccountTeams();
+foreach ($teams as $team)
+{
+	// Initialize
+	$teamID = $team['id'];
+	$teamName = $team['name'];
+	
+	// Select container for team
+	$teamContainer = ($team['id'] == $currentTeamID ? $currentTeamContainer : $allTeamContainer);
+	
+	// Create project box
+	$teamBox = DOM::create("li", "", "", "teamBox");
+	DOM::append($teamContainer, $teamBox);
+	
+	// Create Box Container
+	$teamBoxContainer = DOM::create("div", "", "", "teamBoxContainer");
+	HTML::append($teamBox, $teamBoxContainer);
+	
+	// Box header
+	$boxHeader = DOM::create("div", "", "", "boxHeader");
+	HTML::append($teamBoxContainer, $boxHeader);
+	
+	// Image box
+	$imageBox = DOM::create("div", "", "", "imageBox");
+	HTML::append($boxHeader, $imageBox);
+	/*
+	// Add icon (if any)
+	$prj = new project($project['id']);
+	$projectIcon = $prj->getResourcesFolder()."/.assets/icon.png";
+	if (file_exists(systemRoot.$projectIcon))
+	{
+		// Resolve path
+		$projectIcon = str_replace(paths::getRepositoryPath(), "", $projectIcon);
+		$projectIcon = url::resolve("repo", $projectIcon);
+		
+		// Create image
+		$img = DOM::create("img");
+		DOM::attr($img, "src", $projectIcon);
+		DOM::append($imageBox, $img);
+	}
+	else
+		HTML::addClass($imageBox, "noIcon");
+	*/
+	
+	// Team Name
+	$teamNameHeader = DOM::create("h2", $teamName, "", "teamName");
+	HTML::append($boxHeader, $teamNameHeader);
+	
+	
+	// Team roles (according to keys)
+	$keys = accountKey::get();
+	$roles = array();
+	foreach ($keys as $key)
+		if ($key['type_id'] == 1 && $key['context'] == $teamID)
+			$roles[] = $key['groupName'];
+	$roleContext = implode(", ", $roles);
+	$rolesElement = DOM::create("h3", $roleContext, "", "tinfo roles");
+	HTML::append($teamBoxContainer, $rolesElement);
+	// Roles ico
+	$ico = DOM::create("span", "", "", "ico");
+	DOM::prepend($rolesElement, $ico);
+	
+	
+	// Add team actions
+	$boxActions = DOM::create("div", "", "", "boxActions");
+	DOM::append($teamBoxContainer, $boxActions);
+	
+	// Show team relation info
+	$url = url::resolve("my", "/relations/".$teamName);
+	$baTitle = moduleLiteral::get($moduleID, "lbl_teamDetails");
+	$boxActionItem = $page->getWeblink($url, $baTitle, "_self");
+	HTML::addClass($boxActionItem, "ba action");
+	DOM::append($boxActions, $boxActionItem);
+	
+	$attr = array();
+	$attr['name'] = $teamName;
+	$actionFactory->setModuleAction($boxActionItem, $innerModules['teamPage'], "", "", $attr);
+	
+	if ($team['id'] != $currentTeamID)
+	{
+		// Set team active (if not)
+		$title = moduleLiteral::get($moduleID, "lbl_switchToTeam");
+		$boxActionItem = DOM::create("div", $title, "", "ba action");
+		DOM::append($boxActions, $boxActionItem);
+		
+		// Set action
+		$attr = array();
+		$attr['tid'] = $teamID;
+		$actionFactory->setModuleAction($boxActionItem, $innerModules['accountInfo'], "switchTeam", "", $attr);
+	}
+}
+
+// Add 'Create New Team' box
+if (account::isAdmin())
+{
+	// Create project box
+	$teamBox = DOM::create("li", "", "", "teamBox new");
+	DOM::append($currentTeamContainer, $teamBox);
+	
+	// Create Box Container
+	$teamBoxContainer = DOM::create("div", "", "", "teamBoxContainer");
+	HTML::append($teamBox, $teamBoxContainer);
+	
+	// Box header
+	$boxHeader = DOM::create("div", "", "", "boxHeader");
+	HTML::append($teamBoxContainer, $boxHeader);
+	
+	// Image box
+	$imageBox = DOM::create("div", "", "", "imageBox");
+	HTML::append($boxHeader, $imageBox);
+	
+	// Team Name
+	$createTeamTitle = moduleLiteral::get($moduleID, "lbl_newTeamName");
+	$teamNameHeader = DOM::create("h2", $createTeamTitle, "", "teamName");
+	HTML::append($boxHeader, $teamNameHeader);
+	
+	// Team roles (according to keys)
+	$rolesElement = DOM::create("h3", "TEAM_ROLE", "", "tinfo roles");
+	HTML::append($teamBoxContainer, $rolesElement);
+	// Roles ico
+	$ico = DOM::create("span", "", "", "ico");
+	DOM::prepend($rolesElement, $ico);
+	
+	
+	// Add team actions
+	$boxActions = DOM::create("div", "", "", "boxActions");
+	DOM::append($teamBoxContainer, $boxActions);
+	
+	// Create new team dialog
+	$title = moduleLiteral::get($moduleID, "lbl_createTeam");
+	$boxActionItem = DOM::create("div", $title, "", "ba action");
+	DOM::append($boxActions, $boxActionItem);
+	
+	$attr = array();
+	$attr['name'] = $teamName;
+	$actionFactory->setModuleAction($boxActionItem, $moduleID, "createTeam", "", $attr);
+}
+	
+return $page->getReport();
+//#section_end#
+?>

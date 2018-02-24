@@ -1,0 +1,39 @@
+.invitationList {
+	p.hd {
+		color: #777;
+		margin: 10px 0px;
+		text-align: center;
+	}
+	.ivrow {
+		overflow: auto;
+		padding: 10px 15px;
+		border-bottom: 1px solid #DDD;
+	}
+	.ivrow:last-child {
+		border-bottom: none;
+	}
+	.ivrow:hover {
+		background: #EFEFEF;
+	}
+	.ivrow .iv {
+		float: left;
+	}
+	.ivrow .iv.ivn {
+		width: 50%;
+		line-height: 18px;
+	}
+	.ivrow .iv.action {
+		width: 25%;
+		text-align: right;
+	}
+	.ivrow .act_button {
+		background: none;
+		border: none;
+		color: rgb(31, 93, 144);
+		outline: none;
+		margin: 0px;
+		padding: 0px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+}

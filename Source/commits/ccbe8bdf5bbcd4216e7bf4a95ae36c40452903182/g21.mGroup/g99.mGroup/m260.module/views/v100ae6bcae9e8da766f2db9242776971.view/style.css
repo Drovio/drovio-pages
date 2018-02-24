@@ -1,0 +1,51 @@
+.teamMembersList .mr {
+	overflow: auto;
+	padding: 5px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.teamMembersList .mr:last-child {
+	border-bottom: none;
+}
+.teamMembersList .mr .mn {
+	float: left;
+}
+.teamMembersList .mr .edit {
+	float: right;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.teamMembersList .mr .mrl {
+	float: right;
+	display: inline-block;
+	color: #999;
+}
+.teamMembersList .add_new_member {
+	overflow: auto;
+	border-top: 1px solid #EFEFEF;
+	padding: 3px 5px;
+}
+.teamMembersList .add_new_member h4 {
+	margin: 0px;
+	float: left;
+	color: green;
+	font-weight: normal;
+}
+.teamMembersList .add_new_member #addMemberForm {
+	float: right;
+}
+.teamMembersList .add_new_member #btn_add_member {
+	float: right;
+	margin: 5px;
+}
+.teamMembersList .add_new_member #addMemberForm .tmsl {
+	float: right;
+	margin: 5px;
+	margin-top: 7px;
+}
+.teamMembersList .add_new_member #addMemberForm .tminp {
+	float: right;
+	width: 300px;
+	padding: 4px 6px;
+	margin: 5px;
+	border-color: #999;
+}

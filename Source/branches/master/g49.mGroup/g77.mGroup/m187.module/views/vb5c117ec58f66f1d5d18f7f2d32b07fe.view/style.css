@@ -1,0 +1,89 @@
+.projectHints {
+	background: #FFF;
+	border: 1px solid #999;
+	min-width: 600px;
+	max-width: 800px;
+}
+.projectHints .header {
+	padding: 20px;
+	font-size: 16px;
+	color: #FFF;
+	line-height: 40px;
+	background: #1F5C8F;
+	overflow: auto;
+}
+
+.projectHints .header .bico {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 25px;
+	background: url('%{media}/developer/projects/bulb.svg') no-repeat center;
+	background-size: cover;
+}
+
+.projectHints .header .title {
+	line-height: 40px;
+	font-size: 1.2em;
+	color: #FFF;
+}
+.projectHints .hlist {
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+.projectHints .hlist .hnt {
+	padding: 8px;
+	font-size: 1em;
+	color: #777;
+	border-bottom: 1px solid #DDD;
+	line-height: 16px;
+}
+
+.projectHints .hlist .hnt:last-child {
+	border-bottom: none;
+}
+.projectHints .footer {
+	border-top: 1px solid #CCC;
+	padding: 5px;
+	color: #555;
+	overflow: auto;
+}
+
+.projectHints .footer .fleft {
+	float: left;
+}
+
+.projectHints .footer .d_chk {
+	float: left;
+	padding: 3px 0px;
+}
+
+.projectHints .footer .d_chk label {
+	cursor: pointer;
+}
+
+.projectHints .footer .btn {
+	background: linear-gradient(#FEFEFE, #f0f0f0);
+	border: 1px solid #58585B;
+	border-color: #cdced0 #c5c6c8 #b6b7b9;
+	color: #555;
+	padding: 3px 10px;
+	line-height: 16px;
+	cursor: pointer;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 0px 5px;
+}
+
+.projectHints .footer .btn.dismiss {
+	float: left;
+}
+
+.projectHints .footer .btn.doc {
+	float: right;
+	background: linear-gradient(#BBE2B1, #B1DAA1);
+	border: 1px solid #43B549;
+}

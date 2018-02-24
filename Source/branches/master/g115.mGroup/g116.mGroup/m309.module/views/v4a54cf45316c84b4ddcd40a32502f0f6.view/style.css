@@ -1,0 +1,57 @@
+.vcsBranchesContainer,
+.vcsBranchesContainer .vcsBranches {
+	height: 100%;
+	overflow: auto;
+}
+.vcsBranchesContainer .vcsBranches .bList {
+	border-bottom: 1px solid #999;
+	border-right: 1px solid #999;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli {
+	overflow: auto;
+	padding: 5px;
+	line-height: 20px;
+	border-bottom: 1px solid #CCC;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli:last-child {
+	border-bottom: none;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli .bname {
+	float: left;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli .bname.head {
+	font-weight: bold;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli .bcontrols {
+	float: right;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli .bcontrols .br {
+	float: right;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border: 1px solid #555;
+	color: #555;
+	cursor: pointer;
+	height: 20px;
+	margin-right: 5px;
+	text-align: center;
+	padding: 0px 5px;
+}
+.vcsBranchesContainer .vcsBranches .bList .bli .bcontrols .br:hover,
+.vcsBranchesContainer .vcsBranches .bList .bli .bcontrols .br.selected {
+	background: #555;
+	color: #FFF;
+}
+.vcsBranchesContainer .vcsBranches .bExplorer {
+	height: 400px;
+}
+.vcsBranchesContainer .vcsBranches .bExplorer:empty {
+	background: url('%resources%/global/splash.png') no-repeat center;
+}

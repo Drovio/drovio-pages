@@ -1,0 +1,40 @@
+.platformStatus .statusTitle.healthy {
+	color: green;
+}
+.platformStatus .projectsContainer {
+	padding: 5px;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+}
+.platformStatus .projectBox {
+	width: 100%;
+	border-bottom: 1px solid rgba(166, 166, 166, 0.2);
+	padding: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 5px 0px;
+	overflow: auto;
+}
+.platformStatus .projectBox:last-child {
+	border: none;
+}
+.platformStatus .projectBox .projectTitle {
+	color: rgb(192, 4, 3);
+	font-weight: bold;
+}
+.platformStatus .projectBox .versionTitle {
+	color: #545454;
+}
+.platformStatus .errorLogs {
+	overflow: auto;
+}
+.platformStatus .errorLogs .logEntry {
+	overflow: auto;
+	border: 1px solid rgba(166, 166, 166, 1);
+	padding: 5px;
+	margin: 5px 0px;
+}
+.platformStatus .errorLogs .logContent {
+	overflow: auto;
+	margin: 5px;
+}

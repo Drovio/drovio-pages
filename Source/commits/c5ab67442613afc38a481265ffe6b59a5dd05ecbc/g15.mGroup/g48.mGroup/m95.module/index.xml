@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="95"><sql/><views><view id="v723337cf625118c837341b6d044b088f" name="ajaxPageManager"/><view id="v23031f08e9e622c98ca81f0a8fbe809c" name="ajaxPageViewer"/><view id="vf3817eb561525f72149bbd6b36a23f4c" name="ajaxPageEditor"/><view id="v84d7ec09dcca783842435c3f3898f03a" name="createDirectory"/><view id="vf3d3ca2584544c08646f934a1219ec78" name="createPage"/><view id="v9b94253ff489d3727811104a648f9434" name="EMPTY_VIEW"/><view id="v3945c12c879c4f32f509f651557d994a" name="commitManager"/></views></module>

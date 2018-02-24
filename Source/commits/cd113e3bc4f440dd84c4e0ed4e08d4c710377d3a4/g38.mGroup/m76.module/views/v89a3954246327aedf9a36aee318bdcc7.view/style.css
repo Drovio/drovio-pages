@@ -1,0 +1,145 @@
+.helpCenter {
+	width: 100%;
+	height: 100%;
+}
+.helpCenter .middleContainer {
+	width: 1000px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.helpCenter .header {
+	background: rgba(226, 124, 52, 0.8) url('%{media}/frontend/wfpattern.svg');
+	position: relative;
+}
+.helpCenter .header > .middleContainer {
+	padding-top: 150px;
+}
+
+.helpCenter .header > .middleContainer .title {
+	text-align: center;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+}
+.helpCenter .header > .middleContainer .sub {
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: normal;
+	text-shadow: 1px 1px 2px #333;
+	color: #FFF;
+	max-width: 800px;
+	margin: 40px auto;
+}
+.helpCenter .navBar {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	line-height: 40px;
+	padding: 10px 0px;
+	z-index: 3;
+}
+.helpCenter .navBar .navigationContent .navigation .navMenu li.login {
+	background: none;
+	line-height: 38px;
+	border: 1px solid #FFF;
+	color: #FFF;
+}
+.helpCenter .navBar .navigationContent .navigation .navMenu li.login:hover {
+	color: #FFF;
+}
+.helpCenter .navBar li a {
+	color: #FFF !important;
+	display: block;
+}
+.helpCenter .navBar li a:hover {
+	color: #FFF;
+}
+
+.helpCenter .trending {
+	padding: 50px 0px;
+}
+.helpCenter .trending .categories {
+	overflow: auto;
+	font-family: "Raleway","Helvetica Neue",Helvetica,"Myriad Pro","Lucida Grande",sans-serif;
+	font-weight: 100;
+}
+.helpCenter .trending .trendCategory {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.helpCenter .trending .trendCategory:hover {
+	color: #C00403;
+}
+.helpCenter .trending .trendCategory .trendImage {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	background: #FFF;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+.helpCenter .trending .trendCategory .trendTitle {
+	font-size: 14px;
+	color: #555;
+	font-weight: normal;
+}
+.helpCenter .trending .trendCategory .trendImage {
+	background: #FFF url('%resources%/helpcenter/trending.png') no-repeat;
+	background-size: cover;
+}
+.helpCenter .trending .trendCategory.starting .trendImage {
+	background-position: 0px 0px;
+}
+.helpCenter .trending .trendCategory.security .trendImage {
+	background-position: 0px -100px;
+}
+.helpCenter .trending .trendCategory.social .trendImage {
+	background-position: 0px -200px;
+}
+.helpCenter .trending .trendCategory.international .trendImage {
+	background-position: 0px -300px;
+}
+.helpCenter .trending .trendCategory.new .trendImage {
+	background-position: 0px -400px;
+}
+.helpCenter .trending .trendCategory.business .trendImage {
+	background-position: 0px -500px;
+}
+.helpCenter .trending .trendCategory.apps .trendImage {
+	background-position: 0px -600px;
+}
+.helpCenter .trending .trendCategory.issues .trendImage {
+	background-position: 0px -700px;
+}
+.helpCenter .trending .more {
+	margin-top: 20px;
+}
+.helpCenter .trending .more a {
+	color: #999;
+}
+.helpCenter .trending .more a:hover {
+	color: #000;
+}
+.helpCenter .links {
+	margin-top: 50px;
+	text-align: center;
+	color: #000;
+	font-family: inherit;
+	font-size: 16px;
+}
+.helpCenter .links a {
+	color: #545454;
+}
+.helpCenter .links a:hover {
+	color: #000;
+}

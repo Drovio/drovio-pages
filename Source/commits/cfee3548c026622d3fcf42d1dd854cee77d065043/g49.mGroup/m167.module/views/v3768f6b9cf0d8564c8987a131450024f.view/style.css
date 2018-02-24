@@ -1,0 +1,43 @@
+.devPrograms h1, .devPrograms h3 {
+	text-align: center;
+}
+.devPrograms h3 {
+	color: #565656;
+}
+
+.devPrograms .programContainer {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.devPrograms .programContainer .program {
+	float: left;
+	width: 250px;
+	box-sizing: border-box;
+	border: 1px solid rgba(166, 166, 166, 0.5);
+	background-color: rgba(166, 166, 166, 0.2);
+	margin: 25px;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	color: #656565;
+}
+.devPrograms .programContainer .program label {
+	cursor: pointer;
+	padding: 20px;
+	width: 250px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.devPrograms .programContainer .program.active {
+	color: green;
+	border-color: green;
+	background: rgba(166, 166, 166, 0.2) url('/Library/Media/images/icons/19x19/success_ico.svg') 19px 19px no-repeat;
+}
+.devPrograms .programContainer .program:hover {
+	color: green;
+}
+.devPrograms .programContainer .program .pCheck {
+	display: none;
+}

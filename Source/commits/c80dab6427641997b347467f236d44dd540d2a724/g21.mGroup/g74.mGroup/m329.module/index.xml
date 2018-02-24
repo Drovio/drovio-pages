@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="329"><sql><query id="q36c6da23720a00f9c60536dc21f1b9fb" name="check_unique_username"/><query id="q0160e048bf49e29dceb2307f5996b558" name="update_username"></query></sql><views><view id="v80272e593eb982047852be1b3db42b09" name="accountSettings"/><view id="v9fe0cec61bf937a33ecd442810413b7f" name="usernameManager"/></views></module>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="257"><sql><query id="qc91bc30d1bca86031cce907bcd533daf" name="get_project_accounts"></query></sql><views><view id="vf6ea1d73e971c662f3657e8cae5098f3" name="modulesSecurityPage"/><view id="v4071da9f385260e635074b52ff2a4cd3" name="privilegesInfo"/></views></module>

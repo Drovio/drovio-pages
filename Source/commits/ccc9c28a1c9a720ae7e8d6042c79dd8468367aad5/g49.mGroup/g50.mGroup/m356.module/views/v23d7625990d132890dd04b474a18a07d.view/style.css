@@ -1,0 +1,43 @@
+.tutorialsHomeContainer .ttile {
+	float: left;
+	width: 20%;
+	cursor: pointer;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.tutorialsHomeContainer .ttile .ico {
+	margin: 10px auto;
+	width: 75px;
+	height: 75px;
+	padding: 20px;
+	border: 1px solid #CCC;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: url('%{media}/developer/docs/tutorial.svg') no-repeat center;
+	background-size: 75px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tutorialsHomeContainer .ttile:hover .ico {
+	background-color: #FFF;
+	border-color: #5E6570;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.tutorialsHomeContainer .ttile .title {
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 13px;
+	font-weight: bold;
+	color: #5E6570;
+}

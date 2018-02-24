@@ -1,0 +1,123 @@
+.releaseLogPage,
+.releaseLog {
+	height: 100%;
+	background: #F5F5F5;
+}
+.releaseLog .hd {
+	clear: both;
+	border-bottom: 1px solid #CCC;
+	line-height: 50px;
+	overflow: auto;
+	padding: 10px;
+	font-size: 12px;
+}
+.releaseLog .hd .header {
+	float: left;
+	padding: 10px;
+}
+.releaseLog .hd .publisher {
+	padding: 10px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 15px;
+	border: 1px solid #CCC;
+	color: #999;
+	cursor: pointer;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	text-align: center;
+	background: #FFF;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.releaseLog .hd .publisher:hover {
+	border-color: #999;
+	color: #555;
+}
+
+
+
+
+
+.releaseLog .list {
+	clear: both;
+}
+.releaseLog .releaseRow {
+	border-bottom: 1px solid #CCC;
+	overflow: auto;
+	cursor: pointer;
+}
+.releaseLog .releaseRow.open .rhd {
+	background: #EFEFEF;
+}
+.releaseLog .releaseRow .rhd {
+	padding: 5px;
+	overflow: auto;
+}
+.releaseLog .releaseRow .releaseDate {
+	float: left;
+	margin-left: 10px;
+	color: #999;
+}
+.releaseLog .releaseRow .releaseTitle {
+	float: left;
+	margin: 0px;
+	font-weight: normal;
+	min-width: 100px;
+}
+.releaseLog .releaseRow .rStatus {
+	float: right;
+	line-height: 16px;
+	overflow: auto;
+	margin-right: 5px;
+}
+.releaseLog .releaseRow .rStatus .ico {
+	float: right;
+	margin-left: 5px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	background: url('%{media}/developer/projects/statusIcons.svg') no-repeat center;
+	background-size: cover;
+}
+.releaseLog .releaseRow .rStatus .status {
+	float: right;
+}
+.releaseLog .releaseRow .rStatus.st1 {
+	color: #0f4976;
+}
+.releaseLog .releaseRow .rStatus.st2 {
+	color: #3EAC47;
+}
+.releaseLog .releaseRow .rStatus.st3 {
+	color: #76121b;
+}
+.releaseLog .releaseRow .rStatus.st1 .ico {
+	background-position: 0px -32px;
+}
+.releaseLog .releaseRow .rStatus.st2 .ico {
+	background-position: 0px 0px;
+}
+.releaseLog .releaseRow .rStatus.st3 .ico {
+	background-position: 0px -16px;
+}
+.releaseLog .releaseRow .releaseInfo {
+	clear: both;
+	overflow: auto;
+	padding: 0px 5px;
+	border-top: 1px solid #CCC;
+	display: none;
+	background: #FFF;
+}
+.releaseLog .releaseRow.open .releaseInfo {
+	display: block;
+}
+.releaseLog .releaseRow .releaseInfo .releaseChangelog,
+.releaseLog .releaseRow .releaseInfo .reviewComments {
+	white-space: pre-wrap;
+	color: #999;
+}

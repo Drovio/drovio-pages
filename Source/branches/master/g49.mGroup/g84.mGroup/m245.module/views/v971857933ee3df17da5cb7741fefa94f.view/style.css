@@ -1,0 +1,53 @@
+.coreTester {
+	overflow: auto;
+}
+
+.coreTester .middleContainer {
+	margin: 10px 20px;
+	overflow: auto;
+}
+
+.coreTester .header {
+	font-size: 16px;
+	color: #5E6570;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.coreTester .whiteBox {
+	clear: both;
+	overflow: auto;
+	background: #FFF;
+	border: 1px solid #CCC;
+	position: absolute;
+	top: 94px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+}
+
+.coreTester .menu {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	overflow: auto;
+}
+
+.coreTester .menu .menu_item {
+	float: left;
+	padding: 10px 25px;
+	margin: 0px;
+	cursor: pointer;
+	color: #5E6570;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+
+.coreTester .menu .menu_item.selected {
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 3px 3px 0px 0px;
+	-webkit-border-radius: 3px 3px 0px 0px;
+	-moz-border-radius: 3px 3px 0px 0px;
+	border-bottom: none;
+}

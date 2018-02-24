@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="226"><sql><query id="qa32a60de86e1ab316128d63dd99169a8" name="get_team_apps"/></sql><views><view id="va132502e4dc4da87ccc3960b94d60094" name="bossDashboardPage"/><view id="vd5867a0b81a43849d2d8efd492342e74" name="appsGrid"/><view id="v161c26838129088b66201ea04786bcd8" name="checkUpdates"></view></views></module>

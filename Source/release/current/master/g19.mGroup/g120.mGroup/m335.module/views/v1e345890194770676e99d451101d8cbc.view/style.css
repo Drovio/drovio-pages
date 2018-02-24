@@ -1,0 +1,68 @@
+.errorPage {
+	width: 100%;
+	height: 100%;
+}
+.errorPage .middleContainer {
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.errorPage .middleContainer .banner {
+	display: block;
+	max-width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	background: url('%{media}/global/error_pages/page_uc.png') no-repeat center;
+	background-size: contain;
+}	
+.errorPage .header {
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	color: #5E6570;
+}
+.errorPage .context {
+	text-align: center;
+	color: #5E6570;
+	font-size: 12px;
+	line-height: 16px;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.errorPage .links {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.errorPage .links .lnk {
+	font-size: 12px;
+	padding: 5px 10px;
+	margin: 5px 10px;
+	border: 1px solid rgb(40, 117, 206);
+	cursor: pointer;
+	color: rgb(40, 117, 206);
+	display: inline-block;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	line-height: 18px;
+}
+.errorPage .links .lnk:hover {
+	color: #FFF;
+	background: rgb(40, 117, 206);
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.errorPage .links .lnk.home {
+	border: 1px solid #5E6570;
+	color: #5E6570;
+}
+.errorPage .links .lnk.home:hover {
+	color: #FFF;
+	background: #5E6570;
+}

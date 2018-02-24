@@ -1,0 +1,68 @@
+.projectOverviewPage,
+.projectOverviewPage .projectOverview {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background: #F5F5F5;
+}
+.projectOverview .box {
+	float: left;
+	margin: 20px;
+	background: #FFF;
+	border: 1px solid #CCC;
+	min-width: 250px;
+}
+.projectOverview .box > .ico {
+	width: 72px;
+	height: 72px;
+	margin: 40px auto;
+	background: url('%resources%/developer/projects/statusIcons.svg') no-repeat;
+	background-size: 72px;
+}
+.projectOverview .box.healthy > .ico {
+	background-position: 0px 0px;
+}
+.projectOverview .box.error > .ico {
+	background-position: 0px -72px;
+}
+.projectOverview .box.warning > .ico {
+	background-position: 0px -216px;
+	
+}
+.projectOverview .box .sub {
+	border-top: 1px solid #CCC;
+	color: #000;
+}
+.projectOverview .box .title {
+	padding: 15px 20px;
+	font-weight: normal;
+	font-size: 14px;
+	text-align: center;
+	color: #555;
+}
+.projectOverview .stats {
+	margin: 20px;
+}
+.projectOverview .stats .sr {
+	overflow: auto;
+	color: #555;
+	padding: 10px;
+	line-height: 20px;
+	border-bottom: 1px solid #CCC;
+	min-width: 300px;
+}
+.projectOverview .stats .sr:last-child {
+	border: none;
+}
+.projectOverview .stats .sr .key {
+	float: left;
+	margin: 0px;
+	font-weight: normal;
+	color: #777;
+	font-size: 13px;
+}
+.projectOverview .stats .sr .value {
+	float: right;
+	font-weight: normal;
+	margin: 0px;
+}

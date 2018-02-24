@@ -1,0 +1,103 @@
+.clickable {
+	cursor: pointer;
+}
+
+.cursor-default{
+	cursor: default;
+}
+
+.issue-summary {
+	border-bottom: 1px solid #eaeaea;
+	overflow: hidden;
+	padding: 11px 0;
+	width: 730px;
+	float: left;
+}
+
+.left{
+	background: transparent;
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 5px;
+	width: 38px;
+	height: 38px;
+	color: #555;
+	text-align: center;
+}
+
+.mini-badges {
+	height: 25px;
+	font-size: 160%;
+	font-weight: normal;
+	text-transform:uppercase;
+}
+
+.middle{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 5px;
+	width: 48px;
+	height: 38px;
+	text-align: center;
+}
+
+
+.right{
+	float: left;
+	margin: 0 7px 0 0;
+	padding: 5px 0 5px 4px;
+	width: 40px;
+	height: 38px;
+	color: #999;
+	text-align: center;
+}
+
+.unanswered {
+	background: transparent;
+	color: #9a4444;
+}
+
+.summary {
+	width: 550px;
+	float: left;
+}
+
+.tags { 
+	line-height: 18px;
+	float: left;
+}
+
+.issue-tag {
+	color: #3e6d8e;
+	background-color: #e0eaf1;
+	border-bottom: 1px solid #b3cee1;
+	border-right: 1px solid #b3cee1;
+	padding: 3px 4px 3px 4px;
+	margin: 2px 2px 2px 0;
+	text-decoration: none;
+	font-size: 90%;
+	line-height: 1.4;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+.started {
+	width: auto;
+	line-height: inherit;
+	padding-top: 4px;
+	white-space: nowrap;
+	color: #999;
+	float: right;
+}
+
+.started .reporter-id {
+	margin-left: 1px;
+	font-size: 100% !important;
+	font-weight: normal !important;
+}
+
+.reporter-id {
+	font-weight: bold;
+	color: #444;
+	font-size: 100%;
+	margin-right: 2px;

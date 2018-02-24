@@ -1,0 +1,83 @@
+.navigationContent h1.title {
+	margin: 0px;
+	float: left;
+}
+.navigationContent .imgLogo {
+	width: 40px;
+	height: 40px;
+	background: url('%resources%/logos/logo_100.png') no-repeat center;
+	background-size: 40px;
+	float: left;
+	margin-right: 10px;
+}
+.navigationContent .navigation {
+	float: right;
+}
+.navigationContent .navigation .navMenu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	overflow: auto;
+}
+.navigationContent .navigation .navMenu li {
+	margin: 0px;
+	padding: 0px 10px;
+	list-style-type: none;
+	float: left;
+	line-height: 40px;
+	font-size: 13px;
+	color: #545454;
+	cursor: pointer;
+}
+.navigationContent .navigation .navMenu li a {
+	color: #545454;
+	display: block;
+}
+.navigationContent .navigation .navMenu li:hover,
+.navigationContent .navigation .navMenu li a:hover,
+.navigationContent .navigation .navMenu li a.selected {
+	color: #C00403;
+}
+.navigationContent .navigation .navMenu li.login {
+	background: rgba(255, 255, 255, 0.8);
+	line-height: 36px;
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.navigationContent .loginDialogContainer {
+	display: none;
+}
+.loginDialogContainer {
+	padding: 10px;
+}
+.loginDialogContainer h2 {
+	color: #C00403;
+	font-weight: normal;
+}
+.loginDialogContainer .footer {
+	text-align: center;
+	border-top: 1px solid #CCC;
+	margin-top: 10px;
+	color: #777;
+	font-weight: normal;
+}
+.loginDialogContainer .footer h4 {
+	text-align: left;
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 5px 0px;
+}
+.loginDialogContainer .footer .register a {
+	color: #C00403;
+}
+.loginDialogContainer .footer .register:hover a {
+	text-decoration: underline;
+}
+.loginDialogContainer .footer .forgot a {
+	color: #777;
+}
+.loginDialogContainer .footer .forgot:hover a {
+	text-decoration: underline;
+}

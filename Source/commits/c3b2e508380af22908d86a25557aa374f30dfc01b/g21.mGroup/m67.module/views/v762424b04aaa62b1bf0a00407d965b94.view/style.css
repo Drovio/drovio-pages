@@ -1,0 +1,199 @@
+.registerPage {
+	position: absolute;
+	top: 38px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	background: url('%resources%/frontend/businessBanner_blur.jpg') no-repeat center;
+	background-size: cover;
+	overflow: auto;
+}
+.registerPage .whiteBox {
+	background: #FFF;
+	border: 2px solid #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 15px;
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.registerPage .whiteBox .header {
+	overflow: auto;
+}
+.registerPage .whiteBox .header .lside {
+	width: 50%;
+	float: left;
+}
+.registerPage .whiteBox .logo {
+	width: 75px;
+	height: 75px;
+	margin: 10px;
+	float: left;
+	background: url('%resources%/logos/logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.registerPage .whiteBox .header .text {
+	font-size: 20px;
+	margin: 10px 0px;
+	line-height: 75px;
+	font-size: 20px;
+}
+.registerPage .whiteBox .header .small {
+	line-height: 75px;
+	font-weight: normal;
+	font-size: 24px;
+	float: left;
+	color: #C00403;
+	margin: 10px 0px;
+	padding: 0px 10px;
+}
+.registerPage .whiteBox .main {
+	clear: both;
+	overflow: auto;
+}
+.registerPage .whiteBox .main .side {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+}
+.registerPage .whiteBox .side.leftSide {
+	border-right: 1px solid #CCC;
+	text-align: center;
+	padding-top: 20px;
+}
+.registerPage .whiteBox .side.leftSide .title {
+	font-size: 20px;
+	color: #777;
+	font-weight: normal;
+}
+.registerPage .whiteBox .side.leftSide .sub {
+	font-size: 14px;
+	color: #777;
+	font-weight: normal;
+}
+.registerPage .whiteBox .main .services {
+	width: 360px;
+	overflow: auto;
+	margin: 30px auto;
+}
+.registerPage .whiteBox .main .logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 10px 20px;
+}
+.registerPage .whiteBox .main .logo.global {
+	background: url('%resources%/logos/logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.registerPage .whiteBox .main .logo.biz {
+	background: url('%resources%/boss/boss_logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.registerPage .whiteBox .main .logo.web {
+	background: url('%resources%/webengine/web_logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.registerPage .whiteBox .main .logo.apps {
+	background: url('%resources%/appcenter/app_logo_100.png') no-repeat center;
+	background-size: cover;
+}
+.registerPage .uiRegInput {
+	padding: 5px 8px;
+	font-size: 14px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-color: #999;
+}
+.registerPage .uiRegInput.small {
+	width: 235px;
+}
+.registerPage .uiRegInput.small.f {
+	margin-right: 10px;
+}
+.registerPage .reg.formRow {
+	padding: 5px 0px;
+}
+.registerPage .lgl a {
+	color: rgb(192, 4, 3);
+}
+.registerPage #regSubmit {
+	padding: 8px 10px;
+	width: 150px;
+	margin: 10px auto;
+	font-size: 16px;
+}
+
+
+
+
+
+
+.registerPage .whiteBox .lpinp {
+	width: 100%;
+	font-size: 12px;
+	padding: 5px;
+	margin: 5px 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-color: #777;
+	color: #777;
+	outline: none;
+}
+.registerPage .whiteBox button[type='submit'] {
+	display: block;
+	margin: 5px auto;
+	width: 50%;
+}
+.registerPage .whiteBox .footer {
+	border-top: 1px solid #CCC;
+	margin-top: 10px;
+	text-align: center;
+}
+.registerPage .whiteBox .footer {
+	color: #777;
+	font-weight: normal;
+}
+.registerPage .whiteBox .footer .menu {
+	color: #C00403;
+}
+.registerPage .whiteBox .footer .menu a {
+	color: #595959;
+}
+.registerPage .whiteBox .footer .menu a:hover {
+	text-decoration: underline;
+}
+.registerPage .pgFooter {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	border-top: 2px solid #CCC;
+	background: #FFF;
+	line-height: 30px;
+	padding: 0px 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.registerPage .pgFooter .left {
+	float: left;
+	font-weight: bold;
+	color: #C00403;
+}
+.registerPage .pgFooter .right {
+	float: right;
+	color: #C00403;
+}

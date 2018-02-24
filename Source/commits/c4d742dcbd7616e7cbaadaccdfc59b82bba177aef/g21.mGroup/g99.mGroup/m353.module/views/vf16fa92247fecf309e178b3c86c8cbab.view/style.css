@@ -1,0 +1,32 @@
+.teamInfo .uc {
+	font-size: 14px;
+	font-weight: normal;
+	color: #555;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.teamInfo .informationList {
+	list-style-type: none;
+	margin: 10px 0px;
+	padding: 0px;
+}
+.teamInfo .informationList .infoItem {
+	padding: 10px 15px;
+	border-bottom: 1px solid #DDD;
+	overflow: auto;
+}
+.teamInfo .informationList .infoItem:last-child {
+	border-bottom: none;
+}
+.teamInfo .informationList .infoItem .infoName {
+	float: left;
+	width: 30%;
+	font-size: 12px;
+	color: #999;
+}
+.teamInfo .informationList .infoItem .infoValue {
+	float: left;
+	width: 70%;
+	color: #555;
+}

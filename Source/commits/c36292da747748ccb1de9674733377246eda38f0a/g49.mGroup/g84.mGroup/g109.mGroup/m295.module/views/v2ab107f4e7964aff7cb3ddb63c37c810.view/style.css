@@ -1,0 +1,42 @@
+.coreSecurityPage,
+.coreSecurity {
+	height: 100%;
+	overflow: auto;
+	position: relative;
+}
+.coreSecurity .headBar {
+}
+.coreSecurity .headBar .navBar {
+	overflow: auto;
+	height: 36px;
+	border-bottom: 1px solid #CCC;
+}
+.coreSecurity .headBar .navBar .navTitle {
+	width: 20%;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	line-height: 16px;
+	height: 36px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	cursor: pointer;
+	color: #555;
+	border-bottom: 3px solid rgba(192, 4, 3, 0);
+	background: #EEE;
+}
+.coreSecurity .headBar .navBar .navTitle.selected,
+.coreSecurity .headBar .navBar .navTitle:hover {
+	color: rgb(192, 4, 3);
+	background-color: #FFF;
+}
+.coreSecurity .securityPanes {
+	position: absolute;
+	top: 37px;
+	bottom: 0px;
+	width: 100%;
+	clear: both;
+	overflow: auto;
+}

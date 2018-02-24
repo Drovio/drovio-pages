@@ -1,0 +1,176 @@
+.accountProfile {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(239, 242, 242);
+}
+
+.accountProfile .middleContainer {
+	min-width: 700px;
+	max-width: 1200px;
+	padding: 0px 50px;
+	margin: 0 auto;
+}
+.accountProfile .pheader {
+	overflow: auto;
+	position: relative;
+}
+
+.accountProfile .pheader .middleContainer {
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+
+.accountProfile .pheader .accTitle {
+	font-size: 28px;
+	line-height: 42px;
+	color: #555;
+	margin-top: 30px;
+	margin-left: 20%;
+	font-weight: normal;
+}
+.accountProfile .pbody .panels .middleContainer {
+	overflow: auto;
+}
+
+.accountProfile .pbody .photoContainer {
+	position: relative;
+}
+
+.accountProfile .pbody .profileImage {
+	width: 150px;
+	height: 150px;
+	margin: 0 30px;
+	position: absolute;
+	bottom: -20px;
+}
+
+.accountProfile .pbody .profileImage:empty {
+	background: url('%{media}/global/profile.svg') no-repeat center;
+	background-size: 150px;
+}
+
+.accountProfile .pbody .profileImage img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	width: inherit;
+	height: inherit;
+}
+
+.accountProfile .pbody .sidebar {
+	width: 20%;
+	float: left;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.accountProfile .pbody .sidebar .rbutton {
+	display: block;
+	border: 1px solid #5E6570;
+	color: #5E6570;
+	padding: 6px 15px;
+	line-height: 16px;
+	cursor: pointer;
+	width: auto;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	margin: 5px auto;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.accountProfile .pbody .sidebar .rbutton:hover {
+	background-color: #5E6570;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.accountProfile .pbody .sidebar .rbutton .ico {
+	float: left;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+	background: url('%{media}/profile/actionIcons.svg') no-repeat center;
+	background-size: cover;
+}
+
+.accountProfile .pbody .sidebar .rbutton.pr_image_editor .ico {
+	background-position: 0px 0px;
+}
+
+.accountProfile .pbody .sidebar .rbutton.stbutton .ico {
+	background-position: 0px -16px;
+}
+
+.accountProfile .pbody .sidebar .rbutton.cbutton .ico {
+	background-position: 0px -32px;
+}
+
+.accountProfile .pbody .middleContainer.navigation {
+	padding-bottom: 36px;
+}
+.accountProfile .pbody .pnavigation {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	width: 100%;
+	overflow: auto;
+}
+
+.accountProfile .pbody .pnavigation .navitem {
+	float: left;
+	padding: 10px 15px;
+	font-size: 12px;
+	min-width: 100px;
+	cursor: pointer;
+	color: #777;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	-moz-border-top-right-radius: 5px;
+	border: 1px solid transparent;
+	border-bottom: none;
+}
+
+.accountProfile .pbody .pnavigation .navitem:hover {
+	border: 1px solid #CCC;
+	background: rgba(255, 255, 255, 0.3);
+	border-bottom: none;
+	color: #555;
+}
+
+.accountProfile .pbody .pnavigation .navitem.selected {
+	border: 1px solid #CCC;
+	background: #FFF;
+	border-bottom: none;
+	color: #555;
+}
+
+.accountProfile .pbody .mainbody {
+	width: 80%;
+	float: right;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.accountProfile .pbody .panels {
+	background: #FFF;
+	border-top: 1px solid #999;
+}
+
+.accountProfile .pbody .panels .mainbody {
+	border-left: 1px solid #CCC;
+	padding: 10px;
+	min-height: 200px;
+}

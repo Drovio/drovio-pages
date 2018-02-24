@@ -1,0 +1,10 @@
+.templateDesigner,
+#templateExplorerSide,
+.viewDesigner,
+.templateExplorer {
+	width: 100%;
+	height: 100%;
+}
+.templateExplorer {
+	background: #EAEAEA;
+}

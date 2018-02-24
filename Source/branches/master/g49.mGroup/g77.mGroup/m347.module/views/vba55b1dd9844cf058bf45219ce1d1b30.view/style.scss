@@ -1,0 +1,95 @@
+.literalTranslations {
+	& {
+		overflow: auto;
+	}
+	.ltgroup {
+		border-top: 1px solid #CCC;
+	}
+	.ltgroup:first-child {
+		border-top: none;
+	}
+	.header {
+		& {
+			overflow: auto;
+			text-align: right;
+			line-height: 16px;
+		}
+		.hd {
+			padding: 3px 5px;
+			color: #555;
+			font-size: 0.8em;
+			font-weight: normal;
+		}
+	}
+	.ltlist {
+		& {
+			clear: both;
+			padding: 3px 5px;
+		}
+		.ltrow {
+			& {
+				padding: 2px;
+				line-height: 24px;
+				color: #5E6570;
+			}
+			.lcflag {
+				width: 24px;
+				height: 24px;
+				float: left;
+			}
+			.lcflag img {
+				width: inherit;
+				height: inherit;
+			}
+			.lcfname {
+				float: left;
+				width: 20%;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				margin: 0px 10px;
+				color: #999;
+			}
+			.sticon {
+				float: right;
+				width: 24px;
+				height: 24px;
+				background: url('%{media}/developer/loc_icons.svg') no-repeat;
+				background-size: cover;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				border: none;
+				outline: none;
+				margin: 0px;
+			}
+			.sticon.default {
+				background-position: 0px -18px;
+				border: 3px solid #43B549;
+				border-radius: 50%;
+				-webkit-border-radius: 50%;
+				-moz-border-radius: 50%;
+			}
+			.sticon.lock {
+				background-position: 0px -24px;
+			}
+			.sticon.unlock {
+				background-position: 0px -48px;
+			}
+			.sticon.edit {
+				background-position: 0px 0px;
+			}
+			form.lform {
+				float: right;
+			}
+			.trinput {
+				border: none;
+				color: #777;
+				outline: none;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+			}
+		}
+	}
+}
