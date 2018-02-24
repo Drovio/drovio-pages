@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html id="drovio">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<link href="http://cdn.drov.io/css/reset.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				font-family: "Lucida Grande", "Verdana", "Lucida Sans Unicode", sans-serif !important;
+				font-size: 11px !important;
+				line-height: initial !important;
+				margin: 0px !important;
+				padding: 0px !important;
+				background: #F5F5F5;
+			}
+            b { font-weight:bold }
+			a, a.visited, a:hover {
+				text-decoration: none !important;
+				outline: none !important;
+				color: #353535;
+			}
+			a img {
+				border: none !important;
+				outline: none !important;
+			}
+			.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+				font-family: inherit;
+			}
+			.h1, .h2, h1, h2 {
+				font-size: 1.5em;
+			}
+			.h3, h3 {
+				font-size: 1.17em;
+			}
+			.h4, h4 {
+				font-size: inherit;
+			}
+			.h5, h5 {
+				font-size: 0.83em;
+			}
+			.h6, h6 {
+				font-size: 0.67em;
+			}
+			pre, xmp, plaintext, listing {
+				font-family: monospace;
+				white-space: pre;
+			}
+			p {
+				margin: 1em 0px;
+			}
+			.uiMiddleContainer {
+				max-width: 800px;
+				margin: 0px auto;
+				overflow: auto;
+			}
+			.uiMiddleContainer .logo {
+				width: 250px;
+				height: 50px;
+				margin: 30px auto;
+				background: url('http://cdn.drov.io/media/logos/logo_grey.png') no-repeat center;
+				background-size: contain;
+				opacity: 0.8;
+			}
+			.uiMiddleContainer .mainContainer {
+				position: relative;
+				padding: 25px;
+				margin: 0 50px;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				overflow: auto;
+				background: #FFF;
+				border: 1px solid #CCC;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				font-size: 12px;
+				color: #555;
+			}
+			.uiMiddleContainer .mainContainer .title {
+				font-size: 22px;
+				color: #555459;
+				font-weight: bold;
+			}
+			.uiMiddleContainer .mainContainer p {
+				line-height: 18px;
+				margin: 8px 0px;
+			}
+			.uiMiddleContainer .mainContainer .emf {
+				font-size: 14px;
+				font-weight: bold;
+			}
+			.uiMiddleContainer .mainContainer .link {
+				color: #555459;
+			}
+			.uiMiddleContainer .mainContainer .midContainer {
+				text-align: center;
+				overflow: auto;
+			}
+			.uiMiddleContainer .mainContainer .regContainer {
+				text-align: center;
+				overflow: auto;
+			}
+			.uiMiddleContainer .mainContainer .regButton {
+				padding: 5px 10px;
+				font-size: 13px;
+				line-height: 18px;
+				cursor: pointer;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				text-align: center;
+				margin: 20px auto;
+				width: 30%;
+				display: block;
+				color: #FFF;
+				border: none;
+				background: #555459;
+				transition: background .2s ease-in-out;
+				-webkit-transition: background .2s ease-in-out;
+				-moz-transition: background .2s ease-in-out;
+			}
+			.uiMiddleContainer .mainContainer .regButton:hover {
+				background: #5E6570;
+				transition: background .2s ease-in-out;
+				-webkit-transition: background .2s ease-in-out;
+				-moz-transition: background .2s ease-in-out;
+			}
+			.uiMiddleContainer .mainContainer .notes {
+				margin: 10px 0px;
+				font-size: 11px;
+				color: #999;
+			}
+			.mainFooter {
+				max-width: 800px;
+				margin: 0 auto;
+				margin-top: 10px;
+				line-height: 30px;
+				padding: 0px 15px;
+				box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				color: #555459;
+				overflow: auto;
+				text-align: center;
+			}
+			.mainFooter .left {
+				float: left;
+				font-weight: bold;
+			}
+			.mainFooter .right {
+				float: right;
+			}
+			.mainFooter a {
+				color: #55459;
+			}
+			.disclaimer {
+				font-size: 80%;
+				color: gray;
+				font-style:italic;
+				margin: 5px 0px;
+			}
+			.disclaimer a {
+				color: rgb(31, 93, 144);
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+        <div class="uiMiddleContainer">
+            <div class="logo"></div>
+            <div class="mainContainer">
+                <h1 class="title">Hello!</h1>
+                <p>You have been invited to <span class="emf">%{team_name}</span> as a team member in DrovIO. <b class="emf">%{account_title}</b> invited you to join.</p>
+                <div class="regContainer">
+                    <a href="http://drov.io/register/" target="_blank" class="regButton">Register Here</a>
+                    <div class="notes">After your registration, you will be able to accept this invitation from your profile page.</div>
+                    <p>Your registration email should be: <span class="emf">%{email}</span></p>
+                    <div class="notes">The email should be the one you received this message in order to be able to accept the invitation.</div>
+					<p>If you have already registered, you can review your invitations <a href="http://drov.io/profile/" target="_blank" class="emf link">here</a>.</p>
+                </div>
+                <p>DrovIO allows people to create teams and work together in multiple and different projects. Teams can also collaborate in the new digital smartspace using enterprise apps that can help everyday work.</p>
+                <p style="margin:20px 0px">Unoficially, welcome to <b>DrovIO</b>!</p>
+	           <div class="disclaimer">Please do not reply to this message.  This is a service email, sent by the DrovIO Notification System, related to your use of DrovIO.</div>
+				<div class="disclaimer">For general inquiries or to request support with you DrovIO account, please refer to our <a href="http://drov.io/help/">Help Center</a> page or use the <a href="http://drov.io/help/contact/">Contact Us</a> form to communicate with Support Team direclty.</div>
+	        </div>
+			<div class="mainFooter">
+				<div>
+					<a href="http://drov.io/" target="_self">Drovio</a>
+					<span> • </span>
+					<a href="http://drov.io/help/" target="_self">Help Center</a>
+	                <span> • </span>
+	                <a href="http://drov.io/help/policies/terms.php" target="_blank">Terms of Service</a>
+	                <span> • </span>
+	                <a href="http://drov.io/help/policies/privacy.php" target="_blank">Data Use Policy</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
