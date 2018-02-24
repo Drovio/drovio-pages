@@ -1,0 +1,15 @@
+<DATA>
+
+	<ROW>
+		<id>2</id>
+		<name>DrovioPages</name>
+		<title>Drovio Pages</title>
+		<description>Drovio Pages are the presentation layer of DrovIO. They fetch the needed information from the core and the database and they present it to the final user. They also store information to the database for later use.
+They may use all of DrovIO's services and they run under security privileges (with user groups) for each module.</description>
+		<projectType>2</projectType>
+		<team_id>6</team_id>
+		<online>1</online>
+		<open>0</open>
+		<public>0</public>
+	</ROW>
+</DATA>
