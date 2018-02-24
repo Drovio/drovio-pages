@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BugTracker><BT_Bug><bug id="1406654771"><title>anotherTest</title><description>test</description><type>dummy</type><severity>3</severity><valid>1</valid><priority>3</priority><notes/><status>assigned</status><date_created>1406654771</date_created><date_updated>1406654771</date_updated><account_id>3</account_id><assignedTo>3</assignedTo></bug></BT_Bug><BT_Exception/></BugTracker>
